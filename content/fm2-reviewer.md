@@ -1,9 +1,5 @@
 ---
 title: FINMA202 Oral Exam Master Reviewer
-aliases:
-  - FM2 Reviewer
-  - Financial Management 2
-  - FINMA202 Oral Exam
 cssclasses:
   - wide-page
 created: 2026-06-03
