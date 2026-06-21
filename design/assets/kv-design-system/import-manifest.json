@@ -1,0 +1,122 @@
+[
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-charts.png",
+    "published_name": "kv-charts.png",
+    "sha256": "3ec3524459cda4c74100c2c0a13592e1370d7d1409662e4b7b604ad05c310696",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-components.png",
+    "published_name": "kv-components.png",
+    "sha256": "fa50c20c0c01b80fd124aa771a1e26e0759a4886ae680d2ef300b24bafbe4b43",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-core-palette.png",
+    "published_name": "kv-core-palette.png",
+    "sha256": "9fe59eca6d8613608a8f5d2093f7f5659a9c3e6f3dc8e8ea8f741709528d7fa2",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-dataviz.png",
+    "published_name": "kv-dataviz.png",
+    "sha256": "3e5f105c3aae1316f09bb40ce3cf2d4e8efa24a97ff4fde80f38fb677f1fd5a6",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/KV Design System - Specification.pdf",
+    "published_name": "kv-design-system-specification.pdf",
+    "sha256": "0ce85404fbebb409d4dd2bb6e31898a3cb8c46ab9ad31d4701fc543ad28ccd6c",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-overview.png",
+    "published_name": "kv-overview.png",
+    "sha256": "40ce390357642d22225121d3b28521cd9543b1aadcca3a107db7547ee50d335c",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-process-timeline.png",
+    "published_name": "kv-process-timeline.png",
+    "sha256": "f95178329d08b61a3b4224a8ea267267068efd792ead3b0ef33cb4fba9b96bda",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-01-title.png",
+    "published_name": "kv-slide-01-title.png",
+    "sha256": "1fe1032021fd5ae1fcd520d6a660268cab0aa20827325d2bfa4549ff2180d807",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-02-section-divider.png",
+    "published_name": "kv-slide-02-section-divider.png",
+    "sha256": "ab1355ac2637e50a3eb932b6453711db93aaf603568304275d2104303b46339a",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-03-executive-summary.png",
+    "published_name": "kv-slide-03-executive-summary.png",
+    "sha256": "04455661fe0654f6d1876857c903922d16e4d4a774fd43cf09088f001b8671e8",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-04-one-message.png",
+    "published_name": "kv-slide-04-one-message.png",
+    "sha256": "85e099bd041a290ebf1d87bbabb4f6f544a3e16ffa25bc317820fa65041681fd",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-05-two-column.png",
+    "published_name": "kv-slide-05-two-column.png",
+    "sha256": "eabcc1b7d15f19781d4fa78248f92375eb059cd2c2670d56b05b149d2672302e",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-06-chart.png",
+    "published_name": "kv-slide-06-chart.png",
+    "sha256": "ce20900043370425653fef01f63f34bd7309156dee465e2063b05bc4ab4e595d",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-07-table.png",
+    "published_name": "kv-slide-07-table.png",
+    "sha256": "de33f810101c2a09d0c193f154212ffa2c0d0ae4a1d5f4bafcc5fd197df83ab4",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-08-timeline.png",
+    "published_name": "kv-slide-08-timeline.png",
+    "sha256": "4a084ccceed1815c18961f8b0e3fa138572a6b9daa03826ba8e5604991ad8253",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-09-recommendation.png",
+    "published_name": "kv-slide-09-recommendation.png",
+    "sha256": "e3cadfbe5ec067e08a901704085f1f5b8704f2e5c6d5c00ebe95b5bc46c13b7e",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-slide-10-closing.png",
+    "published_name": "kv-slide-10-closing.png",
+    "sha256": "9123390454e74693fce59394a01569ba4c4a85439f924b7418b3bc024c6f23f8",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-spacing-lines.png",
+    "published_name": "kv-spacing-lines.png",
+    "sha256": "2efb36dac235e190b95f9ab5847d29780304952cb3892bd26a1a43a66a1ab136",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-type-families.png",
+    "published_name": "kv-type-families.png",
+    "sha256": "b0f20df6a0755002dfac2a24c5a65993d61a44489ae951f55277c46ccbc43aa6",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  },
+  {
+    "source": "C:/KVault Prime/Design/KV Design System/assets/kv-type-scale.png",
+    "published_name": "kv-type-scale.png",
+    "sha256": "fae2c76e33543f064db483ceff019f421b2872cbb23d0878f6a6e80065c89380",
+    "note": "Copied from Obsidian KV Design System assets for public design-system showcase."
+  }
+]

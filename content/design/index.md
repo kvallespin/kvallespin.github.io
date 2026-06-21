@@ -18,4 +18,4 @@ This section collects design work where structure, clarity, and visual explanati
 
 ## Notes
 
-Public design notes will be added here as they are prepared for publication.
+- [[kv-design-system|Building the KV Design System]]
