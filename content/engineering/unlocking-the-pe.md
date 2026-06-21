@@ -17,6 +17,8 @@ created: 2026-06-21
 
 ### **A Filipino Expat Engineer's Quest to Become a US Licensed Professional Engineer.**
 
+![](assets/pe-journey/pe-seal-banner.jpg)
+
 ## 1. Introduction
 
 I am Kenneth Vallespin, an engineer based in Saudi Arabia. This is the full account of my path to US professional engineering licensure, written for engineers considering the same goal. This is a long note, so please bear with me. Some details below might no longer be valid at the time of this writing as NCEES and state licensing board policies may change without any notice. ***Disclaimer**: All copyrighted materials referenced on this note belongs to their respective owners and the author claims no copyright violation/infringement.*
@@ -122,7 +124,11 @@ I had a variety of exam reference materials that I studied and brought with me o
 - [Schaum's Outlines – Electric Circuits – Nahvi, Edminister](https://www.amazon.co.uk/Schaums-Outline-Electric-Circuits-Outlines/dp/1260011968)
 - [NFPA 70 – National Electrical Code (2017)](https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=70)
 
-I also found the references above really useful in reinforcing my theoretical foundations.
+I also found the references above really useful in reinforcing my theoretical foundations. Here's a photo of my rig while I was in "Review Mode":
+
+![](assets/pe-journey/review-rig.jpg)
+
+*My Typical Review Rig*
 
 ### 3.3 Exam Registration
 
@@ -149,11 +155,19 @@ Registration for the PE Exam is no different from the FE when you're planning to
 
 ### 3.4 Exam Day
 
+![](assets/pe-journey/riyadh-dammam-route.jpg)
+
+*My Literal and Metaphorical Road to P.E.*
+
 The Fall examination of the NCEES PE Exam that I am sitting for fell on a Sunday. Everyone who has worked in the Middle East will tell you that this is this the start of the work week here. I had to file for a leave on this particular day. Rewind two days before that and you'd find me driving from Riyadh to the examination venue. The venue is located about 427 km (265 mi.) from where I live. And so I drove for 4 straight hours. I took all my reference materials and a change of clothes for two days. I didn't take any chances though, as I chose to stay at the hotel where the exam was to be held. I had the entire Saturday to rest before the exam. I didn't try and cram some more, I just sorted and double-checked my references and my identity papers. I laid down and watched some NatGeo in my hotel room til I fell asleep. Come Sunday, I woke up at 4:00 AM, honestly speaking, I didn't get much sleep (anxiety creeping in). I prepped myself with coffee and some light croissant, and packed with me my secret weapon when taking exams since 2007: Red Bull Energy Drink. For the PE exam, I brought with me 6-packs of Red Bull (dangerous and unhealthy, I know). Chugged one can after eating breakfast, and saved the rest for the exam. I went down at 5:00 AM and sat on the lounge where the other test takers were waiting and just chilled until we were called. Once called, we checked in with the SCE people who will facilitate the exam. I was assigned seat no. 10 and I shared a table with a Mechanical-MDM examinee. And then that's it.. after the facilitator/proctor announced the rules and guidelines the exam seemed to happen in a blur. I didn't notice time, I was singularly focused with the exam and I gunned for low-hanging fruit first (same as my FE strategy), the hard ones I ignored and I kept repeating this process until I finished the test. Problems that I did not have any idea how to solve, I guessed at the last moment. I was able to finish 25 minutes earlier than the scheduled end of the exam. I only had 4 things in my table for the entire duration of the exam: the **NCEES test sheet**, the **NCEES issued mechanical pencil**, my **TI-36X Pro calculator**, and my can of Red Bull. My reference books were stacked in a milk crate and I set it down the floor aisle to my right for easy access. I left the examination hall in a state of Zen (or lack thereof). Maybe it was just the taurine kicking-in. I packed my things, checked-out of my hotel room and prepared to drive (yes, I drove all the way back home right after the exam, 4 hours in the dark of the night). That pretty much ended the examination day for me.
 
 ### 2.5 Post PE Exam
 
-Waiting for the result of the PE exam was the most excruciating part of this whole ordeal called US Professional Engineer licensure. The exam results of all PE candidates (both stateside and international) were released **39 days** after the exam date. During those days, I did nothing but go to my myNCEES dashboard and smashed the F5 button hoping I'd catch the exam results (did not work). So you could imagine my surprise receiving an email notice at 2:00 AM morning of December 6 from NCEES telling me to check my myNCEES dashboard for the results of the PE exam. I was a little thrilled and nervous, but deep inside of me *I knew I was gonna pass*. I prepared thoroughly for this and took no chances when I started my adventure. True enough, I saw a green "Pass" as expected. You can imagine my relief after seeing this in my phone screen.
+Waiting for the result of the PE exam was the most excruciating part of this whole ordeal called US Professional Engineer licensure. The exam results of all PE candidates (both stateside and international) were released **39 days** after the exam date. During those days, I did nothing but go to my myNCEES dashboard and smashed the F5 button hoping I'd catch the exam results (did not work). So you could imagine my surprise receiving an email notice at 2:00 AM morning of December 6 from NCEES telling me to check my myNCEES dashboard for the results of the PE exam. I was a little thrilled and nervous, but deep inside of me *I knew I was gonna pass*. I prepared thoroughly for this and took no chances when I started my adventure. True enough, I saw this:
+
+![](assets/pe-journey/pe-result-dashboard.jpg)
+
+Green "Pass" as expected. You can imagine my relief after seeing this in my phone screen.
 
 ### 2.6 Fees
 
@@ -162,6 +176,10 @@ FX-115ES Plus (x2) – 17.00 USD Electrical and Electronics Reference Manual for
 ## 4. NCEES Credential Evaluation
 
 ### 4.1 Credential Request and Evaluation
+
+![](assets/pe-journey/ncees-credential-evaluation.jpg)
+
+*NCEES Credential Evaluation Outcome*
 
 Most state licensure boards requires P.E. applicants to have an EAC-ABET accredited engineering degree or the equivalent. This equivalence is assessed by NCEES through their credential evaluation service. Basically, the applicant (you) will request the school/college/university where he/she attended to send his/her official Transcript of Records (TOR) and degree certificate (Diploma) directly to NCEES. Once NCEES receives these documents, you'll have to pay the fee to begin the evaluation process. It took me 118 days from start to finish to clear this stage because I transferred to another school and NCEES needed all the transcripts from all the schools I attended to. Lead time sending my documentation between NCEES and my schools prolonged the entire process. Finally, once NCEES finishes their evaluation, they will send you an email notification that your credential evaluation result is ready and can now be viewed from the myNCEES dashboard. Luckily, mine came out as "EQUIVALENT" (to an EAC-ABET accredited degree) and is deemed sufficient by NCEES for me to apply for licensure in any US state board. As a side note, I had to request another credential evaluation from NCEES (free of charge) a few months later for a state board where I applied that deemed one area of my degree to be deficient. Came out OK, but that's a story for later.
 
@@ -195,6 +213,10 @@ Applying in KY state requires filling out the required forms and paying the regi
 
 Illinois PE is one of the most challenging and fulfilling endeavors that I ever did in my entire career. The [Illinois Board (IDFPR/DPR)](https://www.idfpr.com/profs/ProfEngineer.asp) requires nearly the same qualifications (Education, Experience, Exam) as with other state licensing boards to be registered as a PE. Apart from filling-out the application form, I had to write a detailed and comprehensive experience report verified by a licensed engineer. This was mind-boggling at first but it was rewarding at the end as I was able to describe my career experience in the strongest possible light, cementing my path to IL P.E. licensure. I sent my application from Riyadh to Hawaii to Illinois, as I needed my family stateside to enclose the payment for me (the IL board only accepts US money orders). When it was all received by IDFPR and upon evaluation, I caught a small hiccup with their educational requirement (deficient credit units/hours) but it was all sorted out thanks to NCEES ironing out the kinks for me. I eventually received my license around 4 months after submitting my application. Like all other state licensing boards, your name should be listed on their [searchable roster](https://ilesonline.idfpr.illinois.gov/DFPR/Lookup/LicenseLookup.aspx). Licensure Fee: **100.00 USD**
 
+![](assets/pe-journey/illinois-pe-certificate.jpg)
+
+*Illinois P.E. Certificate*
+
 ## 6. Summary and Timeline
 
 #### Total Expenses (FE to Licensure)
@@ -204,6 +226,10 @@ Illinois PE is one of the most challenging and fulfilling endeavors that I ever 
 #### Time Duration (FE to Licensure)
 
 You can see below a timeline that I made to give you context on the time duration of the entire process that I had to undergo in order to obtain the coveted US P.E. license. It took me almost a year to finish the whole thing.
+
+![](assets/pe-journey/exam-licensure-timeline.jpg)
+
+*PE Examination and Licensure Timeline (FE to IL License Release)*
 
 #### End Notes
 
