@@ -20,8 +20,9 @@ fi
 cd "$REPO"
 [ -d public ] || { echo "ERROR: no public/ in $REPO — run 'npx quartz build' first." >&2; exit 1; }
 
-# 1) Remove stale top-level hashed build artifacts (a new build emits different hashes).
-rm -f ./index-*.css ./component-*.css ./prescript-*.js ./postscript-*.js
+# 1) Remove stale top-level build artifacts. Quartz v5 may emit either hashed index-*.css
+#    or plain index.css depending on the build/config state.
+rm -f ./index-*.css ./index.css ./component-*.css ./prescript-*.js ./postscript-*.js
 
 # 2) Replace each top-level entry from public/ at the root.
 for entry in public/*; do
