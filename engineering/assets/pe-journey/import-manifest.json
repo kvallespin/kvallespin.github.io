@@ -1,0 +1,42 @@
+{
+  "source_html": "C:\\Users\\kenne\\OneDrive\\Website Backup\\Unlocking the P.E. \u2013 Pinoy P.E.htm",
+  "vault_note": "C:\\KVault Prime\\Public Web\\Engineering\\Unlocking the P.E..md",
+  "quartz_note": "C:\\Users\\kenne\\kvallespin.github.io\\content\\engineering\\unlocking-the-pe.md",
+  "assets": [
+    {
+      "source_name": "amzn.jpg",
+      "published_name": "amazon-reference.jpg",
+      "bytes": 165681
+    },
+    {
+      "source_name": "ncees-intl.png",
+      "published_name": "ncees-international-credential.png",
+      "bytes": 25505
+    },
+    {
+      "source_name": "ncees-fe-appt.jpg",
+      "published_name": "fe-appointment-1.jpg",
+      "bytes": 401809
+    },
+    {
+      "source_name": "ncees-fe-pass-notice.jpg",
+      "published_name": "fe-pass-notice.jpg",
+      "bytes": 82772
+    },
+    {
+      "source_name": "pe-exam-auth-791x1024.jpg",
+      "published_name": "pe-exam-authorization-2.jpg",
+      "bytes": 123827
+    },
+    {
+      "source_name": "eit-cert_ky-792x1024.png",
+      "published_name": "eit-certificate-2.png",
+      "bytes": 452496
+    },
+    {
+      "source_name": "pe-cert_ky-1024x791.jpg",
+      "published_name": "pe-certificate-2.jpg",
+      "bytes": 171727
+    }
+  ]
+}
