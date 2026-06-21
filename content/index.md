@@ -1,19 +1,45 @@
 ---
-title: Ken Vallespin
+title: Kenneth Vallespin
 ---
 
-![Ken Vallespin site banner](assets/site-banner.svg)
+# Kenneth Vallespin (Ken)
 
-> Musings and projects of an engineer interested in quant, finance, systems architecture, aviation, and applied AI.
+EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB
 
-## Published notes and projects
+This site is a public notes portfolio for selected work and study interests. It is organized by domain rather than chronology.
 
-### [[fm2-reviewer|FINMA202 Oral Exam Master Reviewer]]
+## Start here
 
-Financial Management 2 reviewer for the AIM OMBA FINMA202 oral exam. Covers WACC, relevant cashflows, real options, distribution policy, capital structure, M&A, and LBOs.
+- [[profile|Profile]]
+- [[engineering/|Engineering]]
+- [[finance/|Finance]]
+- [[data-science/|Data Science]]
+- [[design/|Design]]
+- [[reviewers/|Reviewers]]
+- [[projects/|Projects]]
 
-[Open the FM2 reviewer](./fm2-reviewer)
+## Interest buckets
 
----
+### [[engineering/|Engineering]]
 
-This home page is the top-level layer for the site. Course reviewers and other project notes sit underneath it as subpages.
+Systems engineering, satellite communications, aviation connectivity, infrastructure, and technical program notes.
+
+### [[finance/|Finance]]
+
+Corporate finance, aviation finance, valuation, capital structure, and investment analysis notes.
+
+### [[data-science/|Data Science]]
+
+Analytics, modeling, machine learning, operations research, and applied AI work.
+
+### [[design/|Design]]
+
+Visual systems, diagrams, interfaces, communication design, and structured presentation work.
+
+### [[reviewers/|Reviewers]]
+
+Structured study reviewers and exam preparation notes intended for public sharing.
+
+### [[projects/|Projects]]
+
+Selected projects, experiments, and built artifacts.

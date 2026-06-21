@@ -1,3 +1,68 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+@font-face {
+  font-family: "FreeSans";
+  src: url("/assets/fonts/FreeSans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FreeSans";
+  src: url("/assets/fonts/FreeSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FreeSans";
+  src: url("/assets/fonts/FreeSansOblique.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FreeSans";
+  src: url("/assets/fonts/FreeSansBoldOblique.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --headerFont: "FreeSans", Arial, sans-serif;
+  --bodyFont: "FreeSans", Arial, sans-serif;
+  --codeFont: "FreeSans", Arial, sans-serif;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select,
+article,
+section,
+nav,
+aside,
+footer,
+header,
+.page,
+.page-title,
+.content,
+.breadcrumb-container,
+.sidebar,
+.toc,
+.search,
+.graph,
+.popover,
+code,
+pre,
+kbd,
+samp {
+  font-family: "FreeSans", Arial, sans-serif !important;
+}
+
