@@ -128,3 +128,8 @@ The full checklist is `references/checklist.md`.
 - `scripts/mirror_to_root.sh` — copy the fresh `public/` build into the repo root (what Pages serves).
 - `scripts/verify_live.sh` — poll + verify live URLs, fonts, forbidden strings, active deploy SHA.
 - `scripts/redact.py` — draw opaque rectangles over PII regions of an image (PIL).
+
+## Portable agent prompts
+- `AGENT_PROMPT.md` — generic, self-contained prompt for any agent that lacks this skill.
+- `BORGES_AGENT_PROMPT.md` — the same procedure addressed to **Borges, Ken's AI Chief of Staff**
+  (Ken's standing assistant). Hand it the block to have Borges run a publish on this machine.
