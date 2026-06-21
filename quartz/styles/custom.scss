@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "FreeSans";
-  src: url("/assets/fonts/FreeSans.ttf") format("truetype");
+  src: url("/assets/fonts/freesans.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "FreeSans";
-  src: url("/assets/fonts/FreeSansBold.ttf") format("truetype");
+  src: url("/assets/fonts/freesansbold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "FreeSans";
-  src: url("/assets/fonts/FreeSansOblique.ttf") format("truetype");
+  src: url("/assets/fonts/freesansoblique.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: "FreeSans";
-  src: url("/assets/fonts/FreeSansBoldOblique.ttf") format("truetype");
+  src: url("/assets/fonts/freesansboldoblique.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -114,4 +114,56 @@ samp {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.6;
+}
+
+/* Article/layout consistency */
+.page article {
+  text-align: left;
+}
+
+.page article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.page article p {
+  line-height: 1.65;
+  margin: 0.85rem 0;
+}
+
+.page article h1,
+.page article h2,
+.page article h3,
+.page article h4,
+.page article h5,
+.page article h6 {
+  font-family: var(--headerFont);
+  color: var(--dark);
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.page article h1 { font-size: 1.75rem; }
+.page article h2 { font-size: 1.4rem; }
+.page article h3 { font-size: 1.15rem; }
+.page article h4 { font-size: 1.05rem; }
+
+.page article ul,
+.page article ol {
+  padding-left: 1.5rem;
+  line-height: 1.65;
+}
+
+.page article li {
+  margin: 0.25rem 0;
+}
+
+.page article blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--secondary);
+  color: var(--darkgray);
 }

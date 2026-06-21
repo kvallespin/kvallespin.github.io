@@ -20,3 +20,4 @@ This section is for public technical notes that are safe to share and useful out
 ## Notes
 
 - [[unlocking-the-apec-engineer|Unlocking the APEC Engineer]]
+- [[unlocking-the-pe|Unlocking the P.E.]]
