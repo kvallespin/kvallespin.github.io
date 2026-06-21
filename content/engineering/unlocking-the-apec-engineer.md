@@ -17,7 +17,7 @@ created: 2026-06-21
 
 ### A Professional Credential Journey to the APEC Engineer Register
 
-<span style="color: red">Originally posted on December 1, 2020.</span>
+<span class="kv-date-note">Originally posted on December 1, 2020.</span>
 
 ## 1. Introduction
 

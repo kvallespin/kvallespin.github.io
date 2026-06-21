@@ -2,8 +2,6 @@
 title: Projects
 ---
 
-# Projects
-
 Selected projects, experiments, study artifacts, and built outputs.
 
 This section is for work that can be shared publicly without exposing private notes, client material, or unpublished academic drafts.

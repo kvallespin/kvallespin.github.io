@@ -180,6 +180,9 @@ samp {
 :root {
   --kv-cerise: #e04556;
   --kv-deep-teal: #175676;
+  --kv-sky: #4ba3c3;
+  --kv-coral: #e8676a;
+  --kv-pale-ice: #cee5f3;
   --kv-slate: #475461;
   --kv-medium-gray: #7f7f7f;
   --kv-hairline: #d2d2d2;
@@ -277,3 +280,84 @@ samp {
   border-bottom: 1px solid var(--kv-hairline);
   padding-bottom: 1.1rem;
 }
+
+/* ============================================================
+   KV design system — all article content (posts + section pages)
+   Structure in Deep Teal, one identity accent in Cerise, lines
+   over boxes. Applied site-wide so every post inherits it.
+   ============================================================ */
+
+/* Links: Deep Teal, Cerise on hover. */
+.page article a { color: var(--kv-deep-teal); }
+.page article a:hover { color: var(--kv-cerise); }
+
+/* Headings carry the Deep Teal structure color. */
+.page article h1,
+.page article h2,
+.page article h3,
+.page article h4,
+.page article h5,
+.page article h6 { color: var(--kv-deep-teal); }
+
+/* Section headings (h2) get the signature 6px Cerise marker bar. */
+.page article h2 {
+  position: relative;
+  padding-left: 0.85rem;
+}
+.page article h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.18em;
+  bottom: 0.18em;
+  width: 6px;
+  background: var(--kv-cerise);
+}
+
+/* Rules are hairlines; quotes are a Deep Teal edge, not a box. */
+.page article hr {
+  border: 0;
+  border-top: 1px solid var(--kv-hairline);
+}
+.page article blockquote {
+  border-left: 4px solid var(--kv-deep-teal);
+  color: var(--kv-slate);
+}
+
+/* The "originally posted" note uses brand Cerise, not pure red. */
+.kv-date-note { color: var(--kv-cerise); font-weight: 600; }
+
+/* Tables: Deep Teal 2px header rule, hairline row dividers (lines over boxes). */
+.page article table { border-collapse: collapse; }
+.page article thead th {
+  border-bottom: 2px solid var(--kv-deep-teal);
+  color: var(--kv-deep-teal);
+  text-align: left;
+}
+.page article td,
+.page article th {
+  border-top: 1px solid var(--kv-hairline);
+  padding: 0.4rem 0.7rem;
+}
+
+/* The home eyebrow h2 must stay a plain label — no section marker there. */
+.center:has(.home-hero) article h2 { padding-left: 0; }
+.center:has(.home-hero) article h2::before { content: none; }
+
+/* Dark mode: lift Deep Teal to Sky so structure stays legible on a dark canvas. */
+[saved-theme="dark"] .page article a,
+[saved-theme="dark"] .page article h1,
+[saved-theme="dark"] .page article h2,
+[saved-theme="dark"] .page article h3,
+[saved-theme="dark"] .page article h4,
+[saved-theme="dark"] .page article h5,
+[saved-theme="dark"] .page article h6,
+[saved-theme="dark"] .page article .home-hero h1,
+[saved-theme="dark"] .page article thead th { color: var(--kv-sky); }
+[saved-theme="dark"] .page article a:hover { color: var(--kv-coral); }
+
+/* ---- Section (parent) pages: drop the auto folder-listing; the curated
+   "Notes" list in the index is the single source. Scoped by slug so tag
+   pages keep their listing. ---- */
+body[data-slug="engineering/index"] .page-listing,
+body[data-slug="projects/index"] .page-listing { display: none; }

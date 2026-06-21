@@ -126,9 +126,11 @@ from HTML→Markdown conversion and is messy):
 - Collapse runs of blank lines to a single blank line.
 - Remove any leftover "Pinoy P.E."/"pinoype" branding.
 - Leave existing (sometimes odd) section numbering as-is unless asked to renumber — it's content.
-- Colored inline notes are allowed via raw HTML, e.g.
-  `<span style="color: red">Originally posted on June 18, 2019.</span>` (Quartz passes raw HTML
-  through; it renders as `style="color:red;"`). This is the only sanctioned inline style.
+- **KV design system applies to every post** — it's global CSS, so you don't style posts by
+  hand; just write **sentence-case** headings (no Title Case, no taglines/slogans). For an
+  "originally posted" note use the Cerise class: `<span class="kv-date-note">Originally posted
+  on June 18, 2019.</span>` (not inline `color: red`). Build new visual elements from KV
+  lines/markers and check dark mode. Full system: `references/kv-design-system.md`.
 
 Front matter: keep the existing shape (`title`, `description`, `tags` including `public-web`,
 `source: website-backup`, `created`). Don't invent dates; for an "originally posted" date, pull it

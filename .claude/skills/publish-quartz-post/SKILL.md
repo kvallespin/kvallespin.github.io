@@ -144,9 +144,17 @@ from raw notes, do these first, then rejoin at step 4 (vault), 5 (build), etc.:
 5. Preview locally before anything is public: `npx quartz build --serve` → http://localhost:8080.
    Hold the push until the human has seen it.
 
+## Visual style — apply the KV design system
+Every post and page follows the **KV design system** (lines over boxes, one Cerise accent,
+Deep Teal structure, sentence-case, no cards/gradients/shadows, no taglines). This is global
+CSS in `quartz/styles/custom.scss`, so a new post inherits it automatically — just write
+sentence-case Markdown and use the `kv-date-note` class for any "originally posted" note.
+Details, tokens, and the home/section-page patterns: `references/kv-design-system.md`.
+
 ## Reference files
 - `references/deploy.md` — the root-vs-public model, dual-deploy race, font case, exact commands.
 - `references/migration.md` — cleaning old HTML backups, manifest discipline, PII redaction.
+- `references/kv-design-system.md` — the KV visual system: tokens, rules, how it's applied here.
 - `references/checklist.md` — copy/paste pre-publish + post-deploy verification checklist.
 
 ## Scripts

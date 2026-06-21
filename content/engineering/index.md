@@ -2,8 +2,6 @@
 title: Engineering
 ---
 
-# Engineering
-
 Notes on systems engineering, satellite communications, aviation connectivity, infrastructure, professional registration, and technical program work.
 
 This section is for public technical notes that are safe to share and useful outside a private work context.
