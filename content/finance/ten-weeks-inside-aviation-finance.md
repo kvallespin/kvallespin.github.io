@@ -120,6 +120,8 @@ The other thread runs closer to my professional self-image. I have spent my care
 
 That alignment logic is what I want to bring into a lessor environment, particularly in the Philippines and Saudi Arabia where local market knowledge has to carry equal weight with the financial structuring. Building platforms, rather than managing assets alone, is where I see the next several years going. This course was one of the more useful steps in that direction.
 
+The next step for me is to move from this qualitative understanding to a quantitative one. I want to model an aircraft-backed transaction end-to-end: forecast default probabilities, aircraft value distributions, and interest rate paths; map them to payoff functions for loans and leases; and produce an NPV-implied probability distribution across scenarios. I am working from Nils Hallerstrom's *Modelling Aircraft Loans & Leases* as the technical backbone for that effort. The goal is to build a reusable structuring and pricing model that captures the same relationships this course described qualitatively but now with explicit assumptions, scenario trees, and cross-collateralization effects.
+
 ---
 
 *PDF copies of the final pitch deck and the full ten-week learning journal are embedded below.*
@@ -135,3 +137,9 @@ That alignment logic is what I want to bring into a lessor environment, particul
 <iframe src="assets/aviation-finance-gnam-2026/gnam-learning-journal-2026-kenneth-vallespin.pdf" width="100%" height="760" title="GNAM Learning Journal 2026"></iframe>
 
 [Download the learning journal](assets/aviation-finance-gnam-2026/gnam-learning-journal-2026-kenneth-vallespin.pdf)
+
+---
+
+Sources
+
+- KPMG, *Financial modelling: Aviation finance*, January 2016. [PDF](https://assets.kpmg.com/content/dam/kpmg/pdf/2016/03/financial-modelling-for-aviation-jan-2016.pdf)
