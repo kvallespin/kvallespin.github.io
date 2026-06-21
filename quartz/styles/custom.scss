@@ -361,3 +361,77 @@ samp {
    pages keep their listing. ---- */
 body[data-slug="engineering/index"] .page-listing,
 body[data-slug="projects/index"] .page-listing { display: none; }
+
+/* ---- Profile hero: same KV treatment as the home hero (no card). ---- */
+.page article .profile-hero {
+  margin: 0 0 2.5rem;
+  padding: 0 0 1.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--kv-hairline);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+.page article .profile-hero h1 {
+  position: relative;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--kv-deep-teal);
+  font-size: clamp(2.1rem, 5vw, 3.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.page article .profile-hero h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.12em;
+  bottom: 0.12em;
+  width: 6px;
+  background: var(--kv-cerise);
+}
+.page article .profile-hero h1 span { color: var(--kv-medium-gray); font-weight: 400; }
+.page article .profile-hero .credentials {
+  margin: 1rem 0 0;
+  padding-left: 1rem;
+  color: var(--kv-slate);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+[saved-theme="dark"] .page article .profile-hero h1 { color: var(--kv-sky); }
+
+/* ---- Hero with profile photo: [photo]  | [Cerise bar] name + post-nominals.
+   The photo and the bar both span the full text height (name top -> post-nominals
+   floor) via flexbox, so it stays correct at any heading size. ---- */
+.page article .home-hero,
+.page article .profile-hero {
+  display: flex;
+  align-items: stretch;
+  gap: 1.25rem;
+}
+.page article .home-hero .hero-photo,
+.page article .profile-hero .hero-photo {
+  flex: 0 0 auto;
+  align-self: stretch;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;   /* KV: sharp corners, no rounded avatar */
+  margin: 0;          /* override the global centered-image rule */
+}
+.page article .home-hero .hero-text,
+.page article .profile-hero .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  border-left: 6px solid var(--kv-cerise);  /* the bar now spans the whole text block */
+  padding-left: 1.1rem;
+}
+/* bar moved to .hero-text, so retire the old per-h1 marker + indents */
+.page article .home-hero .hero-text h1,
+.page article .profile-hero .hero-text h1 { padding-left: 0; }
+.page article .home-hero .hero-text h1::before,
+.page article .profile-hero .hero-text h1::before { content: none; }
+.page article .home-hero .hero-text .credentials,
+.page article .profile-hero .hero-text .credentials { padding-left: 0; }
