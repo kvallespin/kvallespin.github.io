@@ -78,6 +78,29 @@ fix this by editing the workflow file.)
 
 ## Procedure
 
+### Step 0 — If you're creating a NEW post from notes (skip if editing an existing one)
+The rest of this procedure assumes the prose exists. To author a new post first:
+- Pick a section + kebab-case slug → `content/engineering/<slug>.md`. For a demo, use a throwaway
+  slug you can delete in one commit, and start from a note with NO PII.
+- Write complete front matter:
+  ```yaml
+  ---
+  title: <Human Title>
+  description: <one-line summary>
+  tags:
+    - engineering
+    - public-web
+  source: notes
+  created: <YYYY-MM-DD>
+  ---
+  ```
+- Write the body from the notes, applying the cleaning rules in section A below.
+- ADD A LINK TO THE SECTION INDEX `content/engineering/index.md` (easy to forget):
+  `- [[<slug>|<Human Title>]]`
+- Preview locally before anything is public: `npx quartz build --serve` (http://localhost:8080),
+  and DO NOT push until Ken has previewed it.
+Then continue with C (vault), D (build + mirror), E (commit), F (verify).
+
 ### A. Edit / clean the Markdown
 
 Open the target post under `content/<section>/`. Apply these cleaning rules (the old content came

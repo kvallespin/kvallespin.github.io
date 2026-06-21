@@ -119,6 +119,31 @@ your commit; image counts are right; and there are **no** `pinoy` / `_files/` / 
 strings in the served HTML. For any redacted image, re-fetch it live and eyeball the redaction.
 The full checklist is `references/checklist.md`.
 
+## Authoring a new post from notes (vs. editing an existing one)
+The numbered workflow above assumes the prose already exists. When you're *creating* a new post
+from raw notes, do these first, then rejoin at step 4 (vault), 5 (build), etc.:
+1. Pick a section and a kebab-case slug → `content/engineering/<slug>.md`. For a demo, use a
+   throwaway slug you can delete in one commit, and start from a note with **no PII**.
+2. Write complete front matter:
+   ```yaml
+   ---
+   title: <Human Title>
+   description: <one-line summary for SEO/cards>
+   tags:
+     - engineering
+     - public-web
+   source: notes
+   created: <YYYY-MM-DD>
+   ---
+   ```
+3. Write the body from the notes, applying the same cleaning rules (continuous paragraphs,
+   block images with italic captions, real links, no inline styles, no "Pinoy"). The red
+   "*Originally posted*" note is migration-only — skip it for fresh posts.
+4. **Add a link to the section index** `content/engineering/index.md` (easy to forget):
+   `- [[<slug>|<Human Title>]]`
+5. Preview locally before anything is public: `npx quartz build --serve` → http://localhost:8080.
+   Hold the push until the human has seen it.
+
 ## Reference files
 - `references/deploy.md` — the root-vs-public model, dual-deploy race, font case, exact commands.
 - `references/migration.md` — cleaning old HTML backups, manifest discipline, PII redaction.
