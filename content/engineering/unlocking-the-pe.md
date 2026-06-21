@@ -17,6 +17,8 @@ created: 2026-06-21
 
 ### **A Filipino Expat Engineer's Quest to Become a US Licensed Professional Engineer.**
 
+<span style="color: red">Originally posted on June 18, 2019.</span>
+
 ![](assets/pe-journey/pe-seal-banner.jpg)
 
 ## 1. Introduction

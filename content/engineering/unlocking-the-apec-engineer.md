@@ -17,6 +17,8 @@ created: 2026-06-21
 
 ### A Professional Credential Journey to the APEC Engineer Register
 
+<span style="color: red">Originally posted on December 1, 2020.</span>
+
 ## 1. Introduction
 
 Hello and welcome to my blog! This one's another installment of my **UNLOCKING** series. This time, I'm sharing my experience on how I achieved the APEC Engineer title: The highest engineering credential for mobility and mutual recognition currently in existence in the Philippines and in the Asia-Pacific Economic Cooperation (APEC) member economies. At the time of my registration as an APEC Engineer (08 Dec 2017) I made sweeping personal records as the **76th person to be awarded the credential nationally** and the **12th Electronics and Communications Engineer** to do so. The cherry on top of this proverbial cake was the fact that **I was the youngest professional to enter the registry at the age of 31**. It was no easy feat but I pulled it off thanks to a solid qualification portfolio and many months of preparation and personal sacrifices. This is a detailed account for engineers who may be considering the same professional mobility pathway.
