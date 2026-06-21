@@ -406,13 +406,15 @@ body[data-slug="projects/index"] .page-listing { display: none; }
 .page article .home-hero,
 .page article .profile-hero {
   display: flex;
-  align-items: stretch;
-  gap: 1.25rem;
+  align-items: center;
+  gap: 1rem;
 }
 .page article .home-hero .hero-photo,
 .page article .profile-hero .hero-photo {
   flex: 0 0 auto;
-  align-self: stretch;
+  align-self: center;
+  /* headline-scaled square — spans about the full hero text height; tracks the viewport so web + mobile stay proportional */
+  height: clamp(4rem, 9.5vw, 6.1rem);
   width: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;

@@ -10,8 +10,6 @@ title: Kenneth Vallespin
   </div>
 </div>
 
-Selected public notes, organized by domain rather than chronology.
-
 ### [[profile|About Me]]
 
 Who I am, what I'm working on now, and how to reach me.
