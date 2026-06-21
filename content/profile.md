@@ -1,5 +1,5 @@
 ---
-title: Profile
+title: About Me
 ---
 
 <div class="profile-hero">

@@ -152,6 +152,8 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      sortFn: "(a, b) => { const o = ['profile','engineering','finance','data-science','design','projects']; const ia = o.indexOf(a.slugSegment); const ib = o.indexOf(b.slugSegment); const ra = ia < 0 ? 99 : ia; const rb = ib < 0 ? 99 : ib; return ra !== rb ? ra - rb : a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: 'base' }); }"
     layout:
       position: left
       priority: 50
