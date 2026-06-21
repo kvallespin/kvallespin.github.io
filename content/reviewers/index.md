@@ -4,10 +4,10 @@ title: Reviewers
 
 # Reviewers
 
-Structured study reviewers and exam preparation notes intended for public sharing.
+Structured study and exam preparation methods cleaned for public release.
 
-## Available reviewers
+Reviewer-style artifacts that are substantial enough to stand as projects are listed under [[../projects/|Projects]].
 
-- [[fm2-reviewer|FINMA202 Oral Exam Master Reviewer]]
+## Notes
 
-Additional reviewers will be added here only after they are cleaned for public release.
+Public reviewer notes will be added here when they are prepared as standalone review resources.

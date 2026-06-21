@@ -2,15 +2,15 @@
 title: Profile
 ---
 
-# Profile
-
-## Kenneth Vallespin (Ken)
-
-EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB
+<div class="profile-hero">
+  <p class="eyebrow">Profile</p>
+  <h1>Kenneth Vallespin <span>(Ken)</span></h1>
+  <p class="credentials">EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB</p>
+</div>
 
 Ken is an engineer and systems architect working across satellite communications, aviation connectivity, corporate finance, and applied data science.
 
-This page provides the professional identity layer for the site. The notes themselves are organized into focused public sections:
+The site is organized into public sections:
 
 Engineering · Finance · Data Science · Design · Reviewers · Projects
 
@@ -20,5 +20,5 @@ Engineering · Finance · Data Science · Design · Reviewers · Projects
 - [[finance/|Finance]]: corporate finance, aviation finance, valuation, and capital allocation.
 - [[data-science/|Data Science]]: analytics, modeling, machine learning, and applied AI.
 - [[design/|Design]]: diagrams, visual explanation, interface thinking, and presentation systems.
-- [[reviewers/|Reviewers]]: structured academic and professional study materials.
-- [[projects/|Projects]]: selected public projects and experiments.
+- [[reviewers/|Reviewers]]: study methods and exam preparation structures suitable for public notes.
+- [[projects/|Projects]]: selected public projects, experiments, and study artifacts.

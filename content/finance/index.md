@@ -6,7 +6,7 @@ title: Finance
 
 Notes on corporate finance, aviation finance, valuation, capital structure, and investment analysis.
 
-This section separates finance notes from study reviewers so that public analysis, project work, and exam preparation remain easy to navigate.
+This section separates finance notes from larger project artifacts so that public analysis, project work, and exam preparation remain easy to navigate.
 
 ## Topics
 
@@ -16,6 +16,6 @@ This section separates finance notes from study reviewers so that public analysi
 - Capital structure and payout policy
 - Mergers, acquisitions, and leveraged transactions
 
-## Related
+## Related project artifacts
 
-- [[../reviewers/fm2-reviewer|FINMA202 Oral Exam Master Reviewer]]
+- [[../projects/fm2-reviewer|FINMA202 Oral Exam Master Reviewer]]

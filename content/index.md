@@ -2,13 +2,16 @@
 title: Kenneth Vallespin
 ---
 
-# Kenneth Vallespin (Ken)
+<div class="home-hero">
+  <p class="eyebrow">Public notes portfolio</p>
+  <h1>Kenneth Vallespin <span>(Ken)</span></h1>
+  <p class="credentials">EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB</p>
+  <p class="interests">Engineering · Finance · Data Science · Design · Reviewers · Projects</p>
+</div>
 
-EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB
+This site organizes selected public notes by domain rather than chronology.
 
-This site is a public notes portfolio for selected work and study interests. It is organized by domain rather than chronology.
-
-## Start here
+## Sections
 
 - [[profile|Profile]]
 - [[engineering/|Engineering]]
@@ -38,8 +41,8 @@ Visual systems, diagrams, interfaces, communication design, and structured prese
 
 ### [[reviewers/|Reviewers]]
 
-Structured study reviewers and exam preparation notes intended for public sharing.
+Structured study and exam preparation methods, cleaned for public release.
 
 ### [[projects/|Projects]]
 
-Selected projects, experiments, and built artifacts.
+Selected projects, experiments, study artifacts, and built outputs, including the [[projects/fm2-reviewer|FINMA202 Oral Exam Master Reviewer]].
