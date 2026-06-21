@@ -3,25 +3,13 @@ title: Kenneth Vallespin
 ---
 
 <div class="home-hero">
-  <p class="eyebrow">Public notes portfolio</p>
   <h1>Kenneth Vallespin <span>(Ken)</span></h1>
   <p class="credentials">EUR ING · PE · CEng · MIET · MRAeS · PMP · PRINCE2 · PECE · ASEAN Eng. · ACPE · APEC Eng. · LSSBB</p>
-  <p class="interests">Engineering · Finance · Data Science · Design · Reviewers · Projects</p>
 </div>
 
-This site organizes selected public notes by domain rather than chronology.
+Selected public notes, organized by domain rather than chronology — start with the [[profile|profile]], or browse below.
 
-## Sections
-
-- [[profile|Profile]]
-- [[engineering/|Engineering]]
-- [[finance/|Finance]]
-- [[data-science/|Data Science]]
-- [[design/|Design]]
-- [[reviewers/|Reviewers]]
-- [[projects/|Projects]]
-
-## Interest buckets
+## Browse by domain
 
 ### [[engineering/|Engineering]]
 

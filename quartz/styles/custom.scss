@@ -169,3 +169,111 @@ samp {
   border-left: 3px solid var(--secondary);
   color: var(--darkgray);
 }
+
+/* ============================================================
+   KV design system — home landing
+   "Lines over boxes." One identity color (Cerise), structure in
+   Deep Teal, sentence case, disciplined whitespace. No cards,
+   no gradients, no shadows. Scoped to the home page via :has().
+   ============================================================ */
+
+:root {
+  --kv-cerise: #e04556;
+  --kv-deep-teal: #175676;
+  --kv-slate: #475461;
+  --kv-medium-gray: #7f7f7f;
+  --kv-hairline: #d2d2d2;
+}
+
+/* One identity: drop the duplicate page title + meta on the landing page only. */
+.center:has(.home-hero) .page-header { display: none; }
+
+/* Hiding the page title removed the top spacing — give the hero room from the ceiling. */
+.center:has(.home-hero) article { padding-top: 3.5rem; }
+
+/* The right-rail TOC/backlinks just restate the domain list — hide them on home. Graph stays. */
+.page:has(.home-hero) .toc,
+.page:has(.home-hero) .backlinks { display: none; }
+
+/* Hero: just the name and post-nominals. A 6px Cerise marker bar, no card. */
+.page article .home-hero {
+  margin: 0 0 2.5rem;
+  padding: 0 0 1.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--kv-hairline);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+.page article .home-hero h1 {
+  position: relative;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--kv-deep-teal);
+  font-size: clamp(2.1rem, 5vw, 3.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.page article .home-hero h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.12em;
+  bottom: 0.12em;
+  width: 6px;
+  background: var(--kv-cerise);
+}
+.page article .home-hero h1 span { color: var(--kv-medium-gray); font-weight: 400; }
+.page article .home-hero .credentials {
+  margin: 1rem 0 0;
+  padding-left: 1rem;
+  color: var(--kv-slate);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+/* "Browse by domain" — a quiet eyebrow label, not a heavy heading. */
+.center:has(.home-hero) article h2 {
+  margin: 0 0 0.25rem;
+  color: var(--kv-medium-gray);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Domain rows: hairline-separated lines, each opened by a Cerise marker. No cards. */
+.center:has(.home-hero) article h3 {
+  position: relative;
+  margin: 0;
+  padding: 1rem 0 0.15rem 1rem;
+  border-top: 1px solid var(--kv-hairline);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.center:has(.home-hero) article h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.15rem;
+  width: 6px;
+  height: 1.05em;
+  background: var(--kv-cerise);
+}
+.center:has(.home-hero) article h3 a {
+  color: var(--kv-deep-teal);
+  background-image: none;
+}
+.center:has(.home-hero) article h3 a:hover { color: var(--kv-cerise); }
+.center:has(.home-hero) article h3 + p {
+  margin: 0 0 1.1rem;
+  padding-left: 1rem;
+  color: var(--kv-medium-gray);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+/* Close the list with a final hairline under the last row. */
+.center:has(.home-hero) article h3:last-of-type + p {
+  border-bottom: 1px solid var(--kv-hairline);
+  padding-bottom: 1.1rem;
+}
