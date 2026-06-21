@@ -1,5 +1,5 @@
 ---
-title: Ten weeks inside aviation finance
+title: Ten weeks inside UCD Smurfit aviation finance
 description: What I learned from the GNAM Aviation Finance SNOC at UCD Smurfit, including JOLCO, sustainability financing, aircraft ABS, and a USD 1.6B final project funding strategy.
 tags:
   - finance
@@ -9,9 +9,9 @@ source: notes
 created: 2026-06-21
 ---
 
-# Ten weeks inside aviation finance: what I learned in GNAM 2026
+# Ten weeks inside UCD Smurfit aviation finance: what I learned in GNAM 2026
 
-![](assets/aviation-finance-gnam-2026/gnam-aviation-finance-certificate.jpg)
+![](assets/aviation-finance-gnam-2026/gnam-aviation-finance-certificate.webp)
 
 *GNAM Aviation Finance completion certificate.*
 
@@ -72,39 +72,39 @@ The second is **sustainability financing**. The relevance is not that it sits ne
 
 The capstone asked me to pitch a funding strategy for an upper-tier Irish-based lessor. The borrower had **384 owned aircraft**, an order book of **225 aircraft**, leases to **150 airlines across 62 countries**, a **debt-to-equity ratio of 2.4**, and an unencumbered portfolio of **69 widebodies and 315 narrowbodies**. They wanted to raise **\$1.6 billion** to fund new deliveries.
 
-I framed the pitch from the perspective of an investment bank with both capital markets and corporate lending capabilities. Below is a short discussion of four slides that anchor the recommendation.
+I framed the pitch from the perspective of an investment bank with both capital markets and corporate lending capabilities. Below is a short discussion of four pages that anchor the recommendation.
 
-### Slide 3: Investment highlights
+### Investment highlights
 
-![](assets/aviation-finance-gnam-2026/slide-03-investment-highlights.jpg)
+![](assets/aviation-finance-gnam-2026/investment-highlights.webp)
 
 This is where the headline recommendation lives: a **\$1.2B senior unsecured bond** as the primary vehicle, with a **\$0.4B Asset-Backed Securitization tranche** alongside it.
 
 The 75/25 unsecured-to-secured mix was the central design choice. It preserves a strong unencumbered asset base, consistent with investment-grade peers like Avolon at 77% unsecured and Aircastle at 98% unsecured, while the ABS tranche captures meaningful pricing benefits from the borrower’s large, diversified, and young portfolio.
 
-The slide is doing two jobs at once: signaling that the borrower belongs in the IG peer group on funding mix, and showing that the collateral is being used selectively rather than over-encumbering the balance sheet.
+This page is doing two jobs at once: signaling that the borrower belongs in the IG peer group on funding mix, and showing that the collateral is being used selectively rather than over-encumbering the balance sheet.
 
-### Slide 7: Aircraft portfolio for transaction
+### Aircraft portfolio for transaction
 
-![](assets/aviation-finance-gnam-2026/slide-07-aircraft-portfolio.jpg)
+![](assets/aviation-finance-gnam-2026/aircraft-portfolio.webp)
 
 This is the collateral page. All 384 aircraft are laid out by type, count, and average age: 136 A320 CEO at 9.5 years, 71 A320 Neo at 2.6, 14 737 MAX at 2.5, 94 737 NextGen at 7.6, 35 A330 at 5.4, 7 A350 at 2.7, 4 777 at 9.8, and 23 787 at 4.5, for a weighted average age of about 6.7 years.
 
-The narrowbody-to-widebody mix and the share of latest-technology types, including Neo, MAX, A350, and 787 aircraft, are what make this portfolio a credible ABS pool. Liquid aircraft types with deep operator bases hold remarketing value through the cycle, and this slide is the evidence base for everything I claim later about LTV resilience.
+The narrowbody-to-widebody mix and the share of latest-technology types, including Neo, MAX, A350, and 787 aircraft, are what make this portfolio a credible ABS pool. Liquid aircraft types with deep operator bases hold remarketing value through the cycle, and this portfolio is the evidence base for everything I claim later about LTV resilience.
 
-### Slide 13: Proposed ABS transaction structure
+### Proposed ABS transaction structure
 
-![](assets/aviation-finance-gnam-2026/slide-13-abs-transaction-structure.jpg)
+![](assets/aviation-finance-gnam-2026/abs-transaction-structure.webp)
 
 Here the mechanics get spelled out. Aircraft are sold to a bankruptcy-remote SPV, legally isolating noteholders from borrower insolvency. The borrower retains the servicer role for lease management, collections, and remarketing. A liquidity facility covers around 9 months of senior interest to absorb temporary cash flow disruptions without forcing distressed sales.
 
 Notes are issued in three tranches: Class A senior, Class B mezzanine, and Class E equity retained by the borrower as the first-loss piece. Lease rental cash flows pass through the SPV waterfall, with senior noteholders served first.
 
-The point of the slide is that the credit quality of the ABS does not depend on the borrower’s standalone rating but on the cash flow architecture around the assets.
+The point is that the credit quality of the ABS does not depend on the borrower’s standalone rating but on the cash flow architecture around the assets.
 
-### Slide 14: Indicative tranching and pricing
+### Indicative tranching and pricing
 
-![](assets/aviation-finance-gnam-2026/slide-14-indicative-tranching-pricing.jpg)
+![](assets/aviation-finance-gnam-2026/indicative-tranching-pricing.webp)
 
 This is where the structure meets the spreads. Class A, the senior AA target tranche with a 6-year tenor and 17.3% LTV, prices at SOFR + 120 to 140 bps. Class B, the BBB+ target mezzanine tranche with an 8-year tenor and 21.0% LTV, prices at SOFR + 170 to 190 bps. Class E equity, at 26.7% LTV, absorbs residual cash flow.
 
