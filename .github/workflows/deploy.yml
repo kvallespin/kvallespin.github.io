@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Install Quartz plugins
-        run: npx quartz plugin install --clean --concurrency 1
+        run: echo "Using cached Quartz plugins"
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
