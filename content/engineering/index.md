@@ -4,7 +4,7 @@ title: Engineering
 
 # Engineering
 
-Notes on systems engineering, satellite communications, aviation connectivity, infrastructure, and technical program work.
+Notes on systems engineering, satellite communications, aviation connectivity, infrastructure, professional registration, and technical program work.
 
 This section is for public technical notes that are safe to share and useful outside a private work context.
 
@@ -14,8 +14,9 @@ This section is for public technical notes that are safe to share and useful out
 - Satellite communications and ground infrastructure
 - Aviation connectivity
 - Reliability, operations, and lifecycle thinking
+- Professional engineering registration and mobility
 - Technical program documentation
 
 ## Notes
 
-Public engineering notes will be added here as they are cleaned for publication.
+- [[unlocking-the-apec-engineer|Unlocking the APEC Engineer]]
