@@ -124,6 +124,10 @@ from HTML→Markdown conversion and is messy):
   before punctuation left by `**bold**`/links; delete empty `****`; delete PDF-viewer junk like
   `Page 1 / 3 Zoom 100%`; fix dangling truncated words.
 - Collapse runs of blank lines to a single blank line.
+- LINK INSTITUTIONS: every named institution / company / org / group / entity gets hyperlinked
+  to its official site at first mention (`[**Name**](https://…)`). VERIFY each URL via web search
+  — never guess. Use the org's homepage; for a defunct entity, link its Wikipedia page. Skip
+  people and generic concepts/instruments.
 - Remove any leftover "Pinoy P.E."/"pinoype" branding.
 - Leave existing (sometimes odd) section numbering as-is unless asked to renumber — it's content.
 - **KV design system applies to every post** — it's global CSS, so you don't style posts by

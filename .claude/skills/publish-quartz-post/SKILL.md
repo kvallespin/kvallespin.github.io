@@ -57,6 +57,10 @@ Apply these rules (they reflect how HTML-to-Markdown conversion mangles things):
   space-before-punctuation left by `**bold**`/links; empty `****`; PDF-viewer junk like
   `Page 1 / 3 Zoom 100%`; dangling truncated words.
 - Collapse multiple blank lines to one.
+- **Link institutions to their official URL.** Every named institution / company / org / group /
+  entity gets hyperlinked to its official site at first mention (`[**Name**](https://…)`).
+  **Verify each URL via web search — never guess one.** Use the org's own homepage; for a
+  defunct entity, link its Wikipedia page. Skip people and generic concepts/instruments.
 - **No "Pinoy P.E." / "pinoype" / "pinoype.com" branding** may remain (the migration strips it).
   "Filipino" is fine; "Pinoy" is not (a verify grep checks for it).
 - Leave the existing (sometimes odd) section numbering as-is unless asked — that's content.

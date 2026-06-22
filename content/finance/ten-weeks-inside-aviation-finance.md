@@ -15,13 +15,13 @@ created: 2026-06-21
 
 *GNAM Aviation Finance completion certificate.*
 
-Earlier this year I enrolled in the **GNAM Aviation Finance SNOC**, taught by **Professor Tom Conlon** at **UCD Michael Smurfit Graduate Business School**, as part of my MBA at the **Asian Institute of Management**. Aviation leasing is the direction I have been steering toward for some time, with target markets in the Philippines and Saudi Arabia. AviLease sits inside the PIF portfolio, and a sister company gives me a useful line of sight into the industry. This course is where the theory finally met the structure I needed.
+Earlier this year I enrolled in the **GNAM Aviation Finance SNOC**, taught by **Professor Tom Conlon** at [**UCD Michael Smurfit Graduate Business School**](https://www.smurfitschool.ie/), as part of my MBA at the [**Asian Institute of Management**](https://aim.edu/). Aviation leasing is the direction I have been steering toward for some time, with target markets in the Philippines and Saudi Arabia. [AviLease](https://avilease.com/) sits inside the [PIF](https://www.pif.gov.sa/) portfolio, and a sister company gives me a useful line of sight into the industry. This course is where the theory finally met the structure I needed.
 
 This post walks through what the course is, what it covered, the ideas that stayed with me, and the final project where I pitched a **\$1.6 billion funding strategy**. PDF copies of the pitch deck and my full learning journal are embedded at the end.
 
 ## What the course is
 
-GNAM Aviation Finance is a ten-week Small Network Online Course delivered by UCD Smurfit and offered across the **Global Network for Advanced Management**. It is built around one question: how do aircraft, which are mobile, depreciating, multi-million dollar assets, actually get financed across airlines, lessors, banks, and capital markets?
+GNAM Aviation Finance is a ten-week Small Network Online Course delivered by UCD Smurfit and offered across the [**Global Network for Advanced Management**](https://globalnetwork.io/). It is built around one question: how do aircraft, which are mobile, depreciating, multi-million dollar assets, actually get financed across airlines, lessors, banks, and capital markets?
 
 The format combines weekly lectures, industry panels, breakout discussions, a learning journal, and a capstone project that accounts for 50% of the final mark.
 
@@ -40,7 +40,7 @@ Ten weeks, building from first principles toward the most complex transactions i
 9. Financing aviation sustainably
 10. M&A in aviation finance
 
-Each topic compounded on the previous one. By the time we reached EETCs, ABS structures, and the AerCap acquisition of GECAS, the earlier sessions on residual value, Cape Town, and credit spreads were doing real analytical work in the background.
+Each topic compounded on the previous one. By the time we reached EETCs, ABS structures, and the [AerCap](https://www.aercap.com/) acquisition of [GECAS](https://en.wikipedia.org/wiki/GE_Capital_Aviation_Services), the earlier sessions on residual value, Cape Town, and credit spreads were doing real analytical work in the background.
 
 ## Insights that stayed with me
 
@@ -50,9 +50,9 @@ A few ideas shifted how I think about the industry.
 
 **An aircraft is a measurable physical asset, not just a cash flow.** Maintenance utility value, with engines at 40 to 50 percent of total value, makes residual value a function of remaining component life. The AVITAS regression shows age explains about 83% of value variance, with an R-squared of 0.8251, but the scatter is where standard configurations and clean maintenance records earn their premium.
 
-**Structured finance can manufacture investment-grade credit.** The BOC Aviation SLVRR 2019-1 deal pooled 17 aircraft into an SPV and issued A-rated notes at \$443M, BBB notes at \$73M, BB notes at \$32M, and equity at \$120M, with a liquidity facility covering 18 months of senior interest. The structure, not the borrower’s standalone rating, drove the pricing.
+**Structured finance can manufacture investment-grade credit.** The [BOC Aviation](https://www.bocaviation.com/) SLVRR 2019-1 deal pooled 17 aircraft into an SPV and issued A-rated notes at \$443M, BBB notes at \$73M, BB notes at \$32M, and equity at \$120M, with a liquidity facility covering 18 months of senior interest. The structure, not the borrower’s standalone rating, drove the pricing.
 
-**Scale and rating quality unlock better economics.** SMBC Aviation Capital issued \$8.8 billion in unsecured investment-grade bonds in 2026 year-to-date. AerCap permanently financed its \$30.2B GECAS acquisition with approximately \$21B in unsecured bonds across 11 tranches at an average cost near 2.6%. That kind of access is what every emerging lessor is building toward.
+**Scale and rating quality unlock better economics.** [SMBC Aviation Capital](https://www.smbc.aero/) issued \$8.8 billion in unsecured investment-grade bonds in 2026 year-to-date. AerCap permanently financed its \$30.2B GECAS acquisition with approximately \$21B in unsecured bonds across 11 tranches at an average cost near 2.6%. That kind of access is what every emerging lessor is building toward.
 
 ## The topics that stayed with me most: JOLCO and sustainability financing
 
@@ -80,7 +80,7 @@ I framed the pitch from the perspective of an investment bank with both capital 
 
 This is where the headline recommendation lives: a **\$1.2B senior unsecured bond** as the primary vehicle, with a **\$0.4B Asset-Backed Securitization tranche** alongside it.
 
-The 75/25 unsecured-to-secured mix was the central design choice. It preserves a strong unencumbered asset base, consistent with investment-grade peers like Avolon at 77% unsecured and Aircastle at 98% unsecured, while the ABS tranche captures meaningful pricing benefits from the borrower’s large, diversified, and young portfolio.
+The 75/25 unsecured-to-secured mix was the central design choice. It preserves a strong unencumbered asset base, consistent with investment-grade peers like [Avolon](https://www.avolon.aero/) at 77% unsecured and [Aircastle](https://www.aircastle.com/) at 98% unsecured, while the ABS tranche captures meaningful pricing benefits from the borrower’s large, diversified, and young portfolio.
 
 This page is doing two jobs at once: signaling that the borrower belongs in the IG peer group on funding mix, and showing that the collateral is being used selectively rather than over-encumbering the balance sheet.
 

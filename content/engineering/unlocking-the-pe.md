@@ -75,7 +75,7 @@ Remember when I said earlier that I'm based in Saudi Arabia? I did some reading 
 - Notify the SCE via email ([nceesexams@saudieng.sa](mailto:nceesexams@saudieng.sa)) that you have paid all the required fees. Include your 7-digit MyNCEES record/reference number
 - SCE will review your application along with your academic records already available to them and will issue the approval to take the exam in as little as 24-hours. If you have a valid Iqama and active SCE membership, this part shouldn't be difficult.
 - Once you receive the approval from SCE, it will be reflected on your MyNCEES dashboard. You can then schedule your exam on the date of your choosing.
-- After scheduling your exam date, the exam provider (PearsonVUE) will send you an appointment confirmation email. It will tell you in great detail everything you need to know about the exam (venue of the exam, what to bring, identity verification, etc.) It should look something like this:
+- After scheduling your exam date, the exam provider ([PearsonVUE](https://www.pearsonvue.com/)) will send you an appointment confirmation email. It will tell you in great detail everything you need to know about the exam (venue of the exam, what to bring, identity verification, etc.) It should look something like this:
 
   ![](assets/pe-journey/fe-appointment-1.jpg)
 
