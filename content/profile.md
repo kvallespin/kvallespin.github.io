@@ -44,8 +44,8 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Professional Engineer (P.E.)** — Illinois, Illinois Department of Financial and Professional Regulation
 - **Professional Engineer (P.E.)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
 - **Engineer in Training (EIT)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
-- **PE Exam Passer** — Electrical & Computer: Electronics, Controls & Communications — NCEES
-- **FE Exam Passer** — NCEES
+- **PE Exam Passer** — Electrical & Computer: Electronics, Controls & Communications — National Council of Examiners for Engineering and Surveying (NCEES)
+- **FE Exam Passer** — National Council of Examiners for Engineering and Surveying (NCEES)
 
 ### Philippine Engineering Licenses
 
@@ -135,7 +135,7 @@ Gate/transistor-level memory circuit design. Simulation, layout extraction, post
 - Engineers Europe / FEANI
 - Engineering Council UK
 - Project Management Institute (PMI)
-- NCEES
+- National Council of Examiners for Engineering and Surveying (NCEES)
 - Saudi Council of Engineers (SCE)
 - Institute of Electronics Engineers of the Philippines (IECEP)
 
