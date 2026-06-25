@@ -44,8 +44,8 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Professional Engineer (P.E.)** — Illinois, Illinois Department of Financial and Professional Regulation
 - **Professional Engineer (P.E.)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
 - **Engineer in Training (EIT)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
-- **PE Exam Passer** — Electrical & Computer: Electronics, Controls & Communications — National Council of Examiners for Engineering and Surveying (NCEES)
-- **FE Exam Passer** — National Council of Examiners for Engineering and Surveying (NCEES)
+- **Passer - Principles and Practice of Engineering (PE) Exam - PE Electrical and Computer: Electronics, Controls, and Communications** — NCEES
+- **Passer - Fundamentals of Engineering (FE) Exam - FE Electrical and Computer** — NCEES
 
 ### Philippine Engineering Licenses
 
