@@ -2645,11 +2645,11 @@
       var(--background-primary) 50%
     );
     background: #9e9e9e1a;
-    background: lab(65.1133% 0.0117421 0.000119209/0.1);
+    background: lab(65.1133% 0.0117421 0.000119209/.1);
     background-color: color-mix(in oklch, var(--callout-color) 10%, transparent);
     color: var(--text-normal);
     border: 0 solid #9e9e9e40;
-    border: 0 solid lab(65.1133% 0.0117421 0.000119209/0.25);
+    border: 0 solid lab(65.1133% 0.0117421 0.000119209/.25);
     border-color: oklch(69.9256% 0.0000347234 none/.25) oklch(69.9256% 0.0000347234 none/.25)
       oklch(69.9256% 0.0000347234 none/.25) oklch(69.9256% 0.0000347234 none/.25);
     border-radius: 4px;
@@ -3554,9 +3554,9 @@
   }
   html[saved-theme="dark"] body .nav-files-container .tree-item-children {
     border-inline-start: 1px solid #ffffff1f;
-    border-inline-start: 1px solid lab(99.9987% 0.0168681 0.000166893/0.12);
+    border-inline-start: 1px solid lab(99.9987% 0.0168681 0.000166893/.12);
     border-left: 1px solid #ffffff1f;
-    border-left: 1px solid lab(99.9987% 0.0168681 0.000166893/0.12);
+    border-left: 1px solid lab(99.9987% 0.0168681 0.000166893/.12);
   }
   html[saved-theme="dark"]
     body
@@ -6417,11 +6417,11 @@
       var(--background-primary) 50%
     );
     background: #9e9e9e1a;
-    background: lab(65.1133% 0.0117421 0.000119209/0.1);
+    background: lab(65.1133% 0.0117421 0.000119209/.1);
     background-color: color-mix(in oklch, var(--callout-color) 10%, transparent);
     color: var(--text-normal);
     border: 0 solid #9e9e9e40;
-    border: 0 solid lab(65.1133% 0.0117421 0.000119209/0.25);
+    border: 0 solid lab(65.1133% 0.0117421 0.000119209/.25);
     border-color: oklch(69.9256% 0.0000347234 none/.25) oklch(69.9256% 0.0000347234 none/.25)
       oklch(69.9256% 0.0000347234 none/.25) oklch(69.9256% 0.0000347234 none/.25);
     border-radius: 4px;

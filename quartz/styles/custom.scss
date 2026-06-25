@@ -490,139 +490,251 @@ body[data-slug="projects/index"] .page-listing {
 }
 
 /* ============================================================
-   KV design system — profile page refinement
-   Normalize the profile page away from Quartz's mixed darks. Body
-   text stays Slate, structure uses Deep Teal, metadata uses Medium
-   Gray, and Cerise is reserved for markers and selected emphasis.
+   KV design system — profile page as a standalone portfolio surface.
+   Hide the Quartz shell on this route and let structured HTML carry
+   the same visual intent as the standalone KV profile preview.
    ============================================================ */
 
 body[data-slug="profile"] {
   --kv-profile-text: var(--kv-slate);
   --kv-profile-muted: var(--kv-medium-gray);
   --kv-profile-rule: var(--kv-hairline);
+  background: var(--kv-soft-white);
+}
+
+body[data-slug="profile"] .left.sidebar,
+body[data-slug="profile"] .right.sidebar,
+body[data-slug="profile"] .page-header,
+body[data-slug="profile"] .breadcrumbs,
+body[data-slug="profile"] .toc,
+body[data-slug="profile"] .backlinks {
+  display: none !important;
+}
+
+body[data-slug="profile"] #quartz-body,
+body[data-slug="profile"] #quartz-root {
+  display: block;
+}
+
+body[data-slug="profile"] .center,
+body[data-slug="profile"] .center article {
+  width: min(100%, 980px);
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  color: var(--kv-profile-text);
 }
 
 body[data-slug="profile"] .center article {
+  padding: clamp(2rem, 4vw, 4rem) 1.25rem 4rem;
+}
+
+body[data-slug="profile"] .kv-profile-shell {
   color: var(--kv-profile-text);
-  max-width: 760px;
 }
 
-body[data-slug="profile"] .center article p,
-body[data-slug="profile"] .center article li {
-  color: var(--kv-profile-text);
-  font-size: 1rem;
-  line-height: 1.68;
-}
-
-body[data-slug="profile"] .center article strong,
-body[data-slug="profile"] .center article span[style*="#E04556"] {
-  color: var(--kv-deep-teal) !important;
-  font-weight: 700;
-}
-
-body[data-slug="profile"] .page-header {
-  display: none;
-}
-
-body[data-slug="profile"] .center article {
-  padding-top: 3.25rem;
-}
-
-body[data-slug="profile"] .profile-hero {
-  margin-bottom: 2.1rem;
+body[data-slug="profile"] .kv-profile-hero {
+  display: grid;
+  grid-template-columns: minmax(5rem, 7rem) 1fr;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  align-items: center;
   padding-bottom: 1.65rem;
-  border-bottom: 1px solid var(--kv-profile-rule);
+  border-bottom: 2px solid var(--kv-deep-teal);
+  margin-bottom: 2.25rem;
 }
 
-body[data-slug="profile"] .profile-hero h1 {
-  color: var(--kv-deep-teal);
-  font-size: clamp(2.2rem, 4.8vw, 3.35rem);
-  letter-spacing: -0.02em;
+body[data-slug="profile"] .kv-profile-photo {
+  width: clamp(5rem, 10vw, 7rem);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 0;
+  content-visibility: visible;
 }
 
-body[data-slug="profile"] .profile-hero h1 span {
+body[data-slug="profile"] .kv-profile-title-block {
+  border-left: 6px solid var(--kv-cerise);
+  padding-left: clamp(1rem, 2vw, 1.4rem);
+}
+
+body[data-slug="profile"] .kv-profile-eyebrow {
+  margin: 0 0 0.35rem;
   color: var(--kv-profile-muted);
-}
-
-body[data-slug="profile"] .profile-hero .credentials {
-  color: var(--kv-profile-text);
-  font-size: 0.98rem;
-  line-height: 1.55;
-  max-width: 44rem;
-}
-
-body[data-slug="profile"] article > p:first-of-type {
-  margin-top: 0;
-}
-
-body[data-slug="profile"] article > p:nth-of-type(-n + 5) {
-  color: var(--kv-profile-text);
-  font-size: 1.02rem;
-}
-
-body[data-slug="profile"] article h2 {
-  margin-top: 2.65rem;
-  padding-top: 0.65rem;
-  border-top: 1px solid var(--kv-profile-rule);
-  color: var(--kv-deep-teal);
-  font-size: 1.05rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-body[data-slug="profile"] article h2::before {
-  top: 0.72rem;
-  bottom: auto;
-  height: 1.1em;
+body[data-slug="profile"] .kv-profile-hero h1 {
+  margin: 0;
+  color: var(--kv-deep-teal);
+  font-size: clamp(2.4rem, 6vw, 4.35rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
 }
 
-body[data-slug="profile"] article h3 {
-  margin-top: 1.35rem;
-  margin-bottom: 0.35rem;
+body[data-slug="profile"] .kv-profile-hero h1 span {
+  color: var(--kv-profile-muted);
+  font-weight: 400;
+}
+
+body[data-slug="profile"] .kv-profile-credentials {
+  margin: 0.85rem 0 0;
+  color: var(--kv-profile-text);
+  font-size: clamp(0.95rem, 1.8vw, 1.08rem);
+  line-height: 1.45;
+  max-width: 48rem;
+}
+
+body[data-slug="profile"] .kv-profile-section {
+  margin: 0 0 2.4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="profile"] .kv-profile-section:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+body[data-slug="profile"] .kv-profile-section h2 {
+  position: relative;
+  margin: 0 0 1rem;
+  padding-left: 0.9rem;
+  color: var(--kv-deep-teal);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+body[data-slug="profile"] .kv-profile-section h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.04em;
+  width: 6px;
+  height: 1.15em;
+  background: var(--kv-cerise);
+}
+
+body[data-slug="profile"] .kv-profile-section h3 {
+  margin: 0 0 0.45rem;
   color: var(--kv-deep-teal);
   font-size: 1rem;
   font-weight: 700;
+  line-height: 1.3;
 }
 
-body[data-slug="profile"] article h3 + ul {
-  margin-top: 0.35rem;
+body[data-slug="profile"] .kv-profile-section p,
+body[data-slug="profile"] .kv-profile-section li {
+  color: var(--kv-profile-text);
+  font-size: 1rem;
+  line-height: 1.66;
 }
 
-body[data-slug="profile"] article ul {
-  margin: 0.25rem 0 1.05rem;
-  padding-left: 1.05rem;
+body[data-slug="profile"] .kv-profile-section p {
+  margin: 0.75rem 0;
 }
 
-body[data-slug="profile"] article li::marker {
-  color: var(--kv-cerise);
+body[data-slug="profile"] .kv-profile-section strong {
+  color: var(--kv-deep-teal);
+  font-weight: 700;
 }
 
-body[data-slug="profile"] article a {
+body[data-slug="profile"] .kv-profile-section a {
   color: var(--kv-deep-teal);
   font-weight: 700;
   text-decoration-color: rgba(224, 69, 86, 0.45);
   text-underline-offset: 0.18em;
 }
 
-body[data-slug="profile"] article a:hover {
+body[data-slug="profile"] .kv-profile-section a:hover {
   color: var(--kv-cerise);
   text-decoration-color: var(--kv-cerise);
 }
 
-body[data-slug="profile"] article hr {
-  border-color: var(--kv-profile-rule);
+body[data-slug="profile"] .kv-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem 1.4rem;
 }
 
-[saved-theme="dark"] body[data-slug="profile"] .center article,
-[saved-theme="dark"] body[data-slug="profile"] .center article p,
-[saved-theme="dark"] body[data-slug="profile"] .center article li {
+body[data-slug="profile"] .kv-profile-card {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="profile"] .kv-profile-card-wide {
+  grid-column: 1 / -1;
+}
+
+body[data-slug="profile"] .kv-profile-list,
+body[data-slug="profile"] .kv-profile-card ul {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+body[data-slug="profile"] .kv-profile-list li,
+body[data-slug="profile"] .kv-profile-card li {
+  margin: 0.25rem 0;
+}
+
+body[data-slug="profile"] .kv-profile-list li::marker,
+body[data-slug="profile"] .kv-profile-card li::marker {
+  color: var(--kv-cerise);
+}
+
+body[data-slug="profile"] .kv-profile-timeline article {
+  padding: 0.85rem 0 0.95rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="profile"] .kv-profile-timeline article:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+body[data-slug="profile"] .kv-profile-timeline h3,
+body[data-slug="profile"] .kv-profile-timeline p {
+  margin: 0.15rem 0;
+}
+
+body[data-slug="profile"] .kv-profile-muted {
+  color: var(--kv-profile-muted) !important;
+}
+
+body[data-slug="profile"] footer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+}
+
+@media (max-width: 760px) {
+  body[data-slug="profile"] .kv-profile-hero {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-slug="profile"] .kv-profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+[saved-theme="dark"] body[data-slug="profile"] {
+  background: var(--light);
+}
+
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-shell,
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-section p,
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-section li {
   color: var(--lightgray);
 }
 
-[saved-theme="dark"] body[data-slug="profile"] .center article strong,
-[saved-theme="dark"] body[data-slug="profile"] article h2,
-[saved-theme="dark"] body[data-slug="profile"] article h3,
-[saved-theme="dark"] body[data-slug="profile"] .profile-hero h1 {
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-hero h1,
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-section h2,
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-section h3,
+[saved-theme="dark"] body[data-slug="profile"] .kv-profile-section strong {
   color: var(--kv-sky);
 }
