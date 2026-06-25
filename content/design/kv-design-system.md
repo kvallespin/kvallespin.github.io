@@ -1,6 +1,6 @@
 ---
 title: Building the KV Design System
-description: A public showcase of the KV personal design system, created after Claude Design first dropped and then formalized into a working visual operating system.
+description: A personal and self-deprecating account of building the KV Design System after repeated one-off theme creation, a free Claude Design pilot window, and a refusal to pay for more compute.
 tags:
   - design
   - public-web
@@ -9,13 +9,77 @@ source: notes
 created: 2026-06-21
 ---
 
-# Building the KV Design System
+I have a problem. If you have ever watched me prepare a deck of slides or format a document, you already know this about me.
 
-When Claude Design first dropped, I used the moment as a forcing function to build my own design system from scratch. The first pass was the creative act: choosing the palette, type roles, slide vocabulary, chart rules, and the overall restraint I wanted in my decks and technical communication.
+The problem is not attention to detail. The problem is that I cannot stop myself from inventing a new theme every single time.
 
-After that, I delegated the harder operational work: formalizing the rules, turning the choices into reusable tokens, documenting the components, and making the system usable beyond a single artifact. The result is the KV Design System: a compact visual operating system for executive-ready decks, technical proposals, analytical writing, and interface sketches.
+One month I am experimenting with a navy-and-grey palette with one accent color. Two weeks later I am trying a high-contrast dark theme with a different accent because the previous one felt "too corporate." Then I decide I want something warm, then something cool, then something that looks like it could have come from an airline brand I happen to like.
 
-The full design-system note from my Obsidian vault is reproduced below. The specification PDF is embedded at the end.
+By the time I am done, I have produced four different versions of almost the same slide deck.
+
+This is not efficient. I know this. And yet I keep doing it.
+
+## The free lunch
+
+The breaking point arrived when Claude Design first dropped.
+
+I did not have a grand strategic reason to build a design system that week. I had something better: a free usage allocation that lasted about two or three weeks, and a refusal to pay for more compute once it ran out.
+
+I am cheap and I am broke, so instead of spending money, I spent the pilot window. I used the tool to generate layouts, iterate on palettes, and stress-test components. After the free allocation burned out, I had enough structure to stop making one-off themes.
+
+I used the moment as an excuse to build my own design system from scratch instead of making yet another one-off theme. That is how the KV Design System started.
+
+## The red rule
+
+My favorite color is red. Not because it is especially sophisticated, and not because it fits every use case. It is simply the color I reach for first.
+
+The first pass of the system was the creative act I actually enjoyed: choosing the palette, type roles, slide vocabulary, chart rules, and the overall restraint I wanted. I picked Cerise Red as the identity color, Deep Teal Blue for structure, and a lot of disciplined whitespace. Ten load-bearing colors. Two type roles. One spacing rhythm.
+
+That was the fun part.
+
+## The part I delegated
+
+After the creative act came the harder operational work: formalizing the rules, turning the choices into reusable tokens, documenting the components, and making the system usable beyond a single artifact.
+
+This is where I stopped being a designer and started being an engineer with a problem to solve. I built the system so that when I prepare a technical document, I do not have to choose colors. When I build a slide deck, I do not have to discover halfway through that the background makes thin text unreadable. When I publish a blog post, I want consistency instead of a small design decision made fresh every time.
+
+The KV Design System is a compact visual operating system for executive-ready decks, technical proposals, analytical writing, and interface sketches. That is what it is, officially.
+
+Unofficially, it is a set of rules that keep me from my own worst instincts.
+
+## What the system actually does
+
+It gives me ten colors. Stay inside them. Cerise Red marks sections, accents, and the single most important number. Deep Teal carries titles, primary chart lines, and table rules. Soft White, not pure white. Slate, not black. Pale Ice Blue is the only soft fill. No gradients, no drop shadows on slides, no emoji, no rounded card tropes.
+
+It gives me two type families. FreeSans Display for headlines. FreeSans for body. Atkinson Hyperlegible for every figure. Berkeley Mono for code snippets only.
+
+It gives me a 4-based spacing scale, lines instead of boxes, and ten slide masters that cover the recurring jobs of an executive deck: cover on Cerise, section divider on Slate, everything else on Soft White.
+
+The most interesting rule is the chart palette rule. One to three series: core palette. Four or more: switch entirely to an extended ramp so no single hue reads as an alert. That is the kind of constraint I would have ignored if I had not written it down.
+
+## Self-criticism included
+
+I should acknowledge the obvious.
+
+I am not a designer. I am an engineer who once tried to make every document look special. That impulse is not a strength in this context. It is exactly the habit that needed fixing.
+
+If the system feels restrained, that is intentional. If it looks simple, that is the point. If some parts seem almost too basic, remember that the alternative was me tweaking heading colors at 11 PM the night before a presentation.
+
+This system exists because I finally admitted that I needed constraints.
+
+## What comes next
+
+The first version is done. It is already in use for decks, notes, and documents.
+
+What I want to do next is make it easier to apply. Better templates, clearer rules for dark presentations, and guidelines that are simple enough that I will actually follow them without second-guessing every color choice.
+
+It also means accepting that the system will evolve. Red will remain the anchor, but the rest of the palette will grow as I learn what works across different formats and audiences.
+
+If you are reading this and recognize yourself in the story, consider this your permission to stop making new themes for every slide deck. Build one system. Make it boring. Make it yours.
+
+And if your favorite color is also red, you already have a head start.
+
+---
 
 ## Full design-system note
 
