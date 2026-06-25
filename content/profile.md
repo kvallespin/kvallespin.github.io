@@ -10,6 +10,8 @@ title: About Me
   </div>
 </div>
 
+## ABOUT ME
+
 I'm currently pursuing an MBA at the **Asian Institute of Management**, and lately I've been happily obsessing over **corporate and aviation finance** and **data science**.
 
 I'm an engineer licensed across five continents and a growth-focused leader with **18 years of experience** creating value in telecom, security, commercial aviation, and space. Whether I'm steering projects, programs, and operations or shaping commercial strategy, governance, and solutions, I turn complex challenges into measurable results — including **more than $200 million in project wins** under my portfolio.
