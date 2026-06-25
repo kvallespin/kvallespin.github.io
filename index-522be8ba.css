@@ -1400,3 +1400,112 @@ body[data-slug="projects\/index"] .page-listing {
 .page article .profile-hero .hero-text .credentials {
   padding-left: 0;
 }
+body[data-slug="profile"] {
+  --kv-profile-text: var(--kv-slate);
+  --kv-profile-muted: var(--kv-medium-gray);
+  --kv-profile-rule: var(--kv-hairline);
+}
+body[data-slug="profile"] .center article {
+  color: var(--kv-profile-text);
+  max-width: 760px;
+}
+body[data-slug="profile"] .center article p,
+body[data-slug="profile"] .center article li {
+  color: var(--kv-profile-text);
+  font-size: 1rem;
+  line-height: 1.68;
+}
+body[data-slug="profile"] .center article strong,
+body[data-slug="profile"] .center article span[style*="\#E04556"] {
+  font-weight: 700;
+  color: var(--kv-deep-teal) !important;
+}
+body[data-slug="profile"] .page-header {
+  display: none;
+}
+body[data-slug="profile"] .center article {
+  padding-top: 3.25rem;
+}
+body[data-slug="profile"] .profile-hero {
+  border-bottom: 1px solid var(--kv-profile-rule);
+  margin-bottom: 2.1rem;
+  padding-bottom: 1.65rem;
+}
+body[data-slug="profile"] .profile-hero h1 {
+  color: var(--kv-deep-teal);
+  letter-spacing: -0.02em;
+  font-size: clamp(2.2rem, 4.8vw, 3.35rem);
+}
+body[data-slug="profile"] .profile-hero h1 span {
+  color: var(--kv-profile-muted);
+}
+body[data-slug="profile"] .profile-hero .credentials {
+  color: var(--kv-profile-text);
+  max-width: 44rem;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+body[data-slug="profile"] article > p:first-of-type {
+  margin-top: 0;
+}
+body[data-slug="profile"] article > p:nth-of-type(-n + 5) {
+  color: var(--kv-profile-text);
+  font-size: 1.02rem;
+}
+body[data-slug="profile"] article h2 {
+  border-top: 1px solid var(--kv-profile-rule);
+  color: var(--kv-deep-teal);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2.65rem;
+  padding-top: 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+body[data-slug="profile"] article h2:before {
+  height: 1.1em;
+  top: 0.72rem;
+  bottom: auto;
+}
+body[data-slug="profile"] article h3 {
+  color: var(--kv-deep-teal);
+  margin-top: 1.35rem;
+  margin-bottom: 0.35rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+body[data-slug="profile"] article h3 + ul {
+  margin-top: 0.35rem;
+}
+body[data-slug="profile"] article ul {
+  margin: 0.25rem 0 1.05rem;
+  padding-left: 1.05rem;
+}
+body[data-slug="profile"] article li::marker {
+  color: var(--kv-cerise);
+}
+body[data-slug="profile"] article a {
+  color: var(--kv-deep-teal);
+  text-underline-offset: 0.18em;
+  font-weight: 700;
+  text-decoration-color: #e0455673;
+}
+body[data-slug="profile"] article a:hover {
+  color: var(--kv-cerise);
+  -webkit-text-decoration-color: var(--kv-cerise);
+  text-decoration-color: var(--kv-cerise);
+}
+body[data-slug="profile"] article hr {
+  border-color: var(--kv-profile-rule);
+}
+[saved-theme="dark"] body[data-slug="profile"] .center article,
+[saved-theme="dark"] body[data-slug="profile"] .center article p,
+[saved-theme="dark"] body[data-slug="profile"] .center article li {
+  color: var(--lightgray);
+}
+[saved-theme="dark"] body[data-slug="profile"] .center article strong,
+[saved-theme="dark"] body[data-slug="profile"] article h2,
+[saved-theme="dark"] body[data-slug="profile"] article h3,
+[saved-theme="dark"] body[data-slug="profile"] .profile-hero h1 {
+  color: var(--kv-sky);
+}

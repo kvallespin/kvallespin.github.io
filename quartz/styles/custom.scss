@@ -72,8 +72,8 @@ samp {
   padding: 2rem;
   border: 1px solid var(--lightgray);
   border-radius: 24px;
-  background: linear-gradient(135deg, rgba(40, 75, 99, 0.10), rgba(132, 165, 157, 0.14));
-  box-shadow: 0 18px 50px rgba(2, 6, 23, 0.10);
+  background: linear-gradient(135deg, rgba(40, 75, 99, 0.1), rgba(132, 165, 157, 0.14));
+  box-shadow: 0 18px 50px rgba(2, 6, 23, 0.1);
 }
 
 .home-hero .eyebrow,
@@ -148,10 +148,18 @@ samp {
   margin-bottom: 0.75rem;
 }
 
-.page article h1 { font-size: 1.75rem; }
-.page article h2 { font-size: 1.4rem; }
-.page article h3 { font-size: 1.15rem; }
-.page article h4 { font-size: 1.05rem; }
+.page article h1 {
+  font-size: 1.75rem;
+}
+.page article h2 {
+  font-size: 1.4rem;
+}
+.page article h3 {
+  font-size: 1.15rem;
+}
+.page article h4 {
+  font-size: 1.05rem;
+}
 
 .page article ul,
 .page article ol {
@@ -189,14 +197,20 @@ samp {
 }
 
 /* One identity: drop the duplicate page title + meta on the landing page only. */
-.center:has(.home-hero) .page-header { display: none; }
+.center:has(.home-hero) .page-header {
+  display: none;
+}
 
 /* Hiding the page title removed the top spacing — give the hero room from the ceiling. */
-.center:has(.home-hero) article { padding-top: 3.5rem; }
+.center:has(.home-hero) article {
+  padding-top: 3.5rem;
+}
 
 /* The right-rail TOC/backlinks just restate the domain list — hide them on home. Graph stays. */
 .page:has(.home-hero) .toc,
-.page:has(.home-hero) .backlinks { display: none; }
+.page:has(.home-hero) .backlinks {
+  display: none;
+}
 
 /* Hero: just the name and post-nominals. A 6px Cerise marker bar, no card. */
 .page article .home-hero {
@@ -226,7 +240,10 @@ samp {
   width: 6px;
   background: var(--kv-cerise);
 }
-.page article .home-hero h1 span { color: var(--kv-medium-gray); font-weight: 400; }
+.page article .home-hero h1 span {
+  color: var(--kv-medium-gray);
+  font-weight: 400;
+}
 .page article .home-hero .credentials {
   margin: 1rem 0 0;
   padding-left: 1rem;
@@ -267,7 +284,9 @@ samp {
   color: var(--kv-deep-teal);
   background-image: none;
 }
-.center:has(.home-hero) article h3 a:hover { color: var(--kv-cerise); }
+.center:has(.home-hero) article h3 a:hover {
+  color: var(--kv-cerise);
+}
 .center:has(.home-hero) article h3 + p {
   margin: 0 0 1.1rem;
   padding-left: 1rem;
@@ -288,8 +307,12 @@ samp {
    ============================================================ */
 
 /* Links: Deep Teal, Cerise on hover. */
-.page article a { color: var(--kv-deep-teal); }
-.page article a:hover { color: var(--kv-cerise); }
+.page article a {
+  color: var(--kv-deep-teal);
+}
+.page article a:hover {
+  color: var(--kv-cerise);
+}
 
 /* Headings carry the Deep Teal structure color. */
 .page article h1,
@@ -297,7 +320,9 @@ samp {
 .page article h3,
 .page article h4,
 .page article h5,
-.page article h6 { color: var(--kv-deep-teal); }
+.page article h6 {
+  color: var(--kv-deep-teal);
+}
 
 /* Section headings (h2) get the signature 6px Cerise marker bar. */
 .page article h2 {
@@ -325,10 +350,15 @@ samp {
 }
 
 /* The "originally posted" note uses brand Cerise, not pure red. */
-.kv-date-note { color: var(--kv-cerise); font-weight: 600; }
+.kv-date-note {
+  color: var(--kv-cerise);
+  font-weight: 600;
+}
 
 /* Tables: Deep Teal 2px header rule, hairline row dividers (lines over boxes). */
-.page article table { border-collapse: collapse; }
+.page article table {
+  border-collapse: collapse;
+}
 .page article thead th {
   border-bottom: 2px solid var(--kv-deep-teal);
   color: var(--kv-deep-teal);
@@ -341,8 +371,12 @@ samp {
 }
 
 /* The home eyebrow h2 must stay a plain label — no section marker there. */
-.center:has(.home-hero) article h2 { padding-left: 0; }
-.center:has(.home-hero) article h2::before { content: none; }
+.center:has(.home-hero) article h2 {
+  padding-left: 0;
+}
+.center:has(.home-hero) article h2::before {
+  content: none;
+}
 
 /* Dark mode: lift Deep Teal to Sky so structure stays legible on a dark canvas. */
 [saved-theme="dark"] .page article a,
@@ -353,14 +387,20 @@ samp {
 [saved-theme="dark"] .page article h5,
 [saved-theme="dark"] .page article h6,
 [saved-theme="dark"] .page article .home-hero h1,
-[saved-theme="dark"] .page article thead th { color: var(--kv-sky); }
-[saved-theme="dark"] .page article a:hover { color: var(--kv-coral); }
+[saved-theme="dark"] .page article thead th {
+  color: var(--kv-sky);
+}
+[saved-theme="dark"] .page article a:hover {
+  color: var(--kv-coral);
+}
 
 /* ---- Section (parent) pages: drop the auto folder-listing; the curated
    "Notes" list in the index is the single source. Scoped by slug so tag
    pages keep their listing. ---- */
 body[data-slug="engineering/index"] .page-listing,
-body[data-slug="projects/index"] .page-listing { display: none; }
+body[data-slug="projects/index"] .page-listing {
+  display: none;
+}
 
 /* ---- Profile hero: same KV treatment as the home hero (no card). ---- */
 .page article .profile-hero {
@@ -390,7 +430,10 @@ body[data-slug="projects/index"] .page-listing { display: none; }
   width: 6px;
   background: var(--kv-cerise);
 }
-.page article .profile-hero h1 span { color: var(--kv-medium-gray); font-weight: 400; }
+.page article .profile-hero h1 span {
+  color: var(--kv-medium-gray);
+  font-weight: 400;
+}
 .page article .profile-hero .credentials {
   margin: 1rem 0 0;
   padding-left: 1rem;
@@ -398,7 +441,9 @@ body[data-slug="projects/index"] .page-listing { display: none; }
   font-size: 1rem;
   line-height: 1.65;
 }
-[saved-theme="dark"] .page article .profile-hero h1 { color: var(--kv-sky); }
+[saved-theme="dark"] .page article .profile-hero h1 {
+  color: var(--kv-sky);
+}
 
 /* ---- Hero with profile photo: [photo]  | [Cerise bar] name + post-nominals.
    The photo and the bar both span the full text height (name top -> post-nominals
@@ -418,8 +463,8 @@ body[data-slug="projects/index"] .page-listing { display: none; }
   width: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 0;   /* KV: sharp corners, no rounded avatar */
-  margin: 0;          /* override the global centered-image rule */
+  border-radius: 0; /* KV: sharp corners, no rounded avatar */
+  margin: 0; /* override the global centered-image rule */
 }
 .page article .home-hero .hero-text,
 .page article .profile-hero .hero-text {
@@ -427,13 +472,157 @@ body[data-slug="projects/index"] .page-listing { display: none; }
   flex-direction: column;
   justify-content: center;
   min-width: 0;
-  border-left: 6px solid var(--kv-cerise);  /* the bar now spans the whole text block */
+  border-left: 6px solid var(--kv-cerise); /* the bar now spans the whole text block */
   padding-left: 1.1rem;
 }
 /* bar moved to .hero-text, so retire the old per-h1 marker + indents */
 .page article .home-hero .hero-text h1,
-.page article .profile-hero .hero-text h1 { padding-left: 0; }
+.page article .profile-hero .hero-text h1 {
+  padding-left: 0;
+}
 .page article .home-hero .hero-text h1::before,
-.page article .profile-hero .hero-text h1::before { content: none; }
+.page article .profile-hero .hero-text h1::before {
+  content: none;
+}
 .page article .home-hero .hero-text .credentials,
-.page article .profile-hero .hero-text .credentials { padding-left: 0; }
+.page article .profile-hero .hero-text .credentials {
+  padding-left: 0;
+}
+
+/* ============================================================
+   KV design system — profile page refinement
+   Normalize the profile page away from Quartz's mixed darks. Body
+   text stays Slate, structure uses Deep Teal, metadata uses Medium
+   Gray, and Cerise is reserved for markers and selected emphasis.
+   ============================================================ */
+
+body[data-slug="profile"] {
+  --kv-profile-text: var(--kv-slate);
+  --kv-profile-muted: var(--kv-medium-gray);
+  --kv-profile-rule: var(--kv-hairline);
+}
+
+body[data-slug="profile"] .center article {
+  color: var(--kv-profile-text);
+  max-width: 760px;
+}
+
+body[data-slug="profile"] .center article p,
+body[data-slug="profile"] .center article li {
+  color: var(--kv-profile-text);
+  font-size: 1rem;
+  line-height: 1.68;
+}
+
+body[data-slug="profile"] .center article strong,
+body[data-slug="profile"] .center article span[style*="#E04556"] {
+  color: var(--kv-deep-teal) !important;
+  font-weight: 700;
+}
+
+body[data-slug="profile"] .page-header {
+  display: none;
+}
+
+body[data-slug="profile"] .center article {
+  padding-top: 3.25rem;
+}
+
+body[data-slug="profile"] .profile-hero {
+  margin-bottom: 2.1rem;
+  padding-bottom: 1.65rem;
+  border-bottom: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="profile"] .profile-hero h1 {
+  color: var(--kv-deep-teal);
+  font-size: clamp(2.2rem, 4.8vw, 3.35rem);
+  letter-spacing: -0.02em;
+}
+
+body[data-slug="profile"] .profile-hero h1 span {
+  color: var(--kv-profile-muted);
+}
+
+body[data-slug="profile"] .profile-hero .credentials {
+  color: var(--kv-profile-text);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  max-width: 44rem;
+}
+
+body[data-slug="profile"] article > p:first-of-type {
+  margin-top: 0;
+}
+
+body[data-slug="profile"] article > p:nth-of-type(-n + 5) {
+  color: var(--kv-profile-text);
+  font-size: 1.02rem;
+}
+
+body[data-slug="profile"] article h2 {
+  margin-top: 2.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--kv-profile-rule);
+  color: var(--kv-deep-teal);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+body[data-slug="profile"] article h2::before {
+  top: 0.72rem;
+  bottom: auto;
+  height: 1.1em;
+}
+
+body[data-slug="profile"] article h3 {
+  margin-top: 1.35rem;
+  margin-bottom: 0.35rem;
+  color: var(--kv-deep-teal);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+body[data-slug="profile"] article h3 + ul {
+  margin-top: 0.35rem;
+}
+
+body[data-slug="profile"] article ul {
+  margin: 0.25rem 0 1.05rem;
+  padding-left: 1.05rem;
+}
+
+body[data-slug="profile"] article li::marker {
+  color: var(--kv-cerise);
+}
+
+body[data-slug="profile"] article a {
+  color: var(--kv-deep-teal);
+  font-weight: 700;
+  text-decoration-color: rgba(224, 69, 86, 0.45);
+  text-underline-offset: 0.18em;
+}
+
+body[data-slug="profile"] article a:hover {
+  color: var(--kv-cerise);
+  text-decoration-color: var(--kv-cerise);
+}
+
+body[data-slug="profile"] article hr {
+  border-color: var(--kv-profile-rule);
+}
+
+[saved-theme="dark"] body[data-slug="profile"] .center article,
+[saved-theme="dark"] body[data-slug="profile"] .center article p,
+[saved-theme="dark"] body[data-slug="profile"] .center article li {
+  color: var(--lightgray);
+}
+
+[saved-theme="dark"] body[data-slug="profile"] .center article strong,
+[saved-theme="dark"] body[data-slug="profile"] article h2,
+[saved-theme="dark"] body[data-slug="profile"] article h3,
+[saved-theme="dark"] body[data-slug="profile"] .profile-hero h1 {
+  color: var(--kv-sky);
+}

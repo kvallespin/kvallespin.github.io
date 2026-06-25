@@ -79,7 +79,9 @@ fix this by editing the workflow file.)
 ## Procedure
 
 ### Step 0 — If you're creating a NEW post from notes (skip if editing an existing one)
+
 The rest of this procedure assumes the prose exists. To author a new post first:
+
 - Pick a section + kebab-case slug → `content/engineering/<slug>.md`. For a demo, use a throwaway
   slug you can delete in one commit, and start from a note with NO PII.
 - Write complete front matter:
@@ -99,7 +101,7 @@ The rest of this procedure assumes the prose exists. To author a new post first:
   `- [[<slug>|<Human Title>]]`
 - Preview locally before anything is public: `npx quartz build --serve` (http://localhost:8080),
   and DO NOT push until Ken has previewed it.
-Then continue with C (vault), D (build + mirror), E (commit), F (verify).
+  Then continue with C (vault), D (build + mirror), E (commit), F (verify).
 
 ### A. Edit / clean the Markdown
 
@@ -111,15 +113,18 @@ from HTML→Markdown conversion and is messy):
 - Merge hard-wrapped lines so each paragraph is one continuous line. **Keep on their own lines**
   (with blank lines around them): headings (`##`/`###`), list items (`-`, `1.`), blockquotes (`>`),
   fenced code blocks, images, and horizontal rules (`---`).
-- Put every image on its own line, blank lines around it, followed by an *italic* caption
+- Put every image on its own line, blank lines around it, followed by an _italic_ caption
   paragraph, e.g.:
+
   ```
   ![](assets/pe-journey/review-rig.jpg)
 
   *My Typical Review Rig*
   ```
+
   (Block images get centered by CSS; inline images do not. Don't wrap a caption that already
   contains bold/italic in more emphasis.)
+
 - Fix conversion artifacts: bare-paren URLs `(https://x)` → `[here](https://x)`; remove space
   before punctuation left by `**bold**`/links; delete empty `****`; delete PDF-viewer junk like
   `Page 1 / 3 Zoom 100%`; fix dangling truncated words.
@@ -133,7 +138,7 @@ from HTML→Markdown conversion and is messy):
 - **KV design system applies to every post** — it's global CSS, so you don't style posts by
   hand; just write **sentence-case** headings (no Title Case, no taglines/slogans). For an
   "originally posted" note use the Cerise class: `<span class="kv-date-note">Originally posted
-  on June 18, 2019.</span>` (not inline `color: red`). Build new visual elements from KV
+on June 18, 2019.</span>` (not inline `color: red`). Build new visual elements from KV
   lines/markers and check dark mode. Full system: `references/kv-design-system.md`.
 
 Front matter: keep the existing shape (`title`, `description`, `tags` including `public-web`,
@@ -185,6 +190,7 @@ cd /c/Users/kenne/kvallespin.github.io
 npx quartz build
 bash .claude/skills/publish-quartz-post/scripts/mirror_to_root.sh
 ```
+
 If you can't use the script, mirror manually: delete the root's old hashed files
 (`rm -f ./index-*.css ./component-*.css ./prescript-*.js ./postscript-*.js`), then for each
 top-level entry in `public/`, replace it at the repo root (`rm -rf ./DIR && cp -r public/DIR ./DIR`
@@ -216,7 +222,9 @@ git push origin main
 ```bash
 bash .claude/skills/publish-quartz-post/scripts/verify_live.sh engineering/<slug>
 ```
+
 Or manually, polling through the CDN (append `?cb=$RANDOM`):
+
 - Each page returns `200`.
 - `https://kvallespin.github.io/assets/fonts/freesans.ttf` returns `200`.
 - The active deployment SHA equals your commit:

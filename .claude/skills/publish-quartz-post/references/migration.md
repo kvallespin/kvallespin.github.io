@@ -3,6 +3,7 @@
 ## Source of truth
 
 Old blog saves live in `C:/Users/kenne/OneDrive/Website Backup/`:
+
 - `Unlocking the P.E. – Pinoy P.E.htm` + `Unlocking the P.E. – Pinoy P.E_files/`
 - `Unlocking the APEC Eng. – Pinoy P.E.htm` + `…_files/`
 - (and other posts)
@@ -16,6 +17,7 @@ variant, or the full file if reasonable).
 
 To rebuild a post faithfully, extract the **document-order sequence of images and their
 captions** from the HTML and place each where its `<figcaption>` indicates. A quick way:
+
 ```python
 import re, html
 data = open(HTML, encoding='utf-8', errors='ignore').read()
@@ -23,14 +25,21 @@ for m in re.finditer(r'(<img[^>]+_files/([^"?]+)")|(<figcaption[^>]*>(.*?)</figc
     if m.group(2): print("IMG", m.group(2))
     elif m.group(4): print("CAP", html.unescape(re.sub(r'<[^>]+>','',m.group(4))).strip())
 ```
+
 Ignore hashed/emoji/logo/sidebar images; keep the article-body ones.
 
 ## The manifest
 
 Each `content/engineering/assets/<folder>/import-manifest.json` records every published asset:
+
 ```json
-{ "source_name": "pe-cert_ky-1024x791.jpg", "published_name": "pe-certificate-2.jpg", "bytes": 171727 }
+{
+  "source_name": "pe-cert_ky-1024x791.jpg",
+  "published_name": "pe-certificate-2.jpg",
+  "bytes": 171727
+}
 ```
+
 Add a `"note"` field for restored or redacted assets (e.g. `"restored 2026-06-21 with DOB,
 email, and NCEES ID redacted"`). The manifest is how future sessions know what's intentionally
 public — keep it accurate. Only reference `published_name`s that exist on disk.
@@ -39,6 +48,7 @@ public — keep it accurate. Only reference `published_name`s that exist on disk
 
 Migration intentionally excludes documents with personal data. If the owner asks to restore one,
 **look at it first** (read the image) and identify sensitive fields before publishing:
+
 - date of birth, personal email, government IDs, exam/registration IDs, home address,
   signatures, anything that aids identity theft.
 - License numbers that are already public record (verifiable via the state rosters the post

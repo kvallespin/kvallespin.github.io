@@ -27,7 +27,7 @@ Hello and welcome to my blog! This one's another installment of my **UNLOCKING**
 
 ![](assets/apec-engineer/apec-member-economies.jpg)
 
-*APEC Member Economies*
+_APEC Member Economies_
 
 A cursory Wikipedia search yields the following entry on APEC:
 
@@ -73,7 +73,7 @@ I created the flowchart below from memory. It may or may not be updated. Best to
 
 ![](assets/apec-engineer/apec-engineer-agreement-overview.png)
 
-*APEC Engineer Application Process Flow*
+_APEC Engineer Application Process Flow_
 
 This is basically the entire process in a nutshell. This route is, more or less, what you need to take to be registered in the Philippine Section of the APEC Engineering Register. For the most part, documentation and requirements should be straightforward, save for three challenging parts: **EPO Endorsement**, **Engineering Practice Reporting (EPR)**, and **Panel of Experts Interview (PI)**. I'm going to try and shed some light on these three aspects and hopefully help you navigate these areas easily.
 
@@ -129,11 +129,11 @@ Once your application portfolio has been submitted and the NMC/PTC staff has dee
 
 ![](assets/apec-engineer/apec-interview-schedule-page-1.jpg)
 
-*Panel of Experts Interview Invitation – pg. 1*
+_Panel of Experts Interview Invitation – pg. 1_
 
 ![](assets/apec-engineer/apec-interview-schedule-page-2.jpg)
 
-*Panel of Experts Interview Invitation – pg. 2*
+_Panel of Experts Interview Invitation – pg. 2_
 
 The professional panel interview is I think the most fun I've ever experienced in my APEC Engineer journey. I was interviewed by representatives from the National Monitoring Committee (PTC, PRC, and CHED). The interview (conducted fully in English) lasted for a little over an hour and it covered a lot of areas in my professional career. The agenda of the interview will be nothing more that what you submitted in the application with a particular focus on the Engineering Practice Report (EPR).
 
@@ -149,27 +149,27 @@ As you might have guessed by now, I passed the Panel of Experts Interview. I am 
 
 ![](assets/apec-engineer/apec-registration-notice.jpg)
 
-*Official Notice of Acceptance and Conferment Invitation*
+_Official Notice of Acceptance and Conferment Invitation_
 
 I was over the moon upon reading this and immediately arranged my travel to the Philippines to attend the conferment. Fast-forward 10 days, I was in Manila, attending the solemn conferment ceremony along with other APEC Engineer registrants.
 
 ![](assets/apec-engineer/apec-conferment-photo-1.jpg)
 
-*The Author in an "obviously-beaming-with-pride" pose*
+_The Author in an "obviously-beaming-with-pride" pose_
 
 ![](assets/apec-engineer/apec-conferment-photo-2.jpg)
 
-*Two years went by so fast for the Author*
+_Two years went by so fast for the Author_
 
 ![](assets/apec-engineer/apec-conferment-group.jpg)
 
-*APEC Engineer Conferees (2018) – Author (top left)*
+_APEC Engineer Conferees (2018) – Author (top left)_
 
 On the day of the conferment we were given a super awesome **wall certificate**, a blue **stole** (similar to what priests would wear during mass), **a medal** with our name and registry number engraved at the back, and a **lapel pin**. It was all nice and fancy.
 
 ![](assets/apec-engineer/apec-certificate.jpg)
 
-*APEC Engineer Conferment Gear — yay!*
+_APEC Engineer Conferment Gear — yay!_
 
 ## 8. Post-Conferment and Conclusion
 
@@ -177,12 +177,12 @@ Shortly after I was admitted into the APEC Engineer Registry, I was able to find
 
 ![](assets/apec-engineer/apec-engineer-databank-record.jpg)
 
-*Request for Database Information from PTC*
+_Request for Database Information from PTC_
 
 Imagine my surprise when a few days ago, as I was loitering online, I saw [the APEC Registered Engineers Databank](http://www.ieagreements.org/agreements/apec/apec-engineer-databank/)!
 
 ![](assets/apec-engineer/apec-engineer-databank-online.png)
 
-*International Engineering Alliance – APEC Registered Engineers Databank*
+_International Engineering Alliance – APEC Registered Engineers Databank_
 
 It was the final stroke that I was waiting for: To be recognized by my peers and to be listed in the **International Engineering Alliance – APEC Registered Engineers Databank**. **I am now recognized internationally and I have this to show for it**. For me this is way more valuable than the goodies that I got from the conferment. This proof of competence can be viewed anytime by anyone in the planet and it is a humbling thought if you think about it. And with this final step, my long journey to become a full-fledged APEC Engineer has come to an end. I will rest for now and will eagerly wait for new challenges that will come my way. Feel free to reach the author with your questions.

@@ -23,13 +23,15 @@ fresh one from `public/`. Source dirs (`content/`, `quartz/`, `.quartz/`, `node_
 
 Both pipelines create deployments to the `github-pages` environment with
 `concurrency: group=pages, cancel-in-progress=false`:
+
 - **GitHub Actions** (`deploy.yml`) — deploys the `public/` artifact.
 - **GitHub Pages branch app** ("pages build and deployment") — deploys the root.
 
-A stale queued run can finish *last* and publish an older commit, so a deploy can appear to
+A stale queued run can finish _last_ and publish an older commit, so a deploy can appear to
 "go backwards." This is why mirroring to root matters: once the root contains your content, it
 doesn't matter which pipeline wins — both serve your changes. After pushing, confirm the active
 deployment SHA equals your commit:
+
 ```bash
 curl -s "https://api.github.com/repos/kvallespin/kvallespin.github.io/deployments?environment=github-pages&per_page=1" | grep -E '"sha"'
 ```
@@ -48,9 +50,11 @@ covering `article` and friends. The font files on disk and in git are **lowercas
 GitHub Pages (Linux) is case-sensitive, so the `@font-face` `url(...)` values **must be lowercase**.
 If they're capitalized (`FreeSans.ttf`), the font 404s and the site falls back to Arial/system —
 which looks like a "serif/system font" bug. Verify after deploy:
+
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' "https://kvallespin.github.io/assets/fonts/freesans.ttf"   # expect 200
 ```
+
 Never embed fonts as base64 or inside SVG — the @font-face + lowercase files are the supported path.
 
 ## Red / colored inline notes

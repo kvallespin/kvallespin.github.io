@@ -29,14 +29,15 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 ## CREDENTIALS AND QUALIFICATIONS
 
 ### International Engineering Titles
+
 - **European Engineer (EUR ING)** — Engineers Europe
 - **Chartered Engineer (CEng)** — Engineering Council UK via Institution of Engineering and Technology (IET)
 - **APEC Engineer** — Asia-Pacific Economic Cooperation Human Resources Development Working Group
 - **ASEAN Chartered Professional Engineer (ACPE)** — ASEAN Chartered Professional Engineer Coordinating Committee (ACPECC)
-- **Filipino ASEAN Chartered Professional Engineer (FACPE)** — Professional Regulation Commission
 - **ASEAN Engineer (AE)** — ASEAN Federation of Engineering Organizations (AFEO) Governing Board
 
 ### U.S. Professional Engineering Licenses
+
 - **Professional Engineer (P.E.)** — Texas, Texas Board of Professional Engineers and Land Surveyors
 - **Professional Engineer (P.E.)** — Nevada, Nevada Board of Engineers and Land Surveyors
 - **Professional Engineer (P.E.)** — Idaho, Idaho Board of Professional Engineers and Land Surveyors
@@ -47,18 +48,23 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **FE Exam Passer** — NCEES
 
 ### Philippine Engineering Licenses
+
+- **Filipino ASEAN Chartered Professional Engineer (FACPE)** — Professional Regulation Commission
 - **Professional Electronics Engineer (PECE)** — Professional Regulation Commission
 - **Registered Electronics Engineer (ECE)** — Professional Regulation Commission
 
 ### Saudi Engineering Registration
+
 - **Consultant Engineer** — Saudi Council of Engineers (SCE)
 - **Accredited Engineer** — Saudi Council of Engineers (SCE)
 
 ### Project and Program Management
+
 - **Project Management Professional (PMP)** — Project Management Institute
 - **PRINCE2 Project Manager** — AXELOS Global Best Practice
 
 ### Agile and Quality
+
 - **Certified Agile Leader** — Process Management International UK
 - **Certified Scrum Master** — Process Management International UK
 - **Lean Six Sigma Black Belt (LSSBB)** — Process Management International UK
@@ -68,10 +74,12 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Lean Six Sigma White Belt (LSSWB)** — Process Management International UK
 
 ### Professional Memberships (Credentialed)
+
 - **Member (MIET)** — Institution of Engineering and Technology (IET)
 - **Member (MRAeS)** — Royal Aeronautical Society (RAeS)
 
 ### Space and Satellite
+
 - **Fundamentals of Secure Satellite Communications** — ENTRUSTED Consortium
 - **Selling to Europe** — EUSPA - EU Agency for the Space Programme
 - **Operationalising EU Space for Security** — EUSPA - EU Agency for the Space Programme
@@ -121,6 +129,7 @@ Gate/transistor-level memory circuit design. Simulation, layout extraction, post
 ## AFFILIATIONS
 
 ### Professional Bodies — Active Member
+
 - Institution of Engineering and Technology (IET), UK
 - Royal Aeronautical Society (RAeS), UK
 - Engineers Europe / FEANI
@@ -131,11 +140,13 @@ Gate/transistor-level memory circuit design. Simulation, layout extraction, post
 - Institute of Electronics Engineers of the Philippines (IECEP)
 
 ### Volunteer Roles — IET
+
 - **Professional Review Interviewer (PRI)** — Conducts CEng/IEng/EngTech professional review interviews; assesses competence and CPD against UK-SPEC standards
 - **International Professional Review Advisor (IPRA)** — Guides engineers outside the UK through the IET professional registration process
 - **Registration Assessor** — Reviews and assesses CEng/IEng/EngTech applications for compliance with UK-SPEC
 
 ### Volunteer Roles — IECEP
+
 - **President and Chapter Governor** — IECEP
 
 ## AWARDS AND HONORS

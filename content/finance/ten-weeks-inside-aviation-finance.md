@@ -14,7 +14,7 @@ updated: 2026-06-25
 
 ![](assets/aviation-finance-gnam-2026/gnam-aviation-finance-certificate.webp)
 
-*GNAM Aviation Finance completion certificate.*
+_GNAM Aviation Finance completion certificate._
 
 Earlier this year, I took the GNAM Aviation Finance SNOC through [UCD Michael Smurfit Graduate Business School](https://www.smurfitschool.ie/) as part of my MBA at the [Asian Institute of Management](https://aim.edu/).
 
@@ -38,7 +38,7 @@ The first was JOLCO, the Japanese Operating Lease with Call Option. What I found
 
 ![](assets/aviation-finance-gnam-2026/jolco-structure-diagram.svg)
 
-*Source: JP Lease Products & Services Co., Ltd. and JLPS Ireland Limited, [JOL/JOLCO business](https://www.jlps.co.jp/en/business/jol/).*
+_Source: JP Lease Products & Services Co., Ltd. and JLPS Ireland Limited, [JOL/JOLCO business](https://www.jlps.co.jp/en/business/jol/)._
 
 The second was sustainability financing. I do not think the important question is whether sustainability sits beside conventional aviation finance as a separate funding channel. The harder question is whether lessors and airlines can define, measure, and verify sustainability claims well enough to keep capital market access as investor mandates become stricter. SAF, LCAF, emissions reporting, fleet renewal, and KPI-linked instruments all depend on data discipline. For emerging platforms, that discipline has to be built early. It cannot be bolted on later.
 
@@ -88,7 +88,7 @@ That is the work I want to build next. Not only to understand aviation finance a
 
 ---
 
-*PDF copies of the final pitch deck and the full ten-week learning journal are embedded below.*
+_PDF copies of the final pitch deck and the full ten-week learning journal are embedded below._
 
 ## Final pitch deck
 
@@ -117,4 +117,4 @@ That is the work I want to build next. Not only to understand aviation finance a
 
 ## Sources
 
-- KPMG, *Financial modelling: Aviation finance*, January 2016. [PDF](https://assets.kpmg.com/content/dam/kpmg/pdf/2016/03/financial-modelling-for-aviation-jan-2016.pdf)
+- KPMG, _Financial modelling: Aviation finance_, January 2016. [PDF](https://assets.kpmg.com/content/dam/kpmg/pdf/2016/03/financial-modelling-for-aviation-jan-2016.pdf)

@@ -9,11 +9,13 @@ You are publishing/updating a post on my **Quartz v5** site at `C:/Users/kenne/k
 Follow this exact approach; it encodes pitfalls that have bitten us before.
 
 **Non-negotiables**
+
 - NEVER edit `.github/workflows/deploy.yml`.
 - NEVER `git push` unless I explicitly tell you to. Building locally is always fine.
 - Do not publish private/PII material. Treat credential/ID documents as sensitive.
 
 **Two pitfalls that make "successful" deploys do nothing**
+
 1. GitHub Pages serves the **repo ROOT**, not `public/`. A built copy of the site is committed
    at the root and the branch builder serves it. After `npx quartz build` you MUST mirror the
    fresh `public/` into the repo root (replace top-level built files/dirs; delete orphaned old
@@ -25,16 +27,18 @@ Follow this exact approach; it encodes pitfalls that have bitten us before.
    site silently falls back to a system font. Never embed fonts as base64 or in SVG.
 
 **Content cleaning rules (HTML→Markdown leaves a mess)**
+
 - Strip `<br>`, inline `style=`, `font-family`, `text-align`, `wp-block`, `aligncenter`.
 - Merge hard-wrapped lines into continuous paragraphs; keep headings, lists, blockquotes, fenced
   code, images, and `---` on their own lines.
-- Put each image on its own line (blank lines around it) with an *italic* caption paragraph below.
+- Put each image on its own line (blank lines around it) with an _italic_ caption paragraph below.
   Block images center via CSS; inline ones don't.
 - Fix bare-paren URLs `(https://…)` → `[here](https://…)`, space-before-punctuation, empty `****`,
   PDF-viewer junk ("Page 1 / 3 Zoom 100%"), and dangling truncated words. Collapse blank lines.
 - Remove all "Pinoy P.E." / "pinoype" branding ("Filipino" is fine, "Pinoy" is not).
 
 **Images & PII**
+
 - Each `content/engineering/assets/<folder>/import-manifest.json` lists the assets blessed for
   publication. Only reference images that resolve to a real file; update the manifest (with a
   `note`) when you add/restore/redact one.
@@ -44,11 +48,13 @@ Follow this exact approach; it encodes pitfalls that have bitten us before.
   After deploy, re-fetch the LIVE image and confirm the served copy is the redacted one.
 
 **Obsidian vault mirror**
+
 - The same posts live at `C:/KVault Prime/Public Web/Engineering/<Display Name>.md` with a parallel
   `assets/<folder>/`. Copy the cleaned Markdown AND any new/changed assets there, using the SAME
   relative `assets/...` paths. Confirm the vault `.md` is identical to the Quartz `.md`.
 
 **Build → mirror → (commit → push only if asked) → verify**
+
 1. `cd /c/Users/kenne/kvallespin.github.io && npx quartz build`
 2. Mirror `public/` into the repo root (see pitfall #1).
 3. Stage source + `git add -f public/` + the root built files + any deletions. Don't stage

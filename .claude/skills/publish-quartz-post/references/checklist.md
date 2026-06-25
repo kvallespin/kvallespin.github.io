@@ -1,6 +1,7 @@
 # Pre-publish & post-deploy checklist
 
 ## Before building (content)
+
 - [ ] No `<br>`, inline `style=`, `font-family`, `text-align`, `wp-block`, `aligncenter`.
 - [ ] No `pinoy` / `pinoype` / `pinoype.com` anywhere.
 - [ ] No old `_files/` image paths; every `![](assets/…)` resolves to a real file.
@@ -9,6 +10,7 @@
 - [ ] Any restored credential/ID image is redacted (DOB, email, IDs, address).
 
 Quick scans (run from repo root):
+
 ```bash
 cd content/engineering
 grep -niE '<br|style=|font-family|text-align|wp-block|aligncenter|pinoy|_files/' <slug>.md   # expect empty
@@ -17,22 +19,26 @@ grep -oE '!\[\]\(assets/[^)]+\)' <slug>.md | sed -E 's/!\[\]\((.*)\)/\1/' | whil
 ```
 
 ## Vault mirror
+
 - [ ] Cleaned `.md` copied to `C:/KVault Prime/Public Web/Engineering/<Display Name>.md`.
 - [ ] New/changed assets copied to the vault's parallel `assets/<folder>/` (same relative paths).
 - [ ] `diff -q` shows the vault `.md` is identical to the Quartz `.md`.
 
 ## Build & mirror
+
 - [ ] `npx quartz build` succeeded.
 - [ ] `scripts/mirror_to_root.sh` run — repo root now matches `public/`.
 - [ ] Root post HTML references the new `index-*.css` and has the expected image count.
 
 ## Commit (push only if explicitly asked)
+
 - [ ] `.tmp_*` scratch files NOT staged.
 - [ ] `public/` staged with `git add -f`; root built files + deletions staged.
 - [ ] Commit message ends with the required `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>` trailer.
 - [ ] `.github/workflows/deploy.yml` NOT modified.
 
 ## Post-deploy (live)
+
 - [ ] Each page returns `200` (poll through CDN with `?cb=$RANDOM`).
 - [ ] `https://kvallespin.github.io/assets/fonts/freesans.ttf` returns `200`.
 - [ ] Active deployment SHA == your commit (deployments API).
