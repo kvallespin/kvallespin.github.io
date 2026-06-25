@@ -86,28 +86,36 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 
 ## PROFESSIONAL EXPERIENCE
 
-Senior Project Manager — Neo Space Group — Riyadh, Saudi Arabia
+**Senior Project Manager**  
+Neo Space Group — Riyadh, Saudi Arabia  
 Total project and strategic program management across government SATCOM programs. Full-time, on-site.
 
-Head of Systems Engineering, Enterprise Wireless — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+**Head of Systems Engineering, Enterprise Wireless**  
+NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia  
 Directed the Enterprise Wireless business unit. Led LTE/5G/private-network solutions for 30+ key accounts. Secured multi-million-dollar contract awards. Reduced unplanned outages by 25% and accelerated project delivery cycles by 35%.
 
-Senior Systems Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+**Senior Systems Engineer**  
+NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia  
 Managed 20+ government and enterprise accounts. Primary liaison between client and company. Drove sales and technical solutions for mission-critical radio programs.
 
-Project Manager / Lead Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+**Project Manager / Lead Engineer**  
+NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia  
 SME and Level 3/Tier 3 technical support. Led planning, design, and construction of telecommunications projects.
 
-Telecommunications Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+**Telecommunications Engineer**  
+NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia  
 Network analysis and troubleshooting, hardware specification, service delivery.
 
-Embedded Software Engineer — Job and Esther Technologies — Muntinlupa City, Philippines
+**Embedded Software Engineer**  
+Job and Esther Technologies — Muntinlupa City, Philippines  
 Designed and integrated software for embedded Linux targets. Customized Linux distributions. Performed unit testing and verification.
 
-Instructor / Associate Lecturer — University of Perpetual Help System DALTA — Las Piñas, Philippines
+**Instructor / Associate Lecturer**  
+University of Perpetual Help System DALTA — Las Piñas, Philippines  
 Delivered undergraduate lectures in electrical systems, telecommunications, and computer architecture. Developed curricula and assessed students.
 
-Junior Design Engineer, Memory LSI/VLSI — ROHM Semiconductor — Pasig, Philippines
+**Junior Design Engineer, Memory LSI/VLSI**  
+ROHM Semiconductor — Pasig, Philippines  
 Gate/transistor-level memory circuit design. Simulation, layout extraction, post-layout verification. Behavioral and physical memory model documentation.
 
 ## AFFILIATIONS
