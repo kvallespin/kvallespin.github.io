@@ -20,28 +20,45 @@ I stay connected to the global engineering community through active membership i
 
 If you're big on innovation, scale, and meaningful impact, let's connect — [linkedin.com/in/kennethvallespin](https://www.linkedin.com/in/kennethvallespin/).
 
-## Academic Background
+## ACADEMIC BACKGROUND
 
 - **Graduate Certificate (GNAM):** Aviation Finance, University College Dublin, Michael Smurfit Graduate Business School
 - **Masters:** Master in Business Administration (in progress), Asian Institute of Management (AIM), Washington SyCip Graduate School of Business
 - **Bachelor's:** Bachelor of Science in Electronics and Communications Engineering, University of Perpetual Help System DALTA
 
-## Qualifications
+## CREDENTIALS AND QUALIFICATIONS
 
+### International Engineering Titles
 - **European Engineer (EUR ING)** — Engineers Europe
 - **Chartered Engineer (CEng)** — Engineering Council UK via Institution of Engineering and Technology (IET)
 - **APEC Engineer** — Asia-Pacific Economic Cooperation Human Resources Development Working Group
 - **ASEAN Chartered Professional Engineer (ACPE)** — ASEAN Chartered Professional Engineer Coordinating Committee (ACPECC)
 - **Filipino ASEAN Chartered Professional Engineer (FACPE)** — Professional Regulation Commission
 - **ASEAN Engineer (AE)** — ASEAN Federation of Engineering Organizations (AFEO) Governing Board
+
+### U.S. Professional Engineering Licenses
 - **Professional Engineer (P.E.)** — Texas, Texas Board of Professional Engineers and Land Surveyors
 - **Professional Engineer (P.E.)** — Nevada, Nevada Board of Engineers and Land Surveyors
 - **Professional Engineer (P.E.)** — Idaho, Idaho Board of Professional Engineers and Land Surveyors
 - **Professional Engineer (P.E.)** — Illinois, Illinois Department of Financial and Professional Regulation
 - **Professional Engineer (P.E.)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
 - **Engineer in Training (EIT)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
+- **PE Exam Passer** — Electrical & Computer: Electronics, Controls & Communications — NCEES
+- **FE Exam Passer** — NCEES
+
+### Philippine Engineering Licenses
+- **Professional Electronics Engineer (PECE)** — Professional Regulation Commission
+- **Registered Electronics Engineer (ECE)** — Professional Regulation Commission
+
+### Saudi Engineering Registration
+- **Consultant Engineer** — Saudi Council of Engineers (SCE)
+- **Accredited Engineer** — Saudi Council of Engineers (SCE)
+
+### Project and Program Management
 - **Project Management Professional (PMP)** — Project Management Institute
 - **PRINCE2 Project Manager** — AXELOS Global Best Practice
+
+### Agile and Quality
 - **Certified Agile Leader** — Process Management International UK
 - **Certified Scrum Master** — Process Management International UK
 - **Lean Six Sigma Black Belt (LSSBB)** — Process Management International UK
@@ -49,10 +66,12 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Lean Six Sigma Yellow Belt: Kaizen Practitioner** — Process Management International UK
 - **Lean Six Sigma Yellow Belt (LSSYB)** — Process Management International UK
 - **Lean Six Sigma White Belt (LSSWB)** — Process Management International UK
+
+### Professional Memberships (Credentialed)
 - **Member (MIET)** — Institution of Engineering and Technology (IET)
 - **Member (MRAeS)** — Royal Aeronautical Society (RAeS)
-- **Space Business Qualified (SBQ)** — SatProf, Inc.
-- **European Union Space Programme Agency (EUSPA)** — EU Space Programme
+
+### Space and Satellite
 - **Fundamentals of Secure Satellite Communications** — ENTRUSTED Consortium
 - **Selling to Europe** — EUSPA - EU Agency for the Space Programme
 - **Operationalising EU Space for Security** — EUSPA - EU Agency for the Space Programme
@@ -63,11 +82,60 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Copernicus: Building with Earth Observation (EO) Data** — EUSPA - EU Agency for the Space Programme
 - **Space Technologies: Applications** — EUSPA - EU Agency for the Space Programme
 - **Understanding the Space Economy** — EUSPA - EU Agency for the Space Programme
+- **Space Business Qualified (SBQ)** — SatProf, Inc.
 
-## Areas of interest
+## PROFESSIONAL EXPERIENCE
 
-- [[engineering/|Engineering]]: SATCOM, systems architecture, aviation connectivity, and infrastructure.
-- [[finance/|Finance]]: corporate finance, aviation finance, valuation, and capital allocation.
-- [[data-science/|Data Science]]: analytics, modeling, machine learning, and applied AI.
-- [[design/|Design]]: diagrams, visual explanation, interface thinking, and presentation systems.
-- [[projects/|Projects]]: selected public projects, experiments, and study artifacts.
+Senior Project Manager — Neo Space Group — Riyadh, Saudi Arabia
+Total project and strategic program management across government SATCOM programs. Full-time, on-site.
+
+Head of Systems Engineering, Enterprise Wireless — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+Directed the Enterprise Wireless business unit. Led LTE/5G/private-network solutions for 30+ key accounts. Secured multi-million-dollar contract awards. Reduced unplanned outages by 25% and accelerated project delivery cycles by 35%.
+
+Senior Systems Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+Managed 20+ government and enterprise accounts. Primary liaison between client and company. Drove sales and technical solutions for mission-critical radio programs.
+
+Project Manager / Lead Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+SME and Level 3/Tier 3 technical support. Led planning, design, and construction of telecommunications projects.
+
+Telecommunications Engineer — NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia
+Network analysis and troubleshooting, hardware specification, service delivery.
+
+Embedded Software Engineer — Job and Esther Technologies — Muntinlupa City, Philippines
+Designed and integrated software for embedded Linux targets. Customized Linux distributions. Performed unit testing and verification.
+
+Instructor / Associate Lecturer — University of Perpetual Help System DALTA — Las Piñas, Philippines
+Delivered undergraduate lectures in electrical systems, telecommunications, and computer architecture. Developed curricula and assessed students.
+
+Junior Design Engineer, Memory LSI/VLSI — ROHM Semiconductor — Pasig, Philippines
+Gate/transistor-level memory circuit design. Simulation, layout extraction, post-layout verification. Behavioral and physical memory model documentation.
+
+## AFFILIATIONS
+
+### Professional Bodies — Active Member
+- Institution of Engineering and Technology (IET), UK
+- Royal Aeronautical Society (RAeS), UK
+- Engineers Europe / FEANI
+- Engineering Council UK
+- Project Management Institute (PMI)
+- NCEES
+- Saudi Council of Engineers (SCE)
+- Institute of Electronics Engineers of the Philippines (IECEP)
+
+### Volunteer Roles — IET
+- **Professional Review Interviewer (PRI)** — Conducts CEng/IEng/EngTech professional review interviews; assesses competence and CPD against UK-SPEC standards
+- **International Professional Review Advisor (IPRA)** — Guides engineers outside the UK through the IET professional registration process
+- **Registration Assessor** — Reviews and assesses CEng/IEng/EngTech applications for compliance with UK-SPEC
+
+### Volunteer Roles — IECEP
+- **President and Chapter Governor** — IECEP
+
+## AWARDS AND HONORS
+
+- **Dean's List Award** — Term 05, Asian Institute of Management
+- **Dean's List Award** — Term 04, Asian Institute of Management
+- **Dean's List Award** — Term 03, Asian Institute of Management
+- **Dean's List Award** — Term 02, Asian Institute of Management
+- **Dean's List Award** — Term 01, Asian Institute of Management
+- **Outstanding Electronics Engineer of the Philippines 2020** — Institute of Electronics Engineers of the Philippines (IECEP)
+- **Governor, Most Outstanding Foreign Chapter** — IECEP
