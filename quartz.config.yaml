@@ -136,7 +136,7 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
-  - source: github:quartz-community/favicon
+  - source: assets/ken-profile.ico
     enabled: true
   - source: github:quartz-community/og-image
     enabled: true
