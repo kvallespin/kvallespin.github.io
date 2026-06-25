@@ -78,7 +78,7 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 - **Member (MIET)** — Institution of Engineering and Technology (IET)
 - **Member (MRAeS)** — Royal Aeronautical Society (RAeS)
 
-### Space and Satellite
+### Space and SATCOM
 
 - **Fundamentals of Secure Satellite Communications** — ENTRUSTED Consortium
 - **Selling to Europe** — EUSPA - EU Agency for the Space Programme
