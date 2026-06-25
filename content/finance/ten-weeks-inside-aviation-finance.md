@@ -1,126 +1,90 @@
 ---
-title: Ten weeks inside UCD Smurfit aviation finance
-description: What I learned from the GNAM Aviation Finance SNOC at UCD Smurfit, including JOLCO, sustainability financing, aircraft ABS, and a USD 1.6B final project funding strategy.
+title: Ten weeks inside aviation finance
+description: A personal reflection on the GNAM Aviation Finance SNOC at UCD Smurfit, covering leasing, JOLCO, sustainability financing, aircraft ABS, and a USD 1.6B final project funding strategy.
 tags:
   - finance
   - aviation-finance
   - public-web
 source: notes
 created: 2026-06-21
+updated: 2026-06-25
 ---
 
-# Ten weeks inside UCD Smurfit aviation finance: what I learned in GNAM 2026
+# Ten weeks inside aviation finance
 
 ![](assets/aviation-finance-gnam-2026/gnam-aviation-finance-certificate.webp)
 
 *GNAM Aviation Finance completion certificate.*
 
-Earlier this year I enrolled in the **GNAM Aviation Finance SNOC**, taught by **Professor Tom Conlon** at [**UCD Michael Smurfit Graduate Business School**](https://www.smurfitschool.ie/), as part of my MBA at the [**Asian Institute of Management**](https://aim.edu/). Aviation leasing is the direction I have been steering toward for some time, with target markets in the Philippines and Saudi Arabia. [AviLease](https://avilease.com/) sits inside the [PIF](https://www.pif.gov.sa/) portfolio, and a sister company gives me a useful line of sight into the industry. This course is where the theory finally met the structure I needed.
+Earlier this year, I took the GNAM Aviation Finance SNOC through [UCD Michael Smurfit Graduate Business School](https://www.smurfitschool.ie/) as part of my MBA at the [Asian Institute of Management](https://aim.edu/).
 
-This post walks through what the course is, what it covered, the ideas that stayed with me, and the final project where I pitched a **\$1.6 billion funding strategy**. PDF copies of the pitch deck and my full learning journal are embedded at the end.
+I enrolled because aviation leasing has been sitting at the edge of my professional interests for some time. I have been working in satellite communications and aerospace-adjacent programs for years, but aviation finance gives me a different lens. It is not only about how aircraft operate, but how they are owned, leased, funded, transferred, and eventually refinanced across markets.
 
-## What the course is
+That distinction matters to me because the industry is not theoretical. In Saudi Arabia, [AviLease](https://avilease.com/) is part of the [PIF](https://www.pif.gov.sa/) portfolio. In the Philippines, aviation still has room for stronger leasing, fleet planning, and capital structuring capability. I have been trying to understand where my engineering background, project experience, and finance training could meet in a way that is useful. This course helped put a structure around that question.
 
-GNAM Aviation Finance is a ten-week Small Network Online Course delivered by UCD Smurfit and offered across the [**Global Network for Advanced Management**](https://globalnetwork.io/). It is built around one question: how do aircraft, which are mobile, depreciating, multi-million dollar assets, actually get financed across airlines, lessors, banks, and capital markets?
+The course ran for ten weeks and was taught by Professor Tom Conlon. It moved from the basics of aviation finance into leasing, aircraft economics, asset valuation, bank debt, capital markets, structured finance, sustainability, lessor strategy, and M&A. The flow was important. At first glance, topics like Cape Town, maintenance reserves, EETCs, aircraft ABS, and lessor credit ratings can look like separate pieces. By the end, I understood them more as a sequence.
 
-The format combines weekly lectures, industry panels, breakout discussions, a learning journal, and a capstone project that accounts for 50% of the final mark.
+An aircraft is first a physical asset. Its value depends on age, configuration, maintenance condition, engine life, and remarketing depth. It then becomes a leased cash flow stream. After that, it becomes a financed obligation. In some cases, it becomes collateral inside a structured transaction. Each layer depends on the layer below it being sound. That was one of the most useful lessons of the course.
 
-## The course content
+The first concept that stayed with me was leasing as credit arbitrage. A stronger lessor can borrow at a lower spread than the airline that ultimately operates the aircraft. The lessor earns value by intermediating that difference while also taking on residual value risk, remarketing risk, and asset management responsibility. It sounds simple, but it explains why scale, rating quality, and portfolio discipline matter so much in the sector.
 
-Ten weeks, building from first principles toward the most complex transactions in the industry:
+The second was the idea that an aircraft should never be treated only as a spreadsheet cash flow. It is a measurable physical asset. Engine condition, maintenance utility value, fleet commonality, and operator base all matter. A narrowbody aircraft with a deep secondary market behaves differently from a niche aircraft with limited remarketing options. This is where my engineering instincts felt useful. The finance cannot be separated from the machine.
 
-1. What is aviation finance
-2. The business of leasing
-3. Operations, law, and economics of aviation
-4. Aircraft as an asset
-5. Financing the asset
-6. Structured finance in aviation
-7. Bank and capital markets for aviation
-8. Leading an aircraft lessor
-9. Financing aviation sustainably
-10. M&A in aviation finance
+The third was structured finance. The [BOC Aviation](https://www.bocaviation.com/) SLVRR 2019-1 case showed how a pool of aircraft can be placed into an SPV and funded through tranched notes with different risk positions. The borrower’s standalone credit matters, but the structure, collateral pool, liquidity facility, and cash waterfall can create a different credit profile. That was a useful reminder that finance is not only about finding money. It is also about designing risk so that different investors can participate at different levels of comfort.
 
-Each topic compounded on the previous one. By the time we reached EETCs, ABS structures, and the [AerCap](https://www.aercap.com/) acquisition of [GECAS](https://en.wikipedia.org/wiki/GE_Capital_Aviation_Services), the earlier sessions on residual value, Cape Town, and credit spreads were doing real analytical work in the background.
+Two topics kept working on me after the lectures ended.
 
-## Insights that stayed with me
-
-A few ideas shifted how I think about the industry.
-
-**Leasing is credit arbitrage.** A BBB- lessor borrows at roughly LIBOR plus 2.75%, while a B+ airline pays close to LIBOR plus 5.5%. Lessors monetize that spread by absorbing residual value risk that airlines do not want.
-
-**An aircraft is a measurable physical asset, not just a cash flow.** Maintenance utility value, with engines at 40 to 50 percent of total value, makes residual value a function of remaining component life. The AVITAS regression shows age explains about 83% of value variance, with an R-squared of 0.8251, but the scatter is where standard configurations and clean maintenance records earn their premium.
-
-**Structured finance can manufacture investment-grade credit.** The [BOC Aviation](https://www.bocaviation.com/) SLVRR 2019-1 deal pooled 17 aircraft into an SPV and issued A-rated notes at \$443M, BBB notes at \$73M, BB notes at \$32M, and equity at \$120M, with a liquidity facility covering 18 months of senior interest. The structure, not the borrower’s standalone rating, drove the pricing.
-
-**Scale and rating quality unlock better economics.** [SMBC Aviation Capital](https://www.smbc.aero/) issued \$8.8 billion in unsecured investment-grade bonds in 2026 year-to-date. AerCap permanently financed its \$30.2B GECAS acquisition with approximately \$21B in unsecured bonds across 11 tranches at an average cost near 2.6%. That kind of access is what every emerging lessor is building toward.
-
-## The topics that stayed with me most: JOLCO and sustainability financing
-
-Two topics from the course kept working on me after the lectures ended.
-
-The first is the **Japanese Operating Lease with Call Option**, or **JOLCO**. What makes it memorable is how cleanly it shows that aviation finance is as much about tax structure and investor segmentation as it is about aircraft. Japanese equity investors take the residual position for domestic tax reasons, the airline gets off-balance-sheet treatment and a call option at a lower effective rate, and the whole structure depends on an investor base that does not really exist anywhere else.
-
-For me, the takeaway is that financing innovation tends to come from finding a mispriced investor class, not from inventing a new credit instrument.
+The first was JOLCO, the Japanese Operating Lease with Call Option. What I found interesting was not only the instrument itself, but the market logic behind it. Japanese investors take the residual position for domestic tax reasons, the airline gets balance sheet treatment and a purchase option, and the structure works because a very specific investor base exists. The lesson for me was that financing innovation often comes from finding a mispriced or underused investor class, not from inventing a completely new product.
 
 ![](assets/aviation-finance-gnam-2026/jolco-structure-diagram.svg)
 
 *Source: JP Lease Products & Services Co., Ltd. and JLPS Ireland Limited, [JOL/JOLCO business](https://www.jlps.co.jp/en/business/jol/).*
 
-The second is **sustainability financing**. The relevance is not that it sits next to the conventional toolkit as a separate channel. It is that definitional discipline, especially around SAF versus LCAF and the lack of standardized KPIs, will determine which lessors retain access to mainstream capital markets as investor mandates harden. For AviLease under Vision 2030, treating sustainability as a governance and data problem early is the first-mover advantage.
+The second was sustainability financing. I do not think the important question is whether sustainability sits beside conventional aviation finance as a separate funding channel. The harder question is whether lessors and airlines can define, measure, and verify sustainability claims well enough to keep capital market access as investor mandates become stricter. SAF, LCAF, emissions reporting, fleet renewal, and KPI-linked instruments all depend on data discipline. For emerging platforms, that discipline has to be built early. It cannot be bolted on later.
 
-## The final project: Option 2, \$1.6 billion funding strategy
+## The final project
 
-The capstone asked me to pitch a funding strategy for an upper-tier Irish-based lessor. The borrower had **384 owned aircraft**, an order book of **225 aircraft**, leases to **150 airlines across 62 countries**, a **debt-to-equity ratio of 2.4**, and an unencumbered portfolio of **69 widebodies and 315 narrowbodies**. They wanted to raise **\$1.6 billion** to fund new deliveries.
+The final project brought the course together. We were asked to prepare a funding strategy for an upper-tier Irish-based lessor seeking to raise USD 1.6 billion for new deliveries. The borrower had 384 owned aircraft, an order book of 225 aircraft, leases to 150 airlines across 62 countries, and a large unencumbered portfolio.
 
-I framed the pitch from the perspective of an investment bank with both capital markets and corporate lending capabilities. Below is a short discussion of four pages that anchor the recommendation.
+My recommendation was a USD 1.2 billion senior unsecured bond supported by a USD 400 million ABS tranche. The 75/25 unsecured-to-secured mix was deliberate. It preserved the borrower’s unencumbered asset base, keeping the funding profile aligned with investment-grade peers, while still using the aircraft portfolio selectively to capture pricing benefits through securitization.
 
 ### Investment highlights
 
 ![](assets/aviation-finance-gnam-2026/investment-highlights.webp)
 
-This is where the headline recommendation lives: a **\$1.2B senior unsecured bond** as the primary vehicle, with a **\$0.4B Asset-Backed Securitization tranche** alongside it.
-
-The 75/25 unsecured-to-secured mix was the central design choice. It preserves a strong unencumbered asset base, consistent with investment-grade peers like [Avolon](https://www.avolon.aero/) at 77% unsecured and [Aircastle](https://www.aircastle.com/) at 98% unsecured, while the ABS tranche captures meaningful pricing benefits from the borrower’s large, diversified, and young portfolio.
-
-This page is doing two jobs at once: signaling that the borrower belongs in the IG peer group on funding mix, and showing that the collateral is being used selectively rather than over-encumbering the balance sheet.
+The investment highlights page anchored the recommendation: USD 1.2 billion through senior unsecured notes, supported by a USD 400 million ABS tranche. The point was not to securitize for the sake of securitizing. The structure had to preserve the borrower’s unsecured funding story while still using part of the fleet to access secured-market pricing.
 
 ### Aircraft portfolio for transaction
 
 ![](assets/aviation-finance-gnam-2026/aircraft-portfolio.webp)
 
-This is the collateral page. All 384 aircraft are laid out by type, count, and average age: 136 A320 CEO at 9.5 years, 71 A320 Neo at 2.6, 14 737 MAX at 2.5, 94 737 NextGen at 7.6, 35 A330 at 5.4, 7 A350 at 2.7, 4 777 at 9.8, and 23 787 at 4.5, for a weighted average age of about 6.7 years.
-
-The narrowbody-to-widebody mix and the share of latest-technology types, including Neo, MAX, A350, and 787 aircraft, are what make this portfolio a credible ABS pool. Liquid aircraft types with deep operator bases hold remarketing value through the cycle, and this portfolio is the evidence base for everything I claim later about LTV resilience.
+The ABS pool relied on liquid aircraft types with broad operator bases: A320ceo, A320neo, 737 MAX, 737 NextGen, A330, A350, 777, and 787 aircraft. The narrowbody concentration, newer technology aircraft, and diversified portfolio supported the resilience argument.
 
 ### Proposed ABS transaction structure
 
 ![](assets/aviation-finance-gnam-2026/abs-transaction-structure.webp)
 
-Here the mechanics get spelled out. Aircraft are sold to a bankruptcy-remote SPV, legally isolating noteholders from borrower insolvency. The borrower retains the servicer role for lease management, collections, and remarketing. A liquidity facility covers around 9 months of senior interest to absorb temporary cash flow disruptions without forcing distressed sales.
-
-Notes are issued in three tranches: Class A senior, Class B mezzanine, and Class E equity retained by the borrower as the first-loss piece. Lease rental cash flows pass through the SPV waterfall, with senior noteholders served first.
-
-The point is that the credit quality of the ABS does not depend on the borrower’s standalone rating but on the cash flow architecture around the assets.
+The structure placed aircraft into a bankruptcy-remote SPV, retained the borrower as servicer, and issued senior, mezzanine, and equity tranches. Senior noteholders were protected by the waterfall and liquidity facility, while the borrower retained the first-loss equity piece.
 
 ### Indicative tranching and pricing
 
 ![](assets/aviation-finance-gnam-2026/indicative-tranching-pricing.webp)
 
-This is where the structure meets the spreads. Class A, the senior AA target tranche with a 6-year tenor and 17.3% LTV, prices at SOFR + 120 to 140 bps. Class B, the BBB+ target mezzanine tranche with an 8-year tenor and 21.0% LTV, prices at SOFR + 170 to 190 bps. Class E equity, at 26.7% LTV, absorbs residual cash flow.
+The indicative pricing page is where the structure met the spreads. The blended ABS cost came out at roughly SOFR plus 156 bps, while the blended cost of the full USD 1.6 billion raise was around SOFR plus 195 bps. The conservative LTVs were deliberate. In aviation finance, that is not a weakness. Conservative leverage and clean collateral are what keep funding channels open when the market turns.
 
-The blended ABS cost is roughly **SOFR + 156 bps**, and the blended cost of the full **\$1.6B** raise, including senior notes and ABS, is around **SOFR + 195 bps**. The conservative LTVs are deliberate. The designated ABS pool of about 33 aircraft has a combined CMV of **\$1.5B**, and on a full-portfolio basis, with **\$15.2B CMV**, the overall LTV drops to roughly **2.6%**. That overcollateralization is what supports the AA target on Class A and the durability of pricing through the cycle.
+What I appreciated about the exercise was that it forced me to connect technical asset quality with financing design. It was not enough to say that the company needed USD 1.6 billion. The funding source had to match the asset profile, rating ambition, collateral strategy, market cycle, and long-term platform direction.
 
-## Reflections
+That is probably the biggest personal takeaway from the course. Aviation finance is a discipline of alignment. Aircraft type has to fit route economics. Lease terms have to reflect airline credit. The funding instrument has to match collateral quality. Growth ambition has to stay within the limits of balance sheet strength. When that alignment is weak, complexity becomes dangerous. When the fundamentals are strong, structure has something useful to work with.
 
-What this course gave me, beyond the technical vocabulary, was a sense of sequencing. Aviation finance is not a single discipline but a stack: an aircraft is first a physical asset with a maintenance lifecycle, then a leased cash flow stream, then a financed obligation, and eventually, sometimes, a tranched security inside a structured deal.
+This also connects with how I think about my own career. I have spent much of my professional life managing programs where the main task is matching contract type, technical scope, risk allocation, and delivery model. Aviation finance operates at a larger capital scale, but the logic is familiar. You are still trying to put the right structure around the right risk.
 
-Each layer assumes the one below it is solid. For an emerging market or a newer platform, the path I would defend is to get the fundamentals right at each stage rather than skip ahead to sophistication the operating base cannot yet support.
+For the Philippines and Saudi Arabia, I think this matters. Both markets need more than asset ownership. They need platform capability: fleet planning, financing strategy, maintenance-aware valuation, investor access, and disciplined governance. Local market knowledge has to sit beside global capital market practice. That is where I see the opportunity.
 
-The other thread runs closer to my professional self-image. I have spent my career managing programs where matching contract type to project risk profile is the daily work. Aviation finance does the same thing at much larger scale, matching funding instrument to asset profile, borrower credit, market cycle, and route economics.
+The course did not make me an aviation finance specialist overnight. What it gave me was a better map. I now understand the stack more clearly: asset, lease, cash flow, credit, structure, investor, and market cycle.
 
-That alignment logic is what I want to bring into a lessor environment, particularly in the Philippines and Saudi Arabia where local market knowledge has to carry equal weight with the financial structuring. Building platforms, rather than managing assets alone, is where I see the next several years going. This course was one of the more useful steps in that direction.
+My next step is to make that understanding more quantitative. I want to model an aircraft-backed transaction end-to-end, including default probabilities, aircraft value distributions, interest rate paths, payoff functions, and scenario-based NPV.
 
-The next step for me is to move from this qualitative understanding to a quantitative one. I want to model an aircraft-backed transaction end-to-end: forecast default probabilities, aircraft value distributions, and interest rate paths; map them to payoff functions for loans and leases; and produce an NPV-implied probability distribution across scenarios. I am working from Nils Hallerstrom's *Modelling Aircraft Loans & Leases* as the technical backbone for that effort. The goal is to build a reusable structuring and pricing model that captures the same relationships this course described qualitatively but now with explicit assumptions, scenario trees, and cross-collateralization effects.
+That is the work I want to build next. Not only to understand aviation finance as a student, but to develop a practical structuring capability that can eventually be useful in the markets I care about.
 
 ---
 
@@ -140,6 +104,17 @@ The next step for me is to move from this qualitative understanding to a quantit
 
 ---
 
-Sources
+## Supporting media sequence
+
+1. GNAM Aviation Finance completion certificate
+2. JOLCO structure diagram
+3. Investment highlights slide
+4. Aircraft portfolio slide
+5. Proposed ABS transaction structure slide
+6. Indicative tranching and pricing slide
+7. Final pitch deck PDF
+8. Learning journal PDF
+
+## Sources
 
 - KPMG, *Financial modelling: Aviation finance*, January 2016. [PDF](https://assets.kpmg.com/content/dam/kpmg/pdf/2016/03/financial-modelling-for-aviation-jan-2016.pdf)
