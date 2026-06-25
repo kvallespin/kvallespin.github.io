@@ -20,6 +20,50 @@ I stay connected to the global engineering community through active membership i
 
 If you're big on innovation, scale, and meaningful impact, let's connect — [linkedin.com/in/kennethvallespin](https://www.linkedin.com/in/kennethvallespin/).
 
+## Academic Background
+
+- **Graduate Certificate (GNAM):** Aviation Finance, University College Dublin, Michael Smurfit Graduate Business School
+- **Masters:** Master in Business Administration (in progress), Asian Institute of Management (AIM), Washington SyCip Graduate School of Business
+- **Bachelor's:** Bachelor of Science in Electronics and Communications Engineering, University of Perpetual Help System DALTA
+
+## Qualifications
+
+- **European Engineer (EUR ING)** — Engineers Europe
+- **Chartered Engineer (CEng)** — Engineering Council UK via Institution of Engineering and Technology (IET)
+- **APEC Engineer** — Asia-Pacific Economic Cooperation Human Resources Development Working Group
+- **ASEAN Chartered Professional Engineer (ACPE)** — ASEAN Chartered Professional Engineer Coordinating Committee (ACPECC)
+- **Filipino ASEAN Chartered Professional Engineer (FACPE)** — Professional Regulation Commission
+- **ASEAN Engineer (AE)** — ASEAN Federation of Engineering Organizations (AFEO) Governing Board
+- **Professional Engineer (P.E.)** — Texas, Texas Board of Professional Engineers and Land Surveyors
+- **Professional Engineer (P.E.)** — Nevada, Nevada Board of Engineers and Land Surveyors
+- **Professional Engineer (P.E.)** — Idaho, Idaho Board of Professional Engineers and Land Surveyors
+- **Professional Engineer (P.E.)** — Illinois, Illinois Department of Financial and Professional Regulation
+- **Professional Engineer (P.E.)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
+- **Engineer in Training (EIT)** — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors
+- **Project Management Professional (PMP)** — Project Management Institute
+- **PRINCE2 Project Manager** — AXELOS Global Best Practice
+- **Certified Agile Leader** — Process Management International UK
+- **Certified Scrum Master** — Process Management International UK
+- **Lean Six Sigma Black Belt (LSSBB)** — Process Management International UK
+- **Lean Six Sigma Green Belt (LSSGB)** — Process Management International UK
+- **Lean Six Sigma Yellow Belt: Kaizen Practitioner** — Process Management International UK
+- **Lean Six Sigma Yellow Belt (LSSYB)** — Process Management International UK
+- **Lean Six Sigma White Belt (LSSWB)** — Process Management International UK
+- **Member (MIET)** — Institution of Engineering and Technology (IET)
+- **Member (MRAeS)** — Royal Aeronautical Society (RAeS)
+- **Space Business Qualified (SBQ)** — SatProf, Inc.
+- **European Union Space Programme Agency (EUSPA)** — EU Space Programme
+- **Fundamentals of Secure Satellite Communications** — ENTRUSTED Consortium
+- **Selling to Europe** — EUSPA - EU Agency for the Space Programme
+- **Operationalising EU Space for Security** — EUSPA - EU Agency for the Space Programme
+- **Foundations of EU Space for Security** — EUSPA - EU Agency for the Space Programme
+- **Raising Capital** — EUSPA - EU Agency for the Space Programme
+- **Building a Space Business** — EUSPA - EU Agency for the Space Programme
+- **Galileo: Building with Global Navigation Satellite System (GNSS) Data** — EUSPA - EU Agency for the Space Programme
+- **Copernicus: Building with Earth Observation (EO) Data** — EUSPA - EU Agency for the Space Programme
+- **Space Technologies: Applications** — EUSPA - EU Agency for the Space Programme
+- **Understanding the Space Economy** — EUSPA - EU Agency for the Space Programme
+
 ## Areas of interest
 
 - [[engineering/|Engineering]]: SATCOM, systems architecture, aviation connectivity, and infrastructure.

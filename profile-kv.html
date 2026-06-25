@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenneth Vallespin — Profile</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Berkeley+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+  :root {
+    --kv-cerise: #E04556;
+    --kv-crimson: #D72839;
+    --kv-rosewood: #BB3250;
+    --kv-deep-teal: #175676;
+    --kv-sky: #4BA3C3;
+    --kv-pale-ice: #CEE5F3;
+    --kv-slate: #475461;
+    --kv-soft-white: #F2F2F2;
+    --kv-medium-gray: #7F7F7F;
+    --kv-light-gray: #E5E5E5;
+    
+    --text-primary: var(--kv-slate);
+    --text-secondary: var(--kv-medium-gray);
+    --bg-primary: var(--kv-soft-white);
+    --border-color: var(--kv-light-gray);
+    --accent-primary: var(--kv-deep-teal);
+    --accent-highlight: var(--kv-cerise);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: FreeSans, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+
+  .profile-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--accent-primary);
+  }
+
+  .profile-name {
+    font-family: FreeSans Display, "Schibsted Grotesk", "Source Sans Pro", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.4rem;
+    color: var(--text-primary);
+  }
+
+  .profile-title {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.6rem;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+
+  .profile-title .cerise {
+    color: var(--kv-cerise);
+    font-weight: 700;
+  }
+
+  .profile-meta {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+  }
+
+  .profile-meta a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .profile-meta a:hover {
+    color: var(--accent-highlight);
+    text-decoration: underline;
+  }
+
+  .section {
+    margin-bottom: 2.75rem;
+  }
+
+  .section-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-primary);
+    margin-bottom: 1.1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--accent-primary);
+    font-family: FreeSans Display, sans-serif;
+  }
+
+  .subsection-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--kv-cerise);
+    margin-top: 1.4rem;
+    margin-bottom: 0.85rem;
+    font-family: FreeSans Display, sans-serif;
+  }
+
+  .subsection-title:first-of-type {
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 0.7rem;
+    padding-left: 1.35rem;
+    position: relative;
+    color: var(--text-primary);
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    width: 5px;
+    height: 5px;
+    background: var(--kv-cerise);
+    border-radius: 0;
+  }
+
+  strong {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-family: FreeSans Display, sans-serif;
+  }
+
+  .experience-item {
+    margin-bottom: 1.6rem;
+    padding-left: 0;
+  }
+
+  .experience-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .experience-role {
+    font-family: FreeSans Display, sans-serif;
+    font-weight: 700;
+    color: var(--accent-primary);
+    margin-bottom: 0.15rem;
+    font-size: 1.05rem;
+  }
+
+  .experience-org {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+  }
+
+  .experience-details {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  code, .mono {
+    font-family: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.88em;
+    color: var(--accent-primary);
+    background: var(--kv-pale-ice);
+    padding: 0.15em 0.35em;
+    border-radius: 0;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 2rem 1rem 3rem;
+    }
+
+    .profile-name {
+      font-size: 1.65rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="profile-header">
+      <h1 class="profile-name">Kenneth (Ken) Vallespin</h1>
+      <p class="profile-title">Senior Project Manager &nbsp;|&nbsp; <span class="cerise">EUR ING · P.E. · CEng · MIET · MRAeS · PMP · PRINCE2 · LSSBB</span></p>
+      <p class="profile-meta">Riyadh, Saudi Arabia &nbsp;·&nbsp; Neo Space Group &nbsp;·&nbsp; <a href="https://kvallespin.github.io">kvallespin.github.io</a></p>
+    </header>
+
+    <!-- ACADEMIC BACKGROUND -->
+    <section class="section">
+      <h2 class="section-title">Academic Background</h2>
+      <ul>
+        <li><strong>Graduate Certificate:</strong> Aviation Finance, University College Dublin, Michael Smurfit Graduate Business School</li>
+        <li><strong>Masters:</strong> Master in Business Administration (in progress), Asian Institute of Management (AIM), Washington SyCip Graduate School of Business</li>
+        <li><strong>Bachelor's:</strong> Bachelor of Science in Electronics and Communications Engineering, University of Perpetual Help System DALTA</li>
+      </ul>
+    </section>
+
+    <!-- CREDENTIALS AND QUALIFICATIONS -->
+    <section class="section">
+      <h2 class="section-title">Credentials and Qualifications</h2>
+
+      <h3 class="subsection-title">International Engineering Titles</h3>
+      <ul>
+        <li><strong>European Engineer (EUR ING)</strong> — Engineers Europe</li>
+        <li><strong>Chartered Engineer (CEng)</strong> — Engineering Council UK via Institution of Engineering and Technology</li>
+        <li><strong>APEC Engineer</strong> — Asia-Pacific Economic Cooperation Human Resources Development Working Group</li>
+        <li><strong>ASEAN Chartered Professional Engineer (ACPE)</strong> — ASEAN Chartered Professional Engineer Coordinating Committee</li>
+        <li><strong>Filipino ASEAN Chartered Professional Engineer (FACPE)</strong> — Professional Regulation Commission</li>
+        <li><strong>ASEAN Engineer (AE)</strong> — ASEAN Federation of Engineering Organizations (AFEO) Governing Board</li>
+      </ul>
+
+      <h3 class="subsection-title">U.S. Professional Engineering Licenses</h3>
+      <ul>
+        <li><strong>Professional Engineer (P.E.)</strong> — Texas, Texas Board of Professional Engineers and Land Surveyors</li>
+        <li><strong>Professional Engineer (P.E.)</strong> — Nevada, Nevada Board of Engineers and Land Surveyors</li>
+        <li><strong>Professional Engineer (P.E.)</strong> — Idaho, Idaho Board of Professional Engineers and Land Surveyors</li>
+        <li><strong>Professional Engineer (P.E.)</strong> — Illinois, Illinois Department of Financial and Professional Regulation</li>
+        <li><strong>Professional Engineer (P.E.)</strong> — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors</li>
+        <li><strong>Engineer in Training (EIT)</strong> — Kentucky, Kentucky State Board of Licensure for Professional Engineers and Land Surveyors</li>
+        <li><strong>PE Exam Passer</strong> — Electrical &amp; Computer: Electronics, Controls &amp; Communications — NCEES</li>
+        <li><strong>FE Exam Passer</strong> — NCEES</li>
+      </ul>
+
+      <h3 class="subsection-title">Philippine Engineering Licenses</h3>
+      <ul>
+        <li><strong>Professional Electronics Engineer (PECE)</strong> — Professional Regulation Commission</li>
+        <li><strong>Registered Electronics Engineer (ECE)</strong> — Professional Regulation Commission</li>
+      </ul>
+
+      <h3 class="subsection-title">Saudi Engineering Registration</h3>
+      <ul>
+        <li><strong>Consultant Engineer</strong> — Saudi Council of Engineers (SCE)</li>
+        <li><strong>Accredited Engineer</strong> — Saudi Council of Engineers (SCE)</li>
+      </ul>
+
+      <h3 class="subsection-title">Project and Program Management</h3>
+      <ul>
+        <li><strong>Project Management Professional (PMP)</strong>® — Project Management Institute</li>
+        <li><strong>PRINCE2 Project Manager</strong> — AXELOS Global Best Practice</li>
+      </ul>
+
+      <h3 class="subsection-title">Agile and Quality</h3>
+      <ul>
+        <li><strong>Certified Agile Leader</strong> — Process Management International UK</li>
+        <li><strong>Certified Scrum Master</strong> — Process Management International UK</li>
+        <li><strong>Lean Six Sigma Black Belt (LSSBB)</strong> — Process Management International UK</li>
+        <li><strong>Lean Six Sigma Green Belt (LSSGB)</strong> — Process Management International UK</li>
+        <li><strong>Lean Six Sigma Yellow Belt: Kaizen Practitioner</strong> — Process Management International UK</li>
+        <li><strong>Lean Six Sigma Yellow Belt (LSSYB)</strong> — Process Management International UK</li>
+        <li><strong>Lean Six Sigma White Belt (LSSWB)</strong> — Process Management International UK</li>
+      </ul>
+
+      <h3 class="subsection-title">Professional Memberships (Credentialed)</h3>
+      <ul>
+        <li><strong>Member (MIET)</strong> — Institution of Engineering and Technology (IET)</li>
+        <li><strong>Member (MRAeS)</strong> — Royal Aeronautical Society (RAeS)</li>
+      </ul>
+
+      <h3 class="subsection-title">Space and Satellite</h3>
+      <ul>
+        <li><strong>Fundamentals of Secure Satellite Communications</strong> — ENTRUSTED Consortium</li>
+        <li><strong>Selling to Europe</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Operationalising EU Space for Security</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Foundations of EU Space for Security</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Raising Capital</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Building a Space Business</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Galileo: Building with Global Navigation Satellite System (GNSS) Data</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Copernicus: Building with Earth Observation (EO) Data</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Space Technologies: Applications</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Understanding the Space Economy</strong> — EUSPA - EU Agency for the Space Programme</li>
+        <li><strong>Space Business Qualified (SBQ)</strong> — SatProf, Inc.</li>
+      </ul>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section class="section">
+      <h2 class="section-title">Professional Experience</h2>
+
+      <div class="experience-item">
+        <p class="experience-role">Senior Project Manager</p>
+        <p class="experience-org">Neo Space Group — Riyadh, Saudi Arabia</p>
+        <p class="experience-details">Total project and strategic program management across government SATCOM programs. Full-time, on-site.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Head of Systems Engineering, Enterprise Wireless</p>
+        <p class="experience-org">NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia</p>
+        <p class="experience-details">Directed the Enterprise Wireless business unit. Led LTE/5G/private-network solutions for 30+ key accounts. Secured multi-million-dollar contract awards. Reduced unplanned outages by 25% and accelerated project delivery cycles by 35%.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Senior Systems Engineer</p>
+        <p class="experience-org">NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia</p>
+        <p class="experience-details">Managed 20+ government and enterprise accounts. Primary liaison between client and company. Drove sales and technical solutions for mission-critical radio programs.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Project Manager / Lead Engineer</p>
+        <p class="experience-org">NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia</p>
+        <p class="experience-details">SME and Level 3/Tier 3 technical support. Led planning, design, and construction of telecommunications projects.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Telecommunications Engineer</p>
+        <p class="experience-org">NASCO – National Advanced Systems Co. Ltd. — Riyadh, Saudi Arabia</p>
+        <p class="experience-details">Network analysis and troubleshooting, hardware specification, service delivery.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Embedded Software Engineer</p>
+        <p class="experience-org">Job and Esther Technologies — Muntinlupa City, Philippines</p>
+        <p class="experience-details">Designed and integrated software for embedded Linux targets. Customized Linux distributions. Performed unit testing and verification.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Instructor / Associate Lecturer</p>
+        <p class="experience-org">University of Perpetual Help System DALTA — Las Piñas, Philippines</p>
+        <p class="experience-details">Delivered undergraduate lectures in electrical systems, telecommunications, and computer architecture. Developed curricula and assessed students.</p>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-role">Junior Design Engineer, Memory LSI/VLSI</p>
+        <p class="experience-org">ROHM Semiconductor — Pasig, Philippines</p>
+        <p class="experience-details">Gate/transistor-level memory circuit design. Simulation, layout extraction, post-layout verification. Behavioral and physical memory model documentation.</p>
+      </div>
+    </section>
+
+    <!-- AFFILIATIONS -->
+    <section class="section">
+      <h2 class="section-title">Affiliations</h2>
+
+      <h3 class="subsection-title">Professional Bodies — Active Member</h3>
+      <ul>
+        <li>Institution of Engineering and Technology (IET), UK</li>
+        <li>Royal Aeronautical Society (RAeS), UK</li>
+        <li>Engineers Europe / FEANI</li>
+        <li>Engineering Council UK</li>
+        <li>Project Management Institute (PMI)</li>
+        <li>NCEES</li>
+        <li>Saudi Council of Engineers (SCE)</li>
+        <li>Institute of Electronics Engineers of the Philippines (IECEP)</li>
+      </ul>
+
+      <h3 class="subsection-title">Volunteer Roles — IET</h3>
+      <ul>
+        <li><strong>Professional Review Interviewer (PRI)</strong> — Conducts CEng/IEng/EngTech professional review interviews; assesses competence and CPD against UK-SPEC standards</li>
+        <li><strong>International Professional Review Advisor (IPRA)</strong> — Guides engineers outside the UK through the IET professional registration process</li>
+        <li><strong>Registration Assessor</strong> — Reviews and assesses CEng/IEng/EngTech applications for compliance with UK-SPEC</li>
+      </ul>
+
+      <h3 class="subsection-title">Volunteer Roles — IECEP</h3>
+      <ul>
+        <li><strong>President and Chapter Governor</strong> — IECEP</li>
+      </ul>
+    </section>
+
+    <!-- AWARDS AND HONORS -->
+    <section class="section">
+      <h2 class="section-title">Awards and Honors</h2>
+      <ul>
+        <li><strong>Dean's List Award</strong> — Term 05, Asian Institute of Management</li>
+        <li><strong>Dean's List Award</strong> — Term 04, Asian Institute of Management</li>
+        <li><strong>Dean's List Award</strong> — Term 03, Asian Institute of Management</li>
+        <li><strong>Dean's List Award</strong> — Term 02, Asian Institute of Management</li>
+        <li><strong>Dean's List Award</strong> — Term 01, Asian Institute of Management</li>
+        <li><strong>Outstanding Electronics Engineer of the Philippines 2020</strong> — Institute of Electronics Engineers of the Philippines (IECEP)</li>
+        <li><strong>Governor, Most Outstanding Foreign Chapter</strong> — IECEP</li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
