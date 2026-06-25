@@ -22,9 +22,9 @@ If you're big on innovation, scale, and meaningful impact, let's connect — [li
 
 ## ACADEMIC BACKGROUND
 
-- **Graduate Certificate (GNAM):** Aviation Finance, University College Dublin, Michael Smurfit Graduate Business School
-- **Masters:** Master in Business Administration (in progress), Asian Institute of Management (AIM), Washington SyCip Graduate School of Business
-- **Bachelor's:** Bachelor of Science in Electronics and Communications Engineering, University of Perpetual Help System DALTA
+- <span style="color: #E04556;">Aviation Finance (Graduate Certificate, GNAM)</span> — University College Dublin (UCD), Michael Smurfit Graduate Business School
+- <span style="color: #E04556;">Master in Business Administration (in progress)</span> — Asian Institute of Management (AIM), Washington SyCip Graduate School of Business
+- <span style="color: #E04556;">Bachelor of Science in Electronics and Communications Engineering</span> — University of Perpetual Help System DALTA
 
 ## CREDENTIALS AND QUALIFICATIONS
 
