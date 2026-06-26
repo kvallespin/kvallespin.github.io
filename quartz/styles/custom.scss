@@ -1,4 +1,4 @@
-@use "./variables.scss" as *;
+﻿@use "./variables.scss" as *;
 
 @font-face {
   font-family: "FreeSans";
@@ -502,10 +502,8 @@ body[data-slug="profile"] {
   background: var(--kv-soft-white);
 }
 
-body[data-slug="profile"] .left.sidebar,
 body[data-slug="profile"] .right.sidebar,
 body[data-slug="profile"] .page-header,
-body[data-slug="profile"] .breadcrumbs,
 body[data-slug="profile"] .toc,
 body[data-slug="profile"] .backlinks {
   display: none !important;
@@ -740,3 +738,10 @@ body[data-slug="profile"] footer {
 }
 
 /* profile-publish-cache-bust: restore-kv-profile-shell */
+
+/* About Me explorer link â€” bold + cerise to match section header weight */
+.explorer-content a.nav-file-title[href="/profile"] {
+  color: #E04556;
+  font-weight: 700;
+}
+

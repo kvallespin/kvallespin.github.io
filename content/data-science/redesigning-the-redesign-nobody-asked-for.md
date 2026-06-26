@@ -1,4 +1,4 @@
----
+﻿---
 title: Redesigning the Redesign Nobody Asked For
 tags:
   - data-science
@@ -7,6 +7,10 @@ tags:
 ---
 
 # Redesigning the Redesign Nobody Asked For
+
+![PyCharm 2026.1 release banner](assets/redesign-of-the-redesign/pycharm-2026-1-banner.png)
+
+*Source: [JetBrains IDE Blog](https://blog.jetbrains.com/pycharm/2026/03/what-s-new-in-pycharm-2026-1/)*
 
 *DVSAI203 and the chart I said I would build next*
 
@@ -87,3 +91,4 @@ So I made the chart.
 Same underlying data. Three visual treatments. One conclusion that never changed.
 
 Make of that what you will.
+
