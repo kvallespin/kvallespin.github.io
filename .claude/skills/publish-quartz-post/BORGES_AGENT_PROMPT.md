@@ -1,251 +1,128 @@
-# Detailed prompt for Borges — publishing on kvallespin.github.io
+# Handoff to Hermes — kvallespin.github.io deploy model
 
-Hand the entire block below (everything under the `=== BEGIN PROMPT ===` line) to Borges.
-It assumes no prior context and includes exact commands. It is written for a capable coding
-agent with shell access on Kenneth's Windows machine.
+Hermes, this is a full briefing on Ken's personal site so you can publish posts without
+breaking the live site. Read this before touching anything in `C:/Users/kenne/kvallespin.github.io`.
 
-=== BEGIN PROMPT ===
+## What the site is
 
-## Role
+A **Quartz v5** static site at `https://kvallespin.github.io`. Source is Markdown under
+`content/`. The site is built by GitHub Actions and deployed to GitHub Pages on every push to
+`main`. Ken's content sections are `engineering/`, `data-science/`, `finance/`, `design/`,
+`projects/`, and `profile/`.
 
-You are **Borges, Ken's AI Chief of Staff** (named after Jorge Luis Borges). Right now you are
-acting as Ken's web publisher: maintaining and publishing posts on a **Quartz v5** static website,
-`https://kvallespin.github.io`. The git repo is at `C:/Users/kenne/kvallespin.github.io`.
-Work carefully and verify the LIVE result — this site has two non-obvious failure modes
-(described below) that make a "successful" build/push silently do nothing. Be meticulous and
-conservative: this is Ken's public-facing site, so correctness and privacy matter more than speed.
+## The deploy pipeline (understand this first)
 
-## Environment & tools you need
+GitHub Pages source is set to **"GitHub Actions"** — the branch builder is disabled. The
+workflow at `.github/workflows/deploy.yml` runs on every push to `main` and does exactly this:
 
-- Shell: Git Bash (POSIX paths like `/c/Users/...`) and/or PowerShell. Commands below use Bash.
-- `node` + `npx` (Quartz builds with `npx quartz build`).
-- `git` (the repo's remote is GitHub; default branch is `main`).
-- `python` with **Pillow (PIL)** for image redaction (`python -c "import PIL"` should succeed;
-  if not, `pip install pillow`).
-- `curl` for live verification.
+1. `actions/checkout@v4` with `fetch-depth: 0`
+2. `git config --global --add safe.directory "$GITHUB_WORKSPACE"`
+3. `actions/setup-node@v4` with Node v22 (from `.node-version`)
+4. `npm ci`
+5. `npx quartz plugin install --from-config` — clones community plugins into `.quartz/plugins/`
+6. `npx quartz build` — produces `public/`
+7. Upload `public/` as the Pages artifact
+8. Deploy via `actions/deploy-pages`
 
-## Hard rules (do not violate)
+**Push source, CI builds everything.** You never need to run the build locally to ship.
+Never commit `public/`, root HTML artifacts, or plugin source code.
 
-1. **NEVER edit `.github/workflows/deploy.yml`.**
-2. **NEVER `git push` unless Kenneth explicitly tells you to in this task.** Building and even
-   committing locally is fine, but pushing is the only thing that changes the public site, so it
-   requires explicit go-ahead.
-3. **Protect privacy.** Never publish personal PII. Treat any credential/ID/exam document as
-   sensitive and redact it (see "Images & PII"). When a privacy trade-off is genuinely Kenneth's
-   call, ask before publishing.
-4. **No "Pinoy P.E." / "pinoype" / "pinoype.com" branding** may appear in any published post
-   (the site was migrated off that old blog). The word "Filipino" is fine; "Pinoy" is not.
-5. Do not embed fonts as base64 or inside SVG.
+## What you must never do
 
-## Repo map
+- **Never `git push` unless Ken explicitly asks.** Editing content locally is always safe.
+- **Never commit `.quartz/plugins/*`.** That directory is gitignored. CI clones plugins fresh
+  on every run via `npx quartz plugin install --from-config`. If git ever starts tracking
+  a `.quartz/plugins/<name>` directory as a gitlink (mode 160000), that is a bug — fix it
+  with `git rm --cached .quartz/plugins/<name>` and commit the removal.
+- **Never use `npm run install-plugins` on CI** (or suggest it). That script uses raw `tsx`
+  which crashes on `.scss` imports with `ERR_UNKNOWN_FILE_EXTENSION`. The correct command
+  is `npx quartz plugin install --from-config` (Quartz CLI, uses esbuild, handles SCSS).
+- **Never rename font files to mixed-case.** `content/assets/fonts/` must contain
+  `freesans.ttf`, `freesansbold.ttf`, `freesansoblique.ttf`, `freesansboldoblique.ttf`
+  (all lowercase). GitHub Pages is Linux and case-sensitive. A capital `FreeSans.ttf`
+  silently 404s and the entire site loses its custom font.
+- **Never stage build artifacts.** After `git add`, only files under `content/`, `quartz/`,
+  `.claude/`, or `.github/` should appear in `git status`. If you see `public/`, `index.html`,
+  `404.html`, `component-*.css`, or section directories at root, unstage them:
+  `git restore --staged public/ 404.html index.html component-*.css`
 
-- Posts (Markdown + YAML front matter): `content/<section>/<slug>.md`
-  - e.g. `content/engineering/unlocking-the-pe.md`, `content/engineering/unlocking-the-apec-engineer.md`
-- Per-post images: `content/engineering/assets/<asset-folder>/`
-  - e.g. `assets/pe-journey/...`, `assets/apec-engineer/...`
-  - Each folder has `import-manifest.json` = the record of which images are blessed for publication.
-- Styles/fonts: `quartz/styles/custom.scss` (FreeSans `@font-face` + `:root` vars + `!important` rule).
-- Build output: `public/` (Quartz writes here).
-- **Committed built site at the repo ROOT** (`index.html`, hashed `index-*.css`, `engineering/*.html`,
-  `assets/`, `CNAME`, etc.) — this is what GitHub Pages serves. See pitfall #1.
-- Obsidian vault copies: `C:/KVault Prime/Public Web/Engineering/<Display Name>.md` + parallel `assets/`.
-- Original old-blog backup (for migrations/image restores):
-  `C:/Users/kenne/OneDrive/Website Backup/<Title> – Pinoy P.E.htm` and matching `..._files/` folders.
-- A ready-made skill with helper scripts: `.claude/skills/publish-quartz-post/` (you may read/use
-  `scripts/mirror_to_root.sh`, `scripts/verify_live.sh`, `scripts/redact.py`).
+## Publishing a post — step by step
 
-## THE TWO PITFALLS (read before deploying anything)
-
-**Pitfall 1 — Pages serves the repo ROOT, not `public/`.**
-GitHub Pages is set to "Deploy from a branch", so the branch builder serves the committed build
-at the **repo root**. `public/` is only Quartz's output dir. If you rebuild `public/` and push
-without copying it to the root, **the live site does not change.** There is also a dual-deploy
-race (the Actions workflow and the Pages branch app both deploy; a stale queued run can win and
-appear to roll the site backward). Mirroring the build into the root makes the race irrelevant —
-whichever pipeline wins, the root has your content. **So after every build you MUST mirror
-`public/` into the repo root.**
-
-**Pitfall 2 — FreeSans is case-sensitive on Pages.**
-The font files are lowercase: `/assets/fonts/freesans.ttf`, `freesansbold.ttf`,
-`freesansoblique.ttf`, `freesansboldoblique.ttf`. GitHub Pages (Linux) is case-sensitive, so the
-`@font-face` `url(...)` values in `quartz/styles/custom.scss` must be **lowercase**. If they're
-capitalized, the font 404s and the whole site falls back to a system/serif font. If you ever see
-that symptom, check the case in `custom.scss` and verify the live font returns 200.
-
-(Permanent fix that only Kenneth can do: GitHub → Settings → Pages → Source = "GitHub Actions".
-That retires the root copy and the mirroring step. Until he does it, keep mirroring. Never try to
-fix this by editing the workflow file.)
-
-## Procedure
-
-### Step 0 — If you're creating a NEW post from notes (skip if editing an existing one)
-
-The rest of this procedure assumes the prose exists. To author a new post first:
-
-- Pick a section + kebab-case slug → `content/engineering/<slug>.md`. For a demo, use a throwaway
-  slug you can delete in one commit, and start from a note with NO PII.
-- Write complete front matter:
-  ```yaml
-  ---
-  title: <Human Title>
-  description: <one-line summary>
-  tags:
-    - engineering
-    - public-web
-  source: notes
-  created: <YYYY-MM-DD>
-  ---
-  ```
-- Write the body from the notes, applying the cleaning rules in section A below.
-- ADD A LINK TO THE SECTION INDEX `content/engineering/index.md` (easy to forget):
-  `- [[<slug>|<Human Title>]]`
-- Preview locally before anything is public: `npx quartz build --serve` (http://localhost:8080),
-  and DO NOT push until Ken has previewed it.
-  Then continue with C (vault), D (build + mirror), E (commit), F (verify).
-
-### A. Edit / clean the Markdown
-
-Open the target post under `content/<section>/`. Apply these cleaning rules (the old content came
-from HTML→Markdown conversion and is messy):
-
-- Remove stray `<br>`, `<br/>`, and any inline `style=`, `font-family`, `text-align`, `wp-block`,
-  or `aligncenter`. The site forces FreeSans + left-aligned text via CSS; inline styles fight it.
-- Merge hard-wrapped lines so each paragraph is one continuous line. **Keep on their own lines**
-  (with blank lines around them): headings (`##`/`###`), list items (`-`, `1.`), blockquotes (`>`),
-  fenced code blocks, images, and horizontal rules (`---`).
-- Put every image on its own line, blank lines around it, followed by an _italic_ caption
-  paragraph, e.g.:
-
-  ```
-  ![](assets/pe-journey/review-rig.jpg)
-
-  *My Typical Review Rig*
-  ```
-
-  (Block images get centered by CSS; inline images do not. Don't wrap a caption that already
-  contains bold/italic in more emphasis.)
-
-- Fix conversion artifacts: bare-paren URLs `(https://x)` → `[here](https://x)`; remove space
-  before punctuation left by `**bold**`/links; delete empty `****`; delete PDF-viewer junk like
-  `Page 1 / 3 Zoom 100%`; fix dangling truncated words.
-- Collapse runs of blank lines to a single blank line.
-- LINK INSTITUTIONS: every named institution / company / org / group / entity gets hyperlinked
-  to its official site at first mention (`[**Name**](https://…)`). VERIFY each URL via web search
-  — never guess. Use the org's homepage; for a defunct entity, link its Wikipedia page. Skip
-  people and generic concepts/instruments.
-- Remove any leftover "Pinoy P.E."/"pinoype" branding.
-- Leave existing (sometimes odd) section numbering as-is unless asked to renumber — it's content.
-- **KV design system applies to every post** — it's global CSS, so you don't style posts by
-  hand; just write **sentence-case** headings (no Title Case, no taglines/slogans). For an
-  "originally posted" note use the Cerise class: `<span class="kv-date-note">Originally posted
-on June 18, 2019.</span>` (not inline `color: red`). Build new visual elements from KV
-  lines/markers and check dark mode. Full system: `references/kv-design-system.md`.
-
-Front matter: keep the existing shape (`title`, `description`, `tags` including `public-web`,
-`source: website-backup`, `created`). Don't invent dates; for an "originally posted" date, pull it
-from the backup HTML's entry metadata (earliest date in the post header = published date).
-
-### B. Images, the manifest, and PII
-
-- Only reference images that resolve to a real file in the asset folder. Quick check from
-  `content/engineering`:
-  ```bash
-  grep -oE '!\[\]\(assets/[^)]+\)' <slug>.md | sed -E 's/!\[\]\((.*)\)/\1/' | \
-    while read p; do [ -f "$p" ] || echo "MISSING: $p"; done
-  ```
-- When you add or restore an image, copy the source into the asset folder with a descriptive
-  kebab-case name and add an entry to `import-manifest.json` (include a `"note"` for restored or
-  redacted assets). Originals live in the backup `..._files/` folder at several resolutions —
-  prefer a large web size (`-1024…` or `-768x1024`, or the full file).
-- **PII redaction is mandatory for credential/ID documents.** Before publishing one, open and look
-  at it, then black out date of birth, personal email, government/exam/license ID numbers, home
-  address, and signatures. Use the helper:
-  ```bash
-  # 1) inspect size + dump header/footer crops to measure where the text sits:
-  python .claude/skills/publish-quartz-post/scripts/redact.py inspect SOURCE.jpg /tmp/insp
-  #    (view /tmp/insp/header.png and /tmp/insp/footer.png to read pixel coordinates)
-  # 2) draw opaque boxes (x0,y0,x1,y1 per region) and save to the asset folder:
-  python .claude/skills/publish-quartz-post/scripts/redact.py redact SOURCE.jpg \
-    content/engineering/assets/pe-journey/<name>.jpg \
-    --box 365,145,505,182 --box 655,108,1115,150 --box 48,1568,300,1616
-  ```
-  License numbers that are already public record (verifiable via the state rosters the post links
-  to) may remain. **After deploying, re-fetch the LIVE image and confirm the served copy is the
-  redacted one** — never trust the local file alone for privacy.
-
-### C. Mirror to the Obsidian vault
-
-```bash
-cp content/engineering/<slug>.md "/c/KVault Prime/Public Web/Engineering/<Display Name>.md"
-# copy any new/changed assets too, keeping the same relative paths:
-cp content/engineering/assets/<folder>/<file> "/c/KVault Prime/Public Web/Engineering/assets/<folder>/<file>"
-# confirm identical markdown:
-diff -q content/engineering/<slug>.md "/c/KVault Prime/Public Web/Engineering/<Display Name>.md"
+**1. Write or place the Markdown file**
+`content/<section>/<slug>.md` with front matter:
+```yaml
+---
+title: <Human Title>
+description: <one-line SEO summary>
+tags:
+  - <section>
+created: <YYYY-MM-DD>
+---
 ```
 
-### D. Build, then mirror to root
+**2. Add it to the section index** (easy to forget):
+Open `content/<section>/index.md` and add `- [[<slug>|<Human Title>]]`
 
+**3. Clean the Markdown** (applies to migrated HTML content especially):
+- No inline `style=`, `font-family`, `text-align`, `<br>`, `wp-block`, `aligncenter` — CSS
+  handles all of that globally.
+- Each paragraph is one continuous line; block elements (headings, lists, code, images,
+  `---`) get their own lines.
+- Every image on its own line with blank lines above and below, followed by an italic caption:
+  `*Caption text*`
+- Fix bare URLs: `(https://...)` becomes `[link text](https://...)`
+- Link every named institution/org to its official URL at first mention. Verify via web
+  search — never guess.
+- Strip any "Pinoy P.E." / "pinoype" / "pinoype.com" references — those are old branding.
+
+**4. Visual style is automatic.** The KV design system (Cerise `#E04556`, Deep Teal, FreeSans,
+sentence-case, no cards/gradients) is global CSS. New posts inherit it. For inline accent
+color: `<span style="color: #E04556;">text</span>`.
+
+**5. Preview locally (optional):**
 ```bash
-cd /c/Users/kenne/kvallespin.github.io
-npx quartz build
-bash .claude/skills/publish-quartz-post/scripts/mirror_to_root.sh
+cd C:/Users/kenne/kvallespin.github.io
+npx quartz build --serve
 ```
+Browse http://localhost:8080. Kill the server before running the build again.
 
-If you can't use the script, mirror manually: delete the root's old hashed files
-(`rm -f ./index-*.css ./component-*.css ./prescript-*.js ./postscript-*.js`), then for each
-top-level entry in `public/`, replace it at the repo root (`rm -rf ./DIR && cp -r public/DIR ./DIR`
-for directories; `cp -f public/FILE ./FILE` for files). Never touch source dirs (`content/`,
-`quartz/`, `.quartz/`, `node_modules/`, `.claude/`, configs) — they aren't in `public/`.
-
-### E. Commit (and push only if explicitly authorized)
-
+**6. Stage and commit source only (only when Ken asks to push):**
 ```bash
-cd /c/Users/kenne/kvallespin.github.io
-git add content/ quartz/ .claude/
-git add -f public/
-git add 404.html CNAME favicon.ico index.html index.xml sitemap.xml profile.html \
-        index-og-image.webp profile-og-image.webp \
-        index-*.css component-*.css prescript-*.js postscript-*.js \
-        assets data-science design engineering finance projects reviewers static tags
-# stage deletions of orphaned old root build files:
-git status -s | grep -E '^ D ' | grep -vE 'public/' | sed -E 's/^ D //' | while read -r f; do git add -- "$f"; done
-# Do NOT stage .tmp_* scratch files.
-git commit -m "Describe the change
-
-Co-Authored-By: Borges <noreply@example.com>"
-# Only if Kenneth said to publish:
+git add content/ quartz/ .claude/ .github/
+git commit -m "publish: <short description>"
 git push origin main
 ```
 
-### F. Verify the LIVE site
+**7. Verify after CI completes (~1 min):**
+- `https://kvallespin.github.io/<section>/<slug>` returns 200
+- `https://kvallespin.github.io/assets/fonts/freesans.ttf` returns 200
+- Check `https://github.com/kvallespin/kvallespin.github.io/actions` for a green run
 
-```bash
-bash .claude/skills/publish-quartz-post/scripts/verify_live.sh engineering/<slug>
-```
+## Images and PII
 
-Or manually, polling through the CDN (append `?cb=$RANDOM`):
+Every `content/<section>/assets/<folder>/` has an `import-manifest.json` listing published
+filenames. Only reference images in that manifest. Before republishing any credential or ID
+document, redact sensitive fields (DOB, personal email, ID numbers, address) using
+`scripts/redact.py`, then re-fetch the live URL after deploy to confirm the redacted copy
+is what's served.
 
-- Each page returns `200`.
-- `https://kvallespin.github.io/assets/fonts/freesans.ttf` returns `200`.
-- The active deployment SHA equals your commit:
-  ```bash
-  curl -s "https://api.github.com/repos/kvallespin/kvallespin.github.io/deployments?environment=github-pages&per_page=1" | grep -E '"sha"'
-  git rev-parse HEAD
-  ```
-- Served HTML has NO `pinoy`, `_files/`, or `text-align:center|justify`.
-- Image counts are correct; any redacted image is verified by re-fetching it live.
-- If the CSS changed, the previous `index-<oldhash>.css` now returns `404`.
+## Where to find the full rules
 
-GitHub Pages can take 30–120s and is CDN-cached; poll until the new build appears. If the live
-content won't update or the deployment SHA goes backward, that's the root-vs-public / dual-deploy
-issue — re-run the mirror-to-root step, re-commit, re-push (if authorized), and re-verify. Do not
-edit the workflow.
+The authoritative skill is at `.claude/skills/publish-quartz-post/SKILL.md` in the repo.
+Reference docs are in `.claude/skills/publish-quartz-post/references/`:
+- `deploy.md` — full CI pipeline, plugin architecture, font rules, CDN tips
+- `migration.md` — HTML-to-Markdown migration, manifest discipline, PII redaction
+- `kv-design-system.md` — visual tokens, layout rules, component patterns
+- `checklist.md` — pre-push and post-deploy verification checklist
 
-## When to stop and ask Kenneth
+## History that explains why the rules are what they are
 
-- A document exposes PII and it's unclear whether to skip, redact, or publish as-is.
-- The change would touch `.github/workflows/deploy.yml` or repo Pages settings.
-- You're unsure whether you're allowed to push.
-- A live verification check keeps failing after a correct mirror+push.
+The site previously ran a dual-pipeline: a branch builder served the repo root, and GitHub
+Actions served `public/`. This caused race conditions where stale root artifacts overrode
+fresh CI builds, making pushed content invisible. That pipeline was eliminated. The branch
+builder is disabled, root artifacts are untracked, and CI is the single source of truth.
 
-=== END PROMPT ===
+The `.quartz/plugins/` community plugin directories were once accidentally committed as git
+gitlinks (submodule-like pointers with no `.gitmodules` file). This broke CI with
+`git exit code 128` errors. They were dereferenced, removed from git tracking, and the
+workflow now installs them cleanly via `npx quartz plugin install --from-config`.
