@@ -1,3 +1,4 @@
+
 document.addEventListener("nav", (e) => {
   const observer = new IntersectionObserver((entries) => {
     for (const entry of entries) {
