@@ -68,7 +68,7 @@ Borges was not one of the local models. Borges ran through the Codex/OpenAI prov
 
 ## The machine was not pretending to be a workstation
 
-![](assets/a-hundred-million-tokens-later/msi-portrait.png)
+<img src="assets/a-hundred-million-tokens-later/msi-portrait.png" style="max-height:480px;width:auto;display:block;margin:0 auto;" alt="The personal MSI running the local setup"/>
 
 *The personal MSI running the local setup. Purchased about three years ago, used personally, and not really my daily driver.*
 
@@ -100,17 +100,40 @@ NVIDIA provider access was useful for exploration. But exploration and coursewor
 
 The numbers came back clean, and not in a surprising way. Qwen2.5-Coder finished every task it was given. Nothing else did. That is not a dramatic headline. It is the useful kind of result.
 
-<!-- KPI TILES NOTE FOR HERMES
-Render as four .kpi tiles in a .kpis grid (4-column).
-Font for numbers: Atkinson Hyperlegible Bold. Number color: cerise. Label color: slate.
--->
-
-| KPI | Value | Label |
-|---|---|---|
-| Qwen2.5-Coder completion | **10/10** | completed tasks |
-| Average task time | **94.2s** | average time per task |
-| DeepSeek timeouts | **6** | timeouts |
-| Qwen3.5 initial quality | **4.56/5** | initial quality score |
+<div style="background:rgba(113,128,150,.08);padding:24px;margin:1.5rem 0;">
+<p style="font-weight:700;color:#175676;margin:0 0 4px;font-size:1.05rem;">Benchmark results</p>
+<p style="color:#7f7f7f;font-size:0.82rem;margin:0 0 18px;">WQU Local LLM Benchmark — Jun 27, 2026</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+<div style="border:1px solid #e04556;padding:16px;">
+<p style="color:#e04556;font-weight:700;margin:0 0 6px;font-size:0.9rem;">Qwen2.5-Coder completion</p>
+<p style="font-size:1.8rem;font-weight:700;color:#175676;margin:0 0 2px;line-height:1;">10/10</p>
+<p style="color:#7f7f7f;font-size:0.78rem;margin:0 0 10px;">completed tasks</p>
+<hr style="border:none;border-top:1px solid rgba(113,128,150,.28);margin:0 0 10px;"/>
+<p style="color:#475461;font-size:0.8rem;margin:0;">Only model with zero timeouts</p>
+</div>
+<div style="border:1px solid #175676;padding:16px;">
+<p style="color:#175676;font-weight:700;margin:0 0 6px;font-size:0.9rem;">Average task time</p>
+<p style="font-size:1.8rem;font-weight:700;color:#175676;margin:0 0 2px;line-height:1;">94.2s</p>
+<p style="color:#7f7f7f;font-size:0.78rem;margin:0 0 10px;">per task</p>
+<hr style="border:none;border-top:1px solid rgba(113,128,150,.28);margin:0 0 10px;"/>
+<p style="color:#475461;font-size:0.8rem;margin:0;">7.8× faster than Qwen3.5</p>
+</div>
+<div style="border:1px solid #175676;padding:16px;">
+<p style="color:#175676;font-weight:700;margin:0 0 6px;font-size:0.9rem;">DeepSeek timeouts</p>
+<p style="font-size:1.8rem;font-weight:700;color:#175676;margin:0 0 2px;line-height:1;">6</p>
+<p style="color:#7f7f7f;font-size:0.78rem;margin:0 0 10px;">of 10 tasks</p>
+<hr style="border:none;border-top:1px solid rgba(113,128,150,.28);margin:0 0 10px;"/>
+<p style="color:#475461;font-size:0.8rem;margin:0;">Hit 1200s ceiling thinking aloud</p>
+</div>
+<div style="border:1px solid #175676;padding:16px;">
+<p style="color:#175676;font-weight:700;margin:0 0 6px;font-size:0.9rem;">Qwen3.5 initial quality</p>
+<p style="font-size:1.8rem;font-weight:700;color:#175676;margin:0 0 2px;line-height:1;">4.56/5</p>
+<p style="color:#7f7f7f;font-size:0.78rem;margin:0 0 10px;">initial quality score</p>
+<hr style="border:none;border-top:1px solid rgba(113,128,150,.28);margin:0 0 10px;"/>
+<p style="color:#475461;font-size:0.8rem;margin:0;">Best quality, worst runtime</p>
+</div>
+</div>
+</div>
 
 ![](assets/a-hundred-million-tokens-later/kv_runtime_average_seconds_modified.png)
 
@@ -128,19 +151,15 @@ Font for numbers: Atkinson Hyperlegible Bold. Number color: cerise. Label color:
 
 ## The other character in this story
 
-<!-- TWO-COLUMN GRID (.grid): left = prose, right = Borges portrait figure -->
+<img src="assets/a-hundred-million-tokens-later/borges_at_play_cover.jpg" style="width:33%;display:block;margin:0 auto;" alt="Jorge Luis Borges at Play with Mental Models of the World"/>
+
+*Image source: [punctum books, *Jorge Luis Borges at Play with Mental Models of the World*](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/).*
 
 Borges is my personal agent, named with the appropriate level of literary overreach. In this post, Borges is not a local model and not the thing being benchmarked. Borges is the planner, critic, file wrangler, and inconvenient adult who keeps asking whether the output actually exists.
 
 That distinction matters. The local models were workers. Borges sat above them, turning vague ideas into bounded tasks, checking the results, rejecting hallucinated artifacts, and occasionally reminding me that a thin laptop with 16GB of RAM is not a datacenter just because I want it to be one.
 
 The name is not accidental. Jorge Luis Borges is also my absolute favorite author in the whole wide world, which I admit has the energy of a child pointing at a bookshelf and declaring a permanent alliance. He wrote about labyrinths, mirrors, infinite libraries, and systems that are elegant until they become impossible to navigate. That feels uncomfortably close to modern AI tooling some days.
-
-![](assets/a-hundred-million-tokens-later/borges_at_play_cover.jpg)
-
-*Image source: [punctum books, *Jorge Luis Borges at Play with Mental Models of the World*](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/).*
-
-<!-- END TWO-COLUMN GRID -->
 
 ---
 
@@ -215,19 +234,13 @@ When I woke up, I asked for status. The answer was the useful kind: completed, e
 The two images below are a 2-column zoomable image row (.image-row.two).
 -->
 
-![](assets/a-hundred-million-tokens-later/overnighter_output_o1.png)
-
-![](assets/a-hundred-million-tokens-later/overnighter_output_o2.png)
-
-*The wake-up output: Borges reporting the completed training state.*
-
 ![](assets/a-hundred-million-tokens-later/training_curves_modified.png)
 
 *Training accuracy rose steadily. Validation accuracy settled in the mid-80s, with mild overfitting signs but nothing surprising for a small CPU-only baseline.*
 
 ![](assets/a-hundred-million-tokens-later/confusion_matrix_modified.png)
 
-*The confusion matrix uses KV teal instead of generic blue. Most signal sits on the diagonal, with Airbus/Boeing and Sukhoi/F16 confusions standing out.*
+*The confusion matrix uses cerise red. Most signal sits on the diagonal, with Airbus/Boeing and Sukhoi/F16 confusions standing out.*
 
 ![](assets/a-hundred-million-tokens-later/class_accuracy_modified.png)
 
@@ -241,7 +254,7 @@ To make the recognition test more tangible, I pulled a random sample of 20 publi
 
 ![](assets/a-hundred-million-tokens-later/public_aircraft_recognition_20_panel.jpg)
 
-*Twenty public aircraft examples across dataset categories with approximate bounding boxes.*
+*Twenty public aircraft examples across dataset categories with approximate bounding boxes. PASS = classifier matched the source label; FAIL = predicted another known class.*
 
 ### Source mapping
 
@@ -284,31 +297,4 @@ It sounds ridiculous when written down. It also worked.
 
 The local model was not the win. The useful part was learning where it belongs. A small model on a RAM-constrained laptop should not be treated like a second brain or a tiny senior engineer living inside Ollama. That is how you get confident garbage at local speed.
 
-But as a bounded worker, it becomes interesting. Give it a narrow job. Make the output executable. Make Borges inspect it. Run the thing. Keep what survives. Throw away what does not. That is not glamorous, but it is the kind of workflow that can quietly remove friction from coursework, notebooks, and technical writing without pretending the laptop became a workstation overnight.
-
-So the answer was not "run everything locally." The answer was more specific, and more useful: keep the strong planner, add the cheap worker, and never skip verification.
-
----
-
-## Sources
-
-**Dataset:** [Mendeley Aircraft Image Dataset](https://doi.org/10.17632/mdmczsr5fy.1) — Siddiqui, S. A., CC BY 4.0. 4,520 images across 8 aircraft classes. DOI 10.17632/mdmczsr5fy.1.
-
-**Models:** [Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) (Alibaba Qwen). [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B) (DeepSeek). [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) (Alibaba Qwen).
-
-**Architecture:** MobileNetV3 Small — Howard, A. et al., "Searching for MobileNetV3," ICCV 2019. Backbone frozen; classifier head trained on CPU via PyTorch.
-
-**Image:** [punctum books](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/), *Jorge Luis Borges at Play with Mental Models of the World*.
-
----
-
-<!-- FOOTER CTA NOTE FOR HERMES
-The section below is the footer (.footer class), not a body section.
-Background: var(--slate) = #475461. Border-top: 8px solid var(--cerise).
-H2 inside footer has white text. P tags inside footer have var(--soft) text.
-It sits outside the .wrap div, directly in <body>.
--->
-
-**Footer CTA — "If you are building your own local LLM bench"**
-
-Start with your actual workflow, not a leaderboard. The best local worker is the one that finishes the boring job correctly enough to survive review. If you want the prompts, the scoring sheet, the setup notes, and a walkthrough of the parts that went sideways, those are available.
+But as a bounded worker, it becomes interesting. Give it a narro
