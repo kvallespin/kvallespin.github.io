@@ -25,7 +25,7 @@ Banner image goes on the right column of the hero grid.
 
 ![](assets/a-hundred-million-tokens-later/banner.png)
 
-*New banner from the modified asset pack.*
+*The moment the counter flipped: 100,000,000 tokens across 544 sessions. Hermes Workspace, Jun 2026. This post was the celebration.*
 
 Quick disclosure before anything else: this did not start as a neat lab exercise. It started as irritation. I had been burning serious tokens across coursework in Data Science, Machine Learning, Deep Learning, and Computer Vision, and too much of that cost went to tasks that were not actually hard. Cleanup. Patching. The same notebook scaffolds in slightly different shapes. Chores with an API bill attached.
 
@@ -317,4 +317,4 @@ Start with your actual workflow, not a leaderboard. The best local worker is the
 
 **Architecture:** MobileNetV3 Small — Howard, A. et al., "Searching for MobileNetV3," ICCV 2019. Backbone frozen; classifier head trained on CPU via PyTorch.
 
-**Image:** [punctum books](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/), *Jorge Luis Borges at Play with Mental Models of th
+**Image:** [punctum books](https://punctumbooks.com/titles/jorge-luis-borges-at-p
