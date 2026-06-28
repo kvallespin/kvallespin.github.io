@@ -283,7 +283,7 @@ To make the recognition test more tangible, I pulled a random sample of 20 publi
 
 ---
 
-## The command center was embarrassingly normal
+## I was tired (and lazy), so I orchestrated from Telegram
 
 This whole thing did not happen in a lab, a clean desk setup, or one of those productivity photos where the coffee mug is somehow part of the architecture. I was talking to Borges through Telegram, mostly lying down, chilling, after a full day of class. Then the idea arrived, because apparently my brain prefers to start infrastructure projects when the sensible thing to do is sleep.
 
@@ -293,8 +293,28 @@ It sounds ridiculous when written down. It also worked.
 
 ---
 
-## What I am actually taking from this
+## What I'm actually taking from this
 
 The local model was not the win. The useful part was learning where it belongs. A small model on a RAM-constrained laptop should not be treated like a second brain or a tiny senior engineer living inside Ollama. That is how you get confident garbage at local speed.
 
-But as a bounded worker, it becomes interesting. Give it a narro
+But as a bounded worker, it becomes interesting. Give it a narrow job. Make the output executable. Make Borges inspect it. Run the thing. Keep what survives. Throw away what does not. That is not glamorous, but it is the kind of workflow that can quietly remove friction from coursework, notebooks, and technical writing without pretending the laptop became a workstation overnight.
+
+So the answer was not "run everything locally." The answer was more specific, and more useful: keep the strong planner, add the cheap worker, and never skip verification.
+
+---
+
+## If you are building your own local LLM bench
+
+Start with your actual workflow, not a leaderboard. The best local worker is the one that finishes the boring job correctly enough to survive review. If you want the prompts, the scoring sheet, the setup notes, and a walkthrough of the parts that went sideways, those are available.
+
+---
+
+## Sources
+
+**Dataset:** [Mendeley Aircraft Image Dataset](https://doi.org/10.17632/mdmczsr5fy.1) — Siddiqui, S. A., CC BY 4.0. 4,520 images across 8 aircraft classes. DOI 10.17632/mdmczsr5fy.1.
+
+**Models:** [Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) (Alibaba Qwen). [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B) (DeepSeek). [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) (Alibaba Qwen).
+
+**Architecture:** MobileNetV3 Small — Howard, A. et al., "Searching for MobileNetV3," ICCV 2019. Backbone frozen; classifier head trained on CPU via PyTorch.
+
+**Image:** [punctum books](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/), *Jorge Luis Borges at Play with Mental Models of th
