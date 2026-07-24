@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500">
+  <defs>
+    <marker id="arrow-tb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2A6B7C"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="1500" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="60" y="48" font-family="FreeSans, Arial, sans-serif" font-size="22" font-weight="bold" fill="#2A6B7C">Writing Assistant Architecture</text>
+  <text x="60" y="68" font-family="FreeSans, Arial, sans-serif" font-size="13" fill="#718096">End-to-end pipeline from source corpus to approved output</text>
+  <line x1="60" y1="80" x2="1140" y2="80" stroke="#E0E0E0" stroke-width="0.5"/>
+  
+  <!-- Source Corpus -->
+  <rect x="60" y="95" width="1080" height="200" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="120" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Source Corpus</text>
+  
+  <!-- Emails -->
+  <rect x="100" y="135" width="120" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(120,155)"><rect x="0" y="0" width="32" height="24" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><polygon points="0,0 16,14 32,0" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="16" y1="24" x2="16" y2="36" stroke="#2A6B7C" stroke-width="1"/><line x1="10" y1="30" x2="16" y2="36" stroke="#2A6B7C" stroke-width="1"/><line x1="10" y1="30" x2="16" y2="24" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="160" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Emails</text>
+  
+  <!-- Letters -->
+  <rect x="280" y="135" width="120" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(300,155)"><rect x="0" y="0" width="32" height="36" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="4" y1="8" x2="28" y2="8" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="12" x2="28" y2="12" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="16" x2="20" y2="16" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="24" x2="28" y2="24" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="28" x2="16" y2="28" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="340" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Letters</text>
+  
+  <!-- Blog Posts -->
+  <rect x="460" y="135" width="120" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(480,155)"><rect x="0" y="0" width="32" height="36" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><circle cx="8" cy="12" r="4" fill="none" stroke="#2A6B7C" stroke-width="1"/><line x1="16" y1="10" x2="28" y2="10" stroke="#2A6B7C" stroke-width="1"/><line x1="16" y1="14" x2="24" y2="14" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="22" x2="28" y2="22" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="26" x2="20" y2="26" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="30" x2="28" y2="30" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="520" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Blog Posts</text>
+  
+  <!-- Reports -->
+  <rect x="640" y="135" width="120" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(660,155)"><rect x="0" y="0" width="32" height="36" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="8" y1="8" x2="8" y2="28" stroke="#2A6B7C" stroke-width="2"/><line x1="14" y1="12" x2="14" y2="28" stroke="#2A6B7C" stroke-width="2"/><line x1="20" y1="16" x2="20" y2="28" stroke="#2A6B7C" stroke-width="2"/><line x1="26" y1="20" x2="26" y2="28" stroke="#2A6B7C" stroke-width="2"/></g>
+  <text x="700" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Reports</text>
+  
+  <!-- Normalize & Classify -->
+  <rect x="60" y="340" width="1080" height="200" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="365" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Normalize &amp; Classify</text>
+  
+  <!-- Clean Text -->
+  <rect x="100" y="380" width="180" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(120,400)"><path d="M12,0 L24,12 L12,24 L0,12 Z" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="12" y1="0" x2="12" y2="24" stroke="#2A6B7C" stroke-width="1"/><line x1="0" y1="12" x2="24" y2="12" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="190" y="460" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Clean Text</text>
+  
+  <!-- Mask Protected Terms -->
+  <rect x="340" y="380" width="220" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(360,400)"><rect x="0" y="4" width="24" height="16" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="0" y1="12" x2="24" y2="12" stroke="#2A6B7C" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="10" y1="12" x2="14" y2="12" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="450" y="460" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Mask Protected Terms</text>
+  
+  <!-- Bucket by Purpose -->
+  <rect x="620" y="380" width="200" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(640,400)"><path d="M0,16 L8,8 L16,16 L24,4 L24,24 L0,24 Z" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><rect x="0" y="0" width="8" height="12" rx="1" fill="none" stroke="#2A6B7C" stroke-width="1"/><rect x="16" y="8" width="8" height="16" rx="1" fill="none" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="720" y="460" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Bucket by Purpose</text>
+  
+  <!-- Arrows from sources to Clean -->
+  <line x1="160" y1="255" x2="160" y2="380" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="340" y1="255" x2="200" y2="380" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="520" y1="255" x2="180" y2="380" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,2"/>
+  <line x1="700" y1="255" x2="160" y2="380" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,2"/>
+  
+  <!-- Arrows in Normalize -->
+  <line x1="280" y1="440" x2="340" y2="440" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  <line x1="560" y1="440" x2="620" y2="440" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- RAG Memory Layer -->
+  <rect x="60" y="590" width="1080" height="240" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="615" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">RAG Memory Layer</text>
+  
+  <!-- Embedding -->
+  <rect x="100" y="630" width="260" height="160" rx="2" fill="#F8F9FA" stroke="#2A6B7C" stroke-width="1.5"/>
+  <g transform="translate(120,650)"><rect x="0" y="4" width="16" height="12" rx="1" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="16" y1="10" x2="24" y2="10" stroke="#2A6B7C" stroke-width="1.5"/><polygon points="24,6 30,10 24,14" fill="#2A6B7C"/><rect x="0" y="20" width="16" height="12" rx="1" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="16" y1="26" x2="24" y2="26" stroke="#2A6B7C" stroke-width="1.5"/><polygon points="24,22 30,26 24,30" fill="#2A6B7C"/></g>
+  <text x="230" y="710" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2A6B7C">Embedding</text>
+  <text x="230" y="728" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Qwen/Qwen3-Embedding-0.6B</text>
+
+  <!-- Reranker (swapped with Style Embedding) -->
+  <rect x="420" y="630" width="260" height="160" rx="2" fill="#F8F9FA" stroke="#E04556" stroke-width="1.5"/>
+  <g transform="translate(440,650)"><path d="M0,24 L24,24 L24,8 L12,0 L0,8 Z" fill="none" stroke="#E04556" stroke-width="1.5"/><line x1="12" y1="0" x2="12" y2="24" stroke="#E04556" stroke-width="1"/><line x1="0" y1="12" x2="24" y2="12" stroke="#E04556" stroke-width="1"/></g>
+  <text x="550" y="710" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E04556">Reranker</text>
+  <text x="550" y="728" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Qwen/Qwen3-Reranker-0.6B</text>
+
+  <!-- Style Embedding (swapped with Reranker) -->
+  <rect x="740" y="630" width="220" height="160" rx="2" fill="#F8F9FA" stroke="#2A6B7C" stroke-width="1.5"/>
+  <g transform="translate(760,650)"><circle cx="12" cy="12" r="8" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><circle cx="12" cy="12" r="3" fill="none" stroke="#2A6B7C" stroke-width="1"/><line x1="12" y1="4" x2="12" y2="0" stroke="#2A6B7C" stroke-width="1"/><line x1="12" y1="20" x2="12" y2="24" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="12" x2="0" y2="12" stroke="#2A6B7C" stroke-width="1"/><line x1="20" y1="12" x2="24" y2="12" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="850" y="710" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2A6B7C">Style Embedding</text>
+  <text x="850" y="728" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">StyleDistance/styledistance</text>
+
+  <!-- Arrows from Bucket to embeddings (direct, no crossing) -->
+  <line x1="720" y1="500" x2="230" y2="630" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  <text x="450" y="570" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">text</text>
+
+  <line x1="720" y1="500" x2="850" y2="630" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  <text x="810" y="570" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">style</text>
+
+  <!-- Arrows from embeddings to reranker -->
+  <line x1="360" y1="710" x2="420" y2="710" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  <line x1="740" y1="710" x2="680" y2="710" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- Orchestration -->
+  <rect x="60" y="880" width="1080" height="200" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="905" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Orchestration</text>
+  
+  <!-- Claude Code -->
+  <rect x="380" y="920" width="280" height="120" rx="2" fill="#F8F9FA" stroke="#2A6B7C" stroke-width="1.5"/>
+  <g transform="translate(400,940)"><rect x="0" y="0" width="36" height="32" rx="3" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><text x="4" y="22" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">&gt;_</text></g>
+  <text x="520" y="990" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2A6B7C">Claude Code</text>
+  <text x="520" y="1008" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Planner / Verifier</text>
+  
+  <!-- Arrow from Reranker to Orchestration -->
+  <line x1="550" y1="790" x2="550" y2="920" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- Generation -->
+  <rect x="60" y="1130" width="1080" height="180" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="1155" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Generation</text>
+  
+  <!-- Qwen Draft Worker -->
+  <rect x="380" y="1170" width="280" height="120" rx="2" fill="#F8F9FA" stroke="#E04556" stroke-width="1.5"/>
+  <g transform="translate(400,1190)"><rect x="0" y="4" width="24" height="20" rx="3" fill="none" stroke="#E04556" stroke-width="1.5"/><circle cx="8" cy="14" r="3" fill="none" stroke="#E04556" stroke-width="1"/><circle cx="16" cy="14" r="3" fill="none" stroke="#E04556" stroke-width="1"/><line x1="11" y1="14" x2="13" y2="14" stroke="#E04556" stroke-width="1"/><line x1="0" y1="8" x2="4" y2="8" stroke="#E04556" stroke-width="1.5"/><line x1="0" y1="20" x2="4" y2="20" stroke="#E04556" stroke-width="1.5"/></g>
+  <text x="520" y="1240" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E04556">Qwen/Qwen3.6-27B</text>
+  <text x="520" y="1258" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Local Draft Worker</text>
+  
+  <!-- Arrow from Orchestration to Generation -->
+  <line x1="520" y1="1040" x2="520" y2="1170" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- Review -->
+  <rect x="60" y="1360" width="1080" height="110" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="80" y="1385" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Review</text>
+  
+  <!-- Draft Output -->
+  <rect x="200" y="1400" width="200" height="60" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(220,1415)"><rect x="0" y="0" width="28" height="20" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="0" y1="16" x2="28" y2="16" stroke="#2A6B7C" stroke-width="1.5"/><rect x="4" y="20" width="20" height="4" rx="1" fill="none" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="300" y="1440" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Draft Output</text>
+  
+  <!-- Ken -->
+  <rect x="560" y="1400" width="200" height="60" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(580,1415)"><path d="M12,0 C5.4,0 0,5.4 0,12 c0,6.6 5.4,12 12,12 s12,-5.4 12,-12 C24,5.4 18.6,0 12,0z" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><path d="M6,22 c-4,1.5 -7,5 -8,9 h32 c-1,-4 -4,-7.5 -8,-9 c-2,-1 -4,-1.5 -6,-1.5 s-4,0.5 -6,1.5" fill="none" stroke="#2A6B7C" stroke-width="1.5"/></g>
+  <text x="660" y="1440" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Ken — Final Approval</text>
+  
+  <!-- Arrow from Generation to Draft -->
+  <line x1="520" y1="1290" x2="300" y2="1400" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- Arrow from Draft to Ken -->
+  <line x1="400" y1="1430" x2="560" y2="1430" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow-tb)"/>
+  
+  <!-- Legend -->
+  <rect x="60" y="1490" width="40" height="3" fill="#E04556"/>
+  <text x="110" y="1502" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Primary generation / decision component</text>
+</svg>

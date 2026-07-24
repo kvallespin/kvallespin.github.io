@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 480" width="1800" height="480">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2A6B7C"/>
+    </marker>
+  </defs>
+  <rect width="1800" height="480" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="60" y="48" font-family="FreeSans, Arial, sans-serif" font-size="22" font-weight="bold" fill="#2A6B7C">Normalization Flow</text>
+  <text x="60" y="68" font-family="FreeSans, Arial, sans-serif" font-size="13" fill="#718096">Raw document extraction through masking, cleaning, and indexing</text>
+  <line x1="60" y1="80" x2="1740" y2="80" stroke="#E0E0E0" stroke-width="0.5"/>
+  
+  <!-- Raw Text -->
+  <rect x="60" y="120" width="200" height="120" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(80,140)"><rect x="0" y="0" width="32" height="36" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="4" y1="8" x2="28" y2="8" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="12" x2="28" y2="12" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="16" x2="20" y2="16" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="24" x2="28" y2="24" stroke="#2A6B7C" stroke-width="1"/><line x1="4" y1="28" x2="16" y2="28" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="160" y="200" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Raw Text</text>
+  <text x="160" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Document / Email / Note</text>
+  
+  <!-- Normalization Pipeline -->
+  <rect x="320" y="95" width="900" height="340" rx="2" fill="#CEE5F3" opacity="0.25" stroke="#2A6B7C" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="340" y="120" font-family="FreeSans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2A6B7C">Normalization Pipeline</text>
+  
+  <!-- Mask Protected Terms -->
+  <rect x="360" y="140" width="200" height="160" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(380,160)"><rect x="0" y="4" width="24" height="16" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="0" y1="12" x2="24" y2="12" stroke="#2A6B7C" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="10" y1="12" x2="14" y2="12" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="460" y="240" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Mask Protected Terms</text>
+  <text x="460" y="260" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Names, Fixed Nouns</text>
+  
+  <!-- Normalize -->
+  <rect x="620" y="140" width="200" height="160" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(640,160)"><path d="M12,0 L24,12 L12,24 L0,12 Z" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="12" y1="0" x2="12" y2="24" stroke="#2A6B7C" stroke-width="1"/><line x1="0" y1="12" x2="24" y2="12" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="720" y="240" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Normalize</text>
+  <text x="720" y="260" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Spelling, Style, Noise</text>
+  
+  <!-- Audit Log -->
+  <rect x="880" y="140" width="200" height="160" rx="2" fill="#F8F9FA" stroke="#475461" stroke-width="1"/>
+  <g transform="translate(900,160)"><ellipse cx="12" cy="8" rx="12" ry="5" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><path d="M0,8 v16 c0,2.8 5.4,5 12,5 s12,-2.2 12,-5 v-16" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><path d="M0,20 v16 c0,2.8 5.4,5 12,5 s12,-2.2 12,-5 v-16" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="12" y1="24" x2="12" y2="40" stroke="#2A6B7C" stroke-width="1"/></g>
+  <text x="980" y="240" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" fill="#2D3748">Audit Log</text>
+  <text x="980" y="260" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Preserve Traceability</text>
+  
+  <!-- Chunk & Index -->
+  <rect x="1300" y="120" width="200" height="160" rx="2" fill="#F8F9FA" stroke="#2A6B7C" stroke-width="1.5"/>
+  <g transform="translate(1320,140)"><rect x="0" y="0" width="24" height="32" rx="2" fill="none" stroke="#2A6B7C" stroke-width="1.5"/><line x1="0" y1="8" x2="24" y2="8" stroke="#2A6B7C" stroke-width="1"/><line x1="0" y1="16" x2="24" y2="16" stroke="#2A6B7C" stroke-width="1"/><line x1="0" y1="24" x2="24" y2="24" stroke="#2A6B7C" stroke-width="1"/><circle cx="6" cy="4" r="1" fill="#2A6B7C"/><circle cx="18" cy="4" r="1" fill="#2A6B7C"/></g>
+  <text x="1400" y="200" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="12" font-weight="bold" fill="#2A6B7C">Chunk &amp; Index</text>
+  <text x="1400" y="220" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Send to Vector Store</text>
+  
+  <!-- Arrows -->
+  <line x1="260" y1="180" x2="360" y2="180" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="310" y="172" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">extract</text>
+  
+  <line x1="560" y1="220" x2="620" y2="220" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="590" y="212" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">safe</text>
+  
+  <line x1="820" y1="220" x2="880" y2="220" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="850" y="212" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">clean</text>
+  
+  <line x1="1080" y1="200" x2="1300" y2="200" stroke="#2A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1190" y="192" text-anchor="middle" font-family="FreeSans, Arial, sans-serif" font-size="10" fill="#718096">verified</text>
+  
+  <!-- Legend -->
+  <rect x="60" y="400" width="40" height="3" fill="#2A6B7C"/>
+  <text x="110" y="412" font-family="FreeSans, Arial, sans-serif" font-size="11" fill="#718096">Indexable output component</text>
+</svg>
