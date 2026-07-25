@@ -48,12 +48,12 @@ One thing this workflow clarified for me is that this was never really about one
 | Model | Role in the workflow | Status in this project | Notes |
 |---|---|---|---|
 | `Claude Code` | orchestrator / planner / verifier | production | the agent that chooses tasks, runs code, checks output, and keeps the loop moving |
-| `Qwen/Qwen3.6-27B` | generation model for draft and humanize steps | production | served as `qwen3.6-27b-q6k-mtp-64k` over `http://127.0.0.1:8080/v1` |
-| `Qwen/Qwen3-Embedding-0.6B` | embedding model | production | task and content vectors |
-| `StyleDistance/styledistance` | style embedding model | production | voice and register, not topic |
-| `Qwen/Qwen3-Reranker-0.6B` | reranker | production | config 7 |
-| `Qwen/Qwen3-Embedding-4B` | challenger embedding model | benchmark only | not production |
-| `sentence-transformers/all-MiniLM-L6-v2` | old-build baseline embedding | benchmark only | archived comparison artifact |
+| [`Qwen/Qwen3.6-27B`](https://huggingface.co/Qwen/Qwen3.6-27B) | generation model for draft and humanize steps | production | served as `qwen3.6-27b-q6k-mtp-64k` over `http://127.0.0.1:8080/v1` |
+| [`Qwen/Qwen3-Embedding-0.6B`](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | embedding model | production | task and content vectors |
+| [`StyleDistance/styledistance`](https://huggingface.co/StyleDistance/styledistance) | style embedding model | production | voice and register, not topic |
+| [`Qwen/Qwen3-Reranker-0.6B`](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B) | reranker | production | config 7 |
+| [`Qwen/Qwen3-Embedding-4B`](https://huggingface.co/Qwen/Qwen3-Embedding-4B) | challenger embedding model | benchmark only | not production |
+| [`sentence-transformers/all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | old-build baseline embedding | benchmark only | archived comparison artifact |
 | Voyage 4 | proposed challenger embedding | never run | separate approval was never given |
 
 The practical split was simple. Retrieval and embeddings gave the system memory. Claude Code orchestrated the work. The generation model handled bounded draft labor. The stronger planner-verifier layer stayed responsible for judgment.
@@ -139,6 +139,19 @@ Keep the corpus clean. Retrieve by purpose. Use the local model as a worker, not
 
 And even then, the last gate is still me. I still do the review. I still do the final approval. The system can retrieve, draft, compress, and clean up, but I remain the final human in the loop.
 
+
+## Model attributions
+
+Models used in this project are hosted on [HuggingFace](https://huggingface.co):
+
+| Model | HF Link | License |
+|---|---|---|
+| Qwen3.6-27B | [Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) | Apache 2.0 |
+| Qwen3-Embedding-0.6B | [Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | Apache 2.0 |
+| Qwen3-Reranker-0.6B | [Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B) | Apache 2.0 |
+| Qwen3-Embedding-4B | [Qwen3-Embedding-4B](https://huggingface.co/Qwen/Qwen3-Embedding-4B) | Apache 2.0 |
+| styledistance | [styledistance](https://huggingface.co/StyleDistance/styledistance) | Apache 2.0 |
+| all-MiniLM-L6-v2 | [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | Apache 2.0 |
 ## Sources
 
 - [Asian Institute of Management](https://aim.edu/)
