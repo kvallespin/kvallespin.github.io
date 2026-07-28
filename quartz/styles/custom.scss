@@ -739,9 +739,29 @@ body[data-slug="profile"] footer {
 
 /* profile-publish-cache-bust: restore-kv-profile-shell */
 
-/* About Me explorer link â€” bold + cerise to match section header weight */
-.explorer-content a.nav-file-title[href="/profile"] {
-  color: #E04556;
+/* About Me explorer link: bold, to match section header weight.
+   Matched on an href suffix rather than an exact path. Quartz renders
+   explorer links relative to the current page and the explorer is a
+   community plugin whose class names can change between versions, so the
+   previous exact selector, .nav-file-title[href="/profile"], matched
+   nothing and the rule was silently dead. Anchored on data-for as well,
+   which is the one attribute the explorer sets from the slug itself.
+   Rosewood rather than Cerise: Cerise is 4.07:1 as text and fails AA, so
+   the design system keeps it to borders and fills. */
+.explorer-content a[href$="/profile"],
+.explorer-content a[href$="/profile/"],
+.explorer-content a[href="profile"],
+.explorer-content a[href="./profile"],
+.explorer-content a[data-for="profile"] {
+  color: #BB3250;
   font-weight: 700;
+}
+
+[saved-theme="dark"] .explorer-content a[href$="/profile"],
+[saved-theme="dark"] .explorer-content a[href$="/profile/"],
+[saved-theme="dark"] .explorer-content a[href="profile"],
+[saved-theme="dark"] .explorer-content a[href="./profile"],
+[saved-theme="dark"] .explorer-content a[data-for="profile"] {
+  color: var(--kv-sky);
 }
 

@@ -46,6 +46,44 @@ jobs:
       - name: Build Quartz site
         run: npx quartz build
 
+      # The profile page has been broken silently three times: once when the
+      # left sidebar and breadcrumbs were hidden, once when its stylesheet was
+      # patched into public/ and then lost the next time public/ was rebuilt,
+      # and once when the explorer link rule stopped matching. Each time the
+      # build stayed green. These checks fail the deploy instead.
+      - name: Verify the About Me page survived the build
+        run: |
+          fail() { echo "::error::$1"; exit 1; }
+
+          grep -q 'ABOUT ME' content/profile.md \
+            || fail "content/profile.md has lost its ABOUT ME section"
+
+          grep -q 'profile|About Me' content/index.md \
+            || fail "the home page has lost its About Me link"
+
+          [ -f public/profile.html ] \
+            || fail "public/profile.html was not emitted"
+
+          grep -q 'ABOUT ME' public/profile.html \
+            || fail "the built profile page has no ABOUT ME section"
+
+          for c in kv-profile-shell kv-profile-hero kv-profile-about; do
+            grep -q "$c" public/profile.html \
+              || fail "the built profile page is missing .$c"
+          done
+
+          grep -rqs --include='*.css' 'kv-profile-shell' public/ \
+            || fail "the profile stylesheet did not reach the build"
+
+          # Matched on the Rosewood value, which appears nowhere else in the
+          # stylesheet. The minifier lowercases hex and strips optional quotes
+          # from attribute selectors, so the selector text itself is not a
+          # reliable thing to grep for.
+          grep -rqsi --include='*.css' 'bb3250' public/ \
+            || fail "the About Me explorer rule did not reach the build"
+
+          echo "About Me page, styles and nav rule all present."
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -94,7 +94,7 @@ Mynt, Inc. (Globe Fintech Innovations) is the holding company, running the walle
 
 ### On size.
 
-At the top of the indicative range the offer raises about PHP 92 billion, roughly double the PHP 49 billion Monde Nissin raised in 2021. That is a record by proceeds, not by market value. The implied valuation lands near $11 billion, which would be the largest debut in Philippine history but would still leave Mynt behind ICTSI, SM Investments and BDO once it starts trading. Call it top five, not number one. The indicative price is also a ceiling set for filing purposes. Book-building decides the real number, and earlier reporting had the target closer to $8 billion.
+At the top of the indicative range the offer raises about PHP 92 billion, roughly double the PHP 49 billion Monde Nissin raised in 2021. That is a record by proceeds, not by market value. The implied valuation lands near \$11 billion, which would be the largest debut in Philippine history but would still leave Mynt behind ICTSI, SM Investments and BDO once it starts trading. Call it top five, not number one. The indicative price is also a ceiling set for filing purposes. Book-building decides the real number, and earlier reporting had the target closer to \$8 billion.
 
 ### On the float.
 
@@ -106,7 +106,7 @@ The trade-off is the interesting part. Inclusion in the main Philippine index cu
 
 Jakarta has spent the past year finding out what happens when too little of a company actually trades. Indonesia's benchmark index has the thinnest average free float in Asia-Pacific, with a large share of its members closely held and lightly traded. When most of a stock sits with founders and affiliates, the price is set by a small pool of shares. It moves on little volume, and the index built on top of it stops describing the market it is supposed to describe.
 
-Foreign money noticed. MSCI moved in January to measure Indonesian free float more strictly, and brokers estimated that index funds would have to pull roughly $2 billion out as weightings fell. By the end of March the Jakarta exchange had rewritten its listing rules, tightening what counts as free float and raising the minimum, after warnings that Indonesia risked losing its emerging-market classification over thin float, unclear ownership and signs of coordinated trading.
+Foreign money noticed. MSCI moved in January to measure Indonesian free float more strictly, and brokers estimated that index funds would have to pull roughly \$2 billion out as weightings fell. By the end of March the Jakarta exchange had rewritten its listing rules, tightening what counts as free float and raising the minimum, after warnings that Indonesia risked losing its emerging-market classification over thin float, unclear ownership and signs of coordinated trading.
 
 So the two regulators moved in opposite directions in the same quarter. Manila lowered its floor to land a listing it had wanted for years. Jakarta raised its floor after a thin float was blamed for a distorted index and a sharp selloff.
 
@@ -458,11 +458,11 @@ What the offer price actually implies, against the audited figures:
 
 | Measure | At the PHP 10 offer | Peer reference |
 |---|---|---|
-|| Price / earnings, trailing | 38.8x | 7.8x to 43.0x |
-|| Price / earnings, 2026E | 33.7x | |
-|| Price / earnings, 2027E | 29.8x | |
-|| EV / EBITDA | **31.7x** | 6.1x to 23.5x |
-|| Price / adjusted tangible book | **9.6x** | justified 1.56x to 2.05x |
+| Price / earnings, trailing | 38.8x | 7.8x to 43.0x |
+| Price / earnings, 2026E | 33.7x | |
+| Price / earnings, 2027E | 29.8x | |
+| EV / EBITDA | **31.7x** | 6.1x to 23.5x |
+| Price / adjusted tangible book | **9.6x** | justified 1.56x to 2.05x |
 
 The offer sits above every peer on both measures except Grab's earnings multiple. On enterprise value to EBITDA, 31.7 times is above all four peers, including both growth platforms.
 
@@ -504,9 +504,9 @@ A few pitfalls I tried to avoid, and one I could not:
 
 That last row deserves more than a table cell. There is no listed Philippine company that looks like Mynt. The PSE's large caps are banks, conglomerates, property and utilities. Every multiple above is imported from a company operating in a different market, with a different regulator, a different currency and a different investor base.
 
-One final comparison, which I find more informative than any multiple, and which I can now source properly. Before the prospectus, I said Ayala and MUFG invested at about five billion dollars in August 2024, taken from press coverage. The prospectus documents the transaction directly: in **September 2024**, MUFG Bank subscribed to 64,205,070 common shares for US$160,000,333, representing 3.26 percent of issued and outstanding capital. [Prospectus, p. 85] That implies a valuation of about **US$4.91 billion**. [Computed]
+One final comparison, which I find more informative than any multiple, and which I can now source properly. Before the prospectus, I said Ayala and MUFG invested at about five billion dollars in August 2024, taken from press coverage. The prospectus documents the transaction directly: in **September 2024**, MUFG Bank subscribed to 64,205,070 common shares for US\$160,000,333, representing 3.26 percent of issued and outstanding capital. [Prospectus, p. 85] That implies a valuation of about **US\$4.91 billion**. [Computed]
 
-At PHP 10 the IPO prices the company at about US$11.0 billion. Over that period net income grew from PHP 11.1 billion to PHP 17.2 billion, an increase of roughly 55 percent, while the valuation rather more than doubled.
+At PHP 10 the IPO prices the company at about US\$11.0 billion. Over that period net income grew from PHP 11.1 billion to PHP 17.2 billion, an increase of roughly 55 percent, while the valuation rather more than doubled.
 
 Value rose faster than earnings. The difference is multiple expansion, which is the market paying more for each peso of profit than it did two years ago. That can be justified by a genuine improvement in growth quality or competitive position. It can also be what an IPO window looks like. Having now read the growth and margin trends, I lean toward the second reading more than I did before.
 
@@ -564,11 +564,11 @@ The point of a football field is that you stop defending one number. You lay the
 
 | Method | Implied value per share | Distance from PHP 10.00 |
 |---|---|---|
-|| FCFF, firm (wrong instrument, shown anyway) | PHP 2.08 | -79% |
-|| Justified price-to-book | PHP 1.71 to PHP 2.25 | -83% to -78% |
-|| FCFE, equity | PHP 2.33 | -77% |
-|| EV/EBITDA comps (median range) | PHP 2.19 to PHP 7.48 | -78% to -25% |
-|| P/E comps (median 40.06x; mean 30.28x) | PHP 2.01 to PHP 11.09 | -80% to +11% |
+| FCFF, firm (wrong instrument, shown anyway) | PHP 2.08 | -79% |
+| Justified price-to-book | PHP 1.71 to PHP 2.25 | -83% to -78% |
+| FCFE, equity | PHP 2.33 | -77% |
+| EV/EBITDA comps (median range) | PHP 2.19 to PHP 7.48 | -78% to -25% |
+| P/E comps (median 40.06x; mean 30.28x) | PHP 2.01 to PHP 11.09 | -80% to +11% |
 | **IPO offer price** | **PHP 10.00** | -- |
 
 The comparables are ranges rather than points because the peer multiples span from PayPal at 6.1 times EBITDA to Grab at 23.5 times. In the earlier draft I collapsed that into a single average, which produced PHP 9.44 and made the comps look like the one method that supported the offer. They do not support it. They contain both the case for it and the case against it, and which one you get depends entirely on which peer you think Mynt resembles.
@@ -610,7 +610,7 @@ The corrected simulation centers every input on the base case it is meant to sur
 | Revenue growth path | Triangular scalar on the whole 5-year path | 0.6x to 1.4x, mode 1.0x |
 | Net margin | Normal shift | +/- 1.5 percentage points |
 | Beta | Triangular | 0.9 to 2.0, mode 1.6 |
-|| Risk-free rate | Normal | 7.26%, standard deviation 0.4pp |
+| Risk-free rate | Normal | 7.26%, standard deviation 0.4pp |
 | Equity risk premium | Normal | 6.7%, standard deviation 0.5pp |
 | Terminal growth | Triangular, capped at the risk-free rate | 3.0% to 6.0%, mode 4.5% |
 | Loan intensity | Triangular | 40% to 62% of revenue, mode 51.8% |
@@ -920,7 +920,7 @@ Everything above comes from the Mynt Preliminary Prospectus dated 27 June 2026, 
 
 - **PayPal**: EV/EBITDA 6.12x ([valueinvesting.io](https://valueinvesting.io/PYPL/valuation/ev_ebitda-multiples), 15 July 2026); P/E 7.79x ([public.com](https://public.com/stocks/pypl/pe-ratio), 12 June 2026); EBITDA margin 20.85% ([macrotrends](https://www.macrotrends.net/stocks/charts/PYPL/paypal-holdings/ebitda-margin), quarter to 30 September 2025).
 - **Sea Limited**: EV/EBITDA 19.34x ([stockanalysis](https://stockanalysis.com/stocks/se/statistics/)) to 26.27x ([financecharts](https://www.financecharts.com/stocks/SE/value/ev-to-ebitda), 6 July 2026); P/E 38.97x ([fullratio](https://fullratio.com/stocks/nyse-se/pe-ratio), 17 July 2026) to 41.14x ([public.com](https://public.com/stocks/se/pe-ratio), 18 July 2026). Midpoints used.
-- **Grab**: P/E 42-44x, EBITDA US$469 million on enterprise value of about US$11.0 billion, EBITDA margin 11.25% ([stockanalysis](https://stockanalysis.com/stocks/grab/), [TOPONE Markets](https://www.top1markets.com/news/grab-stock-forecast-2026-profitability-q2-earnings), July 2026).
+- **Grab**: P/E 42-44x, EBITDA US\$469 million on enterprise value of about US\$11.0 billion, EBITDA margin 11.25% ([stockanalysis](https://stockanalysis.com/stocks/grab/), [TOPONE Markets](https://www.top1markets.com/news/grab-stock-forecast-2026-profitability-q2-earnings), July 2026).
 - **GoTo**: EV/EBITDA 15.1x and EBITDA margin 12% ([multiples.vc](https://multiples.vc/public-comps/goto-gojek-tokopedia-valuation-multiples), 21 July 2026), against 41.96x reported by [Alpha Spread](https://www.alphaspread.com/security/idx/goto/relative-valuation/ratio/enterprise-value-to-ebitda). I used the lower figure and flagged the spread.
 
 I could not source a comparable EBITDA margin for Sea Limited, so it is absent from the margin chart rather than estimated.
@@ -935,7 +935,7 @@ I could not source a comparable EBITDA margin for Sea Limited, so it is absent f
 | NPL ratio, stage coverage, allowance ratios | Point-in-time balances | Sound, no normalization needed |
 | Default and write-off intensity | Was opening book, now **average** book | **Corrected.** Opening balances reversed the conclusion. |
 | Provisions | Was % of revenue, now **% of average gross loans** | **Corrected.** Percent of revenue partly measured business mix, not credit. |
-|| Justified P/B | Was average-equity ROE on ending book | **Corrected** to a range, PHP 1.71 to PHP 2.25 |
+| Justified P/B | Was average-equity ROE on ending book | **Corrected** to a range, PHP 1.71 to PHP 2.25 |
 | WACC weights | Was tempted by book, used **market** | Sound |
 | Loan book reinvestment | Change in **net** loan receivables | Sound. Checked against the cash identity: net change equals gross lending less collections less the provision add-back, and the two agree to within PHP 241 million of recoveries. |
 | Cash conversion | FCFF over net income | Sound, but the numerator excludes a working capital release that will not repeat |
@@ -971,13 +971,13 @@ The table below lists every figure in this post that was not read directly from 
 
 | Input | Value | Source type | Rationale |
 |---|---|---|---|
-|| Risk-free rate | 7.26% | Assumption | PH FXTN 10-year government bond yield, 14 July 2026 (Trading Economics) |
-|| Equity risk premium | 6.7% | Assumption | Damodaran country premium for Philippines |
-|| Beta | 1.6 (base) | Assumption | Midpoint of Sea, PayPal and Adyen. Mynt has never traded, so there is no beta to regress. |
-|| Beta range | 0.9 to 2.0 | Assumption | Plausible range for a domestic consumer platform. Varies in Monte Carlo. |
-|| Cost of equity | 17.98% | Computed | 7.26% + 1.6 x 6.7% |
-|| After-tax cost of debt | 4.31% | Computed | 5.75% midpoint x (1 - 25%) |
-|| WACC | 17.57% | Computed | Market-value weights: 97% equity at PHP 10 offer, 3% debt |
+| Risk-free rate | 7.26% | Assumption | PH FXTN 10-year government bond yield, 14 July 2026 (Trading Economics) |
+| Equity risk premium | 6.7% | Assumption | Damodaran country premium for Philippines |
+| Beta | 1.6 (base) | Assumption | Midpoint of Sea, PayPal and Adyen. Mynt has never traded, so there is no beta to regress. |
+| Beta range | 0.9 to 2.0 | Assumption | Plausible range for a domestic consumer platform. Varies in Monte Carlo. |
+| Cost of equity | 17.98% | Computed | 7.26% + 1.6 x 6.7% |
+| After-tax cost of debt | 4.31% | Computed | 5.75% midpoint x (1 - 25%) |
+| WACC | 17.57% | Computed | Market-value weights: 97% equity at PHP 10 offer, 3% debt |
 | Terminal growth | 4.5% | Assumption | Below PHP inflation, conservative for a mature consumer platform |
 | Growth path 2026-2030 | 15%, 13%, 11%, 9%, 7.5% | Assumption | Anchored on Q1 2026 actual of 14.8%, declining gradually |
 | EBIT margin forecast | 24.8% held flat | Assumption | 2025 actual from prospectus. Held roughly flat through the forecast. |
@@ -995,7 +995,7 @@ The table below lists every figure in this post that was not read directly from 
 | Cash conversion (sustainable) | 46% | Computed | Sustainable FCFF PHP 7,917M / net income PHP 17,249M |
 | EV/EBITDA at offer | 31.7x | Computed | (Market cap + debt - free cash) / EBITDA |
 | P/E at offer | 38.8x | Computed | Market cap / net income 2025 |
-|| P/B at offer | 9.6x | Computed | Market cap / adjusted NTBV PHP 1.04 per share |
+| P/B at offer | 9.6x | Computed | Market cap / adjusted NTBV PHP 1.04 per share |
 
 ### Monte Carlo distributions
 
@@ -1004,7 +1004,7 @@ The table below lists every figure in this post that was not read directly from 
 | Revenue growth scalar | Triangular | 0.6x to 1.4x | 1.0x |
 | Net margin shift | Normal | +/- 1.5pp | 0 |
 | Beta | Triangular | 0.9 to 2.0 | 1.4 |
-|| Risk-free rate | Normal | 7.26% +/- 0.4pp | 7.26% |
+| Risk-free rate | Normal | 7.26% +/- 0.4pp | 7.26% |
 | Equity risk premium | Normal | 6.7% +/- 0.5pp | 6.7% |
 | Terminal growth | Triangular, capped at r_f | 3.0% to 6.0% | 4.5% |
 | Loan intensity | Triangular | 40% to 62% of revenue | 51.8% |
@@ -1035,7 +1035,7 @@ Available at: [mynt.com.ph/investor-relations/ipo-at-a-glance](https://mynt.com.
 
 - **Globe GCash Mint IPO announcement** — Official listing announcement on the Philippine Stock Exchange. Available at [mynt.com.ph](https://mynt.com.ph) and [globe.com.ph](https://www.globe.com.ph)
 - **PSE listing announcement** — Philippine Stock Exchange listing notice for Mynt, the largest IPO in PSE history at PHP 80.3 billion base size.
-- **MUFG subscription** — MUFG Bank subscribed to 64,205,070 shares for US$160 million in September 2024, implying a pre-IPO valuation of approximately US$4.91 billion. [Prospectus, p. 85]
+- **MUFG subscription** — MUFG Bank subscribed to 64,205,070 shares for US\$160 million in September 2024, implying a pre-IPO valuation of approximately US\$4.91 billion. [Prospectus, p. 85]
 
 ### Peer multiple sources
 
