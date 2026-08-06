@@ -1,4 +1,4 @@
-﻿name: Deploy Quartz site to GitHub Pages
+name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
@@ -55,21 +55,21 @@ jobs:
         run: |
           fail() { echo "::error::$1"; exit 1; }
 
-          grep -q 'ABOUT ME' content/profile.md \
-            || fail "content/profile.md has lost its ABOUT ME section"
+          grep -q 'ABOUT ME' content/about-me/profile.md \
+            || fail "content/about-me/profile.md has lost its ABOUT ME section"
 
-          grep -q 'profile|About Me' content/index.md \
+          grep -q 'about-me/profile|About Me' content/index.md \
             || fail "the home page has lost its About Me link"
 
-          [ -f public/profile.html ] \
-            || fail "public/profile.html was not emitted"
+          [ -f public/about-me/profile.html ] \
+            || fail "public/about-me/profile.html was not emitted"
 
-          grep -q 'ABOUT ME' public/profile.html \
-            || fail "the built profile page has no ABOUT ME section"
+          grep -q 'ABOUT ME' public/about-me/profile.html \
+            || fail "the built about-me/profile page has no ABOUT ME section"
 
           for c in kv-profile-shell kv-profile-hero kv-profile-about; do
-            grep -q "$c" public/profile.html \
-              || fail "the built profile page is missing .$c"
+            grep -q "$c" public/about-me/profile.html \
+              || fail "the built about-me/profile page is missing .$c"
           done
 
           grep -rqs --include='*.css' 'kv-profile-shell' public/ \
