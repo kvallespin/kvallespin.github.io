@@ -1,5 +1,5 @@
 ---
-title: Building the KV Design System
+title: Building the KV design system
 description: A personal and self-deprecating account of building the KV Design System after repeated one-off theme creation, a free Claude Design pilot window, and a refusal to pay for more compute.
 tags:
   - design

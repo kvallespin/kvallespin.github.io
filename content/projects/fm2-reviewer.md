@@ -1,5 +1,5 @@
 ---
-title: FINMA202 Oral Exam Master Reviewer
+title: FINMA202 oral exam master reviewer
 cssclasses:
   - wide-page
 created: 2026-06-03

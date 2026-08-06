@@ -1,5 +1,5 @@
-﻿---
-title: Redesigning the Redesign Nobody Asked For
+---
+title: Redesigning the redesign nobody asked for
 tags:
   - data-science
   - data-visualization
