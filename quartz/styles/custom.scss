@@ -1,4 +1,4 @@
-﻿@use "./variables.scss" as *;
+@use "./variables.scss" as *;
 
 @font-face {
   font-family: "FreeSans";
@@ -736,6 +736,255 @@ body[data-slug="profile"] footer {
 [saved-theme="dark"] body[data-slug="profile"] .kv-profile-section strong {
   color: var(--kv-sky);
 }
+
+/* ============================================================ ABOUT ME ROUTE COPY
+   KV design system — about-me/profile route copy.
+   Hide the Quartz shell on this route and let structured HTML carry
+   the same visual intent as the standalone KV profile preview.
+   ============================================================ */
+
+body[data-slug="about-me/profile"] {
+  --kv-profile-text: var(--kv-slate);
+  --kv-profile-muted: var(--kv-medium-gray);
+  --kv-profile-rule: var(--kv-hairline);
+  background: var(--kv-soft-white);
+}
+
+body[data-slug="about-me/profile"] .right.sidebar,
+body[data-slug="about-me/profile"] .page-header,
+body[data-slug="about-me/profile"] .toc,
+body[data-slug="about-me/profile"] .backlinks {
+  display: none !important;
+}
+
+body[data-slug="about-me/profile"] #quartz-body,
+body[data-slug="about-me/profile"] #quartz-root {
+  display: block;
+}
+
+body[data-slug="about-me/profile"] .center,
+body[data-slug="about-me/profile"] .center article {
+  width: min(100%, 980px);
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  color: var(--kv-profile-text);
+}
+
+body[data-slug="about-me/profile"] .center article {
+  padding: clamp(2rem, 4vw, 4rem) 1.25rem 4rem;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-shell {
+  color: var(--kv-profile-text);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-hero {
+  display: grid;
+  grid-template-columns: minmax(5rem, 7rem) 1fr;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  align-items: center;
+  padding-bottom: 1.65rem;
+  border-bottom: 2px solid var(--kv-deep-teal);
+  margin-bottom: 2.25rem;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-photo {
+  width: clamp(5rem, 10vw, 7rem);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 0;
+  content-visibility: visible;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-title-block {
+  border-left: 6px solid var(--kv-cerise);
+  padding-left: clamp(1rem, 2vw, 1.4rem);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--kv-profile-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-hero h1 {
+  margin: 0;
+  color: var(--kv-deep-teal);
+  font-size: clamp(2.4rem, 6vw, 4.35rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-hero h1 span {
+  color: var(--kv-profile-muted);
+  font-weight: 400;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-credentials {
+  margin: 0.85rem 0 0;
+  color: var(--kv-profile-text);
+  font-size: clamp(0.95rem, 1.8vw, 1.08rem);
+  line-height: 1.45;
+  max-width: 48rem;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section {
+  margin: 0 0 2.4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section h2 {
+  position: relative;
+  margin: 0 0 1rem;
+  padding-left: 0.9rem;
+  color: var(--kv-deep-teal);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.04em;
+  width: 6px;
+  height: 1.15em;
+  background: var(--kv-cerise);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section h3 {
+  margin: 0 0 0.45rem;
+  color: var(--kv-deep-teal);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section p,
+body[data-slug="about-me/profile"] .kv-profile-section li {
+  color: var(--kv-profile-text);
+  font-size: 1rem;
+  line-height: 1.66;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section p {
+  margin: 0.75rem 0;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section strong {
+  color: var(--kv-deep-teal);
+  font-weight: 700;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section a {
+  color: var(--kv-deep-teal);
+  font-weight: 700;
+  text-decoration-color: rgba(224, 69, 86, 0.45);
+  text-underline-offset: 0.18em;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-section a:hover {
+  color: var(--kv-cerise);
+  text-decoration-color: var(--kv-cerise);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem 1.4rem;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-card {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-card-wide {
+  grid-column: 1 / -1;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-list,
+body[data-slug="about-me/profile"] .kv-profile-card ul {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-list li,
+body[data-slug="about-me/profile"] .kv-profile-card li {
+  margin: 0.25rem 0;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-list li::marker,
+body[data-slug="about-me/profile"] .kv-profile-card li::marker {
+  color: var(--kv-cerise);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-timeline article {
+  padding: 0.85rem 0 0.95rem;
+  border-top: 1px solid var(--kv-profile-rule);
+}
+
+body[data-slug="about-me/profile"] .kv-profile-timeline article:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-timeline h3,
+body[data-slug="about-me/profile"] .kv-profile-timeline p {
+  margin: 0.15rem 0;
+}
+
+body[data-slug="about-me/profile"] .kv-profile-muted {
+  color: var(--kv-profile-muted) !important;
+}
+
+body[data-slug="about-me/profile"] footer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+}
+
+@media (max-width: 760px) {
+  body[data-slug="about-me/profile"] .kv-profile-hero {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-slug="about-me/profile"] .kv-profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+[saved-theme="dark"] body[data-slug="about-me/profile"] {
+  background: var(--light);
+}
+
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-shell,
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section p,
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section li {
+  color: var(--lightgray);
+}
+
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-hero h1,
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section h2,
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section h3,
+[saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section strong {
+  color: var(--kv-sky);
+}
+
 
 /* profile-publish-cache-bust: restore-kv-profile-shell */
 

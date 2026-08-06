@@ -12,7 +12,7 @@ title: Kenneth Vallespin
 
 [![Kenneth Vallespin — profile at a glance](/assets/ken-banner.jpg)](/assets/ken-banner.jpg)
 
-### [[profile|About Me]]
+### [[about-me/profile|About Me]]
 
 Who I am, what I'm working on now, and how to reach me.
 
