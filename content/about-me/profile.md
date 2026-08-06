@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Profile
 ---
 
 <!-- prettier-ignore-start -->
