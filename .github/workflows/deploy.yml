@@ -1,4 +1,4 @@
-﻿name: Deploy Quartz site to GitHub Pages
+name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
@@ -55,8 +55,8 @@ jobs:
         run: |
           fail() { echo "::error::$1"; exit 1; }
 
-          grep -q 'ABOUT ME' content/about-me/profile.md \
-            || fail "content/about-me/profile.md has lost its ABOUT ME section"
+          grep -q 'Profile' content/about-me/profile.md \
+            || fail "content/about-me/profile.md has lost its Profile heading"
 
           grep -q 'about-me/profile|About Me' content/index.md \
             || fail "the home page has lost its About Me link"
@@ -64,12 +64,12 @@ jobs:
           [ -f public/about-me/profile.html ] \
             || fail "public/about-me/profile.html was not emitted"
 
-          grep -q 'ABOUT ME' public/about-me/profile.html \
-            || fail "the built about-me/profile page has no ABOUT ME section"
+          grep -q 'Profile' public/about-me/profile.html \
+            || fail "the built about-me/profile page has no Profile heading"
 
-          for c in Academic background Credentials and qualifications Professional experience; do
+          for c in 'Academic background' 'Credentials and qualifications' 'Professional experience'; do
             grep -q "$c" public/about-me/profile.html \
-              || fail "the built about-me/profile page is missing .$c"
+              || fail "the built about-me/profile page is missing $c"
           done
 
           grep -q 'Academic background' public/about-me/profile.html \
