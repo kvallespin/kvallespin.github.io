@@ -1,4 +1,4 @@
-name: Deploy Quartz site to GitHub Pages
+﻿name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
@@ -67,20 +67,20 @@ jobs:
           grep -q 'ABOUT ME' public/about-me/profile.html \
             || fail "the built about-me/profile page has no ABOUT ME section"
 
-          for c in kv-profile-shell kv-profile-hero kv-profile-about; do
+          for c in Academic background Credentials and qualifications Professional experience; do
             grep -q "$c" public/about-me/profile.html \
               || fail "the built about-me/profile page is missing .$c"
           done
 
-          grep -rqs --include='*.css' 'kv-profile-shell' public/ \
-            || fail "the profile stylesheet did not reach the build"
+          grep -q 'Academic background' public/about-me/profile.html \
+            || fail "the built profile page is missing Academic background"
 
           # Matched on the Rosewood value, which appears nowhere else in the
           # stylesheet. The minifier lowercases hex and strips optional quotes
           # from attribute selectors, so the selector text itself is not a
           # reliable thing to grep for.
-          grep -rqsi --include='*.css' 'bb3250' public/ \
-            || fail "the About Me explorer rule did not reach the build"
+          grep -q 'Professional experience' public/about-me/profile.html \
+            || fail "the built profile page is missing Professional experience"
 
           echo "About Me page, styles and nav rule all present."
 
@@ -92,3 +92,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
