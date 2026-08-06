@@ -737,43 +737,7 @@ body[data-slug="profile"] footer {
   color: var(--kv-sky);
 }
 
-/* ============================================================ ABOUT ME ROUTE COPY
-   KV design system — about-me/profile route copy.
-   Hide the Quartz shell on this route and let structured HTML carry
-   the same visual intent as the standalone KV profile preview.
-   ============================================================ */
-
-body[data-slug="about-me/profile"] {
-  --kv-profile-text: var(--kv-slate);
-  --kv-profile-muted: var(--kv-medium-gray);
-  --kv-profile-rule: var(--kv-hairline);
-  background: var(--kv-soft-white);
-}
-
-body[data-slug="about-me/profile"] .right.sidebar,
-body[data-slug="about-me/profile"] .page-header,
-body[data-slug="about-me/profile"] .toc,
-body[data-slug="about-me/profile"] .backlinks {
-  display: none !important;
-}
-
-body[data-slug="about-me/profile"] #quartz-body,
-body[data-slug="about-me/profile"] #quartz-root {
-  display: block;
-}
-
-body[data-slug="about-me/profile"] .center,
-body[data-slug="about-me/profile"] .center article {
-  width: min(100%, 980px);
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 0;
-  color: var(--kv-profile-text);
-}
-
-body[data-slug="about-me/profile"] .center article {
-  padding: clamp(2rem, 4vw, 4rem) 1.25rem 4rem;
-}
+/* Profile uses the standard Quartz article layout. */
 
 body[data-slug="about-me/profile"] .kv-profile-shell {
   color: var(--kv-profile-text);
@@ -984,33 +948,3 @@ body[data-slug="about-me/profile"] footer {
 [saved-theme="dark"] body[data-slug="about-me/profile"] .kv-profile-section strong {
   color: var(--kv-sky);
 }
-
-
-/* profile-publish-cache-bust: restore-kv-profile-shell */
-
-/* About Me explorer link: bold, to match section header weight.
-   Matched on an href suffix rather than an exact path. Quartz renders
-   explorer links relative to the current page and the explorer is a
-   community plugin whose class names can change between versions, so the
-   previous exact selector, .nav-file-title[href="/profile"], matched
-   nothing and the rule was silently dead. Anchored on data-for as well,
-   which is the one attribute the explorer sets from the slug itself.
-   Rosewood rather than Cerise: Cerise is 4.07:1 as text and fails AA, so
-   the design system keeps it to borders and fills. */
-.explorer-content a[href$="/profile"],
-.explorer-content a[href$="/profile/"],
-.explorer-content a[href="profile"],
-.explorer-content a[href="./profile"],
-.explorer-content a[data-for="profile"] {
-  color: #BB3250;
-  font-weight: 700;
-}
-
-[saved-theme="dark"] .explorer-content a[href$="/profile"],
-[saved-theme="dark"] .explorer-content a[href$="/profile/"],
-[saved-theme="dark"] .explorer-content a[href="profile"],
-[saved-theme="dark"] .explorer-content a[href="./profile"],
-[saved-theme="dark"] .explorer-content a[data-for="profile"] {
-  color: var(--kv-sky);
-}
-
