@@ -9,3 +9,5 @@ This section is for work that can be shared publicly without exposing private no
 ## Current projects and artifacts
 
 - [[fm2-reviewer|FINMA202 Oral Exam Master Reviewer]]
+
+- [[projects/the-philippines-under-pax-silica-a-10-year-simulation|The Philippines under Pax Silica: a 10-year simulation]]

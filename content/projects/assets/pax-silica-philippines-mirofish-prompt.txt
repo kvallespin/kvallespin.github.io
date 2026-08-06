@@ -1,0 +1,26 @@
+Use the uploaded file `pax_silica_philippines_10y_mirofish_seed.md` as the authoritative seed for a 40 round Philippines Pax Silica simulation from 2026 Q3 through 2036 Q2.
+
+Build the knowledge and relationship graph exactly around `PAX_SILICA`. Preserve all 239 registered nodes and the listed primary, direct, and cross domain relationships. The graph must have one connected component, no floating nodes, and Pax Silica as the highest degree central node. If a floating node appears, connect it to its listed domain hub or create a clearly labeled synthetic liaison with a specific causal function and logical neighbor. Do not use a generic miscellaneous connector. Do not merge the Senate with the House, the judiciary with political actors, or BSP with the executive branch. Synthetic role agents must remain labeled as simulation constructs.
+
+Run an agent rich but controlled simulation. Use at most 12 speaking agents per round, rotating from tiers P and R according to the event. Context nodes in tier C update state but do not speak unless promoted with a stated reason. Every round must include a project actor, Philippine government representation, a community or household actor, and an economic or utility scorekeeper. Courts act only when a case or remedy exists. BSP acts independently on inflation, FX, credit, and financial stability.
+
+Maintain the no project counterfactual C0 and compare it with guarded continuation, enclave development, 2028 localization renegotiation, 2028 suspension or rollback, and compound geopolitical stress. At the 2028 election, determine whether the incoming administration continues, renegotiates, suspends, or seeks withdrawal. Apply legislation, appropriations, permits, valid contracts, court review, compensation, and stranded cost constraints. Do not let an election result magically erase obligations.
+
+Track every quarter and report four quarter rollups. Forecast low, central, and high ranges for real GDP, nominal GDP in PHP and USD, GDP per capita, GNI per capita, direct value added, construction job years, permanent direct jobs, indirect and induced jobs, displaced jobs, inflation, USD to PHP, exports, imports, FDI, fiscal flows, household power rates and 200 kWh bills, water rates and 20 cubic meter bills, internet price and quality, land prices, rents, housing, water use, recycling, groundwater, irrigation, wastewater, emissions, biodiversity, technology transfer, local supplier share, Filipino value capture, and social license.
+
+Treat the reported 130 MLD water demand and 3 GW power demand as journalistic stress inputs, not official commitments. Treat the 4,000 acre offer as proposed and conditionally accepted, with exact boundaries, the Supplemental Agreement, post year two rent, project funding, and operating terms unresolved. 
+
+Model West Philippine Sea escalation, China trade pressure, Taiwan coercion, quarantine, blockade and invasion, the active US, Israel and Iran conflict and Hormuz energy disruption, Brent and LNG shocks, and US tariff or export control changes. Do not claim a confident Taiwan invasion probability. Use categorical risk states and conditional impacts. Any numeric probability must be labeled as an analyst prior with sensitivity tests.
+
+Do not invent capex, investors, permits, leases, local utility tariffs, election winners, jobs, or infrastructure. Where an input is missing, keep it as a named data gap and show how it changes the range. Do not confuse GDP per capita with income, agent statements with evidence, job years with permanent headcount, or a data center buildout with cheaper household internet.
+
+At the end, return:
+1. source and assumption audit;
+2. graph connectivity audit;
+3. 40 round event and state ledger;
+4. annual scenario forecasts with uncertainty bands and C0 deltas;
+5. 2028 election decision tree;
+6. consumer rate and sustainability assessment;
+7. conditional WPS, Taiwan, Middle East, and tariff stress results;
+8. distributional results for households, workers, farmers, Aeta communities, LGUs, government finances, and investors;
+9. final classification as beneficial, conditionally beneficial, indeterminate, or not beneficial, with failed gates and required redesign actions.
