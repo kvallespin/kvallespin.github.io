@@ -1,6 +1,6 @@
 ---
-title: The Philippines under Pax Silica: a 10-year simulation
-description: A MiroFish simulation of the proposed Pax Silica Economic Security Zone in New Clark City, testing whether the framework survives water, social license, utility affordability, and geopolitical constraints.
+title: "The Philippines under Pax Silica: a 10-year simulation"
+description: "A MiroFish simulation of the proposed Pax Silica Economic Security Zone in New Clark City, testing whether the framework survives water, social license, utility affordability, and geopolitical constraints."
 tags:
   - projects
   - mirofish
