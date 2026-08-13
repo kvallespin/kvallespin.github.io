@@ -26,9 +26,9 @@ There was also a more personal reason. My final exam in Financial Management 2 d
 
 The short thesis is this: EA was not cheap. EA was financeable, scarce, and strategically useful. The debt looks serviceable, but it is not casual. The model works only if EA remains a recurring cash-flow machine and if private ownership improves discipline without damaging the creative system that produces the franchises.
 
-![Biggest private-equity LBOs chart showing EA at $55B compared with historical mega-buyouts.](assets/ea-pif-lbo/00_biggest_lbos.png)
+![Biggest private-equity LBOs chart showing EA at USD 55 billion compared with historical mega-buyouts.](assets/ea-pif-lbo/00_biggest_lbos.png)
 
-![Simple transaction bar chart showing $36B of equity investment and $18B of funded debt.](assets/ea-pif-lbo/01_transaction_split.png)
+![Simple transaction bar chart showing USD 36 billion of equity investment and USD 18 billion of funded debt.](assets/ea-pif-lbo/01_transaction_split.png)
 
 ## What an LBO is, in plain English
 
@@ -44,25 +44,25 @@ EA is a useful case because it is not a factory, a toll road, or a boring softwa
 
 EA Sports is the anchor, but Electronic Arts is larger than that. The target includes EA Sports FC, Madden NFL, College Football, F1, Battlefield, Apex Legends, The Sims, studios, data, publishing infrastructure, and live-service economies built around long-running franchises.
 
-The attraction is the revenue mix. In FY26, EA reported $7.531 billion of net revenue and $8.026 billion of net bookings. Live services and other revenue were $5.383 billion, or 71.5 percent of net revenue. Full game revenue was $2.148 billion, or 28.5 percent. A lender looking at this does not see one annual launch cycle. It sees a player base that keeps spending after the initial sale.
+The attraction is the revenue mix. In FY26, EA reported USD 7.531 billion of net revenue and USD 8.026 billion of net bookings. Live services and other revenue were USD 5.383 billion, or 71.5 percent of net revenue. Full game revenue was USD 2.148 billion, or 28.5 percent. A lender looking at this does not see one annual launch cycle. It sees a player base that keeps spending after the initial sale.
 
-![Revenue mix chart showing FY26 live services and other revenue at $5.383B, or 71.5 percent, and full game revenue at $2.148B, or 28.5 percent.](assets/ea-pif-lbo/02_revenue_mix.png)
+![Revenue mix chart showing FY26 live services and other revenue at USD 5.383B, or 71.5 percent, and full game revenue at USD 2.148B, or 28.5 percent.](assets/ea-pif-lbo/02_revenue_mix.png)
 
 ![Electronic Arts revenue by platform chart showing console, PC and other, and mobile from Mar 2013 to LTM.](assets/ea-pif-lbo/09_revenue_by_platform.png)
 
 The strongest business-model point from the outside commentary is the mix: annual sports franchises, digital distribution, subscriptions, scale, and live services. That mix is financeable. Lenders and sponsors are not underwriting one game launch. They are underwriting recurring player behavior across a portfolio.
 
-But stable is not the same as fast-growing. EA's net bookings were $7.515 billion in FY22, $7.426 billion in FY23, $7.430 billion in FY24, $7.355 billion in FY25, and $8.026 billion in FY26. The FY26 rebound helps, but the years before it were mostly flat. A good LBO model cannot draw an upward line and call it strategy.
+But stable is not the same as fast-growing. EA's net bookings were USD 7.515 billion in FY22, USD 7.426 billion in FY23, USD 7.430 billion in FY24, USD 7.355 billion in FY25, and USD 8.026 billion in FY26. The FY26 rebound helps, but the years before it were mostly flat. A good LBO model cannot draw an upward line and call it strategy.
 
-![Net bookings path chart showing EA net bookings at $7.515B in FY22, $7.426B in FY23, $7.430B in FY24, $7.355B in FY25, and $8.026B in FY26.](assets/ea-pif-lbo/03_bookings_path.png)
+![Net bookings path chart showing EA net bookings at USD 7.515B in FY22, USD 7.426B in FY23, USD 7.430B in FY24, USD 7.355B in FY25, and USD 8.026B in FY26.](assets/ea-pif-lbo/03_bookings_path.png)
 
-The other caveat is cost. FY26 research and development was $2.828 billion. Marketing and sales were $1.128 billion. Cost of revenue was $1.584 billion. Cut those lines blindly and the model gets worse, not better. A private owner can remove waste, cancel weak projects earlier, and centralize tooling. A bad owner can cut the muscle and keep the fat.
+The other caveat is cost. FY26 research and development was USD 2.828 billion. Marketing and sales were USD 1.128 billion. Cost of revenue was USD 1.584 billion. Cut those lines blindly and the model gets worse, not better. A private owner can remove waste, cancel weak projects earlier, and centralize tooling. A bad owner can cut the muscle and keep the fat.
 
 ![Electronic Arts Q1 FY26 income statement flow chart showing revenue, gross profit, operating profit, expenses, and net profit.](assets/ea-pif-lbo/10_q1_fy26_income_statement.png)
 
 ## The acquirers: PIF, Silver Lake, and Affinity
 
-The deal is best described as a PIF-led consortium take-private with Silver Lake and Affinity Partners. EA's announcement named all three buyers. It also said PIF would roll its existing 9.9 percent stake. Shareholders would receive $210 per share in cash, a 24.8 percent premium to the unaffected price of $168.32. The transaction valued EA at about $55 billion.
+The deal is best described as a PIF-led consortium take-private with Silver Lake and Affinity Partners. EA's announcement named all three buyers. It also said PIF would roll its existing 9.9 percent stake. Shareholders would receive USD 210 per share in cash, a 24.8 percent premium to the unaffected price of USD 168.32. The transaction valued EA at about USD 55 billion.
 
 The ownership change is more interesting than the old public-private line. Before the take-private, EA's listed holder base was spread across passive asset managers, PIF, event-driven funds, and everyone else. The top listed holders I found were BlackRock at 9.95 percent, PIF at 9.83 percent, Vanguard at 6.13 percent, State Street at 5.60 percent, and Pentwater at 5.07 percent, with the remaining 63.42 percent under others. After the LBO, one reported ownership split puts PIF at 93.4 percent, Silver Lake at 5.5 percent, and Affinity Partners at 1.1 percent.
 
@@ -76,27 +76,27 @@ This is why I do not see the acquisition as a normal LBO. It is a sovereign-led 
 
 ## The LBO model and the thesis
 
-The transaction math starts with the $210 per share offer. Using 250.751 million shares outstanding, the implied equity value is about $52.66 billion. PIF's 9.9 percent rollover is worth about $5.21 billion at the offer price, leaving about $47.44 billion of cash consideration to non-PIF shareholders. The announced financing included about $36 billion of equity investment and $20 billion of debt commitments, with $18 billion expected to fund at close.
+The transaction math starts with the USD 210 per share offer. Using 250.751 million shares outstanding, the implied equity value is about USD 52.66 billion. PIF's 9.9 percent rollover is worth about USD 5.21 billion at the offer price, leaving about USD 47.44 billion of cash consideration to non-PIF shareholders. The announced financing included about USD 36 billion of equity investment and USD 20 billion of debt commitments, with USD 18 billion expected to fund at close.
 
 ![LBO model summary table showing the core transaction, valuation, cash flow, leverage, and debt-service metrics.](assets/ea-pif-lbo/07_lbo_model_summary.png)
 
 ### Assumptions
 
-The model uses public, rounded inputs. It assumes $55.0 billion of enterprise value, $210 per share of offer price, 250.751 million diluted shares outstanding, and a 9.9 percent PIF rollover valued at the offer price. It uses $36.0 billion of equity investment, $20.0 billion of committed acquisition debt, and $18.0 billion of debt expected to fund at close.
+The model uses public, rounded inputs. It assumes USD 55.0 billion of enterprise value, USD 210 per share of offer price, 250.751 million diluted shares outstanding, and a 9.9 percent PIF rollover valued at the offer price. It uses USD 36.0 billion of equity investment, USD 20.0 billion of committed acquisition debt, and USD 18.0 billion of debt expected to fund at close.
 
-For operating performance, the model uses EA's FY26 net revenue of $7.531 billion, FY26 net bookings of $8.026 billion, FY26 operating cash flow of $2.553 billion, and $230 million of capital expenditures. Free cash flow is a simple proxy: operating cash flow less capital expenditures. It is not a full sponsor model with tax shields, debt amortization, refinancing fees, management equity, transaction fees, or exit multiple sensitivity.
+For operating performance, the model uses EA's FY26 net revenue of USD 7.531 billion, FY26 net bookings of USD 8.026 billion, FY26 operating cash flow of USD 2.553 billion, and USD 230 million of capital expenditures. Free cash flow is a simple proxy: operating cash flow less capital expenditures. It is not a full sponsor model with tax shields, debt amortization, refinancing fees, management equity, transaction fees, or exit multiple sensitivity.
 
 For the cash-flow table, I use a seven-year horizon because it is a familiar private-equity hold-period frame, even if PIF may hold longer. Revenue grows at 3.5 percent per year. Free cash flow margin stays at the FY26 proxy level of 30.8 percent. Interest is 8 percent on beginning debt. All post-interest free cash flow is swept to debt repayment. This is intentionally simple. It is a debt-service sketch, not a full valuation model.
 
 ![Seven-year cash flow table showing revenue, FCF proxy, interest, debt paydown, ending debt, and debt to FCF with years shown as columns.](assets/ea-pif-lbo/08_cash_flow_schedule.png)
 
-The headline valuation is high. At about $55 billion of enterprise value, the buyers paid 6.9 times FY26 net bookings and 23.7 times the FY26 free cash flow proxy. The debt still bites. At $18 billion of funded debt, a 7 percent interest rate implies about $1.26 billion of annual interest. At 8 percent, it is $1.44 billion. At 9 percent, it is $1.62 billion. Against the FY26 free cash flow proxy, that consumes roughly 54.2 percent, 62.0 percent, and 69.7 percent of free cash flow before tax shield.
+The headline valuation is high. At about USD 55 billion of enterprise value, the buyers paid 6.9 times FY26 net bookings and 23.7 times the FY26 free cash flow proxy. The debt still bites. At USD 18 billion of funded debt, a 7 percent interest rate implies about USD 1.26 billion of annual interest. At 8 percent, it is USD 1.44 billion. At 9 percent, it is USD 1.62 billion. Against the FY26 free cash flow proxy, that consumes roughly 54.2 percent, 62.0 percent, and 69.7 percent of free cash flow before tax shield.
 
-![Debt stress chart showing interest on $18B funded debt at 7 percent, 8 percent, and 9 percent compared against the FY26 FCF proxy.](assets/ea-pif-lbo/04_debt_stress.png)
+![Debt stress chart showing interest on USD 18 billion funded debt at 7 percent, 8 percent, and 9 percent compared against the FY26 FCF proxy.](assets/ea-pif-lbo/04_debt_stress.png)
 
 That is serviceable, not loose. At 8 percent, EA still has room after interest, but not much. Product misses, licensing shocks, weaker live-service engagement, or a failed release cycle would show up faster under this capital structure.
 
-The hardest number to discuss is EBITDA. One credit-market lens puts the deal at about 18 times EV to EBITDA and about 6 times gross leverage using an FY27E EBITDA estimate of about $3.1 billion. That is a credible credit framing, but it is not the same as a trailing GAAP proxy. If I use FY26 operating income of $1.162 billion plus depreciation, amortization, accretion, and impairment of $323 million, the proxy is only $1.485 billion. On that basis, the deal looks like 37.0 times EV to EBITDA and 12.1 times gross leverage on $18 billion of funded debt.
+The hardest number to discuss is EBITDA. One credit-market lens puts the deal at about 18 times EV to EBITDA and about 6 times gross leverage using an FY27E EBITDA estimate of about USD 3.1 billion. That is a credible credit framing, but it is not the same as a trailing GAAP proxy. If I use FY26 operating income of USD 1.162 billion plus depreciation, amortization, accretion, and impairment of USD 323 million, the proxy is only USD 1.485 billion. On that basis, the deal looks like 37.0 times EV to EBITDA and 12.1 times gross leverage on USD 18 billion of funded debt.
 
 ![EBITDA definition sensitivity chart comparing the forecasted credit-market EBITDA multiple of 17.7x with a GAAP FY26 proxy multiple of 37.0x.](assets/ea-pif-lbo/05_ebitda_sensitivity.png)
 
@@ -122,7 +122,7 @@ For me, this makes the deal less mysterious. It is expensive if viewed only as a
 
 I understand why PIF would want EA. It is one of the few global assets that connects gaming, sport, entertainment, data, fandom, and recurring digital monetization. EA Sports FC alone touches global football culture. Madden and College Football touch American football. F1 touches motorsport. The Sims, Battlefield, and Apex extend the portfolio beyond sports.
 
-I also understand why the price looks uncomfortable. A $55 billion enterprise value is not a bargain against current public numbers. Even with the forecasted EBITDA framing, the entry multiple is rich. Against trailing free cash flow, it is plainly expensive.
+I also understand why the price looks uncomfortable. A USD 55 billion enterprise value is not a bargain against current public numbers. Even with the forecasted EBITDA framing, the entry multiple is rich. Against trailing free cash flow, it is plainly expensive.
 
 So the honest answer is not that the deal is cheap. It is that the deal can be rational for a buyer whose strategy is wider than financial engineering. PIF gets a global digital sports and entertainment platform. Silver Lake gets a rare technology and media asset with cash-flow characteristics that can support leverage. EA gets away from public-market pressure at a time when creative investment and franchise management require patience.
 
@@ -134,7 +134,7 @@ The danger is that leverage makes patience harder. Debt can discipline managemen
 
 > The ownership change is the story. EA moved from a dispersed listed holder base to a private company where PIF is the controlling owner.
 
-> The LBO is serviceable but constraining. At 8 percent interest, $18 billion of funded debt consumes about 62.0 percent of FY26 free cash flow before tax shield.
+> The LBO is serviceable but constraining. At 8 percent interest, USD 18 billion of funded debt consumes about 62.0 percent of FY26 free cash flow before tax shield.
 
 > The seven-year cash-flow sketch shows why this is doable but not relaxed. Even with all post-interest cash swept to debt, leverage stays in the room deep into the hold period.
 
