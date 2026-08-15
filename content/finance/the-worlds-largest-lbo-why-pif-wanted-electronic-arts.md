@@ -18,11 +18,11 @@ updated: 2026-08-13
 
 <p class="image-credit" style="text-align:center;font-size:0.8rem;color:#475461;">Image credit: AI-generated image based on PIF's Electronic Arts acquisition announcement<br><a href="https://www.pif.gov.sa/en/news-and-insights/newswire/2026/electronic-arts-announces-completion-of-acquisition-by-pif-silver-lake-and-affinity-partners/">https://www.pif.gov.sa/en/news-and-insights/newswire/2026/electronic-arts-announces-completion-of-acquisition-by-pif-silver-lake-and-affinity-partners/</a></p>
 
-<p class="kv-cerise-red"><strong>Disclaimer.</strong> This is not financial truth, economic truth, investment advice, or a fairness opinion. It is merely an academic exercise based on publicly available sources, EA filings, and a simple traceable model.</p>
+<p class="kv-cerise-red"><strong>Disclaimer.</strong> THIS IS AN ACADEMIC EXERCISE, not investment advice or a fairness opinion. Every input is drawn from public sources, EA filings, and a model you can trace line by line. All company names, trademarks, and logos referenced are the property of their respective owners.</p>
 
-I am working at one of PIF's portfolio companies, which got me interested in this new acquisition effectively becoming our sister company in the portfolio one fine Tuesday morning. My engineer brain immediately wanted to know whether the numbers made sense.
+I work at one of PIF's portfolio companies, so this acquisition effectively made EA our sister company overnight. That got my attention fast, and my engineer brain immediately wanted to know whether the numbers actually made sense.
 
-There was also a more personal reason. My final exam in Financial Management 2 during my MBA's previous term was an oral exam about leveraged buyouts. It was nerve-racking, and the preparation review traumatized me more than I care to admit. So when the largest gaming LBO in history landed inside PIF's orbit, I had both a professional curiosity and a mild academic flashback.
+There was also a more personal reason. My final exam in Financial Management 2, during my MBA, was an oral exam on leveraged buyouts, and the prep for it traumatized me more than I'd like to admit. So when the largest gaming LBO in history landed inside PIF's orbit, it triggered both genuine professional curiosity and a mild academic flashback.
 
 The short thesis is this: EA was not cheap. EA was financeable, scarce, and strategically useful. The debt looks serviceable, but it is not casual. The model works only if EA remains a recurring cash-flow machine and if private ownership improves discipline without damaging the creative system that produces the franchises.
 
@@ -130,20 +130,23 @@ The danger is that leverage makes patience harder. Debt can discipline managemen
 
 ## Key insights
 
-> EA was not bought because it was cheap. It was bought because it was financeable, scarce, and strategically useful.
+1. EA was not bought because it was cheap. It was bought because it was financeable, scarce, and strategically useful.
 
-> The ownership change is the story. EA moved from a dispersed listed holder base to a private company where PIF is the controlling owner.
+2. The ownership change is the story. EA moved from a dispersed listed holder base to a private company where PIF is the controlling owner.
 
-> The LBO is serviceable but constraining. At 8 percent interest, USD 18 billion of funded debt consumes about 62.0 percent of FY26 free cash flow before tax shield.
+3. The LBO is serviceable but constraining. At 8 percent interest, USD 18 billion of funded debt consumes about 62.0 percent of FY26 free cash flow before tax shield.
 
-> The seven-year cash-flow sketch shows why this is doable but not relaxed. Even with all post-interest cash swept to debt, leverage stays in the room deep into the hold period.
+4. The seven-year cash-flow sketch shows why this is doable but not relaxed. Even with all post-interest cash swept to debt, leverage stays in the room deep into the hold period.
 
-> The EBITDA multiple depends on the definition. The forecasted credit-market lens gives about 18 times EV to EBITDA. A GAAP FY26 proxy gives about 37 times.
+5. The EBITDA multiple depends on the definition. The forecasted credit-market lens gives about 18 times EV to EBITDA. A GAAP FY26 proxy gives about 37 times.
 
-> This is best understood as a sovereign-led strategic take-private financed with LBO tools, not as a textbook sponsor buyout.
+6. This is best understood as a sovereign-led strategic take-private financed with LBO tools. It is not a textbook sponsor buyout.
 
-> The deal works only if private ownership improves discipline without damaging the creative engine.
+7. The deal works only if private ownership improves discipline without damaging the creative engine.
 
+I'd love to be challenged on this.
+
+If you have deal experience, credit-market context, or just a strong opinion on whether this LBO makes sense, let's talk in the comments.
 ## Sources
 
 ### Electronic Arts agreement announcement

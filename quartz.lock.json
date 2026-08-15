@@ -31,12 +31,6 @@
       "commit": "cf2e161425165e1ac713f1feb7250b07fe0250ae",
       "installedAt": "2026-06-08T04:49:00.112Z"
     },
-    "canvas-page": {
-      "source": "github:quartz-community/canvas-page",
-      "resolved": "https://github.com/quartz-community/canvas-page.git",
-      "commit": "84fc96799671a65f76b66e30217dbefdd43a2905",
-      "installedAt": "2026-06-08T04:49:00.175Z"
-    },
     "citations": {
       "source": "github:quartz-community/citations",
       "resolved": "https://github.com/quartz-community/citations.git",
@@ -114,12 +108,6 @@
       "resolved": "https://github.com/quartz-community/explorer.git",
       "commit": "a2dfd1373abe58ace461ebea0b4e94cb287f894e",
       "installedAt": "2026-06-08T04:48:59.249Z"
-    },
-    "favicon": {
-      "source": "github:quartz-community/favicon",
-      "resolved": "https://github.com/quartz-community/favicon.git",
-      "commit": "85842d5c15f937a3d1a02c45accee27118146d73",
-      "installedAt": "2026-06-08T04:48:57.091Z"
     },
     "folder-page": {
       "source": "github:quartz-community/folder-page",
