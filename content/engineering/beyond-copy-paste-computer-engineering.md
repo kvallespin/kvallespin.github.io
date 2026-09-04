@@ -12,6 +12,8 @@ created: 2025-09-28
 updated: 2025-09-28
 ---
 
+# Beyond Copy-Paste: Reimagining Philippine Computer Engineering
+
 ![Computer Science Vs Computer Engineering](https://habib.edu.pk/wp-content/uploads/2024/08/cs-vs-ce-1.jpg)
 
 *Image: Computer Science Vs Computer Engineering: Make Informed Decisions!, Habib University*
@@ -140,6 +142,9 @@ Let's do this right. Let's create a profession that is distinct, recognized, and
 - House Bill No. 8743 - AN ACT PROVIDING FOR A MORE RESPONSIVE AND COMPREHENSIVE REGULATION FOR THE REGISTRATION, LICENSING AND PRACTICE OF PROFESSIONAL COMPUTER ENGINEERS, REGISTERED COMPUTER ENGINEERS, COMPUTER ENGINEERING TECHNOLOGISTS, AND COMPUTER TECHNICIANS: [https://ldr.senate.gov.ph/bills/house-bill-no-8743-18th-congress-republic](https://ldr.senate.gov.ph/bills/house-bill-no-8743-18th-congress-republic)
 - Republic Act No. 9292 - Electronics Engineering Law of 2004: [https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/1514](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/1514)
 - Republic Act No. 5734 - Electronics and Communications Engineering Act of 1969: [https://lawphil.net/statutes/repacts/ra1969/ra_5734_1969.html](https://lawphil.net/statutes/repacts/ra1969/ra_5734_1969.html)
+
+
+
 
 
 
