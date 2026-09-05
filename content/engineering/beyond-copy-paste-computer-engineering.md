@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beyond Copy-Paste: Reimagining Philippine Computer Engineering"
 subtitle: "How a bill stalled for four years reveals the identity crisis at the heart of CPE licensure"
 description: "An Electronics Engineer examines the proposed Computer Engineering Act and its copy-paste legislative approach."
@@ -54,25 +54,31 @@ This is not a thoughtful, considered piece of legislation. It's lazy.
 
 **The "Computer" Definition**
 
-| RA 9292, Section 3(f) | HB 3845, Section 2(e) |
-|----------------------|----------------------|
-| "Computer - electronic device capable of accepting data, programs and/or instructions, executing programs/instructions to process data and presenting results." | "Computer - any of a variety of electronic devices that is capable of accepting data, programs and/or instructions, executing the programs and/or instructions to process the data and presenting the results" |
+> **RA 9292, Section 3(f):**
+> "Computer - electronic device capable of accepting data, programs and/or instructions, executing programs/instructions to process data and presenting results."
+>
+> **HB 3845, Section 2(e):**
+> "Computer - any of a variety of electronic devices that is capable of accepting data, programs and/or instructions, executing the programs and/or instructions to process the data and presenting the results"
 
 Identical. The bill even adds the unnecessary "any of a variety of" - a filler phrase that suggests the drafter didn't even understand what they were copying. This is a 1990s definition of "computer" that would be laughable if it weren't so serious.
 
 **The ICT Definition**
 
-| RA 9292, Section 3(g) | HB 3845, Section 2(f) |
-|----------------------|----------------------|
-| "ICT - acquisition, production, transformation, storage and transmission/reception of data and information by electronic means in vocal, pictorial, textual, numeric or other forms." | "ICT - acquisition, production, transformation, storage and transmission/reception of data and information by electronic means in forms such as vocal, pictorial, textual, numeric or the like; also refers to theoretical and practical applications and processes utilizing such data and information" |
+> **RA 9292, Section 3(g):**
+> "ICT - acquisition, production, transformation, storage and transmission/reception of data and information by electronic means in vocal, pictorial, textual, numeric or other forms."
+>
+> **HB 3845, Section 2(f):**
+> "ICT - acquisition, production, transformation, storage and transmission/reception of data and information by electronic means in forms such as vocal, pictorial, textual, numeric or the like; also refers to theoretical and practical applications and processes utilizing such data and information"
 
 Identical, with a tiny addendum.
 
 **The Industrial Plant and Commercial Establishment Definitions**
 
-| RA 9292, Section 3(k) | HB 3845, Section 2(g) |
-|----------------------|----------------------|
-| "Industrial Plant - manufacturing establishments where electronic or electronically-controlled machinery/equipment are installed/used/sold/maintained/assembled/manufactured/operated." | "Industrial Plant - manufacturing establishments where computer or computer-controlled machinery/equipment are installed/used/sold/maintained/assembled/manufactured/operated" |
+> **RA 9292, Section 3(k):**
+> "Industrial Plant - manufacturing establishments where electronic or electronically-controlled machinery/equipment are installed/used/sold/maintained/assembled/manufactured/operated."
+>
+> **HB 3845, Section 2(g):**
+> "Industrial Plant - manufacturing establishments where computer or computer-controlled machinery/equipment are installed/used/sold/maintained/assembled/manufactured/operated"
 
 Same structure. Same slash separators. Same verb list. Just "electronic" → "computer."
 
@@ -80,9 +86,11 @@ Same structure. Same slash separators. Same verb list. Just "electronic" → "co
 
 Here's the most striking evidence. Compare the scope of practice for Electronics Engineers in RA 9292 with the scope for Computer Engineers in HB 3845:
 
-| RA 9292, Section 5(a) - ECE Scope | HB 3845, Section 3(c) - CpE Scope |
-|----------------------------------|----------------------------------|
-| "application of engineering sciences and/or principles to investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **electronic components, devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** in the fields of electronics, including communications and/or telecommunications, information and communications technology (ICT), computers and their networking and hardware/firmware/software development and applications..." | "any work or activity relating to the application of engineering sciences and/or principles to investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **computer and all associated devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** including information and communications technology (ICT), computers networks, firmware, software development and applications..." |
+> **RA 9292, Section 5(a) - ECE Scope:**
+> "application of engineering sciences and/or principles to investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **electronic components, devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** in the fields of electronics, including communications and/or telecommunications, information and communications technology (ICT), computers and their networking and hardware/firmware/software development and applications..."
+>
+> **HB 3845, Section 3(c) - CpE Scope:**
+> "any work or activity relating to the application of engineering sciences and/or principles to investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **computer and all associated devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** including information and communications technology (ICT), computers networks, firmware, software development and applications..."
 
 The only difference is the highlighted substitution: "electronic components, devices, products" becomes "computer and all associated devices, products." The rest is identical. Even the catch-all "all other related and convergent fields" is preserved.
 
