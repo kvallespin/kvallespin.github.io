@@ -94,11 +94,45 @@ Here's the most striking evidence. Compare the scope of practice for Electronics
 
 The only difference is the highlighted substitution: "electronic components, devices, products" becomes "computer and all associated devices, products." The rest is identical. Even the catch-all "all other related and convergent fields" is preserved.
 
+## The scope nitpick: what's actually different?
+
+Let's dissect the scope of practice provisions in detail.
+
+**RA 9292, Section 5(a) - Electronics Engineer Scope:**
+"application of engineering sciences and/or principles to the investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **electronic components, devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** in the fields of electronics, including communications and/or telecommunications, **information and communications technology (ICT), computers and their networking and hardware/firmware/software development and applications**, broadcast/broadcasting, cable and wireless television, consumer and industrial electronics, electro-optics/photonics/opto-electronics, electro-magnetics, avionics, aerospace, navigational and military applications, medical electronics, robotics, cybernetics, biometrics and all other related and convergent fields"
+
+**HB 3845, Section 3(c) - Computer Engineer Scope:**
+"application of engineering sciences and/or principles to the investigation, analysis, synthesis, planning, design, specification, research and development, provision, procurement, marketing and sales, manufacture and production, construction and installation, tests/measurements/control, operation, repair, servicing, technical support and maintenance of **computer and all associated devices, products, apparatus, instruments, equipment, systems, networks, operations and processes** including **information and communications technology (ICT), computers networks, firmware, software development and applications**, biomedical electronics, robotics, cybernetics, biometrics, embedded system, microelectronics, FPGA, and all other related and convergent fields"
+
+The differences are minimal:
+
+1. **"electronic components, devices, products" → "computer and all associated devices, products"** - The ECE scope already includes computers. This substitution doesn't expand CPE scope beyond what ECE already covers.
+
+2. **Added fields in CPE scope:** biomedical electronics, embedded system, microelectronics, FPGA - These are not new to computer engineering. Medical electronics (biomedical electronics) is already in the ECE scope. Microelectronics and FPGA are subfields of electronics that ECEs already practice. Embedded systems are electronics that use computers - already covered.
+
+More importantly, these are all part of the standard Electronics Engineering curriculum in the Philippines. I took courses in all of these as an ECE student. The Computer Science curriculum includes different content - algorithms, data structures, software engineering. If we're going to create a distinct Computer Engineering profession, we first need to delineate what makes it different academically. The Commission on Higher Education (CHED), along with other private and state program accreditation bodies, must align the curriculum with the scope of practice before we attempt a professional split. Otherwise, we'll have chaos: professionals regulated under different laws but trained in the same programs, with no clear way to know which license applies to which work. This is a recipe for piles of litigation from both sides.
+
+3. **Removed from CPE scope:** communications, telecommunications, broadcast/broadcasting, cable and wireless television, consumer and industrial electronics, electro-optics/photonics/opto-electronics, electro-magnetics, avionics, aerospace, navigational and military applications - The CPE bill removed these from its scope, presumably because they're "electronics" not "computers." But this creates a gap: if a computer is used in avionics or aerospace, who regulates it? The CPE or the ECE? The bill doesn't say.
+
+4. **The catch-all "all other related and convergent fields"** - Both scopes end with this. This means any work that could be argued as "related and convergent" falls within both professions' scopes. The CPE bill didn't even try to narrow this.
+
+The bottom line: the CPE scope is not distinct from the ECE scope. It's a subset with different boundaries drawn around the same work. The bill's authors drew arbitrary lines between "electronic" and "computer" without recognizing that modern electronics is computers and modern computers are electronics.
+
 ### Why this matters
 
 The scope of practice defined in HB 3845 is counterintuitive and counterproductive. It takes scope from the ECE law - "computers and their networking and hardware/firmware/software development" - and transfers it to the new CPE profession. But this creates a paradox: the ECE law already covers this scope. The ECE exam already includes computers and ICT as required subjects. The ECE board already regulates this work.
 
 What HB 3845 does is create two professions with overlapping scopes. This is not a split - it's a confusion. And confusion in professional regulation leads to inefficiency, litigation, and ultimately, a weaker profession for everyone.
+
+## The tiered profession system is confusing
+
+HB 3845 creates four distinct professional levels: Computer Technician (CpTn), Computer Engineering Technologist (CpET), Computer Engineer (RCpE), and Professional Computer Engineer (PCpE). But the distinctions between them are unclear.
+
+Compare this to the ECE law, which has a clear progression: Electronics Technician (ECT), Electronics Engineer (ECE), and Professional Electronics Engineer (PECE). Each level has distinct qualifications and scope.
+
+The CPE bill's tiering seems arbitrary. What exactly distinguishes a "Computer Technician" from a "Computer Engineering Technologist"? The bill doesn't say. And what's the difference between a "Computer Engineer" and a "Professional Computer Engineer"? The bill says the latter can provide "consulting services" - but that's it. That's the only difference.
+
+This is another example of the copy-paste approach: the bill copied the four-tier structure from the ASEAN Engineering Register (AER) framework without thinking about whether it makes sense for computer engineering specifically. The AER system exists for international mobility of engineers across ASEAN countries - but the Philippines already has its own tiered system that works fine for ECE. Why create a new one for CPE?
 
 ## An identity crisis in committee
 
