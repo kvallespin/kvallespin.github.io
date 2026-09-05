@@ -1,6 +1,6 @@
 ---
 title: "Beyond Copy-Paste: Reimagining Philippine Computer Engineering"
-subtitle: "How a bill stalled for four years reveals the identity crisis at the heart of CPE licensure"
+subtitle: "A detailed critique from an Electronics Engineer's perspective"
 description: "An Electronics Engineer examines the proposed Computer Engineering Act and its copy-paste legislative approach."
 tags:
   - public-web
