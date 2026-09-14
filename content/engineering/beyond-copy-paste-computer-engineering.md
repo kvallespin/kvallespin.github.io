@@ -14,6 +14,8 @@ updated: 2026-09-06
 
 # Beyond Copy-Paste: Reimagining Philippine Computer Engineering
 
+Lessons from 1969 and what HB 4833 gets wrong
+
 ![Computer Science Vs Computer Engineering](https://habib.edu.pk/wp-content/uploads/2024/08/cs-vs-ce-1.jpg)
 
 *Image: Computer Science Vs Computer Engineering: Make Informed Decisions!, Habib University*
