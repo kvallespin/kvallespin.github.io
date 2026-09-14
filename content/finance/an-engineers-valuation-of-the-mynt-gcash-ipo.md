@@ -50,7 +50,7 @@ Two things this makes plain that a list of names does not. Ant's stake is split 
 
 ## On size, and on the float
 
-At the top of the indicative range the offer raises about PHP 92 billion, roughly double the PHP 49 billion Monde Nissin raised in 2021. That is a record by proceeds, not by market value. The implied valuation lands near $11 billion, which would be the largest debut in Philippine history but would still leave Mynt behind ICTSI, SM Investments and BDO once it starts trading. Call it top five, not number one. The indicative price is also a ceiling set for filing purposes. Book-building decides the real number, and earlier reporting had the target closer to $8 billion.
+At the top of the indicative range the offer raises about PHP 92 billion, roughly double the PHP 49 billion Monde Nissin raised in 2021. That is a record by proceeds, not by market value. The implied valuation lands near \$11 billion, which would be the largest debut in Philippine history but would still leave Mynt behind ICTSI, SM Investments and BDO once it starts trading. Call it top five, not number one. The indicative price is also a ceiling set for filing purposes. Book-building decides the real number, and earlier reporting had the target closer to \$8 billion.
 
 Mynt is selling 12% of itself, a little under 14% if the overallotment is exercised. That figure is not a preference. It is the legal floor, and it did not exist a year ago. Until February the requirement was a flat 20% for everyone going public. The SEC replaced it with a sliding scale: the smaller the company, the more it has to sell, down to 15% for the largest issuers, with discretion to go as low as 12% for the very biggest. Mynt sits exactly on that floor. The exchange was still writing its matching rules in May, and the offer timeline moved with them.
 
@@ -58,7 +58,7 @@ The trade-off is interesting. Inclusion in the main Philippine index currently r
 
 Jakarta has spent the past year finding out what happens when too little of a company actually trades. Indonesia's benchmark index has the thinnest average free float in Asia-Pacific, with a large share of its members closely held and lightly traded. When most of a stock sits with founders and affiliates, the price is set by a small pool of shares. It moves on little volume, and the index built on top of it stops describing the market it is supposed to describe.
 
-Foreign money noticed. MSCI moved in January to measure Indonesian free float more strictly, and brokers estimated that index funds would have to pull roughly $2 billion out as weightings fell. By the end of March the Jakarta exchange had rewritten its listing rules, tightening what counts as free float and raising the minimum, after warnings that Indonesia risked losing its emerging-market classification over thin float, unclear ownership and signs of coordinated trading.
+Foreign money noticed. MSCI moved in January to measure Indonesian free float more strictly, and brokers estimated that index funds would have to pull roughly \$2 billion out as weightings fell. By the end of March the Jakarta exchange had rewritten its listing rules, tightening what counts as free float and raising the minimum, after warnings that Indonesia risked losing its emerging-market classification over thin float, unclear ownership and signs of coordinated trading.
 
 So the two regulators moved in opposite directions in the same quarter. Manila lowered its floor to land a listing it had wanted for years. Jakarta raised its floor after a thin float was blamed for a distorted index and a sharp selloff.
 
@@ -442,9 +442,9 @@ A few pitfalls I tried to avoid, and one I could not:
 
 That last row deserves more than a table cell. There is no listed Philippine company that looks like Mynt. The PSE's large caps are banks, conglomerates, property and utilities. Every multiple above is imported from a company operating in a different market, with a different regulator, a different currency and a different investor base.
 
-One final comparison, which I find more informative than any multiple, and which I can now source properly. Before the prospectus, I said Ayala and MUFG invested at about five billion dollars in August 2024, taken from press coverage. The prospectus documents the transaction directly: in **September 2024**, MUFG Bank subscribed to 64,205,070 common shares for US$160,000,333, representing 3.26 percent of issued and outstanding capital. [Prospectus, p. 85] That implies a valuation of about **US$4.91 billion**. [Computed]
+One final comparison, which I find more informative than any multiple, and which I can now source properly. Before the prospectus, I said Ayala and MUFG invested at about five billion dollars in August 2024, taken from press coverage. The prospectus documents the transaction directly: in **September 2024**, MUFG Bank subscribed to 64,205,070 common shares for US\$160,000,333, representing 3.26 percent of issued and outstanding capital. [Prospectus, p. 85] That implies a valuation of about **US\$4.91 billion**. [Computed]
 
-At PHP 10 the IPO prices the company at about US$11.0 billion. Over that period net income grew from PHP 11.1 billion to PHP 17.2 billion, an increase of roughly 55 percent, while the valuation rather more than doubled.
+At PHP 10 the IPO prices the company at about US\$11.0 billion. Over that period net income grew from PHP 11.1 billion to PHP 17.2 billion, an increase of roughly 55 percent, while the valuation rather more than doubled.
 
 Value rose faster than earnings. The difference is multiple expansion, which is the market paying more for each peso of profit than it did two years ago. That can be justified by a genuinely improving business, but it cannot be derived from one.
 
