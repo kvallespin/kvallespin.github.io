@@ -1,6 +1,54 @@
 @use "./variables.scss" as *;
 
 @font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-bookitalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-demi.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-demiitalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/assets/fonts/maison-neue/maisonneue-bolditalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "FreeSans";
   src: url("/assets/fonts/freesans.ttf") format("truetype");
   font-weight: 400;
@@ -33,9 +81,9 @@
 }
 
 :root {
-  --headerFont: "FreeSans", Arial, sans-serif;
-  --bodyFont: "FreeSans", Arial, sans-serif;
-  --codeFont: "FreeSans", Arial, sans-serif;
+  --headerFont: "Maison Neue", "FreeSans", Arial, sans-serif;
+  --bodyFont: "Maison Neue", "FreeSans", Arial, sans-serif;
+  --codeFont: "Maison Neue", "FreeSans", Arial, sans-serif;
 }
 
 html,
@@ -63,7 +111,7 @@ code,
 pre,
 kbd,
 samp {
-  font-family: "FreeSans", Arial, sans-serif !important;
+  font-family: "Maison Neue", "FreeSans", Arial, sans-serif !important;
 }
 
 .home-hero,

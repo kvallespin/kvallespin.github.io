@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-bookitalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-demi.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-demiitalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("./maisonneue-bolditalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --blog-font-family: "Maison Neue", FreeSans, Arial, sans-serif;
+}
