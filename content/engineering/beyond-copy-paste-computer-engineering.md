@@ -18,9 +18,9 @@ updated: 2026-09-06
 
 *Image: Computer Science Vs Computer Engineering: Make Informed Decisions!, Habib University*
 
-*Disclosure: I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
-*Update (September 6, 2026): The chairman of the PRC Board of Electronics Engineering, Hon. Ret. Cdre. Engr. Vicente Cejoco, reached out to me in private and shared an overview of the board's proactive strategy for addressing this issue head-on with the CPE side and with the concerned members of congress. I'm grateful for the insight and reassured that the board is actively engaged in this matter.*
+***Update (September 6, 2026):*** *The chairman of the PRC Board of Electronics Engineering, Hon. Ret. Cdre. Engr. Vicente Cejoco, reached out to me in private and shared an overview of the board's proactive strategy for addressing this issue head-on with the CPE side and with the concerned members of congress. I'm grateful for the insight and reassured that the board is actively engaged in this matter.*
 
 I've been an Electronics and Communications Engineer for a long time now. Long enough to remember when the profession looked different. Long enough to see how we got here.
 
