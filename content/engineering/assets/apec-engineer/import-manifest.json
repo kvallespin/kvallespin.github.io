@@ -68,5 +68,12 @@
       "published_name": "apec-engineer-databank-online.png",
       "bytes": 77549
     }
+  ,
+    {
+      "source_name": "apec-banner.jpg",
+      "published_name": "apec-banner.jpg",
+      "bytes": 613467,
+      "note": "Hero banner added for the APEC Engineer post"
+    }
   ]
 }

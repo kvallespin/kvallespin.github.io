@@ -15,6 +15,8 @@ created: 2026-06-21
 
 > A cleaned public note migrated from an older personal website backup. References to the former site branding and domain have been removed.
 
+![](assets/apec-engineer/apec-banner.jpg)
+
 ### A Professional Credential Journey to the APEC Engineer Register
 
 <span class="kv-date-note">Originally posted on December 1, 2020.</span>
