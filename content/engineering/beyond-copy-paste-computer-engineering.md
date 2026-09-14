@@ -30,7 +30,7 @@ When I first started practicing, the engineering landscape in the Philippines ha
 
 Let me explain what I mean.
 
-## How We Got Here
+## How we got here
 
 There was a time when everything electrical lived under one roof. Power systems. Radio. The whole shebang. Electrical Engineering swallowed it all.
 
@@ -44,7 +44,7 @@ The bill also showed something I wish today's legislators would notice. It inclu
 
 That's how you handle a professional split with dignity.
 
-## The Current Proposal
+## The current proposal
 
 Now we're talking about splitting Computer Engineering off. House Bill 3845, refiled as HB 4833, is sitting in the Committee on Civil Service and Professional Regulation. It's been there since September 2025. Before that, the identical bill sat in the same committee from February 2021 to June 2022 under the 18th Congress.
 
@@ -56,7 +56,7 @@ It's a copy-paste of RA 9292, the Electronics Engineering Law. Not inspired by i
 
 They replaced "electronic" with "computer."
 
-## The Proof
+## The proof
 
 Look at the definitions.
 
@@ -76,7 +76,7 @@ But those aren't new to computer engineering. I took courses in all of those as 
 
 So we end up with two professions whose scopes overlap but also leave gaps. If a computer is used in an aircraft, who regulates it? The bill doesn't say. Both scopes end with "all other related and convergent fields," which is a legal invitation to litigation.
 
-## The Tier Problem
+## The tier problem
 
 HB 3845 creates four levels. Computer Technician. Computer Engineering Technologist. Computer Engineer. Professional Computer Engineer.
 
@@ -86,7 +86,7 @@ What separates a Computer Technician from a Computer Engineering Technologist? T
 
 This four-tier structure came from the ASEAN Engineering Register framework. It exists to facilitate international mobility. The Philippines already has its own system that works. Why invent a new one that's harder to understand and harder to enforce?
 
-## The Identity Crisis
+## The identity crisis
 
 Here's what really bothers me about this bill.
 
@@ -102,7 +102,7 @@ Without a clear, distinct scope of practice, computer engineering remains a subs
 
 This is why the bill keeps dying in committee. The people reading it see what I see. They see a lazy piece of legislation that would create confusion instead of clarity. And confusion in professional regulation is dangerous.
 
-## What We Should Do Instead
+## What we should do instead
 
 A modern Computer Engineering Act should look forward, not backward.
 
@@ -120,7 +120,7 @@ The law should reflect that reality.
 
 It should be written by people who understand what computer engineers actually do today, not by committee staff who found an old law and ran a find-and-replace.
 
-## A Personal Note
+## A personal note
 
 I'm an ECE. I have a vested interest in how this plays out. If the CPE scope is drawn too broadly, it eats into my profession. That's a natural tension.
 
