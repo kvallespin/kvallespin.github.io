@@ -9,9 +9,13 @@ description: "A week of local AI releases from Meta, Unsloth, DeepSeek, and Qwen
 
 # Septimana Mirabilis
 
-*Why the future of AI fits on a desk, runs offline, and belongs to whoever plugs it in.*
+Why the future of AI fits on a desk, runs offline, and belongs to whoever plugs it in.
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
+![Grace Blackwell hardware close-up](../assets/septimana-mirabilis/graceblackwell.png)
+
+*Image: Grace Blackwell hardware close-up.*
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 Between August 10 and 14, four separate companies released four separate tools in five days. None of them seemed to be coordinating. And yet they all pointed in the same direction: the stuff you need to build, run, and train AI is leaving the cloud and moving onto machines you actually own.
 
@@ -135,3 +139,4 @@ It was just one week. But for me, this is a step in the right direction.
 - Hugging Face: Qwen3.8-27B: <https://huggingface.co/Qwen/Qwen3.8-27B>
 - Simon Willison on Qwen 3.8 27B: <https://simonwillison.net/2026/Aug/16/qwen-38-27b/>
 - MIT Sloan: What CEOs Need to Know About Sovereign AI: <https://sloanreview.mit.edu/article/what-ceos-need-to-know-about-sovereign-ai/>
+
