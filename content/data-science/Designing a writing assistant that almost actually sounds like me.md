@@ -17,6 +17,10 @@ updated: 2026-09-15
 
 *A system that remembers how I write, knows when to step back, and leaves the final call where it belongs: with me.*
 
+![](assets/rag-architecture-kv.svg)
+
+*The corpus acts as memory, the RAG layer supplies relevant voice evidence, Claude Code orchestrates the loop, the generation model does the draft labor, and the verifier keeps the leash.*
+
 ***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 Quick confession. This project did not begin as a clean lab exercise. It began with irritation.
@@ -54,10 +58,6 @@ Under the hood, this uses embeddings, which turn text into vectors, and vector s
 ## The architecture I actually wanted
 
 What I ended up designing was less like a single chatbot and more like a writing loop with assigned roles. Each component has a job and a limit. Nobody pretends to do everything.
-
-![](assets/rag-architecture-kv.svg)
-
-*The corpus acts as memory, the RAG layer supplies relevant voice evidence, Claude Code orchestrates the loop, the generation model does the draft labor, and the verifier keeps the leash.*
 
 Retrieval supplies evidence, the model does draft labor, and Claude Code decides whether the output is actually usable.
 

@@ -11,6 +11,10 @@ description: "I benchmarked local models on a personal laptop, trained an aircra
 
 *How a tired student, a sticker-covered laptop, and three local models accidentally proved that the boring worker wins.*
 
+![](assets/a-hundred-million-tokens-later/banner.png)
+
+*The moment the counter flipped: 100,000,000 tokens across 544 sessions. Hermes Workspace, Jun 2026. This post was the celebration.*
+
 ***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 The counter flipped at some point between finishing a notebook and opening another. One hundred million tokens. Five hundred and forty-four sessions. I did not notice in the moment, which is the kind of thing that makes you stop and realize you have drifted into the background of your own work.
@@ -41,6 +45,18 @@ This laptop is not low-end. It is not a workstation, either. An MSI I bought abo
 
 Also, my daughter has covered it in girly stickers, which is probably the most honest description of this setup. A machine powerful enough to run inference, rebranded by a child who thinks it looks pretty. I do not mind. The stickers feel more accurate than the spec sheet.
 
+<img src="assets/a-hundred-million-tokens-later/msi-portrait.png" style="max-height:480px;width:auto;display:block;margin:0 auto;" alt="The personal MSI running the local setup"/>
+
+*The personal MSI running the local setup. Purchased about three years ago, used personally, and not really my daily driver.*
+
+![](assets/a-hundred-million-tokens-later/msi-landscape.png)
+
+*Also, my daughter has already rebranded it with girly stickers, which is probably the most honest visual description of this setup.*
+
+![](assets/a-hundred-million-tokens-later/task_manager_four_pane.png)
+
+*The run was CPU and memory bound. The integrated GPU mostly watched.*
+
 ---
 
 ## The candidates
@@ -56,6 +72,10 @@ I tested three local models as worker candidates. Borges was not one of them; he
 
 NVIDIA hosted inference was available during this period and useful for exploration. But coursework wants something different from exploration. It wants repeatable runs, local files, and artifacts I can inspect without wondering whether an API quota or rate limit killed the job halfway through. Remote inference is powerful. It is also another variable between me and a result I can actually verify. So the serious work pulled back toward a setup I controlled completely.
 
+![](assets/a-hundred-million-tokens-later/inference.png)
+
+*The inference-provider view from my agents setup.*
+
 ---
 
 ## The benchmark
@@ -70,11 +90,27 @@ Qwen3.5-9B had the best initial quality at 4.56 out of 5, but it took forever. O
 
 DeepSeek-R1-8B timed out on 6 of 10 tasks, hitting the 1200-second ceiling thinking aloud. The remaining four completed, but six empty timeout boxes is not a worker profile.
 
+![](assets/a-hundred-million-tokens-later/kv_runtime_average_seconds_modified.png)
+
+*Qwen2.5-Coder was the only model that felt like a worker.*
+
+![](assets/a-hundred-million-tokens-later/kv_completion_timeout_summary_modified.png)
+
+*DeepSeek completed 4 of 10 tasks. The remaining 6 are shown as empty timeout boxes.*
+
+![](assets/a-hundred-million-tokens-later/kv_initial_quality_scores_modified.png)
+
+*Qwen3.5 had the best initial quality, but the margin was smaller than the runtime gap.*
+
 Only Qwen2.5-Coder felt like a worker. The others felt like consultants.
 
 ---
 
 ## The other character in this story
+
+<img src="assets/a-hundred-million-tokens-later/borges_at_play_cover.jpg" style="width:33%;display:block;margin:0 auto;" alt="Jorge Luis Borges at Play with Mental Models of the World"/>
+
+*Image source: [punctum books, *Jorge Luis Borges at Play with Mental Models of the World*](https://punctumbooks.com/titles/jorge-luis-borges-at-play-with-mental-models-of-the-world/).*
 
 Borges is my personal agent, named with the appropriate level of literary overreach. Jorge Luis Borges is my favorite author in the whole wide world, which I admit has the energy of a child pointing at a bookshelf and declaring a permanent alliance. He wrote about labyrinths, mirrors, infinite libraries, and systems that are elegant until you get lost in them. That feels uncomfortably close to modern AI tooling on some days.
 
@@ -82,11 +118,35 @@ In this experiment, Borges was not the thing being benchmarked. He was the plann
 
 The workflow is deliberately unromantic. Borges plans and verifies. The local worker drafts or patches small pieces. The artifact gets executed. If it fails, it goes back through the loop.
 
+![](assets/a-hundred-million-tokens-later/workflow_general_kv_flow.png)
+
+*General planner-worker-verifier flow. Curved connectors make the loop explicit instead of leaving arrow tails fighting each other.*
+
+![](assets/a-hundred-million-tokens-later/workflow_pytorch_training_kv_flow.png)
+
+*The specific PyTorch training flow: public dataset, local worker draft, Borges cleanup, overnight CPU training, then recognition-panel evidence.*
+
 ---
 
 ## The aircraft dataset
 
 To test the whole pipeline on something real I used the [Mendeley Aircraft Image Dataset](https://data.mendeley.com/datasets/mdmczsr5fy/1): 4,520 public aircraft images across eight classes, licensed CC BY 4.0. The class distribution was reasonably balanced, which made it suitable for a lightweight recognition baseline. Image dimensions varied, so preprocessing mattered before training.
+
+![](assets/a-hundred-million-tokens-later/kv_mendeley_dataset_card.png)
+
+*Mendeley Aircraft Image Dataset: public source, DOI, license, and class summary.*
+
+![](assets/a-hundred-million-tokens-later/kv_mendeley_class_distribution_modified.png)
+
+*Class distribution is reasonably balanced, which made it suitable for a lightweight recognition baseline.*
+
+![](assets/a-hundred-million-tokens-later/mendeley_sample_grid.jpg)
+
+*Sample grid from the public dataset.*
+
+![](assets/a-hundred-million-tokens-later/kv_mendeley_image_dimensions_modified.png)
+
+*Image dimensions vary, so preprocessing mattered before training.*
 
 Qwen2.5-Coder helped draft the data reporting scripts, contact sheets, verification scaffolding, and the first pass of the training script. That was enough to matter. The model was not becoming a research assistant; it was becoming a useful mechanic, and that distinction kept the whole thing honest.
 
@@ -98,9 +158,35 @@ I left PyTorch training the aircraft model while I slept. That sentence sounds f
 
 When I woke up I asked for status. The answer was the useful kind: completed, exit code 0, test accuracy 84.8%, artifacts written to disk.
 
+![](assets/a-hundred-million-tokens-later/overnighter_01.png)
+
+![](assets/a-hundred-million-tokens-later/overnighter_02.png)
+
+![](assets/a-hundred-million-tokens-later/overnighter_03.png)
+
+![](assets/a-hundred-million-tokens-later/overnighter_04.png)
+
+*The overnight sequence: the laptop was left to grind through training while I slept.*
+
 Training accuracy rose steadily. Validation accuracy settled in the mid-80s, with mild overfitting signs but nothing surprising for a small CPU-only baseline. The confusion matrix showed most signal on the diagonal, with Airbus/Boeing and Sukhoi/F16 confusions standing out. Those make sense: similar silhouettes, similar operating envelopes, similar photography angles in the dataset.
 
+![](assets/a-hundred-million-tokens-later/training_curves_modified.png)
+
+*Training accuracy rose steadily. Validation accuracy settled in the mid-80s, with mild overfitting signs but nothing surprising for a small CPU-only baseline.*
+
+![](assets/a-hundred-million-tokens-later/confusion_matrix_modified.png)
+
+*The confusion matrix uses cerise red. Most signal sits on the diagonal, with Airbus/Boeing and Sukhoi/F16 confusions standing out.*
+
+![](assets/a-hundred-million-tokens-later/class_accuracy_modified.png)
+
+*Accuracy by class, with values shown directly on the bars.*
+
 To make the recognition test tangible I pulled a random sample of 20 public images from the dataset and panelized them with approximate bounding boxes for presentation. These were not YOLO detections; the trained model was a classifier, not an object detector. That distinction matters.
+
+![](assets/a-hundred-million-tokens-later/public_aircraft_recognition_20_panel.jpg)
+
+*Twenty public aircraft examples across dataset categories with approximate bounding boxes. PASS = classifier matched the source label; FAIL = predicted another known class.*
 
 | ID | Class | File | Source |
 | --- | --- | --- | --- |

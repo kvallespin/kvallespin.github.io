@@ -1,5 +1,5 @@
 ---
-title: "Septimana Mirabilis"
+title: "Septimana mirabilis"
 subtitle: "Why the future of AI fits on a desk, runs offline, and belongs to whoever plugs it in."
 author: "Ken Vallespin"
 date: "2026-08-29"
@@ -7,7 +7,7 @@ tags: [AI, local AI, sovereign AI, DGX Spark, open models]
 description: "A week of local AI releases from Meta, Unsloth, DeepSeek, and Qwen, and what they mean for owning intelligence instead of renting it."
 ---
 
-# Septimana Mirabilis
+# Septimana mirabilis
 
 Why the future of AI fits on a desk, runs offline, and belongs to whoever plugs it in.
 
