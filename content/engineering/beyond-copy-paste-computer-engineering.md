@@ -8,7 +8,7 @@ tags:
   - philippines
   - licensure
   - opinion
-created: 2025-09-28
+created: 2026-09-04
 updated: 2026-09-06
 ---
 
