@@ -8,6 +8,9 @@ tags:
 source: notes
 created: 2026-06-21
 updated: 2026-06-25
+archived: true
+archived_from: content/finance/ten-weeks-inside-aviation-finance.md
+archived_reason: Superseded by rewritten version
 ---
 
 # Ten weeks inside aviation finance
