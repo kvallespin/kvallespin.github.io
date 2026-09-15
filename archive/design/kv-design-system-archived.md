@@ -1,26 +1,22 @@
 ---
+archived: true
+archived_from: content/design/kv-design-system.md
+archived_reason: replaced by reader-mode rewrite while preserving original source history
 title: Building the KV design system
-description: A personal and self-deprecating account of finally building a design system after repeated one-off theme creation, a free Claude Design pilot window, and a refusal to pay for more compute.
+description: A personal and self-deprecating account of building the KV Design System after repeated one-off theme creation, a free Claude Design pilot window, and a refusal to pay for more compute.
 tags:
   - design
   - public-web
   - design-system
 source: notes
 created: 2026-06-21
-updated: 2026-09-15
 ---
 
-# Building the KV design system
+I have a problem. If you have ever watched me prepare a deck of slides or format a document, you already know this about me.
 
-*A personal, slightly embarrassing account of finally building a design system because I could not stop making one-off themes. Built during a free Claude Design trial. Funded by stubbornness and a refusal to pay for compute.*
+The problem is not attention to detail. The problem is that I cannot stop myself from inventing a new theme every single time.
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
-
-I have a problem.
-
-If you have ever watched me prepare a deck of slides or format a document, you already know what it is. It is not a lack of attention to detail. I am obsessive about detail. My problem is that I cannot stop myself from inventing a new theme every single time.
-
-One month I am experimenting with a navy-and-grey palette with one accent color. Two weeks later I am trying a high-contrast dark theme with a different accent because the previous one felt "too corporate." Then I decide I want something warm. Then something cool. Then something that looks like it could have come from an airline brand I happen to like.
+One month I am experimenting with a navy-and-grey palette with one accent color. Two weeks later I am trying a high-contrast dark theme with a different accent because the previous one felt "too corporate." Then I decide I want something warm, then something cool, then something that looks like it could have come from an airline brand I happen to like.
 
 By the time I am done, I have produced four different versions of almost the same slide deck.
 
@@ -483,10 +479,3 @@ Mirror of `colors_and_type.css`. When in doubt, the CSS file wins.
 <iframe src="assets/kv-design-system/kv-design-system-specification.pdf" width="100%" height="760" title="KV Design System Specification PDF"></iframe>
 
 [Download the KV Design System Specification PDF](assets/kv-design-system/kv-design-system-specification.pdf)
-
----
-
-## Sources
-
-- Original post before rewrite: <https://kvallespin.github.io/design/kv-design-system>
-- KV Design System Specification PDF: <https://kvallespin.github.io/design/assets/kv-design-system/kv-design-system-specification.pdf>
