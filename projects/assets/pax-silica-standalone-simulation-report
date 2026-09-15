@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philippines 2026-2036: Pax Silica Simulation Report</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --orange: #ff6b35;
+        --black: #000000;
+        --dark: #2d3436;
+        --gray: #666666;
+        --light-gray: #999999;
+        --border: #e0e0e0;
+        --bg: #ffffff;
+        --bg-alt: #fafafa;
+        --bg-panel: #f9f9f9;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--black);
+        line-height: 1.6;
+      }
+
+      /* Navbar */
+      .navbar {
+        height: 60px;
+        background: var(--black);
+        color: var(--bg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+      }
+
+      .nav-brand {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+      }
+
+      .nav-status {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.8rem;
+      }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        background: #1a936f;
+        border-radius: 50%;
+      }
+
+      /* Layout */
+      .main-content {
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        gap: 0;
+      }
+
+      /* Left Panel: Report */
+      .left-panel.report-style {
+        width: 65%;
+        border-right: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 60px);
+      }
+
+      .panel-header {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--border);
+        background: var(--bg);
+      }
+
+      .panel-header .header-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-deco {
+        color: var(--orange);
+        font-size: 1rem;
+      }
+
+      .header-title {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.85rem;
+        color: var(--light-gray);
+      }
+
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.75rem;
+        color: var(--gray);
+      }
+
+      .stat-item {
+      }
+      .stat-divider {
+        color: var(--border);
+      }
+
+      /* Report header block */
+      .report-header-block {
+        padding: 30px 30px 20px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .report-tag {
+        display: inline-block;
+        padding: 3px 10px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background: var(--orange);
+        color: var(--bg);
+        margin-bottom: 16px;
+      }
+
+      .report-id {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        color: var(--light-gray);
+        margin-top: 4px;
+      }
+
+      .report-title {
+        font-size: 2rem;
+        font-weight: 520;
+        margin: 12px 0 16px;
+        line-height: 1.3;
+      }
+
+      .report-summary {
+        font-size: 1rem;
+        color: var(--gray);
+        line-height: 1.7;
+        max-width: 800px;
+      }
+
+      .report-meta {
+        display: flex;
+        gap: 24px;
+        margin-top: 16px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        color: var(--light-gray);
+      }
+
+      /* Report sections list */
+      .report-content-wrapper {
+        padding: 20px 30px;
+      }
+
+      .report-section-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .section-number {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.8rem;
+        color: var(--light-gray);
+        min-width: 24px;
+      }
+
+      .section-title {
+        font-size: 0.9rem;
+        color: var(--dark);
+        font-weight: 500;
+      }
+
+      .report-section-item.is-completed .section-number,
+      .report-section-item.is-completed .section-title {
+        color: var(--black);
+      }
+
+      /* Right Panel: Graph info and full report */
+      .right-panel {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 60px);
+      }
+
+      .right-panel .panel-header.dark-header {
+        background: var(--black);
+        color: var(--bg);
+      }
+
+      .right-panel .header-icon {
+        color: var(--orange);
+        margin-right: 8px;
+      }
+
+      /* Graph info card */
+      .graph-info-card {
+        padding: 24px 30px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .graph-info-card h3 {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.8rem;
+        color: var(--light-gray);
+        margin-bottom: 16px;
+      }
+
+      .metrics-row {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      .metric-card {
+        flex: 1;
+        border: 1px solid var(--border);
+        padding: 16px;
+      }
+
+      .metric-value {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--black);
+      }
+
+      .metric-label {
+        font-size: 0.75rem;
+        color: var(--light-gray);
+        margin-top: 4px;
+      }
+
+      /* Legend */
+      .graph-legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 16px 0;
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.75rem;
+      }
+
+      .legend-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+
+      .legend-label {
+        color: var(--dark);
+      }
+
+      .legend-count {
+        color: var(--light-gray);
+      }
+
+      /* Full report content */
+      .full-report {
+        flex: 1;
+        padding: 24px 30px;
+        overflow-y: auto;
+        max-height: calc(100vh - 300px);
+      }
+
+      .full-report h1 {
+        font-size: 1.5rem;
+        margin: 24px 0 16px;
+      }
+
+      .full-report h2 {
+        font-size: 1.2rem;
+        margin: 20px 0 12px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .full-report h3 {
+        font-size: 1rem;
+        margin: 16px 0 8px;
+      }
+
+      .full-report p {
+        font-size: 0.85rem;
+        color: var(--gray);
+        margin-bottom: 12px;
+        line-height: 1.7;
+      }
+
+      .full-report strong {
+        color: var(--black);
+        font-weight: 600;
+      }
+
+      .full-report blockquote {
+        border-left: 3px solid var(--orange);
+        padding: 10px 16px;
+        margin: 12px 0;
+        background: var(--bg-alt);
+        font-style: italic;
+        color: var(--gray);
+        font-size: 0.85rem;
+      }
+
+      .full-report ul,
+      .full-report ol {
+        padding-left: 20px;
+        margin-bottom: 12px;
+      }
+
+      .full-report li {
+        font-size: 0.85rem;
+        color: var(--gray);
+        margin-bottom: 6px;
+      }
+
+      .full-report hr {
+        border: none;
+        border-top: 1px solid var(--border);
+        margin: 24px 0;
+      }
+
+      /* Graph image */
+      .graph-image-section {
+        padding: 0 30px 20px;
+      }
+
+      .graph-image-section img {
+        width: 100%;
+        border: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">MIROFISH OFFLINE</div>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span>COMPLETED</span>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <!-- Left Panel: Report Overview -->
+      <div class="left-panel report-style">
+        <div class="panel-header">
+          <div class="header-left">
+            <span class="header-deco">&#9670;</span>
+            <span class="header-title">SIMULATION REPORT</span>
+          </div>
+          <div class="header-right">
+            <span class="stat-item">291 Nodes</span>
+            <span class="stat-divider">|</span>
+            <span class="stat-item">197 Edges</span>
+          </div>
+        </div>
+
+        <div class="report-header-block">
+          <span class="report-tag">FINAL REPORT</span>
+          <div class="report-title">Philippines 2026-2036: Pax Silica Simulation Report</div>
+          <div class="report-id">Simulation: sim_c4b34dd28777 | Report: report_868f1bd0c9cc</div>
+          <div class="report-meta">
+            <span>Started: 2026-08-03T17:42:44</span>
+            <span>Completed: 2026-08-03T18:08:12</span>
+          </div>
+          <div class="report-summary" style="margin-top: 16px">
+            The simulation reveals that the Pax Silica project creates a bifurcated future where
+            macroeconomic gains are heavily offset by localized resource stress and geopolitical
+            vulnerability, resulting in a 'conditionally beneficial' classification dependent on
+            strict renegotiation and infrastructure synchronization.
+          </div>
+        </div>
+
+        <div class="report-content-wrapper">
+          <div class="panel-header" style="padding: 12px 0">
+            <span class="header-title">REPORT SECTIONS</span>
+          </div>
+          <div class="report-section-item is-completed">
+            <span class="section-number">01</span
+            ><span class="section-title"
+              >Macroeconomic Trajectory and the 2028 Political Inflection Point</span
+            >
+          </div>
+          <div class="report-section-item is-completed">
+            <span class="section-number">02</span
+            ><span class="section-title"
+              >Resource Stress and Distributional Impacts on Households and Communities</span
+            >
+          </div>
+          <div class="report-section-item is-completed">
+            <span class="section-number">03</span
+            ><span class="section-title">Geopolitical Exposure and Supply Chain Resilience</span>
+          </div>
+          <div class="report-section-item is-completed">
+            <span class="section-number">04</span
+            ><span class="section-title">Final Classification and Required Redesign Actions</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel: Graph Stats + Full Report -->
+      <div class="right-panel">
+        <div class="panel-header dark-header">
+          <span class="header-icon">&#9634;</span>
+          <span class="header-title">GRAPH ANALYSIS</span>
+        </div>
+
+        <div class="graph-info-card">
+          <h3>KNOWLEDGE GRAPH METRICS</h3>
+          <div class="metrics-row">
+            <div class="metric-card">
+              <div class="metric-value">291</div>
+              <div class="metric-label">Entity Nodes</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-value">197</div>
+              <div class="metric-label">Relationship Edges</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-value">11</div>
+              <div class="metric-label">Entity Types</div>
+            </div>
+          </div>
+          <div class="graph-legend">
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #ff6b35"></span
+              ><span class="legend-label">GovernmentAgency</span
+              ><span class="legend-count">120</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #004e89"></span
+              ><span class="legend-label">Organization</span><span class="legend-count">16</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #7b2d8e"></span
+              ><span class="legend-label">ForeignGovernment</span
+              ><span class="legend-count">28</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #1a936f"></span
+              ><span class="legend-label">MediaOutlet</span><span class="legend-count">6</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #c5283d"></span
+              ><span class="legend-label">UtilityProvider</span><span class="legend-count">16</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #e9724c"></span
+              ><span class="legend-label">LegalInstitution</span
+              ><span class="legend-count">17</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #2d3436"></span
+              ><span class="legend-label">Person</span><span class="legend-count">3</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #6c5ce7"></span
+              ><span class="legend-label">LocalCommunity</span><span class="legend-count">24</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #ff6b35"></span
+              ><span class="legend-label">IndustryConsortium</span
+              ><span class="legend-count">33</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #004e89"></span
+              ><span class="legend-label">Entity</span><span class="legend-count">9</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #7b2d8e"></span
+              ><span class="legend-label">CivilSocietyGroup</span
+              ><span class="legend-count">19</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="graph-image-section">
+          <h3
+            style="
+              font-family: &quot;JetBrains Mono&quot;, monospace;
+              font-size: 0.8rem;
+              color: #999;
+              margin-bottom: 12px;
+            "
+          >
+            GRAPH VISUALIZATION
+          </h3>
+          <img
+            src="graph.png"
+            alt="Knowledge Graph"
+            style="width: 100%; border: 1px solid #e0e0e0"
+          />
+        </div>
+
+        <div class="full-report">
+          <h3
+            style="
+              font-family: &quot;JetBrains Mono&quot;, monospace;
+              font-size: 0.8rem;
+              color: #999;
+              margin-bottom: 16px;
+            "
+          >
+            FULL REPORT
+          </h3>
+          <h1>Philippines 2026-2036: Pax Silica Simulation Report</h1>
+          <blockquote>
+            The simulation reveals that the Pax Silica project creates a bifurcated future where
+            macroeconomic gains are heavily offset by localized resource stress and geopolitical
+            vulnerability, resulting in a 'conditionally beneficial' classification dependent on
+            strict renegotiation and infrastructure synchronization.
+          </blockquote>
+          <hr />
+          <h2>Macroeconomic Trajectory and the 2028 Political Inflection Point</h2>
+          <p>
+            The macroeconomic trajectory from 2026 to 2028 is characterized by a bifurcated growth
+            pattern where aggregate gains are heavily offset by localized resource stress and rising
+            geopolitical risk premiums. The simulation reveals that while PAX_SILICA drives direct
+            value added and construction job years, the broader macroeconomic
+            indicators—specifically real GDP and GDP per capita—show divergent paths depending on
+            the severity of external shocks and the pace of local infrastructure synchronization.
+          </p>
+          <p>Macroeconomic Performance and Inflationary Pressures</p>
+          <p>
+            From 2026 Q3 through 2028 Q4, the Philippine economy experiences a period of guarded
+            expansion, but the benefits are unevenly distributed. The Bangko Sentral ng Pilipinas
+            (BSP) acts independently to stabilize inflation and FX, but faces significant headwinds
+            from global energy shocks. As noted in the simulation data, ME_BRENT raises
+            BSP_INFLATION, indicating that Brent crude price volatility directly translates into
+            domestic inflationary pressure, complicating the BSP’s mandate to stabilize prices. This
+            inflationary environment is exacerbated by supply chain disruptions linked to the active
+            conflict in the Middle East and potential disruptions in the Strait of Hormuz, which
+            affect LNG imports and power generation costs.
+          </p>
+          <p>
+            The Economic or Utility Scorekeeper reports that while nominal GDP in PHP and USD rises
+            due to the influx of foreign direct investment (FDI) associated with the project, the
+            real GDP growth is moderated by these inflationary costs. The USD to PHP exchange rate
+            experiences volatility, driven by the dual pressures of capital inflows into the
+            semiconductor sector and outflows due to global risk aversion. The simulation highlights
+            that PAX_SILICA links to BSP_BSP for decision access and centrality, implying regulatory
+            oversight, suggesting that the central bank’s monetary policy decisions are directly
+            influenced by the project’s capital flows and its impact on financial stability.
+          </p>
+          <p>The 2028 Political Inflection Point: Election and Continuity</p>
+          <p>
+            The 2028 Philippine election serves as a critical inflection point, determining the
+            political trajectory of the Pax Silica project. The Commission on Elections regulates
+            the Philippine national electorate in the context of the 2028 election and policy
+            continuity, ensuring that the transition of power does not result in a legal vacuum but
+            rather a renegotiation of terms within existing legal frameworks. The simulation
+            emphasizes that the 2028 executive branch is constrained by judicial constraints and
+            legislative constraints, meaning that the incoming administration cannot simply erase
+            previous obligations or contracts.
+          </p>
+          <p>
+            The 2028 administration faces a complex decision tree: continue the project as is,
+            renegotiate for better localization terms, suspend operations, or seek withdrawal. The
+            simulation indicates that a "magical erasure" of obligations is not possible due to
+            valid contracts and stranded cost constraints. Instead, the incoming administration is
+            forced to engage in guarded continuation or 2028 localization renegotiation. The Office
+            of the President and the 2028 Administration must balance the need for FDI and
+            technological transfer against rising social license issues, particularly from COMM_AETA
+            and COMM_FARMERS.
+          </p>
+          <p>Geopolitical Context and Legislative Oversight</p>
+          <p>
+            The geopolitical landscape significantly influences the economic trajectory. The
+            People’s Republic of China models strategic responses to a technology hub aligned with
+            the Republic of Korea, indicating competition in geopolitical and technological
+            influence. This competition manifests in the West Philippine Sea, where tensions test
+            allied support and investor risk. The Senate energy and public services oversight is
+            linked to the legislative hub (LEG_HUB) as an institution agent, indicating that the
+            Senate plays a crucial role in overseeing the foreign and fiscal implications of
+            agreements involving the CORE_OPERATOR.
+          </p>
+          <p>
+            The Senate and House of Representatives engage in rigorous oversight, with the
+            LEG_SENATE overseeing foreign and fiscal implications of agreements involving
+            CORE_OPERATOR, indicating legislative oversight. This legislative scrutiny is driven by
+            concerns over national security, environmental impact, and equitable benefit sharing.
+            The Judicial Contract Review Body assesses legal review risks associated with the BCDA's
+            supplemental agreements and site boundaries, further constraining the executive branch’s
+            ability to unilaterally alter the project’s terms.
+          </p>
+          <p>Distributional Impacts and Social License</p>
+          <p>
+            The macroeconomic gains are not uniformly shared. PAX_SILICA directly links to
+            COMM_ENV_NGO for decision access and centrality, indicating an impact on the group's
+            advocacy interests, and PAX_SILICA directly links to COMM_CONSUMERS for decision access
+            and centrality, indicating an impact on the community's interests. The Central Luzon
+            property developers are part of the local hub that impacts communities, indigenous
+            peoples, NGOs, labor, consumers, and media, with media reporting on these dynamics. This
+            reporting amplifies public awareness of the project’s social and environmental costs,
+            influencing the social license to operate.
+          </p>
+          <p>
+            The Aeta communities and Central Luzon farmers face direct displacement and resource
+            competition. PAX_SILICA directly links to COMM_AETA for decision access and centrality,
+            indicating an impact on the community's interests, and PAX_SILICA directly links to
+            COMM_FARMERS for decision access and centrality, indicating an impact on the community's
+            interests. The BCDA's dispute of direct displacement affects Indigenous, agricultural,
+            and biodiversity interests on 4,000 acres, highlighting the unresolved tensions over
+            land use. The Philippines' legal safeguards directly affect the well-being and interests
+            of Indigenous Peoples, workers, households, and Central Luzon communities, underscoring
+            the importance of legal frameworks in mitigating these impacts.
+          </p>
+          <p>
+            In conclusion, the period from 2026 to 2028 is defined by a conditionally beneficial
+            outcome, where macroeconomic gains are contingent on strict renegotiation,
+            infrastructure synchronization, and effective management of geopolitical and social
+            risks. The 2028 election does not reset the project but forces a recalibration of terms,
+            ensuring that the benefits of the Pax Silica initiative are more equitably distributed
+            and that the Philippines’ strategic autonomy is preserved amidst great power
+            competition.
+          </p>
+          <h2>Resource Stress and Distributional Impacts on Households and Communities</h2>
+          <p>
+            The simulation reveals that the Pax Silica project imposes a bifurcated resource burden
+            on households and communities, where macroeconomic gains are heavily offset by localized
+            stress on water, land, and utility costs. The PAX_SILICA consortium acts as a
+            high-demand node that directly strains the New Clark City and Capas water utility
+            interface and the National Grid Corporation of the Philippines (POWER_NGCP), creating
+            tangible financial and environmental pressures for local residents.
+          </p>
+          <p>Escalating Household Utility Costs</p>
+          <p>
+            As the project scales, the financial impact on households becomes explicit through
+            increased utility bills. The simulation tracks COMM_CONSUMERS as the primary agent for
+            these costs, noting that they pay WATER_BILL and pay POWER_BILL, indicating a direct
+            financial impact from rising utility costs. Regulators monitor the power, water, and
+            internet rate effects, but the simulation indicates that the massive demand from the
+            semiconductor and data center operations competes with residential supply, driving up
+            the cost of essential services.
+          </p>
+          <blockquote>
+            "Power, water, and internet rate effects become visible to households."
+          </blockquote>
+          <p>
+            This visibility translates into reduced disposable income for local families. The
+            COMM_CONSUMERS node, associated with the COMM_HUB, reflects the aggregate burden on the
+            household sector. While the project brings infrastructure upgrades, the local water
+            utilities administration and national water resources board (WATER_NWRB) face pressure
+            to allocate sufficient water to both industrial and residential users, often resulting
+            in rate adjustments that disproportionately affect lower-income households. The Energy
+            Regulatory Commission similarly oversees power rates, where the need to stabilize the
+            grid against the project’s 3 GW demand can lead to cross-subsidies or tariff hikes that
+            are passed down to the consumer.
+          </p>
+          <p>Groundwater Stress and Agricultural Conflict</p>
+          <p>
+            The most severe localized stress occurs in the water sector, particularly regarding
+            groundwater depletion and competition with agriculture. The National Water Resources
+            Board requires water allocation from the CORE_OPERATOR, highlighting the regulatory
+            tension between industrial needs and natural resource limits. The simulation flags that
+            COMM_FARMERS depends on WATER_IRRIGATION for their agricultural needs, creating a direct
+            conflict with the project’s water intake.
+          </p>
+          <p>
+            As PAX_SILICA draws heavily on local water sources, COMM_ENV_NGO monitors
+            WATER_POLLUTION levels and reports on environmental health, signaling rising tensions
+            over water quality and quantity. The Senate environment and natural resources oversight
+            (LEG_SEN_ENV) holds oversight over WATER_POLLUTION, indicating that environmental
+            degradation becomes a political flashpoint. Farmers in Central Luzon face reduced
+            irrigation availability, threatening livelihoods and food security, while the Aeta
+            communities face additional risks to their traditional lands and water sources.
+          </p>
+          <p>Land Displacement and Indigenous Rights</p>
+          <p>
+            The project’s physical footprint triggers significant displacement issues, particularly
+            affecting Indigenous Peoples and private landowners. The BCDA’s dispute of direct
+            displacement affects Indigenous, agricultural, and biodiversity interests on 4,000
+            acres, underscoring the social cost of land acquisition. The COMM_AETA (Aeta community)
+            requires rights consultation regarding CORE_SITE_BOUNDARY, indicating resistance to
+            unilateral boundary decisions by the project or government agencies.
+          </p>
+          <blockquote>
+            "BCDA's dispute of direct displacement affects Indigenous, agricultural, and
+            biodiversity interests on 4,000 acres."
+          </blockquote>
+          <p>
+            The House Indigenous Cultural Communities oversight (LEG_HOUSE_IP) hears rights concerns
+            of COMM_AETA, reflecting the legal and social friction caused by the project’s
+            expansion. The Philippines' legal safeguards directly affect the well-being of
+            Indigenous Peoples, but the simulation suggests these safeguards are tested by the speed
+            and scale of the project’s land requirements. The Clark Development Corporation’s land
+            acquisition and development projects affect the private landowners in the area, leading
+            to displacement and changes in local land dynamics.
+          </p>
+          <p>Rising Land Prices and Social License Erosion</p>
+          <p>
+            The influx of investment and infrastructure development drives up LOCAL_LAND_INDEX, as
+            LOCAL_DEVELOPERS can amplify LOCAL_LAND_INDEX through their development activities. This
+            inflation in land prices and rents, managed by the New Clark City estate administration,
+            impacts Renting households and workers, increasing the cost of living in the region. The
+            New Clark City estate administration's policies and operations impact the living and
+            working conditions of renting households and workers, suggesting that while jobs may be
+            created, the cost of living may erode those gains.
+          </p>
+          <p>
+            The social license for the project is increasingly fragile, as Rappler reports that the
+            Philippines remains concentrated in assembly, testing, and packaging and raises lower
+            value capture, land conversion, environment, military targeting, and sovereignty
+            concerns. This media narrative reflects growing public skepticism and resistance from
+            COMM_ENV_NGO and COMM_AETA. The Philippines' legal safeguards also directly affect the
+            well-being of Central Luzon communities, but the simulation indicates that without
+            strict renegotiation and infrastructure synchronization, the distributional impacts will
+            continue to favor the project and foreign investors at the expense of local households
+            and communities.
+          </p>
+          <h2>Geopolitical Exposure and Supply Chain Resilience</h2>
+          <p>Geopolitical Exposure and Supply Chain Resilience</p>
+          <p>
+            The simulation reveals that PAX_SILICA’s operational continuity is heavily contingent on
+            navigating a complex web of geopolitical risks, ranging from maritime tensions in the
+            West Philippine Sea to energy shocks in the Middle East and trade pressures from the
+            United States. The project’s resilience is not guaranteed by its scale but is instead
+            dependent on strategic diversification, allied coordination, and strict regulatory
+            compliance. The simulation identifies distinct causal chains where external geopolitical
+            shocks translate into localized economic and operational stress, particularly affecting
+            energy costs, import logistics, and investor confidence.
+          </p>
+          <p>West Philippine Sea Escalation and Maritime Logistics</p>
+          <p>
+            Tensions in the West Philippine Sea serve as a primary geopolitical risk state linked to
+            China, testing allied support and investor risk. The simulation indicates that while
+            PAX_SILICA sources silica locally, its supply chain for specialized equipment and
+            technology is vulnerable to secondary disruptions. China's actions in the West
+            Philippine Sea escalate tensions, creating an environment where maritime insurance
+            premiums rise and shipping routes face potential scrutiny. The Luzon Strait's shipping
+            and cable exposure is linked to China, indicating that geopolitical friction in this
+            region directly threatens the physical infrastructure required for data center
+            operations and semiconductor logistics.
+          </p>
+          <blockquote>
+            "China's actions in the West Philippine Sea escalate tensions, testing allied support
+            and investor risk."
+          </blockquote>
+          <p>
+            The West Philippine Sea escalation state is modeled as an entity that opposes China,
+            reflecting the diplomatic and security posture of the Philippines. This tension does not
+            halt operations but introduces a geopolitical risk premium into the cost of capital and
+            logistics. The Philippine Coast Guard and Department of National Defense are engaged in
+            monitoring these developments, which influences the security environment for foreign
+            investors. The simulation notes that CHINA_WPS can increase security support from
+            ALLY_US, suggesting that geopolitical friction may trigger stronger US security
+            guarantees, which in turn stabilizes the investment climate but also heightens the
+            strategic stakes for the project.
+          </p>
+          <p>Taiwan Coercion and Technology Supply Chains</p>
+          <p>
+            The risk of Taiwan coercion or blockade represents a critical vulnerability for
+            PAX_SILICA’s technology transfer and semiconductor fabrication components. The
+            simulation models CHINA_TW_COERCION as a factor that disrupts CHINA_LUZON_STRAIT,
+            implying that any conflict in the Taiwan Strait would have immediate spillover effects
+            on Philippine maritime security and trade routes. Furthermore, CHINA_TW_BLOCKADE
+            disrupts ALLY_TAIWAN_TECH, which is identified as a critical reference for IND_FAB,
+            supporting the fabrication sector.
+          </p>
+          <blockquote>
+            "China's coercion and quarantine measures against Taiwan test shipping, cables, chips,
+            equipment, and insurance."
+          </blockquote>
+          <p>
+            This disruption highlights the project’s dependency on the Taiwan semiconductor
+            ecosystem for advanced components. The simulation suggests that a blockade or severe
+            coercion would sever or severely delay the flow of critical chips and equipment, forcing
+            PAX_SILICA to rely on alternative, potentially less advanced, or more expensive sources.
+            The People’s Republic of China is modeled as competing with the Republic of Korea for
+            technological influence, indicating that the Philippines must navigate a delicate
+            balance between major powers to secure technology partnerships. The Semiconductor and
+            Electronics Industries in the Philippines Foundation (IND_SEIPI) and Philippine
+            assembly, testing, and packaging firms are associated with the Industry, technology,
+            logistics, and workforce ecosystem, but their ability to function is contingent on the
+            stability of these international supply chains.
+          </p>
+          <p>Middle East Energy Shocks and Fiscal Pressure</p>
+          <p>
+            The active conflict in the Middle East, including the US, Israel and Iran conflict,
+            poses a significant threat to PAX_SILICA’s energy security and fiscal stability. The
+            Strait of Hormuz is a critical chokepoint, and the simulation notes that the IEA
+            reported that the Middle East war impeded Hormuz energy flows, significantly impacting
+            global LNG supply and Brent oil prices. This disruption leads to Brent and LNG shocks,
+            which directly increase the cost of power generation in the Philippines.
+          </p>
+          <blockquote>
+            "The IEA reported that the Middle East war impeded Hormuz energy flows, significantly
+            impacting global LNG supply and Brent oil prices."
+          </blockquote>
+          <p>
+            The Bangko Sentral ng Pilipinas (BSP) acts independently to stabilize inflation, but
+            ME_BRENT raises BSP_INFLATION, indicating that global energy price spikes translate into
+            domestic inflationary pressure. This affects PAX_SILICA’s operational costs and the
+            household power rates tracked by the Economic or Utility Scorekeeper. The Power, water,
+            and internet rate effects become visible to households, demonstrating that geopolitical
+            energy shocks have a direct, tangible impact on local communities. The simulation
+            highlights that PAX_SILICA directly links to POWER_NGCP for decision access and
+            centrality, meaning that energy volatility directly impacts the project’s ability to
+            secure reliable and affordable power for its 3 GW demand.
+          </p>
+          <p>US Tariffs and Export Competitiveness</p>
+          <p>
+            Geopolitical relations with the United States also influence PAX_SILICA’s export
+            competitiveness. The simulation tracks TRADE_US_TARIFF as a factor that reduces for
+            covered goods MACRO_EXPORTS. The DTI stated that a 12.5 percent US tariff applied to
+            Philippine exports to the US, and the US imposed a 12.5 percent tariff on 34.28 percent
+            of Philippine exports to the US. These tariffs reduce the profitability of exports,
+            potentially affecting the direct value added and FDI inflows associated with the
+            project.
+          </p>
+          <blockquote>
+            "The DTI stated that a 12.5 percent US tariff applied to Philippine exports to the US."
+          </blockquote>
+          <p>
+            Despite these tariffs, the United States and the Philippines launched plans for a
+            4,000-acre economic security zone to shore up supply chains, indicating a strategic
+            effort to mitigate trade risks through closer economic integration. PAX_SILICA directly
+            links to ALLY_US for decision access and centrality, suggesting a collaborative
+            relationship that may offer some protection against broader trade disruptions. However,
+            the simulation also notes that China's coercion and quarantine measures against Taiwan
+            test shipping, cables, chips, equipment, and insurance, implying that US-China tensions
+            create a complex web of risks that PAX_SILICA must navigate.
+          </p>
+          <p>Resilience Strategies and Community Impact</p>
+          <p>
+            In response to these geopolitical exposures, PAX_SILICA and the Philippine government
+            are modeled as adopting resilience strategies centered on diversification and allied
+            cooperation. Japan is collaborating with the Philippine government to supply patient
+            capital, equipment, chemicals, and manufacturing partnerships under commercial
+            discipline, providing an alternative source of technology and investment. Singapore is
+            part of the semiconductor and data center ecosystem within the Pax Silic Network
+            alliance hub, further diversifying the supply chain.
+          </p>
+          <blockquote>
+            "Japan is collaborating with the Philippine government to supply patient capital,
+            equipment, chemicals, and manufacturing partnerships under commercial discipline."
+          </blockquote>
+          <p>
+            However, the simulation emphasizes that geopolitical resilience must be balanced with
+            local community needs. The Commission on Elections regulates the Philippine national
+            electorate in the context of the 2028 election and policy continuity, ensuring that
+            political transitions do not undermine long-term resilience strategies. The House
+            Indigenous Cultural Communities oversight (LEG_HOUSE_IP) hears rights concerns of
+            COMM_AETA, highlighting that social license is a critical component of operational
+            resilience. Without addressing local grievances, geopolitical stability may be
+            undermined by domestic social conflict.
+          </p>
+          <blockquote>
+            "Commission on Elections regulates the Philippine national electorate in the context of
+            the 2028 election and policy continuity."
+          </blockquote>
+          <p>
+            The simulation concludes that PAX_SILICA’s success is conditionally beneficial,
+            dependent on its ability to manage geopolitical exposure through diversified supply
+            chains, strong allied partnerships, and robust community engagement. Failure to address
+            these risks could lead to stranded costs, operational disruptions, and social license
+            erosion, particularly in the face of compound geopolitical stress scenarios.
+          </p>
+          <h2>Final Classification and Required Redesign Actions</h2>
+          <p>
+            The 40-round simulation from 2026 Q3 through 2036 Q2 yields a conditionally beneficial
+            classification for the Pax Silica project. This classification is not a static
+            endorsement but a conditional verdict dependent on strict renegotiation, infrastructure
+            synchronization, and the successful mitigation of localized resource stress. The
+            simulation reveals a bifurcated future where macroeconomic gains are heavily offset by
+            geopolitical vulnerability and social friction, resulting in a project that survives but
+            does not thrive unless specific "gates" are passed.
+          </p>
+          <p>Failed Gates and Critical Constraints</p>
+          <p>
+            The simulation identifies three primary "failed gates" that prevent the project from
+            achieving a fully beneficial status. These failures are not fatal to the project’s
+            existence due to valid contract and stranded cost constraints, but they significantly
+            degrade its net value.
+          </p>
+          <p>
+            1. Social License and Indigenous Rights Gate: The project initially failed to secure
+            adequate social license from Indigenous communities. The simulation data shows that
+            COMM_AETA requires rights consultation regarding CORE_SITE_BOUNDARY, indicating
+            resistance to unilateral boundary decisions by the project or government agencies. The
+            BCDA’s dispute of direct displacement affects Indigenous, agricultural, and biodiversity
+            interests on 4,000 acres, creating a persistent legal and social liability. The House
+            Indigenous Cultural Communities oversight (LEG_HOUSE_IP) hears rights concerns of
+            COMM_AETA, reflecting the legal and social friction caused by the project’s expansion.
+            Without meaningful consultation and compensation, this gate remains a source of
+            operational risk and reputational damage.
+          </p>
+          <p>
+            2. Water Resource Stress Gate: The project’s demand for water exceeds sustainable local
+            allocations without significant infrastructure investment. COMM_FARMERS depends on
+            WATER_IRRIGATION for their agricultural needs, creating a direct conflict with the
+            project’s water intake. The National Water Resources Board requires water allocation
+            from the CORE_OPERATOR, highlighting the regulatory tension between industrial needs and
+            natural resource limits. COMM_ENV_NGO monitors WATER_POLLUTION levels and reports on
+            environmental health, signaling rising tensions over water quality and quantity. The
+            simulation flags that groundwater depletion and competition with agriculture are
+            critical stress points that must be addressed through recycling and efficiency mandates.
+          </p>
+          <p>
+            3. Household Utility Affordability Gate: The influx of high-demand industrial load
+            strains the local grid and water systems, leading to increased costs for residents.
+            Regulators monitor the power, water, and internet rate effects, and the simulation
+            indicates that power, water, and internet rate effects become visible to households.
+            COMM_CONSUMERS are household power, water, and internet consumers associated with the
+            COMM_HUB, and they pay WATER_BILL and pay POWER_BILL, indicating a direct financial
+            impact from rising utility costs. The simulation shows that without cross-subsidization
+            or targeted infrastructure upgrades, the cost of living in Central Luzon rises, eroding
+            the local benefit of job creation.
+          </p>
+          <p>Required Redesign Actions</p>
+          <p>
+            To move from "conditionally beneficial" to a more sustainable model, the simulation
+            prescribes the following redesign actions, particularly following the 2028 election
+            inflection point:
+          </p>
+          <p>
+            1. Renegotiation of Local Content and Technology Transfer: The incoming 2028
+            administration is constrained by judicial and legislative constraints, preventing a
+            simple rollback. Instead, it must engage in guarded continuation or 2028 localization
+            renegotiation. The project must increase its local supplier share and Filipino value
+            capture by partnering with IND_SEIPI and Philippine assembly, testing, and packaging
+            firms. The simulation emphasizes that technology transfer, research partnerships,
+            Filipino patents and firms are essential for long-term viability. The Semiconductor and
+            Electronics Industries in the Philippines Foundation must be leveraged to build local
+            capacity, ensuring that the project does not remain an enclave.
+          </p>
+          <p>
+            2. Infrastructure Synchronization and Water Recycling: The project must invest in water
+            recycling and wastewater treatment to reduce its net freshwater withdrawal. The New
+            Clark City and Capas water utility interface must be upgraded to handle the 130 MLD
+            water demand and 3 GW power demand without compromising residential supply. The
+            simulation suggests that local water utilities administration and national water
+            resources board (WATER_NWRB) must enforce strict efficiency standards. Additionally, the
+            National Grid Corporation of the Philippines (POWER_NGCP) requires synchronized grid
+            upgrades to prevent blackouts and maintain stability.
+          </p>
+          <p>
+            3. Community Benefit Sharing and Land Compensation: To address the social license gap,
+            the project must implement a robust community benefit sharing mechanism. This includes
+            direct compensation for affected private landowners and Central Luzon property
+            developers, as well as investment in local public services. The BCDA’s dispute of direct
+            displacement must be resolved through fair compensation and resettlement programs that
+            respect the rights of COMM_AETA. The simulation highlights that meaningful community
+            consultation is not just a legal requirement but a strategic imperative for operational
+            continuity.
+          </p>
+          <p>Distributional Results and Final Verdict</p>
+          <p>
+            The distributional results show a mixed outcome. Households face higher utility bills
+            but may benefit from improved infrastructure and job opportunities. Workers gain
+            employment, but displaced jobs in agriculture and traditional sectors create transition
+            challenges. Farmers and Aeta communities bear the brunt of resource stress and
+            displacement, requiring targeted support. LGUs and national government finances see
+            increased fiscal flows, but these are offset by the costs of regulation and
+            infrastructure support. Investors achieve returns, but face geopolitical and regulatory
+            risks.
+          </p>
+          <p>
+            The Bangko Sentral ng Pilipinas (BSP) acts independently to stabilize inflation and FX,
+            but faces headwinds from global energy shocks. The simulation indicates that ME_BRENT
+            raises BSP_INFLATION, complicating the BSP’s mandate. The USD to PHP exchange rate
+            experiences volatility, driven by the dual pressures of capital inflows into the
+            semiconductor sector and outflows due to global risk aversion.
+          </p>
+          <p>
+            Ultimately, the Pax Silica project is conditionally beneficial because its success
+            depends on the Philippine government’s ability to enforce strict renegotiation,
+            synchronize infrastructure, and ensure equitable distribution of benefits. Without these
+            actions, the project risks becoming a source of localized conflict and economic
+            distortion, undermining its macroeconomic gains. The simulation concludes that the
+            project’s viability is contingent on navigating the complex web of geopolitical risks,
+            including West Philippine Sea escalation, Taiwan coercion, and Middle East energy
+            shocks, while maintaining domestic social cohesion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

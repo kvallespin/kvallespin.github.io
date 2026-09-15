@@ -1,5 +1,8 @@
 ---
 title: "The Philippines under Pax Silica: a 10-year simulation"
+subtitle: "What a swarm simulation revealed about a deal we don't have yet"
+author: "Ken Vallespin"
+date: "2026-08-06"
 description: "A MiroFish simulation of the proposed Pax Silica Economic Security Zone in New Clark City, testing whether the framework survives water, social license, utility affordability, and geopolitical constraints."
 tags:
   - projects
@@ -11,28 +14,42 @@ tags:
   - public-web
 source: notes
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-09-15
 ---
 
 # The Philippines under Pax Silica: a 10-year simulation
+
+*What a swarm simulation revealed about a deal we don't have yet*
+
+> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
 
 ![](assets/pax-silica-banner.png)
 
 _Image credit: The Philippines is building a green, disaster-resilient city (2018), CNN._
 
-On April 16, 2026, the United States and the Philippines announced plans for a 4,000-acre (roughly 1,600 hectares) Economic Security Zone inside the Luzon Economic Corridor: the first AI-native industrial acceleration hub under the U.S.-led Pax Silica Initiative, which the Philippines joined as the coalition's thirteenth signatory. Reporting points to New Clark City in Tarlac as the site, with the Bases Conversion and Development Authority (BCDA) assessing land availability.
+On April 16, 2026, Washington and Manila announced plans for a 4,000-acre Economic Security Zone in the Luzon Economic Corridor. The first AI-native industrial acceleration hub under the U.S.-led Pax Silica Initiative. The Philippines became the coalition's thirteenth signatory, with New Clark City in Tarlac as the likely site and the BCDA looking into land availability.
 
-What does not yet exist is a project. There is no signed lease, no disclosed CAPEX, no named anchor tenants, no construction timeline, no resolved utility plan. Philippine Defense Secretary Gilberto Teodoro Jr. has said there are no firm documents yet. What exists is a political and economic framework. A U.S.-led effort to distribute semiconductor, critical-minerals, and advanced-manufacturing capacity across trusted partner economies rather than reshore it into one. A Philippine hub scoped around AI and data infrastructure meant to position the country as a regional digital hub. Because there is no concrete build yet, we can still ask the hard questions.
+Here's the part that matters: there's no project yet. No signed lease, no disclosed CAPEX, no named anchor tenants, no construction timeline, and no resolved utility plan. Philippine Defense Secretary Gilberto Teodoro Jr. confirmed it publicly: no firm documents. What exists is a framework: a U.S. strategy to spread semiconductor, critical-minerals, and advanced-manufacturing capacity across trusted partner economies instead of reshoring everything into one, paired with a Philippine play to position the country as a regional digital hub.
 
-Over the weekend, I ran a forty-round quarterly simulation of this framework using an engine called MiroFish, from the third quarter of 2026 to the second quarter of 2036. I did not invent favorable election results or fabricate capital costs. The setup was defined as follows: 239 nodes representing key actors and assets, 353 relationships, 17 domain hubs spanning energy, water, policy, logistics, and geopolitics. The rules were tight. The output was not what the hype machine wants you to believe. The underlying [seed document](assets/pax-silica-philippines-10y-mirofish-seed.md), [simulation prompt](assets/pax-silica-philippines-mirofish-prompt.txt), and [agent manifest](assets/pax-silica-agent-manifest.md) are linked here for auditability.
+And because there is no concrete build, we still get to ask the hard questions.
 
-MiroFish is an agent-based, swarm-simulation engine. If you have seen a flock of birds turn in unison without a leader, or ants coordinate to move something large, you have seen swarm intelligence. Simple rules applied by many agents create complex behavior. That is useful for policy and megaprojects because it models how thousands of decisions by regulators, contractors, households, foreign governments, and markets interact over time, not in a static spreadsheet.
+Over the weekend (after some coffee and a few hours of staring at node graphs), I ran a forty-round quarterly simulation of this framework through MiroFish, an agent-based simulation engine. Q3 2026 through Q2 2036. Ten years compressed into an afternoon, with 239 nodes representing the key actors and assets, 353 relationships between them, and 17 domain hubs spanning energy, water, policy, logistics, and geopolitics, all running under tight rules and real constraints, and I didn't rig a single input.
+
+The output wasn't what the hype machine wants you to believe (and I'm not the only one who ran into this).
+
+You can audit all of it. The [seed document](assets/pax-silica-philippines-10y-mirofish-seed.md), [simulation prompt](assets/pax-silica-philippines-mirofish-prompt.txt), and [agent manifest](assets/pax-silica-agent-manifest.md) are all linked at the end.
+
+## How the simulation works
+
+MiroFish models swarm intelligence, which is what happens when a flock of birds turns together without a leader, or a colony of ants moves something none of them could carry alone. Simple rules applied by many agents produce complex, emergent behavior.
+
+That's exactly what you need to test a policy framework against reality. Not a static spreadsheet where everything balances by assumption, but a living system where thousands of decisions by regulators, contractors, households, foreign governments, and markets interact over time.
 
 ![](assets/mirofish-repo-figure.png)
 
-_Figure 1 MiroFish Github Repo: [https://github.com/666ghj/MiroFish](https://github.com/666ghj/MiroFish)._
+_Figure 1 MiroFish GitHub repo: [https://github.com/666ghj/MiroFish](https://github.com/666ghj/MiroFish)._
 
-This YouTube video is a great primer on how MiroFish and swarm intelligence emergent behavior works.
+The video below is a good primer on how swarm intelligence and emergent behavior work in simulations like this.
 
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/EA_ZFbwMtMs" title="MiroFish swarm intelligence demo" frameborder="0" allowfullscreen></iframe>
 
@@ -40,35 +57,69 @@ This YouTube video is a great primer on how MiroFish and swarm intelligence emer
 
 _Figure 2 Offline simulation setup._
 
-The engine creates role-based agents that share a knowledge and relationship graph. Each agent follows its own incentives and constraints. Scenario branching lets shocks flow through: a drought hits, a tariff changes, agents react, the system evolves. Every state change is logged in a continuous ledger. We can trace how a decision in one quarter ripples through the system ten years later. It stress-tests a framework against reality instead of a pitch deck. The reconstructed [knowledge graph](assets/pax-silica-knowledge-graph.png) and [standalone simulation report](assets/pax-silica-standalone-simulation-report.html) are also linked directly from the body.
+The engine creates role-based agents that share a knowledge and relationship graph. Each follows its own incentives and constraints. You introduce shocks: a drought hits, a tariff changes, tensions flare in the South China Sea. Agents react. The system evolves. Every state change is logged in a continuous ledger, so you can trace how a decision in quarter one ripples through to year ten.
+
+It stress-tests a framework against reality, not a pitch deck. The reconstructed [knowledge graph](assets/pax-silica-knowledge-graph.png) and [standalone simulation report](assets/pax-silica-standalone-simulation-report.html) are linked directly.
 
 ![](assets/pax-silica-knowledge-graph.png)
 
 _Figure 3 Actual agent interaction knowledge graph. This is animated when you run the actual simulation, I swear._
 
-The high-level result is **conditionally beneficial**. That means it can work, but only under narrow conditions. The simulation showed macroeconomic gains: GDP bumps, job creation, foreign investment. These came at a real, localized cost. The framework survives only if we accept strict renegotiation and synchronized supporting infrastructure. Without those, it collapses.
+## The verdict: conditionally beneficial
 
-Resource stress is the binding constraint. Water availability, not electricity, emerged as the critical bottleneck. Data centers are thirsty. Current water allocation in the target regions cannot absorb the load without displacing existing users. Costs socialize upward into household utility bills. Households that benefit least from the digital hub end up paying the most for its water and power.
+The high-level result is **conditionally beneficial**. It can work, sure. But only under narrow conditions.
 
-Indigenous rights and land displacement surfaced as major friction points. Agents representing local communities and legal watchdogs did not accept land acquisition. They contested it, delayed permits, and triggered legal reviews that stalled construction. This is not a glitch. It reflects current law and social realities. Ignoring it in the planning phase is a recipe for failure.
+The simulation showed real macroeconomic gains: GDP growth, job creation, foreign direct investment. These aren't phantom numbers. But they came at a real, localized cost, and the framework survives only if we accept strict renegotiation terms and synchronized supporting infrastructure. Without those, it collapses.
 
-The framework is exposed geopolitically. The simulation tested external shocks: tensions in the South China Sea, coercion scenarios involving Taiwan, Middle East energy shocks, potential US tariffs. Because Pax Silica relies on global supply chains and foreign investment, it is highly sensitive to disruption. A major shock could cut off critical hardware or deter investors. This is a primary risk, not background noise.
+Here is the part that surprised me.
 
-Three gates effectively failed. First, social license and Indigenous rights. The current framework does not provide an early-stage mechanism for consent and benefit-sharing. Second, water resource stress. There is no viable plan to secure the necessary water without harming local agriculture or communities. Third, household utility affordability. The cost structure pushes bills up for regular families and creates political backlash.
+Water, not electricity, is the binding constraint. Data centers are thirsty. The current water allocation in the target regions cannot absorb the load without displacing existing users. And the costs socialize upward into household utility bills. The families benefiting least from the digital hub end up paying the most for its water and power.
 
-Fixing this requires concrete redesign. Water security must be a primary design constraint. National, provincial and local government units need a transparent, legally binding process for Indigenous and local community engagement. Household utilities must be insulated from the cost pressures of industrial-scale data center operations through targeted subsidies or separate billing structures.
+Indigenous rights and land displacement were major friction points. The local community and watchdog agents didn't accept land acquisition. They contested it, delayed permits, triggered legal reviews that stalled construction. This isn't a glitch in the simulation. It reflects the law and social realities on the ground. Ignoring it in the planning phase is a recipe for failure.
 
-Pax Silica is not an automatic win. The economic benefits are tangible but extremely fragile. As a self-proclaimed expert on conditionality (post completion of my MBA capstone research), I for one can attest to the importance of a disciplined investment under uncertainty, especially in high value, high risk, and high return situations. The project works only if strict conditions on governance, environment, and social impact are met. Households are the ultimate check, that is, if the average Filipino family is worse off because of this project, it has failed, regardless of GDP statistics. Water is the binding constraint. We cannot build a digital hub on a dry foundation. Regional instability can (and will) impact the project's viability. Geopolitics is not background noise.
+The framework is also exposed geopolitically. I tested external shocks: tensions in the South China Sea, coercion scenarios involving Taiwan, Middle East energy shocks, potential U.S. tariffs. Because Pax Silica relies on global supply chains and foreign investment, it is highly sensitive to disruption. A major shock could cut off critical hardware or deter investors entirely. It's a primary risk, not background noise.
 
-> **Final takeaway:** The risk-taker in me tells me this: proceed with Pax Silica only under strict renegotiation of terms, full transparency on costs and risks, and synchronized development of the water, power, and community safeguards the current framework assumes away. If we are not willing to do that, we should slow down, fix the design, or walk away.
+## Three gates that failed
+
+Three specific gates effectively failed in the simulation.
+
+**First, social license and Indigenous rights.** The current framework does not provide an early-stage mechanism for consent and benefit-sharing. Local communities are treated as obstacles to clear, not partners to engage.
+
+**Second, water resource stress.** There is no viable plan to secure the necessary water without harming local agriculture or communities. The simulation showed this repeatedly, across different scenarios.
+
+**Third, household utility affordability.** The cost structure pushes bills up for regular families and creates political backlash that threatens the project's longevity.
+
+## What would actually fix this
+
+Fixing this requires concrete redesign, not better press releases.
+
+Water security must be a primary design constraint, not an afterthought. National, provincial, and local government units need a transparent, legally binding process for Indigenous and local community engagement, built into the framework from day one. Household utilities must be insulated from the cost pressures of industrial-scale data center operations, whether through targeted subsidies or separate billing structures.
+
+Pax Silica is not an automatic win. The economic benefits are tangible but extremely fragile.
+
+As someone who just finished an MBA capstone on conditionality, I know the importance of disciplined investment under uncertainty. Especially in high-value, high-risk, high-return situations. This project works only if strict conditions on governance, environment, and social impact are met.
+
+Households are the ultimate check. If the average Filipino family is worse off because of this project, it has failed. Regardless of what the GDP statistics say.
+
+Water's the binding constraint. We cannot build a digital hub on a dry foundation. And regional instability can, and will, impact the project's viability. Geopolitics isn't background noise.
+
+## Final takeaway
+
+The risk-taker in me says this: proceed with Pax Silica only under strict renegotiation of terms, full transparency on costs and risks, and synchronized development of the water, power, and community safeguards that the current framework assumes away.
+
+If we're not willing to do that, we should slow down. Fix the design. Or walk away.
+
+---
 
 ## Seed and output artifacts
 
 - [Seed document](assets/pax-silica-philippines-10y-mirofish-seed.md)
 - [Simulation prompt](assets/pax-silica-philippines-mirofish-prompt.txt)
-- [Agents manifest](assets/pax-silica-agent-manifest.md)
-- [Knowledge Graph reconstructed from Neo4j](assets/pax-silica-knowledge-graph.png)
+- [Agent manifest](assets/pax-silica-agent-manifest.md)
+- [Knowledge graph reconstructed from Neo4j](assets/pax-silica-knowledge-graph.png)
 - [Standalone simulation report](assets/pax-silica-standalone-simulation-report.html)
+
+---
 
 ## Sources
 
