@@ -16,11 +16,11 @@ updated: 2026-09-15
 
 *A USD 55 billion take-private that makes more sense as a strategy play than a spreadsheet deal*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
-
 ![PIF and Electronic Arts banner showing the PIF and EA marks over EA headquarters.](assets/ea-pif-lbo/banner_pif_ea.png)
 
 <p class="image-credit" style="text-align:center;font-size:0.8rem;color:#475461;">Image credit: AI-generated image based on PIF's Electronic Arts acquisition announcement<br><a href="https://www.pif.gov.sa/en/news-and-insights/newswire/2026/electronic-arts-announces-completion-of-acquisition-by-pif-silver-lake-and-affinity-partners/">https://www.pif.gov.sa/en/news-and-insights/newswire/2026/electronic-arts-announces-completion-of-acquisition-by-pif-silver-lake-and-affinity-partners/</a></p>
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 <p class="kv-cerise-red"><strong>Disclaimer.</strong> THIS IS AN ACADEMIC EXERCISE, not investment advice or a fairness opinion. Every input is drawn from public sources, EA filings, and a model you can trace line by line. All company names, trademarks, and logos referenced are the property of their respective owners.</p>
 

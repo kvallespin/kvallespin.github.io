@@ -1,5 +1,5 @@
 ---
-title: "Beyond Copy-Paste: Reimagining Philippine Computer Engineering"
+title: "Beyond copy-paste: reimagining Philippine computer engineering"
 subtitle: "Lessons from 1969 and what HB 4833 gets wrong"
 description: "An Electronics Engineer critiques the proposed Computer Engineering Act for its copy-paste approach to legislation."
 tags:
@@ -12,7 +12,7 @@ created: 2025-09-28
 updated: 2026-09-06
 ---
 
-# Beyond Copy-Paste: Reimagining Philippine Computer Engineering
+# Beyond copy-paste: reimagining Philippine computer engineering
 
 Lessons from 1969 and what HB 4833 gets wrong
 

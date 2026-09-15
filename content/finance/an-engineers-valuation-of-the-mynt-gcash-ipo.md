@@ -18,6 +18,8 @@ updated: 2026-07-28
 
 *Image credit: [iTech Solution PH](https://www.itechsolutionph.com/).*
 
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
+
 ## The short version
 
 The GCash IPO is priced at PHP 10 a share. I could not get there.

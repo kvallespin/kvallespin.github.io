@@ -14,9 +14,9 @@ description: A small data visualization detour about replacing a tidy procuremen
 
 *I wrote a sentence in a homework critique that haunted me for a week. So I went home and did the thing.*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
-
 ![PyCharm 2026.1 release banner](assets/redesign-of-the-redesign/pycharm-2026-1-banner.png)
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 *Source: [JetBrains IDE Blog](https://blog.jetbrains.com/pycharm/2026/03/what-s-new-in-pycharm-2026-1/)*
 

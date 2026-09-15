@@ -21,9 +21,9 @@ updated: 2026-09-15
 
 *What a swarm simulation revealed about a deal we don't have yet*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
-
 ![](assets/pax-silica-banner.png)
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 _Image credit: The Philippines is building a green, disaster-resilient city (2018), CNN._
 

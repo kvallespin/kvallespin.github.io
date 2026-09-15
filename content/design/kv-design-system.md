@@ -14,7 +14,7 @@ updated: 2026-09-15
 
 *A personal, slightly embarrassing account of finally building a design system because I could not stop making one-off themes. Built during a free Claude Design trial. Funded by stubbornness and a refusal to pay for compute.*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 I have a problem.
 

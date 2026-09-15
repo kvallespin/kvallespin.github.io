@@ -1,4 +1,4 @@
-﻿---
+---
 title: "A hundred million tokens later"
 subtitle: "How a tired student, a sticker-covered laptop, and three local models accidentally proved that the boring worker wins."
 author: "Ken Vallespin"
@@ -11,7 +11,7 @@ description: "I benchmarked local models on a personal laptop, trained an aircra
 
 *How a tired student, a sticker-covered laptop, and three local models accidentally proved that the boring worker wins.*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 The counter flipped at some point between finishing a notebook and opening another. One hundred million tokens. Five hundred and forty-four sessions. I did not notice in the moment, which is the kind of thing that makes you stop and realize you have drifted into the background of your own work.
 
