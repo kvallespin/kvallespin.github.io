@@ -43,6 +43,10 @@ Which means you can build a system to catch them.
 
 Forty years ago, aviation engineers faced the same problem with much higher stakes. A mechanic in Jakarta or Nairobi or São Paulo needed to follow maintenance instructions for a Boeing 737 at two in the morning, in a hot hangar, with a flight scheduled out in six hours. English was not his first language. The instructions had to be unambiguous, or someone died.
 
+![ASD-STE100 Simplified Technical English and Artificial Intelligence white paper banner](../assets/ai-slop-ste/asd-ste100-ai-white-paper-banner.png)
+
+*Image: [ASD-STE100 Simplified Technical English and Artificial Intelligence (AI), STEMG white paper, June 2026](https://www.asd-ste100.org/assets/files/WhitePaper-ASD-STE100_and_AI.pdf).*
+
 They built Simplified Technical English. The standard is called ASD-STE100. The goal wasn't elegant prose. It wasn't even good writing, in the literary sense. It was clear writing. Writing that could not be misunderstood.
 
 The rules are blunt, almost comical in their directness:
