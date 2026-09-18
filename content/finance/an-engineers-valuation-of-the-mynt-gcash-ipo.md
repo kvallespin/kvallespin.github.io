@@ -1,4 +1,4 @@
----
+﻿---
 title: An engineer's valuation of the Mynt/GCash IPO
 description: >-
   Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.
@@ -10,7 +10,7 @@ tags:
   - public-web
 source: notes
 created: 2026-07-28
-updated: 2026-09-18
+updated: 2026-07-28
 ---
 
 # An engineer's valuation of the Mynt/GCash IPO

@@ -8,13 +8,13 @@
     <description>Temporary one-post RSS feed for Substack import.</description>
     <language>en-us</language>
     <generator>Manual temporary RSS export</generator>
-    <lastBuildDate>Fri, 18 Sep 2026 20:35:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title><![CDATA[An engineer's valuation of the Mynt/GCash IPO]]></title>
       <link>https://kvallespin.github.io/finance/an-engineers-valuation-of-the-mynt-gcash-ipo</link>
       <guid isPermaLink="true">https://kvallespin.github.io/finance/an-engineers-valuation-of-the-mynt-gcash-ipo</guid>
       <dc:creator><![CDATA[Ken Vallespin]]></dc:creator>
-      <pubDate>Fri, 18 Sep 2026 20:35:57 GMT</pubDate>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.]]></description>
       <content:encoded><![CDATA[
 <h1>An engineer's valuation of the Mynt/GCash IPO</h1>
