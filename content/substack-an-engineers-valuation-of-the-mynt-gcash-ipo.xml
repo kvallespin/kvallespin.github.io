@@ -16,7 +16,7 @@
       <dc:creator><![CDATA[Ken Vallespin]]></dc:creator>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.]]></description>
-      <content:encoded><![CDATA[
+      <content:encoded><!<a href="https://www.itechsolutionph.com/">CDATA[
 <h1>An engineer's valuation of the Mynt/GCash IPO</h1>
 
 <p><em>Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.</em></p>
@@ -25,7 +25,7 @@
 
 <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange" style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
-<p style="text-align:center; font-size:0.8rem; color:#5F6B77;">Image credit: [iTech Solution PH](https://www.itechsolutionph.com/).</p>
+<p style="text-align:center; font-size:0.8rem; color:#5F6B77;">Image credit: [iTech Solution PH</a>.</p>
 
 <h2>The short version</h2>
 
@@ -154,7 +154,7 @@
 <p>Key insight. The clearest signal is in the provisioning against loans that have not defaulted. Allowance held against performing loans was 4.06 percent at the end of 2024 and 3.64 percent at the end of 2025. At the end of March 2026 it was 5.57 percent. Management sharply increased the cushion on loans that are still paying. That is what a lender does when it expects deterioration it has not yet seen.</p>
 <p>The provisioning looks honest rather than aggressive. Coverage of defaulted loans has been stable and high throughout, at 92.9, 93.7, and 94.5 percent. Nobody is hiding losses, and writing off unrecoverable loans promptly is correct accounting.</p>
 <p>But putting the pieces together, the picture is not reassuring. The headline ratio improved for mechanical reasons. Default and write-off intensity rose on the proper denominator. Provisions are approaching a fifth of revenue. And management raised its own cushion on performing loans by nearly two percentage points in three months.</p>
-<p>One related detail worth carrying forward: the MD&A attributes part of revenue growth to recoveries on loans written off in earlier periods. So heavy write-offs today feed reported revenue tomorrow, which flatters growth in exactly the periods following a bad vintage.</p>
+<p>One related detail worth carrying forward: the MD&amp;A attributes part of revenue growth to recoveries on loans written off in earlier periods. So heavy write-offs today feed reported revenue tomorrow, which flatters growth in exactly the periods following a bad vintage.</p>
 <h2>The discount rate, and the mistake I nearly made twice</h2>
 <p>In the earlier draft, I assumed Mynt had no debt, could not verify it, and said plainly that it was the weakest link in the model. If there were meaningful borrowings at a rate below my discount rate, I wrote, the true cost of capital would be lower and every valuation would be too low.</p>
 <p>The prospectus settles it. Total debt is PHP 20,750.2 million as of 31 March 2026: PHP 19,350.2 million current and PHP 1,400.0 million non-current. These are unsecured loans from local and international banks bearing 5.0 to 6.5 percent, typically repayable within twelve months, plus a three-year term loan of PHP 1,750.0 million from the Asian Development Bank to fund MSME lending. [Prospectus, pp. 88, 117, 142, 171]</p>
@@ -214,9 +214,9 @@
 <p>The PHP 39.2 billion cash add-back represents 28 percent of the FCFF value per share. It is the single largest upward force in the model, and the claim that it is distributable to equity is not established.</p>
 <p>Three things in the prospectus cut against it:</p>
 <ul>
-<li>**Printed page 44, verbatim:** wallet funds "are held in more liquid assets and cannot be used to facilitate lending." This is a regulated e-money balance sheet, not a corporate treasury.</li>
-<li>The only observable distribution is the **PHP 5,001.2 million** dividend declared 17 June 2026, which is 12.8 percent of the disclosed corporate cash balance. [Prospectus, p. 84]</li>
-<li>In March 2026 FUSE borrowed **PHP 1,750.0 million** from the ADB on a three-year term to fund MSME lending. [Prospectus, p. 142] That is not the behavior of a company sitting on 42 billion of surplus cash.</li>
+<li><strong>Printed page 44, verbatim:</strong> wallet funds "are held in more liquid assets and cannot be used to facilitate lending." This is a regulated e-money balance sheet, not a corporate treasury.</li>
+<li>The only observable distribution is the <strong>PHP 5,001.2 million</strong> dividend declared 17 June 2026, which is 12.8 percent of the disclosed corporate cash balance. [Prospectus, p. 84]</li>
+<li>In March 2026 FUSE borrowed <strong>PHP 1,750.0 million</strong> from the ADB on a three-year term to fund MSME lending. [Prospectus, p. 142] That is not the behavior of a company sitting on 42 billion of surplus cash.</li>
 </ul>
 <p>I model three scenarios:</p>
 <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance. This is the single largest lever in the analysis." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
