@@ -23,7 +23,7 @@
 
 <p><strong>Disclosure:</strong> <em>I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.</em></p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange" style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p style="text-align:center; font-size:0.8rem; color:#5F6B77;">Image credit: [iTech Solution PH](https://www.itechsolutionph.com/).</p>
 
@@ -37,7 +37,7 @@
 
 <p>There is one method that does clear it. Take the median peer earnings multiple, around 40 times, apply it to Mynt's 2025 earnings, and you get PHP 10.33. Just above the offer. That is what you are buying if you buy at this price. Not the cash flows. The multiple the market is currently paying Sea and Grab.</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v4_football_field.png" alt="Valuation summary: four methods all land at a quarter of the offer price">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v4_football_field.png" alt="Valuation summary: four methods all land at a quarter of the offer price" style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>So here is my conclusion, stated narrowly. I cannot tell you the shares are not worth PHP 10. I can tell you that you do not get there from the prospectus using the tools I was taught, and that anyone who does get there is paying for something my model cannot see.</p>
 
@@ -85,7 +85,7 @@
 
 <p>My initial assumption was wrong. I was valuing a payments company. That is the mental model most of us carry. We scan a QR code. We send money. We pay bills. The audited numbers say something different.</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/01_revenue_and_margins.png" alt="Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%. Source: Mynt Preliminary Prospectus, 27 June 2026.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/01_revenue_and_margins.png" alt="Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%. Source: Mynt Preliminary Prospectus, 27 June 2026." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>Adjusted Revenues were PHP 33.6 billion in 2023, PHP 54.1 billion in 2024, and PHP 79.7 billion in 2025. These figures exclude the cost of over-the-air prepaid load. Total revenues are higher at PHP 39.9 billion, PHP 62.8 billion, and PHP 79.8 billion. The two series converge in 2025 because the company moved to a platform fee model for prepaid load effective January 1, 2025. I use the Adjusted Revenues series throughout because the company itself treats it as the comparability metric.</p>
 
@@ -97,7 +97,7 @@
 
 <p>Payment Solutions was 68.7 percent of adjusted revenues in 2023. By the first quarter of 2026 it was 56.8 percent. CreditTech, the lending book behind GLoan and GGives, is now 43.2 percent and climbing.</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v1_revenue_mix.png" alt="Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing. Source: Mynt Preliminary Prospectus.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v1_revenue_mix.png" alt="Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>The loan book itself grew from PHP 11.9 billion at the end of 2023 to PHP 48.8 billion at the end of March 2026. Four times larger in a little over two years.</p>
 
@@ -113,7 +113,7 @@
 
 <p>In August 2025 the Bangko Sentral issued Memorandum M2025-029, requiring all supervised institutions to remove in-app access to gambling. The prospectus considers the effect material enough to give it its own defined term, "Affected Revenues," meaning the Payment Solutions revenues hit by the directive.</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v8_take_rate.png" alt="Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%. Source: Mynt Preliminary Prospectus.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v8_take_rate.png" alt="Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>You can see it in the take rate. Payment monetization ran at 0.24 percent, then 0.28, then 0.30 percent of gross transaction value. In the first quarter of 2026 it was 0.25 percent, against 0.31 percent a year earlier. Volume kept compounding: gross transaction value reached PHP 17.03 trillion in 2025 and PHP 4.75 trillion in the first quarter of 2026, up 23.2 percent year on year.</p>
 
@@ -125,7 +125,7 @@
 
 <p>Before the prospectus, I presented a net interest margin of 23.4 percent as a structural moat against traditional bank margins of 3 to 5 percent. The moat is real. But the series is 31.5 percent, then 26.1, then 23.7, then 23.4. It has fallen by eight percentage points in just over two years, and I showed only the last point.</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v2_credit_economics.png" alt="Net interest margin fell from 31.5% to 23.4% in just over two years. A drop of eight percentage points. Source: Mynt Preliminary Prospectus.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v2_credit_economics.png" alt="Net interest margin fell from 31.5% to 23.4% in just over two years. A drop of eight percentage points. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>Key insight. The valuation question is not "what is a payments network worth?" It is "what is a fast-growing consumer lender worth, when its payments engine has stopped monetizing and its lending spread is compressing every year?" Those are very different questions.</p>
 
@@ -133,7 +133,7 @@
 
 <p>Credit quality is now observable rather than guessed at. The non-performing loan ratio was 7.5 percent at the end of 2025 and 5.1 percent at the end of March 2026, where non-performing means more than 90 days past due. The prospectus describes this as "a sharp decline."</p>
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/10_npl_writeoffs.png" alt="Headline NPL ratio fell while management raised the cushion. NPL ratio: 7.5% to 5.1%. Allowance on performing loans: 3.64% to 5.57%. Source: Mynt Preliminary Prospectus.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/10_npl_writeoffs.png" alt="Headline NPL ratio fell while management raised the cushion. NPL ratio: 7.5% to 5.1%. Allowance on performing loans: 3.64% to 5.57%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 
 <p>It is the single most favorable operating datapoint in the document, so I went looking for the note behind it.</p>
 
@@ -179,7 +179,7 @@
 <p>So rather than strip float out of the reported statement, I built cash flow from the top. Free cash flow to the firm is operating profit after tax, plus depreciation and amortization, less capital expenditure, less the increase in the loan book, less the change in working capital.</p>
 <p>Excluding cash held in trust and liabilities to partners and users from working capital entirely, since they are a matched pair belonging to the e-money business rather than to operations.</p>
 <h3>The reinvestment line is the loan book, not capex</h3>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v3_earnings_vs_cash.png" alt="Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex. Source: Mynt Preliminary Prospectus.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v3_earnings_vs_cash.png" alt="Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>Capital expenditure was PHP 298.1 million, PHP 520.7 million and PHP 456.7 million across the three years. That is under one percent of revenue. Depreciation now exceeds it. By the standards of a normal DCF this company barely reinvests at all.</p>
 <p>That reading would be badly wrong.</p>
 <p>The loan book grew PHP 22.2 billion in 2024 and PHP 7.1 billion in 2025. For a lender, that is the reinvestment. Every peso lent leaves the business before it returns as income, and a book growing this fast consumes cash exactly the way a factory build-out would.</p>
@@ -203,12 +203,12 @@
 <p>Against book equity of PHP 73.5 billion, that is PHP 2.25 per share. [Computed]</p>
 <p>That figure needs one caveat, because it depends on which equity base the return is struck against. The 32.1 percent is the prospectus's own return on average equity, and I have applied the resulting multiple to ending book value, which mixes two bases. Recompute the return on ending equity and it is 25.5 percent, the justified multiple falls to 1.56 times, and the answer is PHP 1.71. Equity grew 69 percent during 2025, so a return struck on the smaller average base will not repeat on the larger one. I therefore treat this method as a range of PHP 1.71 to PHP 2.25 rather than a point, and the lower end is arguably the more honest anchor.</p>
 <p>FCFE at PHP 2.33 sits just above that range. FCFE forecasts five years of cash flow and a terminal value; justified price-to-book uses one year of return on equity and two rates.</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v5_sensitivity.png" alt="Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number, and it carries most of the total.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v5_sensitivity.png" alt="Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number, and it carries most of the total." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>I want to be honest about how independent that really is. They are not entirely separate opinions: both use the same cost of equity, the same terminal growth, and the same earnings base. What makes the agreement meaningful is that they reach the answer through different machinery, and that their implied payout ratios line up. The justified multiple assumes the company retains 14 percent of earnings, since growth of 4.5 percent on a 32.1 percent return implies that. My FCFE model, built from the loan book upward, converts about 80 percent of 2026 net income into distributable cash. That is a different measure from the retention implied by the multiple, so I am no longer calling it a convergence, an audit was right that I had been comparing two things that are not the same. It is a coincidence of magnitude, not a second opinion.</p>
 <p>An independent FCFE model built on different assumptions landed at PHP 3.37 against my PHP 2.33. The PHP 1.04 gap decomposes almost entirely into two offsetting items: that model uses a cost of equity 267 basis points lower than mine, and mine adds a PHP 39.2 billion corporate-cash balance that the other does not. Two models with different frameworks, discount rates, and cash treatments agreeing within 30 percent is a genuine convergence result. It is worth saying so.</p>
 <p>Note also that neither of these adds cash back, and that is deliberate. Net income already contains the interest earned on deposits, so the cash is working inside the flow. Adding the balance on top would count it twice. The cash adjustment belongs to the enterprise-value methods only.</p>
 <p>And across the full plausible range of the two assumptions I am least sure about, nothing approaches PHP 10. The most generous corner of that grid, a 12 percent cost of equity with 6 percent perpetual growth, does not get close.</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v6_reverse_dcf.png" alt="Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%. The offer price does not appear anywhere on the grid.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v6_reverse_dcf.png" alt="Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%. The offer price does not appear anywhere on the grid." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>The offer price prices this equity at 9.6 times adjusted tangible book (PHP 1.04 per share, after the LTIP issuance and the June 2026 dividend). The justified multiple, on the company's own return on equity, is between 1.56 and 2.05 times depending on which equity base you strike it against.</p>
 <h2>The cash question</h2>
 <p>The PHP 39.2 billion cash add-back represents 28 percent of the FCFF value per share. It is the single largest upward force in the model, and the claim that it is distributable to equity is not established.</p>
@@ -219,7 +219,7 @@
 <li>In March 2026 FUSE borrowed **PHP 1,750.0 million** from the ADB on a three-year term to fund MSME lending. [Prospectus, p. 142] That is not the behavior of a company sitting on 42 billion of surplus cash.</li>
 </ul>
 <p>I model three scenarios:</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance. This is the single largest lever in the analysis.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance. This is the single largest lever in the analysis." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>FCFE is unaffected by this assumption since net income already contains interest earned on deposits. At 0 percent free, FCFF falls to PHP 1.50. The offer remains 6.7 times that figure.</p>
 <p>I keep the 100 percent case as the headline because it is the assumption a buyer would make reading the balance sheet cold, and because deleting an inconvenient number is not a method. But the strict reading is the one the prospectus text actually supports, and it takes the firm-side answer down to PHP 1.50. Note too that BSP Circular No. 1166 requires at least half the outstanding e-money balance to sit in trust, so even the corporate-cash figure is not free of regulatory claim. Nothing in this section moves the equity-side answer at all, which is part of why I trust the equity side more.</p>
 <h2>What the market pays for companies like this</h2>
@@ -233,7 +233,7 @@
 <p>So Mynt is not asking to be valued as a regional super-app that might one day reach profitability. It is already more profitable than the companies it would be compared against. That is a legitimate argument for a premium multiple and any fair analysis has to concede it.</p>
 <h3>The peer average was hiding the whole argument</h3>
 <p>Here is what the peers actually trade at, pulled in July 2026, with what each one implies for Mynt:</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v7_comps.png" alt="What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v7_comps.png" alt="What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>An average of those describes no company that exists. PayPal trades at a seventh of Sea's earnings multiple. Averaging a mature, de-rated payments processor with two growth platforms produces a number that is not a valuation, it is a compromise between two incompatible views of what Mynt is.</p>
 <p>And that is the point, so it is worth stating plainly. The comparables do not answer the question. They restate it.</p>
 <p>If Mynt is a growth platform in the mold of Sea or Grab, the comps say something between PHP 7.29 and PHP 11.09, and the offer price is inside that range. If Mynt is a maturing payments business with a lending book, which is what PayPal is, the comps say PHP 2.01 to PHP 2.19, sitting almost exactly on top of my cash-flow methods.</p>
@@ -243,13 +243,13 @@
 <p>Enterprise-value multiples value the operating business. Price-to-earnings values the bottom line. For most companies the two track each other. For Mynt they diverge because the earnings quality question sits precisely between them. A lender books interest income today against loans that may default tomorrow, and provisioning decisions determine how much of that reaches net income. The P/E route accepts the reported PHP 17.2 billion at face value. The EV/EBITDA route is stricter about what counts as operating profit.</p>
 <p>Key insight. The peer set splits along exactly the question this whole post is about. Growth-platform multiples put Mynt near the offer price. Mature-payments multiples put it near PHP 2. Choosing between them is not a modeling decision, it is a judgment about what kind of company this is becoming, and the prospectus says it is becoming a lender whose payments arm has stopped monetizing.</p>
 <p>What the offer price actually implies, against the audited figures:</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v9_value_bridge.png" alt="What the offer price implies against audited figures and peer references.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v9_value_bridge.png" alt="What the offer price implies against audited figures and peer references." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>The offer sits above every peer on both measures except Grab's earnings multiple. On enterprise value to EBITDA, 31.7 times is above all four peers, including both growth platforms.</p>
 <p>A note on the forward multiples, because I had these wrong too. My earlier draft quoted about 32 times on 2026 estimates and 27 times on 2027, which came from coverage assuming roughly 20 percent growth. On my own growth path, anchored to the 14.8 percent the first quarter actually printed, they are 33.7 and 29.8 times. Slower growth means the multiple compresses more slowly, so the forward path is less reassuring than the numbers I first repeated.</p>
 <h3>Are these earnings arm's length?</h3>
 <p>Globe and Ant between them own roughly two thirds of Mynt, and both sell to it and buy from it. So before accepting reported earnings at any multiple, it is worth asking how much of the revenue is set by negotiation among owners rather than by a market.</p>
 <p>The answer is less alarming than I expected, and the trend runs the right way.</p>
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v12_ownership.png" alt="Ownership structure and related-party revenue trends.">
+<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v12_ownership.png" alt="Ownership structure and related-party revenue trends." style="max-width:100%; width:100%; display:block; margin:0 auto 1rem; height:auto;">
 <p>Related-party revenue has fallen from 13.6 percent of the business to about 7 percent. [Prospectus, pp. 297-298] The largest single line is the load service fee Mynt earns from Globe for airtime top-ups, and it is flat in absolute terms at roughly PHP 3.5 billion a year, which means it shrinks as a share of a growing company: 10.6 percent of revenue in 2023, 4.5 percent in 2025. The company is becoming less dependent on its owners, not more.</p>
 <p>The prospectus asserts arm's-length terms, says material transactions are supported by a transfer pricing report using recognized benchmarking methods, and maintains a Related Party Transactions Committee. There is also a risk factor devoted to the possibility that related parties fail to act on fair terms, or that tax authorities challenge the transfer pricing. I have no basis to dispute any of it and I am not going to imply otherwise.</p>
 <p>One item is worth flagging, not as an accusation but because it is unusual. Two lines appeared in 2025 that did not exist in 2024, both with Ant-affiliated counterparties. Merchant discount rate income from Alipay Connect went from zero to PHP 1,636.8 million, which is 6.4 percent of the year's entire revenue growth. In the same year, maintenance and platform service fees paid to an affiliate went from zero to PHP 1,268.8 million of expense. The two roughly offset, so the effect on profit is about PHP 368 million.</p>
