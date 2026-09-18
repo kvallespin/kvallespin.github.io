@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ken Vallespin - Substack import feed</title>
+    <link>https://kvallespin.github.io/</link>
+    <description>Temporary one-post RSS feed for Substack import.</description>
+    <language>en-us</language>
+    <generator>Manual temporary RSS export</generator>
+    <lastBuildDate>Fri, 18 Sep 2026 20:19:07 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[An engineer's valuation of the Mynt/GCash IPO]]></title>
+      <link>https://kvallespin.github.io/finance/an-engineers-valuation-of-the-mynt-gcash-ipo</link>
+      <guid isPermaLink="true">https://kvallespin.github.io/finance/an-engineers-valuation-of-the-mynt-gcash-ipo</guid>
+      <dc:creator><![CDATA[Ken Vallespin]]></dc:creator>
+      <pubDate>Fri, 18 Sep 2026 20:19:07 GMT</pubDate>
+      <description><![CDATA[Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.]]></description>
+      <content:encoded><![CDATA[
+        <h1>An engineer's valuation of the Mynt/GCash IPO</h1>
+        <p><em>Three valuation methods, one answer: PHP 2.33 a share against a PHP 10 offer.</em></p>
+        
+        <p><strong>Disclosure:</strong> I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange">
+        <p style="text-align:center; font-size:0.8rem; color:#5F6B77;">Image credit: <a href="https://www.itechsolutionph.com/">iTech Solution PH</a>.</p>
+        
+        <p>Let me save you the scroll. GCash is offering shares at PHP 10. My model says they're worth about PHP 2.33. That's not a typo, and it's not because I missed something obvious. I checked twice.</p>
+        
+        <p>I ran three different valuation methods on the prospectus, each with completely different assumptions and machinery. They all landed in the same neighborhood: between PHP 1.71 and PHP 2.33 per share. I then let my shakiest assumptions wiggle across their full plausible range and ran the model ten thousand times. The median came out at PHP 2.47. The single best-case scenario, out of all ten thousand runs, hit PHP 5.02.</p>
+        
+        <p>None of them got to PHP 10.</p>
+        
+        <p>There is one way to justify the offer price. You take the earnings multiple that investors are currently paying Sea Limited and Grab, slap it on Mynt's 2025 earnings, and you get PHP 10.33 per share. Just above the ask. So if you buy at this price, you're not buying a company based on what it generates. You're buying the belief that a payments-and-lending business should trade like a growth platform.</p>
+        
+        <p>That's a fair thing to believe. I just can't get there from the numbers.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v4_football_field.png" alt="Valuation summary: four methods all land at a quarter of the offer price">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Four independent valuation methods, all landing between PHP 1.71 and PHP 2.33 per share against a PHP 10 offer.</p>
+        
+        <h2>The disclaimer, first</h2>
+        
+        <p>I'm an engineer, not a finance person. My corporate finance education consists of two MBA courses plus some aviation finance work at UCD Smurfit. I don't have Bloomberg terminals or sell-side analyst calls. What I do have is a decent handle on first principles and more compute than a student really needs. So when the GCash IPO came up, I decided to crack this walnut with a tank. Five AI model tanks, actually, all running locally on my hardware.</p>
+        
+        <p>This isn't what a professional equity research report looks like. It's what happens when someone who builds systems for a living applies those same habits to a financial question. The failure modes are labeled. The workbook is linked at the end if you want to poke at specific cells.</p>
+        
+        <h2>What caught my eye</h2>
+        
+        <p>The filing landed on my radar a few weeks ago, and a couple of things stood out immediately.</p>
+        
+        <p>GCash started in 2004 as an SMS-based money transfer service for Globe Telecom. Today it's the largest mobile wallet in the country, used monthly by roughly half the adult population. That's about four times its nearest competitor. Revenue and net income have both more than doubled since 2023, and unlike most wallets going public, this one is already profitable.</p>
+        
+        <p>The holding company, Mynt Inc., runs the wallet through GXI and a lending arm called Fuse. The cap table reads like a strategic alliance rather than a typical venture fund list. Globe Telecom and Ant Group each hold about a third. Ayala's joint vehicle with Mitsubishi has the next biggest chunk, followed by MUFG, Warburg Pincus, Bow Wave, and management.</p>
+        
+        <p>Two details in that ownership structure matter more than they first appear. First, Ant's stake is split across two Singapore entities that the prospectus footnotes confirm are the same ultimate owner. So their real position is 27.66%, not the 21.44% you'd read at the top of the table. Second, five holders control 87.8% of the company, and none of them is selling out. That's what a 12% float looks like from the inside.</p>
+        
+        <h2>The size question</h2>
+        
+        <p>At the top of its indicative range, this IPO raises about PHP 92 billion. That's roughly double what Monde Nissin raised in 2021, making it the largest offering by proceeds in Philippine history. But "largest" is doing a lot of work there. The implied valuation lands near $11 billion, which would still leave Mynt behind ICTSI, SM Investments, and BDO once trading starts. It's a top-five debut, not the number one spot.</p>
+        
+        <p>And 12% is the legal minimum they can sell. Until February this year, the SEC required everyone going public to offer at least 20%. They changed it to a sliding scale where bigger companies sell less, with discretion to go as low as 12% for the very largest. Mynt sits exactly on that floor.</p>
+        
+        <p>Here's the trade-off nobody talks about much. To get included in the main Philippine stock index, you generally need a 20% float. At 12%, one of the biggest companies on the exchange will sit outside the benchmark that most passive funds track. You get less dilution and thinner day-one supply, but you give up that steady stream of index fund buying.</p>
+        
+        <p>Jakarta learned something about this over the past year. Indonesia's benchmark index has the thinnest average free float in Asia-Pacific. When most shares sit with founders and affiliates, prices get set by a small pool of trades. They move on thin volume, and eventually the index stops describing the market it's supposed to represent.</p>
+        
+        <p>MSCI noticed. In January they tightened how they measure Indonesian free float, which forced index funds to pull roughly $2 billion out as weightings fell. By March, Jakarta had rewritten its listing rules to require thicker floats, after warnings that Indonesia risked losing emerging-market classification.</p>
+        
+        <p>So in the same quarter, Manila lowered its floor to land a listing it's wanted for years, and Jakarta raised its floor after thin float caused real problems. Manila's bet is that a small float in a profitable consumer business with millions of users behaves differently from a small float in a closely held holding company. Maybe they're right. But no valuation model captures that part of the story.</p>
+        
+        <h2>The business I thought I was valuing vs. the one that exists</h2>
+        
+        <p>I started by valuing a payments company. That's the obvious mental model. We scan QR codes, send money, pay bills. Payments company. Easy.</p>
+        
+        <p>The audited numbers told a different story.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/01_revenue_and_margins.png" alt="Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Revenue growth decelerating sharply: 61.1% in 2024, 47.2% in 2025, then just 14.8% in Q1 2026. Source: Mynt Preliminary Prospectus.</p>
+        
+        <p>Adjusted revenues were PHP 33.6 billion in 2023, PHP 54.1 billion in 2024, and PHP 79.7 billion in 2025. Growth was 61% in 2024, 47% in 2025, and then 14.8% in the first quarter of 2026. My initial model assumed 20% growth for 2026. The first quarter had already come in well below that.</p>
+        
+        <p>The margin story surprised me even more. Net margin improved from 25.0% in Q1 2025 to 27.0% in Q1 2026, which the press picked up on as good news. But EBITDA margin fell over the same period, from 30.6% to 28.8%. Interest income on deposits jumped 54%, and the effective tax rate dropped from 28.2% to 23.6%. The net margin improvement didn't come from the core business getting better. It came from interest on cash and a lower tax bill.</p>
+        
+        <h3>The real pivot</h3>
+        
+        <p>Payment Solutions made up 68.7% of adjusted revenues in 2023. By Q1 2026, that had fallen to 56.8%. Meanwhile, CreditTech, the lending book behind GLoan and GGives, now represents 43.2% of revenue and is still climbing.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v1_revenue_mix.png" alt="Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">The business mix is shifting: payments shrinking as a share, lending growing. Source: Mynt Preliminary Prospectus.</p>
+        
+        <p>The loan book itself grew from PHP 11.9 billion at the end of 2023 to PHP 48.8 billion by March 2026. Four times larger in a little over two years.</p>
+        
+        <p>My mental model had to change. Mynt is becoming a consumer lender that happens to own the best payment rails in the country. Payments is how they acquire customers and build underwriting data. Lending is where the money is actually made.</p>
+        
+        <h2>Two things I missed before reading the prospectus</h2>
+        
+        <h3>The gambling directive</h3>
+        
+        <p>In August 2025, the Bangko Sentral issued a memorandum requiring all supervised institutions to remove in-app access to gambling. The prospectus considers this effect material enough to create its own defined term: "Affected Revenues."</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v8_take_rate.png" alt="Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Volume up, monetization down. The take rate fell from 0.31% to 0.25% year-over-year. Source: Mynt Preliminary Prospectus.</p>
+        
+        <p>The impact shows up in the take rate. Payment monetization ran at 0.24%, then 0.28%, then 0.30% of gross transaction value. In Q1 2026 it was 0.25%, down from 0.31% a year earlier. Volume kept growing, with gross transaction value hitting PHP 17.03 trillion in 2025 and up 23.2% year-over-year in Q1 2026.</p>
+        
+        <p>But Payment Solutions revenue actually fell 1.5% year-over-year. More transactions, less money. The payments half of the business is currently shrinking on a revenue basis.</p>
+        
+        <h3>The lending spread is compressing</h3>
+        
+        <p>I initially presented the net interest margin of 23.4% as a structural advantage over traditional bank margins of 3-5%. The moat is real. But I only showed the last data point. The full series is 31.5%, then 26.1%, then 23.7%, then 23.4%. That's an eight-percentage-point drop in just over two years.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v2_credit_economics.png" alt="Net interest margin fell from 31.5% to 23.4% in just over two years.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Net interest margin compression: down 8 percentage points since end of 2023. Source: Mynt Preliminary Prospectus.</p>
+        
+        <div style="background:#CEE5F3; border-left:4px solid #175676; padding:1rem 1.25rem; margin:1.5rem 0;">
+          <strong style="color:#175676;">Key insight.</strong> This reframes the entire valuation question. It's not "what is a payments network worth?" It's "what is a fast-growing consumer lender worth when its payments engine has stopped monetizing and its lending spread is compressing every year?" Those are very different questions with very different answers.
+        </div>
+        
+        <h2>The number that looked like good news</h2>
+        
+        <p>Here's where I learned to read the footnotes.</p>
+        
+        <p>The non-performing loan ratio fell from 7.5% at the end of 2025 to 5.1% by March 2026. The prospectus calls this "a sharp decline." On its face, that's the most favorable operating data point in the entire document.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/10_npl_writeoffs.png" alt="Headline NPL ratio fell while management raised the cushion.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">The headline NPL ratio improved, but management simultaneously increased its allowance on performing loans. Source: Mynt Preliminary Prospectus.</p>
+        
+        <p>So I looked for the note behind it.</p>
+        
+        <p>The full history is messier. The ratio was 9.2% at the end of 2023, dropped to 4.8% in 2024, rose to 7.5% in 2025, then fell to 5.1% in Q1 2026. That's a ratio bouncing around inside a wide band, not a clean trend in either direction.</p>
+        
+        <p>But what actually moved the ratio matters more than where it landed. Here's the roll-forward of defaulted loans for Q1 2026:</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Q1 2026, loans in default (PHP millions)</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Amount</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Opening balance</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">3,578.7</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Collections</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">(276.1)</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>Write-offs</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>(3,397.9)</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Transfers out</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">(20.2)</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>New defaults formed</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>+2,996.4</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Closing balance</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">2,880.9</td></tr>
+          </tbody>
+        </table>
+        
+        <p>Mynt wrote off PHP 3.4 billion of defaulted loans during the quarter while nearly PHP 3 billion of fresh loans rolled into default. The ratio improved because bad loans were removed from the top and new good loans were added to the bottom. Borrower behavior didn't have to improve for that to happen.</p>
+        
+        <p>When you normalize against average balances instead of opening balances, which is the proper method when a loan book nearly triples in a year, the picture gets less pretty:</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Against the average gross book</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2024</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2025</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">New defaults formed</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">22.6%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>35.3%</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Written off</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">16.5%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>25.1%</strong></td></tr>
+          </tbody>
+        </table>
+        
+        <p>Both rose sharply. The direction is worsening, even if the magnitude is uncertain given how fast the book is growing.</p>
+        
+        <p>The provisioning tells a similar story. Provisions as a percentage of average gross loans went from 25.3% in 2024 to 29.0% in 2025, and are running at 30.8% annualized in Q1 2026. Nearly a third of the book is expected to go bad each year.</p>
+        
+        <div style="background:#CEE5F3; border-left:4px solid #175676; padding:1rem 1.25rem; margin:1.5rem 0;">
+          <strong style="color:#175676;">Key insight.</strong> The most telling signal is in the allowance against loans that haven't defaulted yet. That cushion was 3.64% at the end of 2025 and jumped to 5.57% by March 2026. Management sharply increased its reserve on loans that are still paying. That's what lenders do when they expect trouble they haven't seen yet.
+        </div>
+        
+        <h2>The discount rate mistake I almost made twice</h2>
+        
+        <p>In my first draft, I assumed Mynt had no debt because I couldn't verify it, and I flagged that as the weakest link in the model.</p>
+        
+        <p>The prospectus settled it: total debt is PHP 20,750.2 million as of March 31, 2026. Unsecured bank loans bearing 5-6.5%, plus a three-year term loan from the Asian Development Bank for MSME lending.</p>
+        
+        <p>So I was wrong, in exactly the direction I predicted. And it did almost nothing to the valuation, which is where the real lesson lives.</p>
+        
+        <h3>The CAPM calculation</h3>
+        
+        <p>Cost of equity = risk-free rate + beta ├ù equity risk premium<br>= 7.26% + 1.6 ├ù 6.7%<br>= <strong>17.98%</strong></p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Input</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">What it is</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">What I used</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Source</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Risk-free rate</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Return on lending to the government</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">7.26%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">PH 10-year bond yield, July 14, 2026</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Beta</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">How much the equity moves with the market</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">1.6</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Midpoint of Sea, PayPal, Adyen</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Equity risk premium</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Extra return demanded for equity risk</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">6.7%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Damodaran's Philippines country premium</td></tr>
+          </tbody>
+        </table>
+        
+        <h3>Where the debt weight actually goes</h3>
+        
+        <p>After-tax cost of debt: 5.75% ├ù 0.75 = 4.31% (using the CREATE Act 25% tax rate)</p>
+        
+        <p>Now the weights, which is where I almost fooled myself:</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Basis</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Debt weight</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Equity weight</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">WACC</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>Market value</strong> (equity at PHP 10 offer)</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">3.0%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">97.0%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>17.57%</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Book value (from cap table)</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">22.0%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">78.0%</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">14.97%</td></tr>
+          </tbody>
+        </table>
+        
+        <p>The capitalization table shows PHP 20.75 billion of debt against PHP 73.5 billion of book equity, which looks like a 22% debt weight. That's the number printed in the document, and it's tempting to use.</p>
+        
+        <p>It's also wrong. You have to use market-value weights. At the offer price, equity is worth PHP 669 billion, which makes that debt just 3% of total capital. So discovering PHP 20.75 billion of borrowings moved my discount rate by forty-one basis points. From 17.98% to 17.57%.</p>
+        
+        <p>I find this genuinely funny because my first draft contained a pitfalls table with this exact warning: "Using book value weights in WACC misstates the true cost of capital." I wrote the rule down, and then the moment real debt appeared, I almost applied it the wrong way because the wrong way happened to help the company.</p>
+        
+        <div style="background:#FFF3F4; border-left:4px solid #E04556; padding:1rem 1.25rem; margin:1.5rem 0;">
+          <strong style="color:#BB3250;">Caution.</strong> A large debt figure looks dramatic until you see the equity it sits beside. PHP 20.75 billion is a lot of money. It's also 3% of a company the market is pricing at nearly PHP 670 billion.
+        </div>
+        
+        <h2>The cash flow trap</h2>
+        
+        <p>My biggest apology from the first draft: I didn't have free cash flow data, so I proxied it as revenue times net margin and warned that this flattered the company.</p>
+        
+        <p>The prospectus has all the inputs now. It also has a trap built in.</p>
+        
+        <h3>Why the reported cash flow statement is useless here</h3>
+        
+        <p>Net cash from operating activities: plus PHP 23.5 billion in 2023, minus PHP 38.1 billion in 2024, plus PHP 14.2 billion in 2025, minus PHP 12.9 billion in Q1 2026. Negative in two of four periods for a profitable business.</p>
+        
+        <p>That's not distress. That's float. Mynt is an e-money issuer, so customer balances run through operating activities. Cash held in trust went from PHP 1 billion to PHP 78.9 billion over the period. Those swings have nothing to do with whether the underlying business generates cash.</p>
+        
+        <h3>The reinvestment line isn't capex</h3>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v3_earnings_vs_cash.png" alt="Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">For a lender, the real reinvestment is loan book growth, not capital expenditure. Source: Mynt Preliminary Prospectus.</p>
+        
+        <p>Capital expenditure was under 1% of revenue each year. By normal DCF standards, this company barely reinvests at all. That reading would be badly wrong.</p>
+        
+        <p>The loan book grew PHP 22.2 billion in 2024 and PHP 7.1 billion in 2025. For a lender, that <strong>is</strong> the reinvestment. Every peso lent leaves the business before it returns as income.</p>
+        
+        <p>Run the arithmetic on 2025:</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2025, PHP millions</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Amount</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">EBIT ├ù (1 - 25%)</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">14,797.3</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">plus D&A</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">699.3</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">less capex</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">(456.7)</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">less loan book growth</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">(7,122.6)</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>Sustainable FCFF</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>7,917.3</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Memo: net income</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">17,248.5</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>Cash conversion</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>46%</strong></td></tr>
+          </tbody>
+        </table>
+        
+        <p>Forty-six percent cash conversion, and that's treating a one-time working capital release as non-repeatable (which it is). In my first draft I guessed at a conversion factor of 0.85. The real number is less than half that.</p>
+        
+        <h3>What this gives you</h3>
+        
+        <p>With a market-weight WACC of 17.57% and terminal growth of 4.5%, enterprise value comes to PHP 120.8 billion. Subtract debt (PHP 20.75 billion), add back corporate cash (PHP 39.2 billion, the figure disclosed on page 35 of the prospectus), divide by shares outstanding, and you get <strong>PHP 2.08 per share</strong>.</p>
+        
+        <p>That's 79% below the offer price.</p>
+        
+        <div style="background:#FFF3F4; border-left:4px solid #E04556; padding:1rem 1.25rem; margin:1.5rem 0;">
+          <strong style="color:#BB3250;">Caution.</strong> Damodaran is explicit that FCFF discounted at WACC is the wrong frame for financial services firms. For a lender, debt is raw material, not financing. Mynt is now 43% CreditTech with a PHP 48.8 billion book funded partly by borrowings. By his own rule, this model doesn't apply to it.
+        </div>
+        
+        <h3>Doing it correctly for a lender</h3>
+        
+        <p>Value the equity directly. Free cash flow to equity = net income + D&A - capex - increase in loan book + new debt raised to fund that increase. Discounted at the cost of equity (17.98%), with the assumption that debt continues to fund 42.5% of loan book growth, as it does today.</p>
+        
+        <p>That gives <strong>PHP 2.33 per share</strong>.</p>
+        
+        <p>Then a third check that uses no forecast at all. The Gordon growth relation says justified price-to-book = (ROE - g) / (cost of equity - g). Plugging in the company's own numbers: (32.1% - 4.5%) / (17.98% - 4.5%) = 2.05x book value. Against PHP 73.5 billion of book equity, that's <strong>PHP 2.25 per share</strong>.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v5_sensitivity.png" alt="Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Terminal value dominates: most of the valuation comes from years beyond 2030, compressed into a single Gordon-growth calculation.</p>
+        
+        <p>An independent FCFE model built on different assumptions landed at PHP 3.37 versus my PHP 2.33, a gap that decomposes into two offsetting items: a lower cost of equity in their model and my inclusion of the corporate cash balance. Two models with different frameworks agreeing within 30% is a genuine convergence result.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v6_reverse_dcf.png" alt="Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Sensitivity grid: even the most generous assumptions (12% cost of equity, 6% perpetual growth) don't approach PHP 10.</p>
+        
+        <p>The offer price implies <strong>9.6x adjusted tangible book</strong>. The justified multiple, based on the company's own return on equity, is between 1.56x and 2.05x.</p>
+        
+        <h2>The cash question</h2>
+        
+        <p>That PHP 39.2 billion cash add-back represents 28% of the FCFF value per share. It's the single largest upward force in the model, and it's also the least certain.</p>
+        
+        <p>Three things in the prospectus cut against treating it as freely distributable:</p>
+        
+        <ul>
+          <li>Page 44 states verbatim that wallet funds "are held in more liquid assets and cannot be used to facilitate lending."</li>
+          <li>The only observable distribution is the PHP 5 billion dividend declared in June 2026, which is just 12.8% of the disclosed corporate cash.</li>
+          <li>In March 2026, Fuse borrowed PHP 1.75 billion from the ADB to fund MSME lending. That's not what companies sitting on surplus cash do.</li>
+        </ul>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Three scenarios for how much of the corporate cash is actually distributable to equity holders.</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Free-cash treatment</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">PHP per share (FCFF)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">100% free (original)</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">PHP 2.08</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">50% free</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">PHP 1.79</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">0% free (strict)</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">PHP 1.50</td></tr>
+          </tbody>
+        </table>
+        
+        <p>Even at zero free cash, the offer price is 6.7x the valuation.</p>
+        
+        <h2>What the market pays for similar companies</h2>
+        
+        <p>Cash flow analysis asks what the business is worth on its own terms. Comparables ask a different question: what are investors currently paying for businesses that look like this one?</p>
+        
+        <p>My peer set: Sea Limited, Grab, GoTo, and PayPal. None is a clean match.</p>
+        
+        <p>One fact works strongly in Mynt's favor: its 2025 EBITDA margin of 25.6% is above every peer. PayPal trades at 20.85%, GoTo at 12.0%, Grab at 11.25%. Mynt is more profitable than the companies it would be compared against.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v7_comps.png" alt="What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">The peer set splits cleanly: growth platform multiples justify the offer, mature payments multiples do not.</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Peer</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">P/E implies</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">EV/EBITDA implies</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">PayPal</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">7.8x <strong>PHP 2.01</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">6.1x <strong>PHP 2.19</strong></td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">GoTo</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">not meaningful</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">15.1x PHP 4.93</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Sea Limited</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">40.1x PHP 10.33</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">22.8x PHP 7.29</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Grab</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">43.0x <strong>PHP 11.09</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">23.5x <strong>PHP 7.48</strong></td></tr>
+          </tbody>
+        </table>
+        
+        <p>An average of those numbers describes no company that exists. PayPal trades at a seventh of Sea's earnings multiple.</p>
+        
+        <div style="background:#CEE5F3; border-left:4px solid #175676; padding:1rem 1.25rem; margin:1.5rem 0;">
+          <strong style="color:#175676;">The comparables don't answer the question. They restate it.</strong><br><br>
+          If Mynt is a growth platform like Sea or Grab, the comps say PHP 7.29 to PHP 11.09, and the offer price sits inside that range. If Mynt is a maturing payments business with a lending book, which is what PayPal is, the comps say <strong>PHP 2.01 to PHP 2.19</strong>, sitting almost exactly on top of my cash flow methods.
+        </div>
+        
+        <p>I didn't engineer that alignment. PayPal's multiple and my discounted cash flow arrive at the same place from opposite directions.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v9_value_bridge.png" alt="What the offer price implies against audited figures and peer references.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">The PHP 10 offer prices Mynt above every peer on EV/EBITDA, including both growth platforms.</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Measure</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">At the PHP 10 offer</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Peer reference</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Price/earnings, trailing</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">38.8x</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">7.8x to 43.0x</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">EV/EBITDA</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>31.7x</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">6.1x to 23.5x</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Price/adjusted tangible book</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>9.6x</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">justified 1.56x to 2.05x</td></tr>
+          </tbody>
+        </table>
+        
+        <h3>Are these earnings arm's length?</h3>
+        
+        <p>Globe and Ant together own roughly two-thirds of Mynt, and both sell to it and buy from it.</p>
+        
+        <img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v12_ownership.png" alt="Ownership structure and related-party revenue trends.">
+        <p style="text-align:center; font-style:italic; color:#5F6B77;">Related-party revenue as a share of total has been declining, which is reassuring.</p>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Related-party revenue</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2023</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2024</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">2025</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Q1'26</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Total, PHP millions</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">4,573.8</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">4,499.6</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">5,648.2</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">1,508.8</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>Share of Adjusted Revenues</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>13.6%</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>8.3%</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>7.1%</strong></td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;"><strong>7.3%</strong></td></tr>
+          </tbody>
+        </table>
+        
+        <p>Related-party revenue has fallen from 13.6% to about 7% of the business. The disclosure is thorough, with a transfer pricing report and a Related Party Transactions Committee.</p>
+        
+        <h2>The pitfalls I tried to avoid</h2>
+        
+        <table style="width:100%; border-collapse:collapse; margin:1.25rem 0;">
+          <thead>
+            <tr><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Pitfall</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">Why it matters here</th><th style="text-align:left; color:#175676; border-bottom:2px solid #175676; padding:0.6rem 0.75rem;">What I did</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Comparing to listed peers without liquidity adjustment</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Listed multiples embed liquidity that a 12% float doesn't provide</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Noted, not quantified. No defensible discount available.</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Averaging a widely dispersed peer set</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">An average of 6x and 43x describes nothing</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Report each peer and the full range.</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Using unsourced multiples</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Numbers get repeated until they sound official</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Every multiple has a provider and date.</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Using trailing earnings for fast-growing company</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Trailing P/E looks expensive by construction</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Reported forward path: 33.7x on 2026, 29.8x on 2027.</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Picking peers that favor the conclusion</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Peer selection is where bias enters unnoticed</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Fixed the regional set before seeing results.</td></tr>
+            <tr><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">No listed Philippine comparable exists</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Nothing on the PSE resembles this business</td><td style="padding:0.6rem 0.75rem; border-bottom:1px solid #D2D2D2;">Unresolved. A real limitation.</td></tr>
+          </tbody>
+        </table>
+        
+        <p>That last one deserves emphasis. There is no listed Philippine company that looks like Mynt. Every multiple above is imported from a different market with a different regulator, currency, and investor base.</p>
+        
+        <p>One final comparison: in September 2024, MUFG Bank subscribed to shares for US$160 million, implying a valuation of about <strong>US$4.91 billion</strong>. At PHP 10, the IPO prices the company at about US$11 billion. Over that period, net income grew roughly 55%, while the valuation more than doubled.</p>
+        
+        <p>Value rose faster than earnings. That's multiple expansion, which is the market paying more for each peso of profit than it did two years ago.</p>
+        
+        <h2>What you're actually buying</h2>
+        
+        <p>If you buy Mynt at PHP 10, you're not buying a company that generates PHP 2.33 of distributable cash per share today. You're not buying a company that the Gordon relation justifies at more than PHP 2.25.</p>
+        
+        <p>You're buying three expectations simultaneously:</p>
+        
+        <ol>
+          <li>That growth platform multiples from Sea and Grab apply to a company becoming a consumer lender</li>
+          <li>That PHP 39.2 billion of corporate cash is distributable, despite the prospectus saying wallet funds cannot facilitate lending</li>
+          <li>That a 31.7x EV/EBITDA multiple, above every peer, is the starting point rather than the ceiling</li>
+        </ol>
+        
+        <p>Any one of those could be correct. All three together is a tall order.</p>
+        
+        <p>The cash flow methods tell you what the business generates. The peer methods tell you what the market is willing to pay for stories like this one. The gap between PHP 2.33 and PHP 10 isn't a calculation error. It's the price of narrative.</p>
+        
+        <p>I can live with that. I just can't pretend it's what valuation is for.</p>
+        
+        <h2>A personal note</h2>
+        
+        <p>I started this because I wanted to understand a number on the front page. I ended up understanding a company, and learning something about the difference between what a business is worth and what a market will pay for it. The first is an engineering problem with inputs and outputs. The second isn't.</p>
+        
+        <p>If you're a retail investor deciding whether to buy GCash shares, my model says the price is high. But my model is one MBA student's spreadsheet, built on assumptions I can't fully defend and a discount rate borrowed from peers. I'm not qualified to tell you what to do with your money.</p>
+        
+        <p>What I am qualified to tell you is how I got where I got, and why I stopped where I stopped. The rest is your judgment.</p>
+        
+        <hr style="border:none; border-top:1px solid #D2D2D2; margin:2.5rem 0;">
+        
+        <h2>Sources</h2>
+        <ul>
+          <li>Mynt Preliminary Prospectus, 27 June 2026: <a href="https://pse.com.ph/">https://pse.com.ph/</a></li>
+          <li>Philippine 10-year government bond yield: <a href="https://tradingeconomics.com/philippines/government-bond-yield">Trading Economics</a></li>
+          <li>Damodaran country risk and equity risk premium data: <a href="https://pages.stern.nyu.edu/~adamodar/">NYU Stern</a></li>
+          <li>Sea Limited, Grab, GoTo, PayPal peer multiples: various provider data as of July 2026</li>
+          <li>Original post: <a href="https://kvallespin.github.io/finance/an-engineers-valuation-of-the-mynt-gcash-ipo">kvallespin.github.io</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
