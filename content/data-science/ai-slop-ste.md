@@ -1,6 +1,6 @@
-﻿---
+---
 title: The cure for AI slop is a boring 40-year-old manual
-subtitle: You can ban every suspect word in the dictionary and still get writing that rings hollow. The real fix is a discipline aircraft mechanics have used for decades.
+subtitle: You don't need another word blacklist. You need the writing discipline that keeps planes flying.
 author: Ken Vallespin
 date: 2026-09-15
 tags:
@@ -13,7 +13,7 @@ description: Banning AI writing tells treats the symptoms. A checkable writing s
 
 # The cure for AI slop is a boring 40-year-old manual
 
-You can ban every suspect word in the dictionary and still get writing that rings hollow. The real fix is a discipline aircraft mechanics have used for decades.
+You don't need another word blacklist. You need the writing discipline that keeps planes flying.
 
 ![An aircraft maintenance manual beside a laptop checking AI-generated technical writing for clarity and consistency](../assets/ai-slop-ste/ai-slop-ste-main-banner.png)
 
@@ -21,61 +21,76 @@ You can ban every suspect word in the dictionary and still get writing that ring
 
 ***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
-If you have been wrangling AI writing lately, you probably have a ban list. No em dashes. No "delve." No "tapestry" or "realm" or "in today's fast-paced world."
+If you've been fighting AI-generated writing lately, you probably have a list. A running tally of words that immediately trigger your alarm bells. "Delve." "Tapestry." "In today's fast-paced world." "It is important to note that..."
 
-The instinct makes sense. I get why you build one.
+I get it. I've built one too.
 
-But you can pass the whole checklist and still end up with prose that feels empty. Vague. Inflated in a way that's hard to pin down. The words are all fine. The sentences are grammatically perfect. And yet.
+But here's the problem nobody talks about: you can pass every item on that list and still end up with prose that feels hollow. The words are fine. The grammar is perfect. The tone hits the right register. And yet when you read it back, something is off. It rings. Like a bell that's too big for the room.
 
-Structure is the real problem. Which is good news, because structural problems have structural solutions.
+The issue is not vocabulary. It's structure. And structural problems call for structural solutions, not synonym swaps.
 
-## What slop actually looks like
+## What the slop actually sounds like
 
-AI slop has a rhythm to it, once you notice. The model swaps in a synonym for no reason. It hedges until the claim evaporates ("one could perhaps argue that it might be the case"). It turns verbs into nouns, giving you "conduct an analysis" when "analyze" would do. It leans on adjectives like "robust" and "seamless" and "dynamic" without backing them up with anything. And it loves long sentences that bury the actual point somewhere in the middle.
+I've read enough of it to recognize the rhythm. The model substitutes a more impressive word for a simpler one, even when the simpler one is better. It hedges every claim until the claim disappears ("one could perhaps suggest that it might be worth considering"). It nominalizes verbs into abstract nouns, giving you "conduct a comprehensive analysis" when "analyze" would have done.
 
-These are mechanical habits, not random quirks. You can name them. Which means you can check for them.
+It loves adjectives that sound authoritative but commit to nothing: "robust," "seamless," "dynamic," "cutting-edge." And it buries the actual point somewhere in the middle of a sentence that starts with a subordinate clause and ends with a preposition.
 
-## Aircraft maintenance manuals solved this first
+These aren't random mistakes. They're habits. Mechanical, predictable, checkable habits.
 
-Forty years ago, aviation engineers had the same problem, just with higher stakes. Maintenance instructions needed to be clear enough for non-native English-speaking mechanics to follow under pressure, in a hangar at 2 AM, when a plane needed to fly the next morning.
+Which means you can build a system to catch them.
 
-![ASD-STE100 Simplified Technical English and Artificial Intelligence white paper banner](../assets/ai-slop-ste/asd-ste100-ai-white-paper-banner.png)
+## How aircraft mechanics solved this in 1986
 
-*Image: [ASD-STE100 Simplified Technical English and Artificial Intelligence (AI), STEMG white paper, June 2026](https://www.asd-ste100.org/assets/files/WhitePaper-ASD-STE100_and_AI.pdf).*
+Forty years ago, aviation engineers faced the same problem with much higher stakes. A mechanic in Jakarta or Nairobi or São Paulo needed to follow maintenance instructions for a Boeing 737 at two in the morning, in a hot hangar, with a flight scheduled out in six hours. English was not his first language. The instructions had to be unambiguous, or someone died.
 
-They built Simplified Technical English, standardized as ASD-STE100. The goal was clarity, not elegant prose. The rules are blunt and a little funny:
+They built Simplified Technical English. The standard is called ASD-STE100. The goal wasn't elegant prose. It wasn't even good writing, in the literary sense. It was clear writing. Writing that could not be misunderstood.
+
+The rules are blunt, almost comical in their directness:
 
 - Use one term for one thing. Always.
 - Prefer active voice.
 - Keep sentences short.
-- Avoid phrasal verbs.
-- Use verbs for actions.
+- Avoid phrasal verbs. ("Switch on," not "turn on.")
+- Use verbs for actions, not nouns.
 - Don't hide meaning inside official-sounding language.
 
-It works like a checklist, not a style guide. You pass the checks or you don't. No arguing.
+It works like a checklist, not a style guide. You pass the checks or you don't. There's no room for argument about whether a sentence "feels" right.
 
-## Ban lists versus systems
+It has kept planes flying for four decades.
 
-Here's the difference, laid out plainly:
+## Why your ban list fails
 
-| Ban-list approach | Writing-system approach |
-|---|---|
-| Removes visible tells | Reduces structural habits |
-| Says what not to use | Says how to write |
-| Easy to bypass | Easier to check |
-| Fixes surface style | Improves clarity at the sentence level |
+A ban list tells the model what to avoid. It's a blacklist. Remove "delve," remove "tapestry," remove "realm," and the model finds the next fancy word to use. It's whack-a-mole, and the model is faster than you are.
 
-A blacklist tells the model what to avoid. A system gives it instructions on how to write. That's why your carefully curated list of forbidden words keeps getting around.
+A writing system tells the model how to write. It's a set of positive instructions, not just negative constraints. Instead of "don't use 'conduct an analysis,'" you say "use verbs for actions." Instead of "avoid 'robust,'" you say "if you can't back it up with a number or a specific example, cut it."
 
-## Where to apply it
+The difference matters because a system reduces the underlying habits that produce slop. A blacklist only removes the most visible symptoms.
 
-Not everything should sound like an aircraft manual. Voice and judgment still count. A controlled rule set can make writing clearer, but it can't rescue a weak idea or make a false claim true.
+And here's the practical part: a system is easier to check. You can run output through a series of simple tests. Does every sentence have an active verb? Is every noun doing actual work? Can you cut the sentence in half and still understand it?
 
-For procedures, error messages, technical docs, pull request descriptions, and agent output: use strict rules. That's where clarity under pressure matters. For writing that needs personality, like this, use lighter rules. In both cases, check the output instead of trusting the prompt.
+That's mechanical. That's fast. That's what you can automate.
 
-Stop playing whack-a-mole with banned words. Define the standard for the task. Make the writing pass a test. Then verify the substance separately.
+## Where to apply it (and where not to)
 
-Clean writing doesn't guarantee correct writing. But it gives the reader a shot at actually understanding what you're saying.
+Not everything should sound like an aircraft maintenance manual. If your whole blog post reads like a checklist for replacing a landing gear strut, you've gone too far. Voice and judgment still matter. A writing system makes prose clear, but it can't rescue a weak idea or make a false claim true.
+
+For technical documentation, procedures, error messages, pull request descriptions, and agent output, use strict rules. That's where clarity under pressure matters, just like in the hangar.
+
+For writing that needs personality, use lighter rules. The same principles apply, but with more room for style. Short sentences still. Active voice still. But allow yourself the occasional flourish, the metaphor that actually earns its place, the sentence fragment that adds rhythm instead of just saving words.
+
+In both cases, check the output. Don't trust the prompt. Don't trust your gut. Run it through the system and see what comes back.
+
+## A practical takeaway
+
+Stop curating your list of forbidden words. It's a losing game.
+
+Define the standard for the task. Make the writing pass a test. Verify the substance separately.
+
+Clean writing doesn't guarantee correct writing. But it gives the reader a fighting chance to understand what you're actually saying, which is more than they get from prose that's technically flawless but structurally empty.
+
+The manual is boring. It's been around since before most of us were born. It works.
+
+Use it.
 
 ---
 
