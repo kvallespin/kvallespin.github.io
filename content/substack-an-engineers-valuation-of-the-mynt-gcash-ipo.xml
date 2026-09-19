@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Ken Vallespin - Substack import feed</title>
@@ -23,7 +23,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange" style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/banner.jpg" alt="Mynt and GCash at the Philippine Stock Exchange" style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Mynt and GCash at the Philippine Stock Exchange</figcaption>
 
@@ -43,7 +43,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v4_football_field.png" alt="Valuation summary: four methods all land at a quarter of the offer price" style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v4_football_field.png" alt="Valuation summary: four methods all land at a quarter of the offer price" style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Valuation summary: four methods all land at a quarter of the offer price</figcaption>
 
@@ -97,7 +97,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/01_revenue_and_margins.png" alt="Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%. Source: Mynt Preliminary Prospectus, 27 June 2026." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/01_revenue_and_margins.png" alt="Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%. Source: Mynt Preliminary Prospectus, 27 June 2026." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Adjusted revenue grew 61.1% in 2024 and 47.2% in 2025. In Q1 2026 it slowed to 14.8%. Source: Mynt Preliminary Prospectus, 27 June 2026.</figcaption>
 
@@ -115,7 +115,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v1_revenue_mix.png" alt="Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v1_revenue_mix.png" alt="Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Payment Solutions fell from 68.7% to 56.8% of revenue. CreditTech is now 43.2% and climbing. Source: Mynt Preliminary Prospectus.</figcaption>
 
@@ -137,7 +137,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v8_take_rate.png" alt="Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v8_take_rate.png" alt="Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Gross transaction value grew 23.2% YoY while Payment Solutions revenue fell 1.5%. Take rate dropped from 0.31% to 0.25%. Source: Mynt Preliminary Prospectus.</figcaption>
 
@@ -155,7 +155,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v2_credit_economics.png" alt="Net interest margin fell from 31.5% to 23.4% in just over two years. A drop of eight percentage points. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v2_credit_economics.png" alt="Net interest margin fell from 31.5% to 23.4% in just over two years. A drop of eight percentage points. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Net interest margin fell from 31.5% to 23.4% in just over two years. A drop of eight percentage points. Source: Mynt Preliminary Prospectus.</figcaption>
 
@@ -169,7 +169,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/10_npl_writeoffs.png" alt="Headline NPL ratio fell while management raised the cushion. NPL ratio: 7.5% to 5.1%. Allowance on performing loans: 3.64% to 5.57%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/10_npl_writeoffs.png" alt="Headline NPL ratio fell while management raised the cushion. NPL ratio: 7.5% to 5.1%. Allowance on performing loans: 3.64% to 5.57%. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Headline NPL ratio fell while management raised the cushion. NPL ratio: 7.5% to 5.1%. Allowance on performing loans: 3.64% to 5.57%. Source: Mynt Preliminary Prospectus.</figcaption>
 
@@ -308,7 +308,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v3_earnings_vs_cash.png" alt="Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v3_earnings_vs_cash.png" alt="Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex. Source: Mynt Preliminary Prospectus." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Loan book growth consumes PHP 6,190M of forecast 2026 cash, versus PHP 279M net for depreciation less capex. Source: Mynt Preliminary Prospectus.</figcaption>
 
@@ -374,7 +374,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v5_sensitivity.png" alt="Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number, and it carries most of the total." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v5_sensitivity.png" alt="Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number, and it carries most of the total." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Each teal bar is one discounted year. The cerise bar is everything after 2030, compressed into a single Gordon-growth number, and it carries most of the total.</figcaption>
 
@@ -390,7 +390,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v6_reverse_dcf.png" alt="Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%. The offer price does not appear anywhere on the grid." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v6_reverse_dcf.png" alt="Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%. The offer price does not appear anywhere on the grid." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Implied value per share across a cost of equity from 12% to 20% and terminal growth from 3% to 6%. The offer price does not appear anywhere on the grid.</figcaption>
 
@@ -418,7 +418,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance. This is the single largest lever in the analysis." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/e_free_cash_scenario.png" alt="FCFF model at three readings of the cash balance. This is the single largest lever in the analysis." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">FCFF model at three readings of the cash balance. This is the single largest lever in the analysis.</figcaption>
 
@@ -460,7 +460,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v7_comps.png" alt="What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v7_comps.png" alt="What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">What peer multiples imply for Mynt per share. Growth platforms: PHP 7-11. Mature payments: PHP 2-2.20.</figcaption>
 
@@ -495,7 +495,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v9_value_bridge.png" alt="What the offer price implies against audited figures and peer references." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v9_value_bridge.png" alt="What the offer price implies against audited figures and peer references." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">What the offer price implies against audited figures and peer references.</figcaption>
 
@@ -523,7 +523,7 @@
 
 <figure style="margin:1.5rem 0; text-align:center;">
 
-<img src="https://kvallespin.github.io/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v12_ownership.png" alt="Ownership structure and related-party revenue trends." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
+<img src="https://kvallespin.github.io/finance/assets/an-engineers-valuation-of-the-mynt-gcash-ipo/v12_ownership.png" alt="Ownership structure and related-party revenue trends." style="max-width:100%; width:100%; height:auto; display:block; margin:0 auto;" />
 
 <figcaption style="font-size:0.9rem; color:#5F6B77; font-style:italic; margin-top:0.4rem;">Ownership structure and related-party revenue trends.</figcaption>
 
@@ -610,3 +610,4 @@
     </item>
   </channel>
 </rss>
+
