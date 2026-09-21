@@ -9,12 +9,15 @@ tags:
   - mba/aim
 description: A small data visualization detour about replacing a tidy procurement score bar chart with a radar chart, then a faceted dot plot that makes the comparison easier to trust.
 ---
+# Redesigning the Redesign Nobody Asked For
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
+*DVSAI203, a homework critique, and the sentence that wouldn't let me go.*
 
 ![Big data and insurance visualization](assets/redesign-of-the-redesign/big-data-insurance.jpg)
 
 *Source: [WaterStreet Company](https://www.waterstreetcompany.com/)*
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 Here's how you accidentally assign yourself homework.
 
