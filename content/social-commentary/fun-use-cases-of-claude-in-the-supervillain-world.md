@@ -5,7 +5,7 @@ author: Ken Vallespin
 date: 2026-09-23
 tags:
   - public-web
-  - data-science
+  - social-commentary
   - ai
   - security
 description: A darkly comic look at documented misuse of Claude in espionage, propaganda, weapons research, scams, and model distillation.
@@ -15,11 +15,11 @@ description: A darkly comic look at documented misuse of Claude in espionage, pr
 
 *Anthropic just published a 154-page report on what bad actors do with Claude. The "fun" part is that these examples come from the company's own threat report.*
 
-> **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
-
 ![A wireframe figure in a fedora reaches toward a glowing mechanical creature against a dark blue background](../assets/claude-supervillain/claude-supervillain-banner.webp)
 
 *Image generated with [Qwen-Image-2.1](https://qwen.ai/blog?id=qwen-image-2.1).*
+
+***Disclaimer:*** *I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.*
 
 I almost didn't believe the headline when I saw it. "Anthropic publishes threat intelligence report on Claude misuse." I assumed it was the usual phishing and scam stuff.
 

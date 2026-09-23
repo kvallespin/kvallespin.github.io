@@ -9,8 +9,8 @@
     <lastBuildDate>Wed, 23 Sep 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title><![CDATA['Fun' use cases of Claude in the supervillain world]]></title>
-      <link>https://kvallespin.github.io/data-science/fun-use-cases-of-claude-in-the-supervillain-world.html</link>
-      <guid isPermaLink="true">https://kvallespin.github.io/data-science/fun-use-cases-of-claude-in-the-supervillain-world.html</guid>
+      <link>https://kvallespin.github.io/social-commentary/fun-use-cases-of-claude-in-the-supervillain-world.html</link>
+      <guid isPermaLink="true">https://kvallespin.github.io/social-commentary/fun-use-cases-of-claude-in-the-supervillain-world.html</guid>
       <dc:creator><![CDATA[Ken Vallespin]]></dc:creator>
       <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Anthropic just published a 154-page report on what bad actors do with Claude. The "fun" part is that these examples come from the company's own threat report.]]></description>
@@ -18,8 +18,8 @@
 <header>
         <h1>'Fun' use cases of Claude in the supervillain world</h1>
         <p class="subtitle">Anthropic just published a 154-page report on what bad actors do with Claude. The "fun" part is that these examples come from the company's own threat report.</p>
-        <p class="disclosure"><strong>Disclosure:</strong> I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.</p>
         <figure class="hero"><img src="https://kvallespin.github.io/assets/claude-supervillain/claude-supervillain-banner.webp" alt="A wireframe figure in a fedora reaches toward a glowing mechanical creature against a dark blue background" width="1344" height="768" decoding="async"><figcaption>Image generated with <a href="https://qwen.ai/blog?id=qwen-image-2.1">Qwen-Image-2.1</a>.</figcaption></figure>
+        <p><strong><em>Disclaimer:</em></strong> <em>I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.</em></p>
       </header>
       <p>I almost didn't believe the headline when I saw it. "Anthropic publishes threat intelligence report on Claude misuse." I assumed it was the usual phishing and scam stuff.</p>
       <p>It is not.</p>
