@@ -1,0 +1,3807 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="691.2pt" height="446.4pt" viewBox="0 0 691.2 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4 
+L 691.2 446.4 
+L 691.2 0 
+L 0 0 
+z
+" style="fill: #f2f2f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 169.344 325.872 
+L 660.096 325.872 
+L 660.096 139.2768 
+L 169.344 139.2768 
+z
+" style="fill: #f2f2f2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 169.344 325.872 
+L 346.24084 325.872 
+L 346.24084 139.2768 
+L 169.344 139.2768 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #cee5f3; opacity: 0.2; stroke: #cee5f3; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 169.344 325.872 
+L 169.344 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <!-- 0 -->
+      <g style="fill: #475461" transform="translate(166.008375 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-13" d="M 275 2195 
+Q 275 2765 371 3200 
+Q 467 3635 614 3881 
+Q 762 4128 966 4281 
+Q 1171 4435 1360 4486 
+Q 1549 4538 1760 4538 
+Q 3245 4538 3245 2157 
+Q 3245 1037 2864 445 
+Q 2483 -147 1760 -147 
+Q 1030 -147 652 451 
+Q 275 1050 275 2195 
+z
+M 2669 2208 
+Q 2669 4038 1760 4038 
+Q 851 4038 851 2189 
+Q 851 320 1747 320 
+Q 2221 320 2445 781 
+Q 2669 1242 2669 2208 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-13"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 222.949103 325.872 
+L 222.949103 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <!-- 2 -->
+      <g style="fill: #475461" transform="translate(219.613478 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-15" d="M 320 2963 
+Q 365 4538 1818 4538 
+Q 2464 4538 2867 4166 
+Q 3270 3795 3270 3206 
+Q 3270 2362 2310 1837 
+L 1670 1491 
+Q 1254 1267 1075 1056 
+Q 896 845 851 557 
+L 3238 557 
+L 3238 0 
+L 218 0 
+Q 256 749 518 1155 
+Q 781 1562 1491 1965 
+L 2080 2298 
+Q 2694 2650 2694 3194 
+Q 2694 3558 2438 3801 
+Q 2182 4045 1798 4045 
+Q 947 4045 883 2963 
+L 320 2963 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-15"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 276.554206 325.872 
+L 276.554206 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <!-- 4 -->
+      <g style="fill: #475461" transform="translate(273.218581 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-17" d="M 2093 1088 
+L 179 1088 
+L 179 1683 
+L 2240 4538 
+L 2656 4538 
+L 2656 1594 
+L 3328 1594 
+L 3328 1088 
+L 2656 1088 
+L 2656 0 
+L 2093 0 
+L 2093 1088 
+z
+M 2093 1594 
+L 2093 3578 
+L 672 1594 
+L 2093 1594 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-17"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 330.159309 325.872 
+L 330.159309 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <!-- 6 -->
+      <g style="fill: #475461" transform="translate(326.823684 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-19" d="M 275 2067 
+Q 275 2669 384 3126 
+Q 493 3584 656 3846 
+Q 819 4109 1046 4272 
+Q 1274 4435 1475 4486 
+Q 1677 4538 1901 4538 
+Q 2419 4538 2761 4224 
+Q 3104 3910 3187 3354 
+L 2624 3354 
+Q 2554 3680 2355 3859 
+Q 2157 4038 1862 4038 
+Q 1376 4038 1117 3593 
+Q 858 3149 851 2317 
+Q 1222 2822 1894 2822 
+Q 2502 2822 2892 2419 
+Q 3283 2016 3283 1382 
+Q 3283 717 2864 285 
+Q 2445 -147 1798 -147 
+Q 275 -147 275 2067 
+z
+M 1824 2323 
+Q 1408 2323 1145 2057 
+Q 883 1792 883 1370 
+Q 883 934 1145 643 
+Q 1408 352 1805 352 
+Q 2195 352 2451 630 
+Q 2707 909 2707 1338 
+Q 2707 1792 2470 2057 
+Q 2234 2323 1824 2323 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-19"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 383.764413 325.872 
+L 383.764413 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <!-- 8 -->
+      <g style="fill: #475461" transform="translate(380.428788 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-1b" d="M 2502 2387 
+Q 3283 2016 3283 1254 
+Q 3283 634 2857 243 
+Q 2432 -147 1760 -147 
+Q 1088 -147 662 246 
+Q 237 640 237 1261 
+Q 237 2016 1011 2387 
+Q 666 2605 531 2809 
+Q 397 3014 397 3328 
+Q 397 3859 777 4198 
+Q 1158 4538 1760 4538 
+Q 2362 4538 2742 4198 
+Q 3123 3859 3123 3328 
+Q 3123 3008 2988 2803 
+Q 2854 2598 2502 2387 
+z
+M 2332 3843 
+Q 2118 4038 1760 4038 
+Q 1402 4038 1187 3843 
+Q 973 3648 973 3322 
+Q 973 3002 1187 2806 
+Q 1402 2611 1760 2611 
+Q 2112 2611 2329 2803 
+Q 2547 2995 2547 3315 
+Q 2547 3648 2332 3843 
+z
+M 2444 1891 
+Q 2182 2138 1760 2138 
+Q 1338 2138 1075 1891 
+Q 813 1645 813 1248 
+Q 813 851 1072 601 
+Q 1331 352 1747 352 
+Q 2176 352 2441 598 
+Q 2707 845 2707 1248 
+Q 2707 1645 2444 1891 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-1b"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 437.369516 325.872 
+L 437.369516 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <!-- 10 -->
+      <g style="fill: #475461" transform="translate(430.698266 338.972) scale(0.12 -0.12)">
+       <defs>
+        <path id="FreeSans-14" d="M 1658 3232 
+L 653 3232 
+L 653 3635 
+Q 1306 3718 1504 3865 
+Q 1702 4013 1850 4538 
+L 2221 4538 
+L 2221 0 
+L 1658 0 
+L 1658 3232 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-14"/>
+       <use xlink:href="#FreeSans-13" transform="translate(55.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 490.974619 325.872 
+L 490.974619 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <!-- 12 -->
+      <g style="fill: #475461" transform="translate(484.303369 338.972) scale(0.12 -0.12)">
+       <use xlink:href="#FreeSans-14"/>
+       <use xlink:href="#FreeSans-15" transform="translate(55.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 544.579722 325.872 
+L 544.579722 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <!-- 14 -->
+      <g style="fill: #475461" transform="translate(537.908472 338.972) scale(0.12 -0.12)">
+       <use xlink:href="#FreeSans-14"/>
+       <use xlink:href="#FreeSans-17" transform="translate(55.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 598.184825 325.872 
+L 598.184825 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_9">
+      <!-- 16 -->
+      <g style="fill: #475461" transform="translate(591.513575 338.972) scale(0.12 -0.12)">
+       <use xlink:href="#FreeSans-14"/>
+       <use xlink:href="#FreeSans-19" transform="translate(55.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_19">
+      <path d="M 651.789928 325.872 
+L 651.789928 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #d2d2d2; stroke-opacity: 0.7; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_10">
+      <!-- 18 -->
+      <g style="fill: #475461" transform="translate(645.118678 338.972) scale(0.12 -0.12)">
+       <use xlink:href="#FreeSans-14"/>
+       <use xlink:href="#FreeSans-1b" transform="translate(55.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_11">
+     <!-- Intrinsic value per share, PHP -->
+     <g style="fill: #475461" transform="translate(337.309687 354.972) scale(0.12 -0.12)">
+      <defs>
+       <path id="FreeSans-2c" d="M 1242 4666 
+L 1242 0 
+L 640 0 
+L 640 4666 
+L 1242 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-51" d="M 384 3354 
+L 877 3354 
+L 877 2790 
+Q 1101 3142 1360 3296 
+Q 1619 3450 1990 3450 
+Q 2477 3450 2765 3200 
+Q 3053 2950 3053 2534 
+L 3053 0 
+L 2522 0 
+L 2522 2323 
+Q 2522 2624 2336 2803 
+Q 2150 2982 1830 2982 
+Q 1421 2982 1171 2672 
+Q 922 2362 922 1850 
+L 922 0 
+L 384 0 
+L 384 3354 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-57" d="M 1664 3354 
+L 1664 2918 
+L 1114 2918 
+L 1114 621 
+Q 1114 442 1174 381 
+Q 1235 320 1408 320 
+Q 1568 320 1664 346 
+L 1664 -102 
+Q 1414 -147 1229 -147 
+Q 915 -147 748 -9 
+Q 582 128 582 384 
+L 582 2918 
+L 128 2918 
+L 128 3354 
+L 582 3354 
+L 582 4275 
+L 1114 4275 
+L 1114 3354 
+L 1664 3354 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-55" d="M 1997 2886 
+Q 1459 2874 1190 2637 
+Q 922 2400 922 1741 
+L 922 0 
+L 384 0 
+L 384 3354 
+L 877 3354 
+L 877 2746 
+Q 1107 3123 1321 3286 
+Q 1536 3450 1792 3450 
+Q 1862 3450 1997 3430 
+L 1997 2886 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-4c" d="M 960 3354 
+L 960 0 
+L 429 0 
+L 429 3354 
+L 960 3354 
+z
+M 960 4666 
+L 960 3994 
+L 422 3994 
+L 422 4666 
+L 960 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-56" d="M 781 998 
+Q 819 698 988 522 
+Q 1158 346 1600 346 
+Q 1952 346 2166 490 
+Q 2381 634 2381 870 
+Q 2381 1056 2259 1165 
+Q 2138 1274 1862 1338 
+L 1363 1459 
+Q 768 1600 534 1814 
+Q 301 2029 301 2426 
+Q 301 2893 653 3171 
+Q 1005 3450 1587 3450 
+Q 2170 3450 2483 3181 
+Q 2797 2912 2803 2419 
+L 2240 2419 
+Q 2221 2957 1568 2957 
+Q 1242 2957 1050 2819 
+Q 858 2682 858 2451 
+Q 858 2272 1005 2160 
+Q 1152 2048 1478 1971 
+L 1990 1850 
+Q 2490 1728 2714 1507 
+Q 2938 1286 2938 915 
+Q 2938 429 2563 141 
+Q 2189 -147 1555 -147 
+Q 256 -147 218 998 
+L 781 998 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-46" d="M 3008 2227 
+L 2470 2227 
+Q 2419 2579 2214 2768 
+Q 2010 2957 1677 2957 
+Q 1242 2957 995 2601 
+Q 749 2246 749 1619 
+Q 749 1024 998 685 
+Q 1248 346 1690 346 
+Q 2374 346 2509 1152 
+L 3046 1152 
+Q 2995 538 2636 195 
+Q 2278 -147 1677 -147 
+Q 992 -147 592 329 
+Q 192 806 192 1619 
+Q 192 2451 598 2950 
+Q 1005 3450 1683 3450 
+Q 2266 3450 2614 3136 
+Q 2963 2822 3008 2227 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-3" transform="scale(0.015625)"/>
+       <path id="FreeSans-59" d="M 1824 0 
+L 1242 0 
+L 64 3354 
+L 666 3354 
+L 1562 634 
+L 2509 3354 
+L 3110 3354 
+L 1824 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-44" d="M 339 2362 
+Q 378 3450 1683 3450 
+Q 2304 3450 2624 3216 
+Q 2944 2982 2944 2534 
+L 2944 563 
+Q 2944 301 3232 301 
+Q 3290 301 3347 314 
+L 3347 -90 
+Q 3123 -147 2982 -147 
+Q 2726 -147 2595 -28 
+Q 2464 90 2432 346 
+Q 1894 -147 1293 -147 
+Q 787 -147 489 121 
+Q 192 390 192 845 
+Q 192 992 221 1113 
+Q 250 1235 285 1328 
+Q 320 1421 409 1501 
+Q 499 1581 560 1632 
+Q 621 1683 765 1731 
+Q 909 1779 985 1801 
+Q 1062 1824 1254 1856 
+Q 1446 1888 1536 1901 
+Q 1626 1914 1856 1946 
+Q 2170 1984 2291 2067 
+Q 2413 2150 2413 2317 
+L 2413 2458 
+Q 2413 2701 2217 2829 
+Q 2022 2957 1664 2957 
+Q 1293 2957 1101 2813 
+Q 909 2669 877 2362 
+L 339 2362 
+z
+M 1408 320 
+Q 1850 320 2131 553 
+Q 2413 787 2413 1056 
+L 2413 1658 
+Q 2253 1581 1929 1529 
+Q 1606 1478 1369 1440 
+Q 1133 1402 941 1258 
+Q 749 1114 749 858 
+Q 749 602 921 461 
+Q 1094 320 1408 320 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-4f" d="M 922 4666 
+L 922 0 
+L 384 0 
+L 384 4666 
+L 922 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-58" d="M 3053 0 
+L 2573 0 
+L 2573 467 
+Q 2336 134 2080 -6 
+Q 1824 -147 1453 -147 
+Q 966 -147 675 102 
+Q 384 352 384 768 
+L 384 3354 
+L 915 3354 
+L 915 979 
+Q 915 678 1100 499 
+Q 1286 320 1606 320 
+Q 2022 320 2272 630 
+Q 2522 941 2522 1453 
+L 2522 3354 
+L 3053 3354 
+L 3053 0 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-48" d="M 3219 1498 
+L 749 1498 
+Q 762 973 1021 659 
+Q 1280 346 1734 346 
+Q 2387 346 2611 1018 
+L 3149 1018 
+Q 3046 467 2668 160 
+Q 2291 -147 1715 -147 
+Q 1011 -147 601 329 
+Q 192 806 192 1632 
+Q 192 2458 611 2954 
+Q 1030 3450 1728 3450 
+Q 3219 3450 3219 1498 
+z
+M 762 1933 
+L 2650 1933 
+Q 2650 2368 2387 2662 
+Q 2125 2957 1721 2957 
+Q 1318 2957 1056 2678 
+Q 794 2400 762 1933 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-53" d="M 384 -1395 
+L 384 3354 
+L 877 3354 
+L 877 2848 
+Q 1254 3450 1946 3450 
+Q 2611 3450 2998 2957 
+Q 3386 2464 3386 1619 
+Q 3386 819 2992 336 
+Q 2598 -147 1952 -147 
+Q 1331 -147 922 352 
+L 922 -1395 
+L 384 -1395 
+z
+M 1856 2950 
+Q 1434 2950 1178 2595 
+Q 922 2240 922 1651 
+Q 922 1062 1178 707 
+Q 1434 352 1856 352 
+Q 2291 352 2560 707 
+Q 2829 1062 2829 1632 
+Q 2829 2234 2563 2592 
+Q 2298 2950 1856 2950 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-4b" d="M 2515 2323 
+Q 2515 2675 2300 2828 
+Q 2086 2982 1824 2982 
+Q 1414 2982 1164 2672 
+Q 915 2362 915 1850 
+L 915 0 
+L 384 0 
+L 384 4666 
+L 915 4666 
+L 915 2893 
+Q 1152 3200 1392 3325 
+Q 1632 3450 1990 3450 
+Q 2477 3450 2761 3203 
+Q 3046 2957 3046 2534 
+L 3046 0 
+L 2515 0 
+L 2515 2323 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-f" d="M 557 666 
+L 1229 666 
+L 1229 -102 
+Q 1229 -941 557 -941 
+L 557 -698 
+Q 742 -685 819 -563 
+Q 896 -442 896 -115 
+L 896 0 
+L 557 0 
+L 557 666 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-33" d="M 3878 3296 
+Q 3878 2701 3516 2339 
+Q 3155 1978 2573 1978 
+L 1107 1978 
+L 1107 0 
+L 512 0 
+L 512 4666 
+L 2438 4666 
+Q 3130 4666 3504 4310 
+Q 3878 3955 3878 3296 
+z
+M 1107 2502 
+L 2349 2502 
+Q 2778 2502 3018 2720 
+Q 3258 2938 3258 3322 
+Q 3258 3706 3018 3923 
+Q 2778 4141 2349 4141 
+L 1107 4141 
+L 1107 2502 
+z
+" transform="scale(0.015625)"/>
+       <path id="FreeSans-2b" d="M 3507 2125 
+L 1107 2125 
+L 1107 0 
+L 512 0 
+L 512 4666 
+L 1107 4666 
+L 1107 2650 
+L 3507 2650 
+L 3507 4666 
+L 4102 4666 
+L 4102 0 
+L 3507 0 
+L 3507 2125 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#FreeSans-2c"/>
+      <use xlink:href="#FreeSans-51" transform="translate(27.796875 0)"/>
+      <use xlink:href="#FreeSans-57" transform="translate(81.5 0)"/>
+      <use xlink:href="#FreeSans-55" transform="translate(109.5 0)"/>
+      <use xlink:href="#FreeSans-4c" transform="translate(142.703125 0)"/>
+      <use xlink:href="#FreeSans-51" transform="translate(164.90625 0)"/>
+      <use xlink:href="#FreeSans-56" transform="translate(218.609375 0)"/>
+      <use xlink:href="#FreeSans-4c" transform="translate(267.90625 0)"/>
+      <use xlink:href="#FreeSans-46" transform="translate(290.109375 0)"/>
+      <use xlink:href="#FreeSans-3" transform="translate(340.703125 0)"/>
+      <use xlink:href="#FreeSans-59" transform="translate(365.703125 0)"/>
+      <use xlink:href="#FreeSans-44" transform="translate(415.296875 0)"/>
+      <use xlink:href="#FreeSans-4f" transform="translate(469.59375 0)"/>
+      <use xlink:href="#FreeSans-58" transform="translate(491 0)"/>
+      <use xlink:href="#FreeSans-48" transform="translate(544.703125 0)"/>
+      <use xlink:href="#FreeSans-3" transform="translate(598 0)"/>
+      <use xlink:href="#FreeSans-53" transform="translate(623 0)"/>
+      <use xlink:href="#FreeSans-48" transform="translate(678.90625 0)"/>
+      <use xlink:href="#FreeSans-55" transform="translate(732.203125 0)"/>
+      <use xlink:href="#FreeSans-3" transform="translate(765.40625 0)"/>
+      <use xlink:href="#FreeSans-56" transform="translate(790.40625 0)"/>
+      <use xlink:href="#FreeSans-4b" transform="translate(839.703125 0)"/>
+      <use xlink:href="#FreeSans-44" transform="translate(893.296875 0)"/>
+      <use xlink:href="#FreeSans-55" transform="translate(947.59375 0)"/>
+      <use xlink:href="#FreeSans-48" transform="translate(980.796875 0)"/>
+      <use xlink:href="#FreeSans-f" transform="translate(1034.09375 0)"/>
+      <use xlink:href="#FreeSans-3" transform="translate(1061.890625 0)"/>
+      <use xlink:href="#FreeSans-33" transform="translate(1086.890625 0)"/>
+      <use xlink:href="#FreeSans-2b" transform="translate(1152.484375 0)"/>
+      <use xlink:href="#FreeSans-33" transform="translate(1224.578125 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_21"/>
+     <g id="text_12">
+      <!-- DCF — FCFF (firm) -->
+      <g style="fill: #475461" transform="translate(87.346437 156.050145) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-27" d="M 512 0 
+L 512 4666 
+L 2310 4666 
+Q 3200 4666 3705 4045 
+Q 4211 3424 4211 2336 
+Q 4211 1248 3702 624 
+Q 3194 0 2310 0 
+L 512 0 
+z
+M 1107 525 
+L 2208 525 
+Q 2899 525 3257 985 
+Q 3616 1446 3616 2330 
+Q 3616 3219 3257 3680 
+Q 2899 4141 2208 4141 
+L 1107 4141 
+L 1107 525 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-26" d="M 256 2278 
+Q 256 2598 310 2912 
+Q 365 3226 518 3565 
+Q 672 3904 899 4157 
+Q 1126 4410 1513 4576 
+Q 1901 4742 2387 4742 
+Q 3910 4742 4186 3219 
+L 3578 3219 
+Q 3475 3718 3174 3968 
+Q 2874 4218 2317 4218 
+Q 1638 4218 1244 3699 
+Q 851 3181 851 2285 
+Q 851 1408 1260 893 
+Q 1670 378 2368 378 
+Q 2944 378 3251 701 
+Q 3558 1024 3667 1702 
+L 4282 1702 
+Q 4070 -147 2362 -147 
+Q 1882 -147 1501 16 
+Q 1120 179 893 428 
+Q 666 678 515 1014 
+Q 365 1350 310 1657 
+Q 256 1965 256 2278 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-29" d="M 1107 2125 
+L 1107 0 
+L 512 0 
+L 512 4666 
+L 3642 4666 
+L 3642 4141 
+L 1107 4141 
+L 1107 2650 
+L 3334 2650 
+L 3334 2125 
+L 1107 2125 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-c71" d="M 6144 1997 
+L 6144 1536 
+L 256 1536 
+L 256 1997 
+L 6144 1997 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-b" d="M 1510 4666 
+L 1862 4666 
+Q 986 3251 986 1658 
+Q 986 70 1862 -1357 
+L 1510 -1357 
+Q 1030 -730 748 86 
+Q 467 902 467 1657 
+Q 467 2413 748 3225 
+Q 1030 4038 1510 4666 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-113e" d="M 2483 3354 
+L 2483 0 
+L 1952 0 
+L 1952 2918 
+L 1056 2918 
+L 1056 0 
+L 525 0 
+L 525 2918 
+L 77 2918 
+L 77 3354 
+L 525 3354 
+L 525 3923 
+Q 525 4282 733 4483 
+Q 941 4685 1312 4685 
+L 2458 4685 
+L 2458 4032 
+Q 2458 4032 2016 4032 
+Q 1997 4083 1757 4150 
+Q 1517 4218 1427 4218 
+Q 1056 4218 1056 3878 
+L 1056 3354 
+L 1952 3354 
+L 2003 3354 
+L 2483 3354 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-50" d="M 384 3354 
+L 877 3354 
+L 877 2880 
+Q 1094 3181 1334 3315 
+Q 1574 3450 1907 3450 
+Q 2528 3450 2810 2938 
+Q 3046 3219 3276 3334 
+Q 3507 3450 3840 3450 
+Q 4307 3450 4560 3210 
+Q 4813 2970 4813 2515 
+L 4813 0 
+L 4275 0 
+L 4275 2310 
+Q 4275 2630 4112 2806 
+Q 3949 2982 3654 2982 
+Q 3328 2982 3097 2726 
+Q 2867 2470 2867 2106 
+L 2867 0 
+L 2330 0 
+L 2330 2310 
+Q 2330 2630 2166 2806 
+Q 2003 2982 1709 2982 
+Q 1382 2982 1152 2726 
+Q 922 2470 922 2106 
+L 922 0 
+L 384 0 
+L 384 3354 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-c" d="M 595 -1357 
+L 243 -1357 
+Q 1120 58 1120 1651 
+Q 1120 3238 243 4666 
+L 595 4666 
+Q 1075 4038 1356 3222 
+Q 1638 2406 1638 1651 
+Q 1638 896 1356 83 
+Q 1075 -730 595 -1357 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-27"/>
+       <use xlink:href="#FreeSans-26" transform="translate(69.796875 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(140.703125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(200.609375 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(225.609375 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(325.609375 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(350.609375 0)"/>
+       <use xlink:href="#FreeSans-26" transform="translate(410.515625 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(481.421875 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(541.328125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(601.234375 0)"/>
+       <use xlink:href="#FreeSans-b" transform="translate(626.234375 0)"/>
+       <use xlink:href="#FreeSans-113e" transform="translate(659.53125 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(705.53125 0)"/>
+       <use xlink:href="#FreeSans-50" transform="translate(738.734375 0)"/>
+       <use xlink:href="#FreeSans-c" transform="translate(819.9375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_22"/>
+     <g id="text_13">
+      <!-- DCF — FCFE (equity) -->
+      <g style="fill: #475461" transform="translate(77.7885 176.101209) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-28" d="M 1107 2125 
+L 1107 525 
+L 3859 525 
+L 3859 0 
+L 512 0 
+L 512 4666 
+L 3744 4666 
+L 3744 4141 
+L 1107 4141 
+L 1107 2650 
+L 3648 2650 
+L 3648 2125 
+L 1107 2125 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-54" d="M 3194 -1395 
+L 2662 -1395 
+L 2662 384 
+Q 2298 -147 1626 -147 
+Q 960 -147 576 326 
+Q 192 800 192 1613 
+Q 192 2445 589 2947 
+Q 986 3450 1651 3450 
+Q 2336 3450 2720 2906 
+L 2720 3354 
+L 3194 3354 
+L 3194 -1395 
+z
+M 1728 2950 
+Q 1286 2950 1017 2592 
+Q 749 2234 749 1651 
+Q 749 1062 1017 707 
+Q 1286 352 1728 352 
+Q 2150 352 2406 704 
+Q 2662 1056 2662 1632 
+Q 2662 2234 2409 2592 
+Q 2157 2950 1728 2950 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-5c" d="M 2419 3354 
+L 2995 3354 
+L 1504 -704 
+Q 1242 -1395 640 -1395 
+Q 442 -1395 282 -1312 
+L 282 -832 
+Q 454 -870 563 -870 
+Q 730 -870 826 -796 
+Q 922 -723 992 -544 
+L 1197 -13 
+L 64 3354 
+L 634 3354 
+L 1491 742 
+L 2419 3354 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-27"/>
+       <use xlink:href="#FreeSans-26" transform="translate(69.796875 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(140.703125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(200.609375 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(225.609375 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(325.609375 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(350.609375 0)"/>
+       <use xlink:href="#FreeSans-26" transform="translate(410.515625 0)"/>
+       <use xlink:href="#FreeSans-29" transform="translate(481.421875 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(541.328125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(604.625 0)"/>
+       <use xlink:href="#FreeSans-b" transform="translate(629.625 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(662.921875 0)"/>
+       <use xlink:href="#FreeSans-54" transform="translate(716.21875 0)"/>
+       <use xlink:href="#FreeSans-58" transform="translate(772.125 0)"/>
+       <use xlink:href="#FreeSans-4c" transform="translate(825.828125 0)"/>
+       <use xlink:href="#FreeSans-57" transform="translate(848.03125 0)"/>
+       <use xlink:href="#FreeSans-5c" transform="translate(876.03125 0)"/>
+       <use xlink:href="#FreeSans-c" transform="translate(923.828125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23"/>
+     <g id="text_14">
+      <!-- Justified P/B -->
+      <g style="fill: #475461" transform="translate(115.612 196.152272) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-2d" d="M 1530 352 
+Q 1939 352 2092 621 
+Q 2246 890 2246 1382 
+L 2246 4666 
+L 2842 4666 
+L 2842 1165 
+Q 2842 557 2486 205 
+Q 2131 -147 1523 -147 
+Q 922 -147 573 185 
+Q 224 518 224 1088 
+L 224 1498 
+L 832 1498 
+L 832 1197 
+Q 832 787 1011 569 
+Q 1190 352 1530 352 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-47" d="M 3194 4666 
+L 3194 0 
+L 2720 0 
+L 2720 442 
+Q 2502 128 2249 -9 
+Q 1997 -147 1651 -147 
+Q 973 -147 582 342 
+Q 192 832 192 1683 
+Q 192 2483 585 2966 
+Q 979 3450 1632 3450 
+Q 2323 3450 2662 2931 
+L 2662 4666 
+L 3194 4666 
+z
+M 1722 2950 
+Q 1286 2950 1017 2592 
+Q 749 2234 749 1651 
+Q 749 1062 1017 707 
+Q 1286 352 1728 352 
+Q 2150 352 2406 704 
+Q 2662 1056 2662 1638 
+Q 2662 2240 2406 2595 
+Q 2150 2950 1722 2950 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-12" d="M 1466 4666 
+L 1818 4666 
+L 301 -128 
+L -51 -128 
+L 1466 4666 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-25" d="M 3994 1331 
+Q 3994 730 3616 365 
+Q 3238 0 2618 0 
+L 512 0 
+L 512 4666 
+L 2406 4666 
+Q 2797 4666 3085 4550 
+Q 3373 4435 3517 4246 
+Q 3661 4058 3725 3869 
+Q 3789 3680 3789 3482 
+Q 3789 2765 3142 2464 
+Q 3590 2291 3792 2022 
+Q 3994 1754 3994 1331 
+z
+M 2259 2656 
+Q 3194 2656 3194 3398 
+Q 3194 4141 2259 4141 
+L 1107 4141 
+L 1107 2656 
+L 2259 2656 
+z
+M 2560 525 
+Q 2874 525 3072 662 
+Q 3270 800 3334 966 
+Q 3398 1133 3398 1325 
+Q 3398 1690 3180 1910 
+Q 2963 2131 2560 2131 
+L 1107 2131 
+L 1107 525 
+L 2560 525 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-2d"/>
+       <use xlink:href="#FreeSans-58" transform="translate(52.796875 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(106.5 0)"/>
+       <use xlink:href="#FreeSans-57" transform="translate(155.796875 0)"/>
+       <use xlink:href="#FreeSans-4c" transform="translate(183.796875 0)"/>
+       <use xlink:href="#FreeSans-113e" transform="translate(206 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(252 0)"/>
+       <use xlink:href="#FreeSans-47" transform="translate(305.296875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(361.203125 0)"/>
+       <use xlink:href="#FreeSans-33" transform="translate(386.203125 0)"/>
+       <use xlink:href="#FreeSans-12" transform="translate(451.796875 0)"/>
+       <use xlink:href="#FreeSans-25" transform="translate(479.59375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_24"/>
+     <g id="text_15">
+      <!-- Monte Carlo, p5–p95 -->
+      <g style="fill: #475461" transform="translate(81.883938 216.203336) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-30" d="M 3027 0 
+L 2400 0 
+L 1075 3910 
+L 1075 0 
+L 512 0 
+L 512 4666 
+L 1338 4666 
+L 2720 602 
+L 4077 4666 
+L 4902 4666 
+L 4902 0 
+L 4339 0 
+L 4339 3910 
+L 3027 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-52" d="M 1702 3450 
+Q 2426 3450 2826 2973 
+Q 3226 2496 3226 1626 
+Q 3226 800 2819 326 
+Q 2413 -147 1709 -147 
+Q 992 -147 592 329 
+Q 192 806 192 1651 
+Q 192 2496 595 2973 
+Q 998 3450 1702 3450 
+z
+M 1709 2957 
+Q 1261 2957 1005 2608 
+Q 749 2259 749 1651 
+Q 749 1043 1005 694 
+Q 1261 346 1709 346 
+Q 2150 346 2409 694 
+Q 2669 1043 2669 1632 
+Q 2669 2253 2416 2605 
+Q 2163 2957 1709 2957 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-18" d="M 3046 4538 
+L 3046 3981 
+L 1158 3981 
+L 979 2714 
+Q 1357 2989 1818 2989 
+Q 2470 2989 2876 2569 
+Q 3283 2150 3283 1478 
+Q 3283 762 2848 307 
+Q 2413 -147 1728 -147 
+Q 1466 -147 1245 -89 
+Q 1024 -32 880 48 
+Q 736 128 617 259 
+Q 499 390 438 489 
+Q 378 589 323 739 
+Q 269 890 256 947 
+Q 243 1005 224 1114 
+L 787 1114 
+Q 986 352 1715 352 
+Q 2176 352 2441 633 
+Q 2707 915 2707 1402 
+Q 2707 1907 2438 2198 
+Q 2170 2490 1715 2490 
+Q 1453 2490 1267 2397 
+Q 1082 2304 883 2067 
+L 365 2067 
+L 704 4538 
+L 3046 4538 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-c70" d="M 2944 1997 
+L 2944 1536 
+L 256 1536 
+L 256 1997 
+L 2944 1997 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-1c" d="M 3258 2323 
+Q 3258 1722 3149 1264 
+Q 3040 806 2877 544 
+Q 2714 282 2486 118 
+Q 2259 -45 2054 -96 
+Q 1850 -147 1626 -147 
+Q 1107 -147 764 166 
+Q 422 480 339 1037 
+L 902 1037 
+Q 973 710 1171 531 
+Q 1370 352 1664 352 
+Q 2150 352 2409 797 
+Q 2669 1242 2675 2074 
+Q 2253 1568 1638 1568 
+Q 1024 1568 633 1971 
+Q 243 2374 243 3008 
+Q 243 3674 662 4106 
+Q 1082 4538 1728 4538 
+Q 3258 4538 3258 2323 
+z
+M 1722 4045 
+Q 1331 4045 1075 3763 
+Q 819 3482 819 3053 
+Q 819 2598 1056 2332 
+Q 1293 2067 1702 2067 
+Q 2112 2067 2377 2336 
+Q 2643 2605 2643 3021 
+Q 2643 3462 2380 3753 
+Q 2118 4045 1722 4045 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-30"/>
+       <use xlink:href="#FreeSans-52" transform="translate(84.59375 0)"/>
+       <use xlink:href="#FreeSans-51" transform="translate(138 0)"/>
+       <use xlink:href="#FreeSans-57" transform="translate(191.703125 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(219.703125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(273 0)"/>
+       <use xlink:href="#FreeSans-26" transform="translate(298 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(368.90625 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(423.203125 0)"/>
+       <use xlink:href="#FreeSans-4f" transform="translate(456.40625 0)"/>
+       <use xlink:href="#FreeSans-52" transform="translate(477.8125 0)"/>
+       <use xlink:href="#FreeSans-f" transform="translate(531.21875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(559.015625 0)"/>
+       <use xlink:href="#FreeSans-53" transform="translate(584.015625 0)"/>
+       <use xlink:href="#FreeSans-18" transform="translate(639.921875 0)"/>
+       <use xlink:href="#FreeSans-c70" transform="translate(695.515625 0)"/>
+       <use xlink:href="#FreeSans-53" transform="translate(745.515625 0)"/>
+       <use xlink:href="#FreeSans-1c" transform="translate(801.421875 0)"/>
+       <use xlink:href="#FreeSans-18" transform="translate(857.015625 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_25"/>
+     <g id="text_16">
+      <!-- Free-cash scenario -->
+      <g style="fill: #475461" transform="translate(88.952125 236.2544) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-10" d="M 1837 1997 
+L 1837 1536 
+L 294 1536 
+L 294 1997 
+L 1837 1997 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-29"/>
+       <use xlink:href="#FreeSans-55" transform="translate(59.90625 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(93.109375 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(146.40625 0)"/>
+       <use xlink:href="#FreeSans-10" transform="translate(199.703125 0)"/>
+       <use xlink:href="#FreeSans-46" transform="translate(233 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(283.59375 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(337.890625 0)"/>
+       <use xlink:href="#FreeSans-4b" transform="translate(387.1875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(440.78125 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(465.78125 0)"/>
+       <use xlink:href="#FreeSans-46" transform="translate(515.078125 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(565.671875 0)"/>
+       <use xlink:href="#FreeSans-51" transform="translate(618.96875 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(672.671875 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(726.96875 0)"/>
+       <use xlink:href="#FreeSans-4c" transform="translate(760.171875 0)"/>
+       <use xlink:href="#FreeSans-52" transform="translate(782.375 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_26"/>
+     <g id="text_17">
+      <!-- Comps — EV/EBITDA -->
+      <g style="fill: #475461" transform="translate(76.290625 256.305464) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-39" d="M 2413 0 
+L 1773 0 
+L 96 4666 
+L 736 4666 
+L 2106 717 
+L 3398 4666 
+L 4032 4666 
+L 2413 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-37" d="M 2323 4141 
+L 2323 0 
+L 1728 0 
+L 1728 4141 
+L 192 4141 
+L 192 4666 
+L 3853 4666 
+L 3853 4141 
+L 2323 4141 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-24" d="M 3021 1402 
+L 1222 1402 
+L 730 0 
+L 96 0 
+L 1760 4666 
+L 2528 4666 
+L 4166 0 
+L 3501 0 
+L 3021 1402 
+z
+M 2854 1901 
+L 2138 4026 
+L 1370 1901 
+L 2854 1901 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-26"/>
+       <use xlink:href="#FreeSans-52" transform="translate(70.90625 0)"/>
+       <use xlink:href="#FreeSans-50" transform="translate(124.3125 0)"/>
+       <use xlink:href="#FreeSans-53" transform="translate(205.515625 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(261.421875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(310.71875 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(335.71875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(435.71875 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(460.71875 0)"/>
+       <use xlink:href="#FreeSans-39" transform="translate(524.015625 0)"/>
+       <use xlink:href="#FreeSans-12" transform="translate(588.515625 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(616.3125 0)"/>
+       <use xlink:href="#FreeSans-25" transform="translate(679.609375 0)"/>
+       <use xlink:href="#FreeSans-2c" transform="translate(746.015625 0)"/>
+       <use xlink:href="#FreeSans-37" transform="translate(773.8125 0)"/>
+       <use xlink:href="#FreeSans-27" transform="translate(837.015625 0)"/>
+       <use xlink:href="#FreeSans-24" transform="translate(906.8125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_27"/>
+     <g id="text_18">
+      <!-- Peer fwd P/E — PH banks -->
+      <g style="fill: #475461" transform="translate(60.459437 276.356528) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-49" d="M 1664 3354 
+L 1664 2918 
+L 1107 2918 
+L 1107 0 
+L 576 0 
+L 576 2918 
+L 128 2918 
+L 128 3354 
+L 576 3354 
+L 576 3923 
+Q 576 4282 784 4483 
+Q 992 4685 1363 4685 
+Q 1510 4685 1664 4653 
+L 1664 4211 
+Q 1542 4218 1478 4218 
+Q 1107 4218 1107 3878 
+L 1107 3354 
+L 1664 3354 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-5a" d="M 3571 0 
+L 2963 0 
+L 2285 2630 
+L 1638 0 
+L 1037 0 
+L 64 3354 
+L 653 3354 
+L 1338 742 
+L 1978 3354 
+L 2630 3354 
+L 3290 742 
+L 3955 3354 
+L 4557 3354 
+L 3571 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-45" d="M 384 4666 
+L 915 4666 
+L 915 2899 
+Q 1280 3450 1952 3450 
+Q 2618 3450 3002 2976 
+Q 3386 2502 3386 1690 
+Q 3386 858 2989 355 
+Q 2592 -147 1926 -147 
+Q 1242 -147 864 429 
+L 864 0 
+L 384 0 
+L 384 4666 
+z
+M 1850 2950 
+Q 1427 2950 1171 2595 
+Q 915 2240 915 1651 
+Q 915 1062 1171 707 
+Q 1427 352 1850 352 
+Q 2285 352 2557 707 
+Q 2829 1062 2829 1632 
+Q 2829 2234 2563 2592 
+Q 2298 2950 1850 2950 
+z
+" transform="scale(0.015625)"/>
+        <path id="FreeSans-4e" d="M 915 4666 
+L 915 1933 
+L 2336 3354 
+L 3021 3354 
+L 1856 2195 
+L 3226 0 
+L 2566 0 
+L 1434 1818 
+L 915 1306 
+L 915 0 
+L 384 0 
+L 384 4666 
+L 915 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-33"/>
+       <use xlink:href="#FreeSans-48" transform="translate(65.59375 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(118.890625 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(172.1875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(205.390625 0)"/>
+       <use xlink:href="#FreeSans-49" transform="translate(230.390625 0)"/>
+       <use xlink:href="#FreeSans-5a" transform="translate(258.390625 0)"/>
+       <use xlink:href="#FreeSans-47" transform="translate(330.59375 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(386.5 0)"/>
+       <use xlink:href="#FreeSans-33" transform="translate(411.5 0)"/>
+       <use xlink:href="#FreeSans-12" transform="translate(477.09375 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(504.890625 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(568.1875 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(593.1875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(693.1875 0)"/>
+       <use xlink:href="#FreeSans-33" transform="translate(718.1875 0)"/>
+       <use xlink:href="#FreeSans-2b" transform="translate(783.78125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(855.875 0)"/>
+       <use xlink:href="#FreeSans-45" transform="translate(880.875 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(936.78125 0)"/>
+       <use xlink:href="#FreeSans-51" transform="translate(991.078125 0)"/>
+       <use xlink:href="#FreeSans-4e" transform="translate(1044.78125 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(1096.1875 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_28"/>
+     <g id="text_19">
+      <!-- Peer fwd P/E — global fintech -->
+      <g style="fill: #475461" transform="translate(47.182688 296.407591) scale(0.092 -0.092)">
+       <defs>
+        <path id="FreeSans-4a" d="M 1574 -147 
+Q 986 -147 589 336 
+Q 192 819 192 1619 
+Q 192 2438 585 2944 
+Q 979 3450 1619 3450 
+Q 2246 3450 2643 2867 
+L 2579 3354 
+L 3136 3354 
+L 3136 550 
+Q 3136 70 3078 -253 
+Q 3021 -576 2867 -851 
+Q 2714 -1126 2410 -1260 
+Q 2106 -1395 1638 -1395 
+Q 1050 -1395 698 -1126 
+Q 346 -858 301 -384 
+L 845 -384 
+Q 934 -947 1658 -947 
+Q 2195 -947 2393 -643 
+Q 2592 -339 2592 282 
+L 2592 454 
+Q 2368 134 2128 -6 
+Q 1888 -147 1574 -147 
+z
+M 1677 2957 
+Q 1248 2957 998 2605 
+Q 749 2253 749 1651 
+Q 749 1043 998 694 
+Q 1248 346 1683 346 
+Q 2106 346 2349 688 
+Q 2592 1030 2592 1632 
+Q 2592 2259 2352 2608 
+Q 2112 2957 1677 2957 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#FreeSans-33"/>
+       <use xlink:href="#FreeSans-48" transform="translate(65.59375 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(118.890625 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(172.1875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(205.390625 0)"/>
+       <use xlink:href="#FreeSans-49" transform="translate(230.390625 0)"/>
+       <use xlink:href="#FreeSans-5a" transform="translate(258.390625 0)"/>
+       <use xlink:href="#FreeSans-47" transform="translate(330.59375 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(386.5 0)"/>
+       <use xlink:href="#FreeSans-33" transform="translate(411.5 0)"/>
+       <use xlink:href="#FreeSans-12" transform="translate(477.09375 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(504.890625 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(568.1875 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(593.1875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(693.1875 0)"/>
+       <use xlink:href="#FreeSans-4a" transform="translate(718.1875 0)"/>
+       <use xlink:href="#FreeSans-4f" transform="translate(773.1875 0)"/>
+       <use xlink:href="#FreeSans-52" transform="translate(794.59375 0)"/>
+       <use xlink:href="#FreeSans-45" transform="translate(848 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(903.90625 0)"/>
+       <use xlink:href="#FreeSans-4f" transform="translate(958.203125 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(979.609375 0)"/>
+       <use xlink:href="#FreeSans-113e" transform="translate(1004.609375 0)"/>
+       <use xlink:href="#FreeSans-51" transform="translate(1050.609375 0)"/>
+       <use xlink:href="#FreeSans-57" transform="translate(1104.3125 0)"/>
+       <use xlink:href="#FreeSans-48" transform="translate(1132.3125 0)"/>
+       <use xlink:href="#FreeSans-46" transform="translate(1185.609375 0)"/>
+       <use xlink:href="#FreeSans-4b" transform="translate(1236.203125 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29"/>
+     <g id="text_20">
+      <!-- Comps — trailing P/E -->
+      <g style="fill: #475461" transform="translate(80.061188 316.458655) scale(0.092 -0.092)">
+       <use xlink:href="#FreeSans-26"/>
+       <use xlink:href="#FreeSans-52" transform="translate(70.90625 0)"/>
+       <use xlink:href="#FreeSans-50" transform="translate(124.3125 0)"/>
+       <use xlink:href="#FreeSans-53" transform="translate(205.515625 0)"/>
+       <use xlink:href="#FreeSans-56" transform="translate(261.421875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(310.71875 0)"/>
+       <use xlink:href="#FreeSans-c71" transform="translate(335.71875 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(435.71875 0)"/>
+       <use xlink:href="#FreeSans-57" transform="translate(460.71875 0)"/>
+       <use xlink:href="#FreeSans-55" transform="translate(488.71875 0)"/>
+       <use xlink:href="#FreeSans-44" transform="translate(521.921875 0)"/>
+       <use xlink:href="#FreeSans-4c" transform="translate(576.21875 0)"/>
+       <use xlink:href="#FreeSans-4f" transform="translate(598.421875 0)"/>
+       <use xlink:href="#FreeSans-4c" transform="translate(619.828125 0)"/>
+       <use xlink:href="#FreeSans-51" transform="translate(642.03125 0)"/>
+       <use xlink:href="#FreeSans-4a" transform="translate(695.734375 0)"/>
+       <use xlink:href="#FreeSans-3" transform="translate(750.734375 0)"/>
+       <use xlink:href="#FreeSans-33" transform="translate(775.734375 0)"/>
+       <use xlink:href="#FreeSans-12" transform="translate(841.328125 0)"/>
+       <use xlink:href="#FreeSans-28" transform="translate(869.125 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 169.344 325.872 
+L 660.096 325.872 
+" style="fill: none; stroke: #d2d2d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 225.093307 156.981889 
+L 226.433435 156.981889 
+L 226.433435 147.7584 
+L 225.093307 147.7584 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #175676; opacity: 0.3; stroke: #175676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <!-- 2.08 -->
+    <g style="fill: #175676" transform="translate(229.381716 155.010145) scale(0.088 -0.088)">
+     <defs>
+      <path id="FreeSansBold-15" d="M 3296 3194 
+Q 3296 2816 3133 2509 
+Q 2970 2202 2720 1994 
+Q 2470 1786 2208 1610 
+Q 1946 1434 1702 1226 
+Q 1459 1018 1357 800 
+L 3277 800 
+L 3277 0 
+L 192 0 
+Q 224 627 445 995 
+Q 666 1363 1242 1766 
+Q 1990 2291 2195 2544 
+Q 2400 2797 2400 3174 
+Q 2400 3514 2230 3709 
+Q 2061 3904 1760 3904 
+Q 1453 3904 1283 3693 
+Q 1114 3482 1114 3104 
+L 1114 2957 
+L 256 2957 
+Q 250 3027 250 3117 
+Q 250 3834 643 4234 
+Q 1037 4634 1741 4634 
+Q 2458 4634 2877 4243 
+Q 3296 3853 3296 3194 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-11" d="M 1280 934 
+L 1280 0 
+L 320 0 
+L 320 934 
+L 1280 934 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-13" d="M 2518 35 
+Q 2202 -147 1747 -147 
+Q 1293 -147 979 35 
+Q 666 218 496 557 
+Q 326 896 256 1302 
+Q 186 1709 186 2240 
+Q 186 3398 538 4016 
+Q 890 4634 1747 4634 
+Q 2195 4634 2505 4464 
+Q 2816 4294 2989 3961 
+Q 3162 3629 3235 3206 
+Q 3309 2784 3309 2214 
+Q 3309 1702 3238 1302 
+Q 3168 902 3001 560 
+Q 2835 218 2518 35 
+z
+M 2413 2234 
+Q 2413 3162 2243 3536 
+Q 2074 3910 1747 3910 
+Q 1389 3910 1235 3548 
+Q 1082 3187 1082 2246 
+Q 1082 1594 1165 1226 
+Q 1248 858 1385 739 
+Q 1523 621 1747 621 
+Q 1965 621 2102 736 
+Q 2240 851 2326 1219 
+Q 2413 1587 2413 2234 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-1b" d="M 3206 3405 
+Q 3206 3046 3049 2832 
+Q 2893 2618 2618 2470 
+Q 3008 2259 3184 1984 
+Q 3360 1709 3360 1306 
+Q 3360 666 2912 259 
+Q 2464 -147 1754 -147 
+Q 1037 -147 589 256 
+Q 141 659 141 1306 
+Q 141 1709 317 1984 
+Q 493 2259 883 2470 
+Q 576 2637 435 2854 
+Q 294 3072 294 3398 
+Q 294 3936 707 4285 
+Q 1120 4634 1754 4634 
+Q 2381 4634 2793 4285 
+Q 3206 3936 3206 3405 
+z
+M 2246 3744 
+Q 2061 3910 1760 3910 
+Q 1459 3910 1270 3747 
+Q 1082 3584 1082 3321 
+Q 1082 3059 1270 2889 
+Q 1459 2720 1760 2720 
+Q 2054 2720 2243 2886 
+Q 2432 3053 2432 3315 
+Q 2432 3578 2246 3744 
+z
+M 1747 2112 
+Q 1427 2112 1232 1907 
+Q 1037 1702 1037 1357 
+Q 1037 1018 1229 819 
+Q 1421 621 1747 621 
+Q 2074 621 2269 819 
+Q 2464 1018 2464 1344 
+Q 2464 1696 2272 1904 
+Q 2080 2112 1747 2112 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-15"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-13" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1b" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 231.793945 177.032953 
+L 233.134073 177.032953 
+L 233.134073 167.809464 
+L 231.793945 167.809464 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #175676; opacity: 0.3; stroke: #175676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_22">
+    <!-- 2.33 -->
+    <g style="fill: #175676" transform="translate(236.082353 175.061209) scale(0.088 -0.088)">
+     <defs>
+      <path id="FreeSansBold-16" d="M 243 3187 
+Q 243 3539 342 3808 
+Q 442 4077 592 4230 
+Q 742 4384 947 4477 
+Q 1152 4570 1334 4602 
+Q 1517 4634 1715 4634 
+Q 2374 4634 2764 4298 
+Q 3155 3962 3155 3398 
+Q 3155 3085 3014 2857 
+Q 2874 2630 2560 2432 
+Q 2944 2246 3123 1974 
+Q 3302 1702 3302 1306 
+Q 3302 640 2870 246 
+Q 2438 -147 1715 -147 
+Q 1018 -147 605 253 
+Q 192 653 186 1331 
+L 1056 1331 
+Q 1094 621 1734 621 
+Q 2029 621 2217 813 
+Q 2406 1005 2406 1306 
+Q 2406 1555 2272 1737 
+Q 2138 1920 1914 1984 
+Q 1734 2029 1389 2029 
+L 1389 2630 
+L 1466 2630 
+Q 2259 2630 2259 3315 
+Q 2259 3597 2112 3753 
+Q 1965 3910 1696 3910 
+Q 1344 3910 1216 3712 
+Q 1088 3514 1075 3110 
+L 243 3110 
+L 243 3187 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-15"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-16" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-16" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 215.176363 197.084017 
+L 229.649741 197.084017 
+L 229.649741 187.860528 
+L 215.176363 187.860528 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #175676; opacity: 0.3; stroke: #175676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_23">
+    <!-- 1.71 -->
+    <g style="fill: #475461" transform="translate(195.161892 194.932272) scale(0.082 -0.082)">
+     <defs>
+      <path id="FreeSans-11" d="M 1178 666 
+L 1178 0 
+L 512 0 
+L 512 666 
+L 1178 666 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSans-1a" d="M 3328 4538 
+L 3328 4064 
+Q 2560 3040 2115 2064 
+Q 1670 1088 1485 0 
+L 883 0 
+Q 1139 1120 1536 1971 
+Q 1933 2822 2746 3981 
+L 294 3981 
+L 294 4538 
+L 3328 4538 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-1a" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-14" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- 2.25 -->
+    <g style="fill: #475461" transform="translate(233.938149 194.932272) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-15"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-15" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-18" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- 1.98 -->
+    <g style="fill: #175676" transform="translate(214.166458 184.937464) scale(0.086 -0.086)">
+     <defs>
+      <path id="FreeSansBold-14" d="M 1523 3130 
+L 435 3130 
+L 435 3725 
+Q 1613 3725 1824 4538 
+L 2419 4538 
+L 2419 0 
+L 1523 0 
+L 1523 3130 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-1c" d="M 3302 2368 
+Q 3302 1754 3193 1286 
+Q 3085 819 2921 550 
+Q 2758 282 2528 118 
+Q 2298 -45 2086 -99 
+Q 1875 -154 1632 -154 
+Q 1043 -154 649 188 
+Q 256 531 243 1056 
+L 1107 1056 
+Q 1120 858 1270 736 
+Q 1421 614 1658 614 
+Q 2406 614 2406 1907 
+Q 2400 1901 2355 1846 
+Q 2310 1792 2281 1763 
+Q 2253 1734 2195 1680 
+Q 2138 1626 2077 1594 
+Q 2016 1562 1936 1526 
+Q 1856 1491 1753 1475 
+Q 1651 1459 1536 1459 
+Q 934 1459 556 1894 
+Q 179 2330 179 3034 
+Q 179 3744 604 4189 
+Q 1030 4634 1709 4634 
+Q 1926 4634 2124 4586 
+Q 2323 4538 2544 4387 
+Q 2765 4237 2928 4000 
+Q 3091 3763 3196 3340 
+Q 3302 2918 3302 2368 
+z
+M 1683 3904 
+Q 1382 3904 1206 3670 
+Q 1030 3437 1030 3046 
+Q 1030 2656 1209 2429 
+Q 1389 2202 1696 2202 
+Q 2003 2202 2195 2432 
+Q 2387 2662 2387 3034 
+Q 2387 3430 2198 3667 
+Q 2010 3904 1683 3904 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-14"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1c" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1b" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 220.000822 217.135081 
+L 260.20465 217.135081 
+L 260.20465 207.911591 
+L 220.000822 207.911591 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #175676; opacity: 0.3; stroke: #175676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <!-- 1.89 -->
+    <g style="fill: #475461" transform="translate(199.986352 214.983336) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-1b" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-1c" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <!-- 3.39 -->
+    <g style="fill: #475461" transform="translate(264.493058 214.983336) scale(0.082 -0.082)">
+     <defs>
+      <path id="FreeSans-16" d="M 1728 4045 
+Q 1242 4045 1059 3779 
+Q 877 3514 864 3072 
+L 301 3072 
+Q 333 4538 1722 4538 
+Q 2368 4538 2736 4205 
+Q 3104 3872 3104 3290 
+Q 3104 2598 2470 2349 
+Q 2880 2208 3059 1955 
+Q 3238 1702 3238 1267 
+Q 3238 621 2819 237 
+Q 2400 -147 1702 -147 
+Q 307 -147 205 1318 
+L 768 1318 
+Q 800 826 1030 589 
+Q 1261 352 1722 352 
+Q 2163 352 2412 592 
+Q 2662 832 2662 1261 
+Q 2662 2086 1722 2086 
+L 1485 2080 
+L 1414 2080 
+L 1414 2560 
+Q 2022 2573 2275 2713 
+Q 2528 2854 2528 3270 
+Q 2528 3629 2313 3837 
+Q 2099 4045 1728 4045 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSans-16"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-16" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-1c" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <!-- 2.47 -->
+    <g style="fill: #175676" transform="translate(227.299709 204.988528) scale(0.086 -0.086)">
+     <defs>
+      <path id="FreeSansBold-17" d="M 3341 1747 
+L 3341 1005 
+L 2867 1005 
+L 2867 0 
+L 1971 0 
+L 1971 1005 
+L 154 1005 
+L 154 1760 
+L 1811 4538 
+L 2867 4538 
+L 2867 1747 
+L 3341 1747 
+z
+M 1971 1747 
+L 1971 3686 
+L 787 1747 
+L 1971 1747 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-1a" d="M 3379 4538 
+L 3379 3834 
+Q 2573 2861 2195 1968 
+Q 1818 1075 1754 0 
+L 851 0 
+Q 1005 1203 1360 2022 
+Q 1715 2842 2445 3738 
+L 186 3738 
+L 186 4538 
+L 3379 4538 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-15"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-17" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1a" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 209.547827 237.186145 
+L 225.093307 237.186145 
+L 225.093307 227.962655 
+L 209.547827 227.962655 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #175676; opacity: 0.3; stroke: #175676; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_29">
+    <!-- 1.50 -->
+    <g style="fill: #475461" transform="translate(189.533357 235.0344) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-18" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <!-- 2.08 -->
+    <g style="fill: #475461" transform="translate(229.381716 235.0344) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-15"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-1b" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <!-- 1.79 -->
+    <g style="fill: #175676" transform="translate(209.073974 225.039591) scale(0.086 -0.086)">
+     <use xlink:href="#FreeSansBold-14"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1a" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-1c" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 228.041588 257.237209 
+L 369.827086 257.237209 
+L 369.827086 248.013719 
+L 228.041588 248.013719 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #4ba3c3; opacity: 0.3; stroke: #4ba3c3; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_32">
+    <!-- 2.19 -->
+    <g style="fill: #475461" transform="translate(208.027117 255.085464) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-15"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-14" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-1c" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <!-- 7.48 -->
+    <g style="fill: #475461" transform="translate(374.115494 255.085464) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-1a"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-17" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-1b" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <!-- 6.11 -->
+    <g style="fill: #4ba3c3" transform="translate(347.663793 245.090655) scale(0.086 -0.086)">
+     <defs>
+      <path id="FreeSansBold-19" d="M 205 2157 
+Q 205 4634 1882 4634 
+Q 2003 4634 2118 4621 
+Q 2234 4608 2429 4544 
+Q 2624 4480 2774 4371 
+Q 2925 4262 3062 4038 
+Q 3200 3814 3245 3507 
+L 2413 3507 
+Q 2323 3725 2198 3817 
+Q 2074 3910 1856 3910 
+Q 1632 3910 1481 3817 
+Q 1331 3725 1254 3526 
+Q 1178 3328 1146 3117 
+Q 1114 2906 1101 2586 
+Q 1312 2803 1517 2896 
+Q 1722 2989 2003 2989 
+Q 2586 2989 2954 2579 
+Q 3322 2170 3322 1517 
+Q 3322 774 2902 313 
+Q 2483 -147 1805 -147 
+Q 1466 -147 1197 -44 
+Q 928 58 694 301 
+Q 461 544 333 1014 
+Q 205 1485 205 2157 
+z
+M 2284 2061 
+Q 2099 2285 1785 2285 
+Q 1472 2285 1280 2051 
+Q 1088 1818 1088 1440 
+Q 1088 1082 1280 851 
+Q 1472 621 1779 621 
+Q 2080 621 2275 857 
+Q 2470 1094 2470 1459 
+Q 2470 1837 2284 2061 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-19"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-14" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-14" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 220.622084 277.288272 
+L 233.752591 277.288272 
+L 233.752591 268.064783 
+L 220.622084 268.064783 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #4ba3c3; opacity: 0.3; stroke: #4ba3c3; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_35">
+    <!-- 1.91 -->
+    <g style="fill: #475461" transform="translate(200.607614 275.136528) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-1c" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-14" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- 2.40 -->
+    <g style="fill: #475461" transform="translate(238.040999 275.136528) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-15"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-17" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- 2.16 -->
+    <g style="fill: #4ba3c3" transform="translate(218.940744 265.141719) scale(0.086 -0.086)">
+     <use xlink:href="#FreeSansBold-15"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-14" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-19" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_12">
+    <path d="M 304.58822 297.339336 
+L 585.235525 297.339336 
+L 585.235525 288.115847 
+L 304.58822 288.115847 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #4ba3c3; opacity: 0.3; stroke: #4ba3c3; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_38">
+    <!-- 5.05 -->
+    <g style="fill: #475461" transform="translate(284.573749 295.187591) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-18"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-18" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <!-- 15.52 -->
+    <g style="fill: #475461" transform="translate(589.523934 295.187591) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-18" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-11" transform="translate(111.1875 0)"/>
+     <use xlink:href="#FreeSans-18" transform="translate(136.1875 0)"/>
+     <use xlink:href="#FreeSans-15" transform="translate(191.78125 0)"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <!-- 7.32 -->
+    <g style="fill: #4ba3c3" transform="translate(357.191159 285.192783) scale(0.086 -0.086)">
+     <use xlink:href="#FreeSansBold-1a"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-16" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-15" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="patch_13">
+    <path d="M 223.217129 317.3904 
+L 466.584297 317.3904 
+L 466.584297 308.166911 
+L 223.217129 308.166911 
+z
+" clip-path="url(#pbfad4dbc9c)" style="fill: #4ba3c3; opacity: 0.3; stroke: #4ba3c3; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_41">
+    <!-- 2.01 -->
+    <g style="fill: #475461" transform="translate(203.202658 315.238655) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-15"/>
+     <use xlink:href="#FreeSans-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSans-14" transform="translate(136.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- 11.09 -->
+    <g style="fill: #475461" transform="translate(470.872705 315.238655) scale(0.082 -0.082)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-14" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-11" transform="translate(111.1875 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(136.1875 0)"/>
+     <use xlink:href="#FreeSans-1c" transform="translate(191.78125 0)"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- 10.33 -->
+    <g style="fill: #4ba3c3" transform="translate(435.577233 305.243847) scale(0.086 -0.086)">
+     <use xlink:href="#FreeSansBold-14"/>
+     <use xlink:href="#FreeSansBold-13" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(111.1875 0)"/>
+     <use xlink:href="#FreeSansBold-16" transform="translate(136.1875 0)"/>
+     <use xlink:href="#FreeSansBold-16" transform="translate(191.78125 0)"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- offer price -->
+    <g style="fill: #e04556" transform="translate(352.941478 168.346479) scale(0.11 -0.11)">
+     <defs>
+      <path id="FreeSansBold-52" d="M 1958 3514 
+Q 2771 3514 3222 3024 
+Q 3674 2534 3674 1658 
+Q 3674 826 3213 339 
+Q 2752 -147 1965 -147 
+Q 1165 -147 710 342 
+Q 256 832 256 1683 
+Q 256 2534 710 3024 
+Q 1165 3514 1958 3514 
+z
+M 1965 2790 
+Q 1600 2790 1376 2483 
+Q 1152 2176 1152 1683 
+Q 1152 1190 1376 883 
+Q 1600 576 1965 576 
+Q 2323 576 2550 880 
+Q 2778 1184 2778 1670 
+Q 2778 2182 2557 2486 
+Q 2336 2790 1965 2790 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-a22" d="M 3757 3386 
+L 3757 2790 
+L 3226 2790 
+L 3226 0 
+L 2330 0 
+L 2330 2790 
+L 1472 2790 
+L 1472 0 
+L 576 0 
+L 576 2790 
+L 90 2790 
+L 90 3386 
+L 576 3386 
+L 576 3802 
+Q 576 4666 1459 4666 
+Q 1722 4666 1971 4646 
+L 1971 3974 
+Q 1856 3994 1715 3994 
+Q 1472 3994 1472 3725 
+L 1472 3386 
+L 2330 3386 
+L 2330 3802 
+Q 2330 4666 3213 4666 
+Q 3475 4666 3725 4646 
+L 3725 3974 
+Q 3610 3994 3469 3994 
+Q 3226 3994 3226 3725 
+L 3226 3386 
+L 3757 3386 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-48" d="M 1856 3514 
+Q 2080 3514 2291 3462 
+Q 2502 3411 2723 3276 
+Q 2944 3142 3107 2934 
+Q 3270 2726 3372 2384 
+Q 3475 2042 3475 1600 
+Q 3475 1523 3469 1446 
+L 1152 1446 
+Q 1158 1248 1187 1104 
+Q 1216 960 1289 822 
+Q 1363 685 1507 611 
+Q 1651 538 1869 538 
+Q 2381 538 2554 973 
+L 3437 973 
+Q 3290 461 2854 157 
+Q 2419 -147 1837 -147 
+Q 1101 -147 678 329 
+Q 256 806 256 1638 
+Q 256 2509 685 3011 
+Q 1114 3514 1856 3514 
+z
+M 2541 2042 
+Q 2509 2419 2333 2624 
+Q 2157 2829 1843 2829 
+Q 1254 2829 1165 2042 
+L 2541 2042 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-55" d="M 416 3456 
+L 1312 3456 
+L 1312 2778 
+Q 1453 3130 1709 3322 
+Q 1965 3514 2272 3514 
+Q 2330 3514 2381 3507 
+L 2381 2598 
+Q 2221 2624 2099 2624 
+Q 1312 2624 1312 1837 
+L 1312 0 
+L 416 0 
+L 416 3456 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-3" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-53" d="M 2272 3514 
+Q 2925 3514 3321 2989 
+Q 3718 2464 3718 1677 
+Q 3718 890 3305 368 
+Q 2893 -154 2272 -154 
+Q 1632 -154 1312 410 
+L 1312 -1395 
+L 416 -1395 
+L 416 3456 
+L 1312 3456 
+L 1312 2944 
+Q 1632 3514 2272 3514 
+z
+M 2614 2461 
+Q 2406 2765 2067 2765 
+Q 1728 2765 1520 2464 
+Q 1312 2163 1312 1676 
+Q 1312 1190 1520 892 
+Q 1728 595 2067 595 
+Q 2400 595 2611 896 
+Q 2822 1197 2822 1664 
+Q 2822 2157 2614 2461 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-4c" d="M 1344 3456 
+L 1344 0 
+L 448 0 
+L 448 3456 
+L 1344 3456 
+z
+M 1344 4666 
+L 1344 3866 
+L 448 3866 
+L 448 4666 
+L 1344 4666 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-46" d="M 1882 2790 
+Q 1152 2790 1152 1658 
+Q 1152 1152 1347 864 
+Q 1542 576 1882 576 
+Q 2144 576 2291 720 
+Q 2438 864 2522 1197 
+L 3379 1197 
+Q 3315 576 2908 214 
+Q 2502 -147 1875 -147 
+Q 1107 -147 681 326 
+Q 256 800 256 1658 
+Q 256 2541 685 3027 
+Q 1114 3514 1888 3514 
+Q 2534 3514 2934 3155 
+Q 3334 2797 3379 2163 
+L 2522 2163 
+Q 2445 2502 2301 2646 
+Q 2157 2790 1882 2790 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-52"/>
+     <use xlink:href="#FreeSansBold-a22" transform="translate(61.40625 0)"/>
+     <use xlink:href="#FreeSansBold-48" transform="translate(122.109375 0)"/>
+     <use xlink:href="#FreeSansBold-55" transform="translate(180.40625 0)"/>
+     <use xlink:href="#FreeSansBold-3" transform="translate(219.609375 0)"/>
+     <use xlink:href="#FreeSansBold-53" transform="translate(247.40625 0)"/>
+     <use xlink:href="#FreeSansBold-55" transform="translate(309.5 0)"/>
+     <use xlink:href="#FreeSansBold-4c" transform="translate(348.703125 0)"/>
+     <use xlink:href="#FreeSansBold-46" transform="translate(376.703125 0)"/>
+     <use xlink:href="#FreeSansBold-48" transform="translate(432.5 0)"/>
+    </g>
+    <!-- 6.60 -->
+    <g style="fill: #e04556" transform="translate(352.941478 183.691479) scale(0.11 -0.11)">
+     <use xlink:href="#FreeSansBold-19"/>
+     <use xlink:href="#FreeSansBold-11" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-19" transform="translate(80.59375 0)"/>
+     <use xlink:href="#FreeSansBold-13" transform="translate(136.1875 0)"/>
+    </g>
+    <!-- 2 Oct 2026 -->
+    <g style="fill: #e04556" transform="translate(352.941478 198.084292) scale(0.11 -0.11)">
+     <defs>
+      <path id="FreeSansBold-32" d="M 870 537 
+Q 256 1222 256 2297 
+Q 256 3373 873 4057 
+Q 1491 4742 2496 4742 
+Q 3507 4742 4128 4060 
+Q 4749 3379 4749 2266 
+Q 4749 1229 4137 541 
+Q 3526 -147 2502 -147 
+Q 1485 -147 870 537 
+z
+M 2502 3923 
+Q 1920 3923 1568 3478 
+Q 1216 3034 1216 2298 
+Q 1216 1562 1568 1117 
+Q 1920 672 2502 672 
+Q 3078 672 3433 1113 
+Q 3789 1555 3789 2272 
+Q 3789 3027 3440 3475 
+Q 3091 3923 2502 3923 
+z
+" transform="scale(0.015625)"/>
+      <path id="FreeSansBold-57" d="M 1971 3386 
+L 1971 2790 
+L 1472 2790 
+L 1472 909 
+Q 1472 678 1529 604 
+Q 1587 531 1766 531 
+Q 1837 531 1971 550 
+L 1971 -77 
+Q 1754 -147 1453 -147 
+Q 576 -147 576 666 
+L 576 2790 
+L 134 2790 
+L 134 3386 
+L 576 3386 
+L 576 4314 
+L 1472 4314 
+L 1472 3386 
+L 1971 3386 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#FreeSansBold-15"/>
+     <use xlink:href="#FreeSansBold-3" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSansBold-32" transform="translate(83.390625 0)"/>
+     <use xlink:href="#FreeSansBold-46" transform="translate(161.59375 0)"/>
+     <use xlink:href="#FreeSansBold-57" transform="translate(217.390625 0)"/>
+     <use xlink:href="#FreeSansBold-3" transform="translate(251.1875 0)"/>
+     <use xlink:href="#FreeSansBold-15" transform="translate(278.984375 0)"/>
+     <use xlink:href="#FreeSansBold-13" transform="translate(334.578125 0)"/>
+     <use xlink:href="#FreeSansBold-15" transform="translate(390.171875 0)"/>
+     <use xlink:href="#FreeSansBold-19" transform="translate(445.765625 0)"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- earlier ceiling -->
+    <g style="fill: #7f7f7f" transform="translate(444.070154 167.132604) scale(0.094 -0.094)">
+     <use xlink:href="#FreeSans-48"/>
+     <use xlink:href="#FreeSans-44" transform="translate(53.296875 0)"/>
+     <use xlink:href="#FreeSans-55" transform="translate(107.59375 0)"/>
+     <use xlink:href="#FreeSans-4f" transform="translate(140.796875 0)"/>
+     <use xlink:href="#FreeSans-4c" transform="translate(162.203125 0)"/>
+     <use xlink:href="#FreeSans-48" transform="translate(184.40625 0)"/>
+     <use xlink:href="#FreeSans-55" transform="translate(237.703125 0)"/>
+     <use xlink:href="#FreeSans-3" transform="translate(270.90625 0)"/>
+     <use xlink:href="#FreeSans-46" transform="translate(295.90625 0)"/>
+     <use xlink:href="#FreeSans-48" transform="translate(346.5 0)"/>
+     <use xlink:href="#FreeSans-4c" transform="translate(399.796875 0)"/>
+     <use xlink:href="#FreeSans-4f" transform="translate(422 0)"/>
+     <use xlink:href="#FreeSans-4c" transform="translate(443.40625 0)"/>
+     <use xlink:href="#FreeSans-51" transform="translate(465.609375 0)"/>
+     <use xlink:href="#FreeSans-4a" transform="translate(519.3125 0)"/>
+    </g>
+    <!-- 10.00 -->
+    <g style="fill: #7f7f7f" transform="translate(444.070154 180.645104) scale(0.094 -0.094)">
+     <use xlink:href="#FreeSans-14"/>
+     <use xlink:href="#FreeSans-13" transform="translate(55.59375 0)"/>
+     <use xlink:href="#FreeSans-11" transform="translate(111.1875 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(136.1875 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(191.78125 0)"/>
+    </g>
+    <!-- Jul 2026 -->
+    <g style="fill: #7f7f7f" transform="translate(444.070154 193.429104) scale(0.094 -0.094)">
+     <use xlink:href="#FreeSans-2d"/>
+     <use xlink:href="#FreeSans-58" transform="translate(52.796875 0)"/>
+     <use xlink:href="#FreeSans-4f" transform="translate(106.5 0)"/>
+     <use xlink:href="#FreeSans-3" transform="translate(127.90625 0)"/>
+     <use xlink:href="#FreeSans-15" transform="translate(152.90625 0)"/>
+     <use xlink:href="#FreeSans-13" transform="translate(208.5 0)"/>
+     <use xlink:href="#FreeSans-15" transform="translate(264.09375 0)"/>
+     <use xlink:href="#FreeSans-19" transform="translate(319.6875 0)"/>
+    </g>
+   </g>
+   <g id="line2d_30">
+    <path d="M 225.093307 156.981889 
+L 225.093307 147.7584 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #175676; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 231.793945 177.032953 
+L 231.793945 167.809464 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #175676; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 222.413052 197.084017 
+L 222.413052 187.860528 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #175676; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 235.546302 217.135081 
+L 235.546302 207.911591 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #175676; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 217.320567 237.186145 
+L 217.320567 227.962655 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #175676; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 333.10759 257.237209 
+L 333.10759 248.013719 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #4ba3c3; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 227.187338 277.288272 
+L 227.187338 268.064783 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #4ba3c3; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 365.437753 297.339336 
+L 365.437753 288.115847 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #4ba3c3; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 446.214358 317.3904 
+L 446.214358 308.166911 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #4ba3c3; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_39">
+    <path d="M 437.369516 325.872 
+L 437.369516 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke-dasharray: 8,4.8; stroke-dashoffset: 0; stroke: #7f7f7f; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 346.24084 325.872 
+L 346.24084 139.2768 
+" clip-path="url(#pbfad4dbc9c)" style="fill: none; stroke: #e04556; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_46">
+   <!-- UPDATE: THE PROSPECTUS CEILING IS GONE -->
+   <g style="fill: #e04556" transform="translate(169.344 24.024) scale(0.105 -0.105)">
+    <defs>
+     <path id="FreeSansBold-38" d="M 2858 -102 
+Q 2618 -147 2362 -147 
+Q 2106 -147 1866 -102 
+Q 1626 -58 1373 57 
+Q 1120 173 934 352 
+Q 749 531 630 828 
+Q 512 1126 512 1504 
+L 512 4666 
+L 1472 4666 
+L 1472 1504 
+Q 1472 672 2361 672 
+Q 3251 672 3251 1504 
+L 3251 4666 
+L 4211 4666 
+L 4211 1504 
+Q 4211 1126 4092 828 
+Q 3974 531 3788 352 
+Q 3603 173 3350 57 
+Q 3098 -58 2858 -102 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-33" d="M 1472 1664 
+L 1472 0 
+L 512 0 
+L 512 4666 
+L 2573 4666 
+Q 3302 4666 3689 4294 
+Q 4077 3923 4077 3219 
+Q 4077 2509 3693 2086 
+Q 3309 1664 2669 1664 
+L 1472 1664 
+z
+M 1472 2464 
+L 2368 2464 
+Q 3117 2464 3117 3162 
+Q 3117 3520 2934 3693 
+Q 2752 3866 2368 3866 
+L 1472 3866 
+L 1472 2464 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-27" d="M 512 0 
+L 512 4666 
+L 2336 4666 
+Q 2874 4666 3222 4538 
+Q 3571 4410 3808 4128 
+Q 4378 3450 4378 2336 
+Q 4378 1210 3808 544 
+Q 3354 0 2336 0 
+L 512 0 
+z
+M 1472 800 
+L 2336 800 
+Q 3418 800 3418 2330 
+Q 3418 3866 2336 3866 
+L 1472 3866 
+L 1472 800 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-24" d="M 3104 941 
+L 1357 941 
+L 1043 0 
+L 64 0 
+L 1722 4666 
+L 2784 4666 
+L 4397 0 
+L 3411 0 
+L 3104 941 
+z
+M 2842 1741 
+L 2234 3565 
+L 1626 1741 
+L 2842 1741 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-37" d="M 2566 3866 
+L 2566 0 
+L 1606 0 
+L 1606 3866 
+L 192 3866 
+L 192 4666 
+L 3930 4666 
+L 3930 3866 
+L 2566 3866 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-28" d="M 1472 2010 
+L 1472 800 
+L 4000 800 
+L 4000 0 
+L 512 0 
+L 512 4666 
+L 3885 4666 
+L 3885 3866 
+L 1472 3866 
+L 1472 2810 
+L 3706 2810 
+L 3706 2010 
+L 1472 2010 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-1d" d="M 1280 934 
+L 1280 0 
+L 320 0 
+L 320 934 
+L 1280 934 
+z
+M 1280 3328 
+L 1280 2394 
+L 320 2394 
+L 320 3328 
+L 1280 3328 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-2b" d="M 3322 2118 
+L 1472 2118 
+L 1472 0 
+L 512 0 
+L 512 4666 
+L 1472 4666 
+L 1472 2918 
+L 3315 2918 
+L 3315 4666 
+L 4282 4666 
+L 4282 0 
+L 3322 0 
+L 3322 2118 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-35" d="M 3155 800 
+Q 3155 992 3161 1101 
+Q 3168 1210 3168 1293 
+Q 3168 1587 3027 1718 
+Q 2886 1850 2573 1850 
+L 1472 1850 
+L 1472 0 
+L 512 0 
+L 512 4666 
+L 3014 4666 
+Q 3373 4666 3632 4544 
+Q 3891 4422 4022 4224 
+Q 4154 4026 4211 3824 
+Q 4269 3622 4269 3405 
+Q 4269 2560 3482 2253 
+Q 3654 2182 3737 2140 
+Q 3821 2099 3907 2003 
+Q 3994 1907 4022 1830 
+Q 4051 1754 4080 1549 
+Q 4109 1344 4115 1145 
+Q 4122 947 4128 557 
+Q 4128 288 4333 173 
+L 4333 0 
+L 3302 0 
+Q 3213 166 3184 320 
+Q 3155 474 3155 800 
+z
+M 3309 3270 
+Q 3309 3629 3142 3747 
+Q 2976 3866 2630 3866 
+L 1472 3866 
+L 1472 2650 
+L 2630 2650 
+Q 2970 2650 3139 2771 
+Q 3309 2893 3309 3270 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-36" d="M 3936 3245 
+L 3040 3245 
+Q 2989 3974 2061 3974 
+Q 1690 3974 1472 3817 
+Q 1254 3661 1254 3398 
+Q 1254 3142 1440 3017 
+Q 1626 2893 2138 2790 
+L 2867 2650 
+Q 3514 2522 3808 2218 
+Q 4102 1914 4102 1363 
+Q 4102 653 3596 253 
+Q 3091 -147 2189 -147 
+Q 1293 -147 797 249 
+Q 301 646 256 1395 
+L 1190 1395 
+Q 1216 1018 1485 819 
+Q 1754 621 2240 621 
+Q 2675 621 2928 787 
+Q 3181 954 3181 1248 
+Q 3181 1530 2982 1683 
+Q 2784 1837 2304 1926 
+L 1651 2054 
+Q 941 2189 640 2477 
+Q 339 2765 339 3309 
+Q 339 3994 803 4368 
+Q 1267 4742 2106 4742 
+Q 2349 4742 2576 4710 
+Q 2803 4678 3059 4579 
+Q 3315 4480 3500 4323 
+Q 3686 4166 3811 3888 
+Q 3936 3610 3936 3245 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-26" d="M 3424 3085 
+Q 3245 3923 2426 3923 
+Q 1856 3923 1536 3488 
+Q 1216 3053 1216 2278 
+Q 1216 1517 1526 1088 
+Q 1837 659 2394 659 
+Q 2842 659 3110 902 
+Q 3379 1146 3424 1594 
+L 4358 1594 
+Q 4314 794 3776 323 
+Q 3238 -147 2368 -147 
+Q 1395 -147 825 509 
+Q 256 1165 256 2291 
+Q 256 3424 832 4083 
+Q 1408 4742 2394 4742 
+Q 3219 4742 3747 4300 
+Q 4275 3859 4339 3085 
+L 3424 3085 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-2c" d="M 1472 4666 
+L 1472 0 
+L 512 0 
+L 512 4666 
+L 1472 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-2f" d="M 1472 4666 
+L 1472 800 
+L 3706 800 
+L 3706 0 
+L 512 0 
+L 512 4666 
+L 1472 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-31" d="M 3347 0 
+L 1472 3226 
+L 1472 0 
+L 512 0 
+L 512 4666 
+L 1498 4666 
+L 3347 1491 
+L 3347 4666 
+L 4307 4666 
+L 4307 0 
+L 3347 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-2a" d="M 3635 3187 
+Q 3379 3936 2522 3936 
+Q 1914 3936 1565 3507 
+Q 1216 3078 1216 2323 
+Q 1216 1606 1590 1145 
+Q 1965 685 2547 685 
+Q 2637 685 2755 707 
+Q 2874 730 3040 797 
+Q 3206 864 3347 973 
+Q 3488 1082 3597 1277 
+Q 3706 1472 3731 1722 
+L 2669 1722 
+L 2669 2522 
+L 4538 2522 
+L 4538 0 
+L 3962 0 
+L 3846 614 
+Q 3578 224 3245 45 
+Q 2912 -134 2438 -134 
+Q 1491 -134 873 557 
+Q 256 1248 256 2310 
+Q 256 3398 883 4076 
+Q 1510 4755 2515 4755 
+Q 3360 4755 3904 4332 
+Q 4448 3910 4538 3187 
+L 3635 3187 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSansBold-38"/>
+    <use xlink:href="#FreeSansBold-33" transform="translate(73.796875 0)"/>
+    <use xlink:href="#FreeSansBold-27" transform="translate(141.5 0)"/>
+    <use xlink:href="#FreeSansBold-24" transform="translate(213.90625 0)"/>
+    <use xlink:href="#FreeSansBold-37" transform="translate(283.609375 0)"/>
+    <use xlink:href="#FreeSansBold-28" transform="translate(348.015625 0)"/>
+    <use xlink:href="#FreeSansBold-1d" transform="translate(414.515625 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(439.515625 0)"/>
+    <use xlink:href="#FreeSansBold-37" transform="translate(467.3125 0)"/>
+    <use xlink:href="#FreeSansBold-2b" transform="translate(531.71875 0)"/>
+    <use xlink:href="#FreeSansBold-28" transform="translate(606.625 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(673.125 0)"/>
+    <use xlink:href="#FreeSansBold-33" transform="translate(700.921875 0)"/>
+    <use xlink:href="#FreeSansBold-35" transform="translate(768.625 0)"/>
+    <use xlink:href="#FreeSansBold-32" transform="translate(840.828125 0)"/>
+    <use xlink:href="#FreeSansBold-36" transform="translate(919.03125 0)"/>
+    <use xlink:href="#FreeSansBold-33" transform="translate(987.125 0)"/>
+    <use xlink:href="#FreeSansBold-28" transform="translate(1054.828125 0)"/>
+    <use xlink:href="#FreeSansBold-26" transform="translate(1121.328125 0)"/>
+    <use xlink:href="#FreeSansBold-37" transform="translate(1193.421875 0)"/>
+    <use xlink:href="#FreeSansBold-38" transform="translate(1257.828125 0)"/>
+    <use xlink:href="#FreeSansBold-36" transform="translate(1331.625 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1399.71875 0)"/>
+    <use xlink:href="#FreeSansBold-26" transform="translate(1427.515625 0)"/>
+    <use xlink:href="#FreeSansBold-28" transform="translate(1499.609375 0)"/>
+    <use xlink:href="#FreeSansBold-2c" transform="translate(1566.109375 0)"/>
+    <use xlink:href="#FreeSansBold-2f" transform="translate(1597.109375 0)"/>
+    <use xlink:href="#FreeSansBold-2c" transform="translate(1659.015625 0)"/>
+    <use xlink:href="#FreeSansBold-31" transform="translate(1690.015625 0)"/>
+    <use xlink:href="#FreeSansBold-2a" transform="translate(1765.3125 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1842.21875 0)"/>
+    <use xlink:href="#FreeSansBold-2c" transform="translate(1870.015625 0)"/>
+    <use xlink:href="#FreeSansBold-36" transform="translate(1901.015625 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1969.109375 0)"/>
+    <use xlink:href="#FreeSansBold-2a" transform="translate(1996.90625 0)"/>
+    <use xlink:href="#FreeSansBold-32" transform="translate(2073.8125 0)"/>
+    <use xlink:href="#FreeSansBold-31" transform="translate(2152.015625 0)"/>
+    <use xlink:href="#FreeSansBold-28" transform="translate(2227.3125 0)"/>
+   </g>
+  </g>
+  <g id="text_47">
+   <!-- The price fell 34%. The model did not move -->
+   <g style="fill: #175676" transform="translate(169.344 52.045003) scale(0.15 -0.15)">
+    <defs>
+     <path id="FreeSansBold-4b" d="M 2554 2112 
+Q 2554 2752 2003 2752 
+Q 1702 2752 1507 2560 
+Q 1312 2368 1312 2074 
+L 1312 0 
+L 416 0 
+L 416 4666 
+L 1312 4666 
+L 1312 2957 
+Q 1683 3514 2323 3514 
+Q 2528 3514 2710 3459 
+Q 2893 3405 3069 3280 
+Q 3245 3155 3347 2905 
+Q 3450 2656 3450 2317 
+L 3450 0 
+L 2554 0 
+L 2554 2112 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-49" d="M 2003 3386 
+L 2003 2790 
+L 1472 2790 
+L 1472 0 
+L 576 0 
+L 576 2790 
+L 90 2790 
+L 90 3386 
+L 576 3386 
+L 576 3802 
+Q 576 4666 1459 4666 
+Q 1722 4666 1971 4646 
+L 1971 3974 
+Q 1856 3994 1715 3994 
+Q 1472 3994 1472 3725 
+L 1472 3386 
+L 2003 3386 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-4f" d="M 1312 4666 
+L 1312 0 
+L 416 0 
+L 416 4666 
+L 1312 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-8" d="M 1318 4486 
+Q 1811 4486 2153 4144 
+Q 2496 3802 2496 3309 
+Q 2496 2842 2147 2499 
+Q 1798 2157 1318 2157 
+Q 832 2157 486 2499 
+Q 141 2842 141 3322 
+Q 141 3802 486 4144 
+Q 832 4486 1318 4486 
+z
+M 1702 3696 
+Q 1542 3853 1318 3853 
+Q 1094 3853 934 3696 
+Q 774 3539 774 3322 
+Q 774 3098 934 2941 
+Q 1094 2784 1318 2784 
+Q 1542 2784 1702 2941 
+Q 1862 3098 1862 3315 
+Q 1862 3539 1702 3696 
+z
+M 3878 4538 
+L 4365 4538 
+L 1837 -128 
+L 1344 -128 
+L 3878 4538 
+z
+M 4346 2253 
+Q 4838 2253 5180 1910 
+Q 5523 1568 5523 1069 
+Q 5523 602 5174 259 
+Q 4826 -83 4346 -83 
+Q 3859 -83 3513 259 
+Q 3168 602 3168 1088 
+Q 3168 1568 3513 1910 
+Q 3859 2253 4346 2253 
+z
+M 4730 1459 
+Q 4570 1619 4346 1619 
+Q 4122 1619 3962 1462 
+Q 3802 1306 3802 1082 
+Q 3802 858 3962 701 
+Q 4122 544 4346 544 
+Q 4570 544 4730 701 
+Q 4890 858 4890 1075 
+Q 4890 1299 4730 1459 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-50" d="M 416 3456 
+L 1306 3456 
+L 1306 3027 
+Q 1530 3290 1744 3402 
+Q 1958 3514 2253 3514 
+Q 2931 3514 3194 3002 
+Q 3578 3514 4205 3514 
+Q 4723 3514 5014 3232 
+Q 5306 2950 5306 2445 
+L 5306 0 
+L 4410 0 
+L 4410 2304 
+Q 4410 2509 4278 2630 
+Q 4147 2752 3923 2752 
+Q 3635 2752 3472 2573 
+Q 3309 2394 3309 2074 
+L 3309 0 
+L 2413 0 
+L 2413 2304 
+Q 2413 2509 2281 2630 
+Q 2150 2752 1926 2752 
+Q 1638 2752 1475 2573 
+Q 1312 2394 1312 2074 
+L 1312 0 
+L 416 0 
+L 416 3456 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-47" d="M 1709 -147 
+Q 1069 -147 662 377 
+Q 256 902 256 1677 
+Q 256 2458 672 2986 
+Q 1088 3514 1709 3514 
+Q 2336 3514 2662 3008 
+L 2662 4666 
+L 3558 4666 
+L 3558 0 
+L 2662 0 
+L 2662 352 
+Q 2330 -147 1709 -147 
+z
+M 1907 2765 
+Q 1574 2765 1363 2461 
+Q 1152 2157 1152 1677 
+Q 1152 1203 1363 902 
+Q 1574 602 1907 602 
+Q 2240 602 2451 896 
+Q 2662 1190 2662 1664 
+Q 2662 2157 2454 2461 
+Q 2246 2765 1907 2765 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-51" d="M 416 3456 
+L 1312 3456 
+L 1312 2957 
+Q 1683 3514 2349 3514 
+Q 2899 3514 3203 3200 
+Q 3507 2886 3507 2317 
+L 3507 0 
+L 2611 0 
+L 2611 2131 
+Q 2611 2752 2035 2752 
+Q 1709 2752 1510 2566 
+Q 1312 2381 1312 2074 
+L 1312 0 
+L 416 0 
+L 416 3456 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSansBold-59" d="M 2214 0 
+L 1274 0 
+L 64 3456 
+L 1011 3456 
+L 1760 928 
+L 2458 3456 
+L 3405 3456 
+L 2214 0 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSansBold-37"/>
+    <use xlink:href="#FreeSansBold-4b" transform="translate(64.40625 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(124.8125 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(183.109375 0)"/>
+    <use xlink:href="#FreeSansBold-53" transform="translate(210.90625 0)"/>
+    <use xlink:href="#FreeSansBold-55" transform="translate(273 0)"/>
+    <use xlink:href="#FreeSansBold-4c" transform="translate(312.203125 0)"/>
+    <use xlink:href="#FreeSansBold-46" transform="translate(340.203125 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(396 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(454.296875 0)"/>
+    <use xlink:href="#FreeSansBold-49" transform="translate(482.09375 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(516.390625 0)"/>
+    <use xlink:href="#FreeSansBold-4f" transform="translate(574.6875 0)"/>
+    <use xlink:href="#FreeSansBold-4f" transform="translate(601.6875 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(628.6875 0)"/>
+    <use xlink:href="#FreeSansBold-16" transform="translate(656.484375 0)"/>
+    <use xlink:href="#FreeSansBold-17" transform="translate(712.078125 0)"/>
+    <use xlink:href="#FreeSansBold-8" transform="translate(767.671875 0)"/>
+    <use xlink:href="#FreeSansBold-11" transform="translate(856.578125 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(881.578125 0)"/>
+    <use xlink:href="#FreeSansBold-37" transform="translate(909.375 0)"/>
+    <use xlink:href="#FreeSansBold-4b" transform="translate(973.78125 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(1034.1875 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1092.484375 0)"/>
+    <use xlink:href="#FreeSansBold-50" transform="translate(1120.28125 0)"/>
+    <use xlink:href="#FreeSansBold-52" transform="translate(1209.6875 0)"/>
+    <use xlink:href="#FreeSansBold-47" transform="translate(1271.09375 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(1333.1875 0)"/>
+    <use xlink:href="#FreeSansBold-4f" transform="translate(1391.484375 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1418.484375 0)"/>
+    <use xlink:href="#FreeSansBold-47" transform="translate(1446.28125 0)"/>
+    <use xlink:href="#FreeSansBold-4c" transform="translate(1508.375 0)"/>
+    <use xlink:href="#FreeSansBold-47" transform="translate(1536.375 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1598.46875 0)"/>
+    <use xlink:href="#FreeSansBold-51" transform="translate(1626.265625 0)"/>
+    <use xlink:href="#FreeSansBold-52" transform="translate(1687.5625 0)"/>
+    <use xlink:href="#FreeSansBold-57" transform="translate(1748.96875 0)"/>
+    <use xlink:href="#FreeSansBold-3" transform="translate(1782.765625 0)"/>
+    <use xlink:href="#FreeSansBold-50" transform="translate(1810.5625 0)"/>
+    <use xlink:href="#FreeSansBold-52" transform="translate(1899.96875 0)"/>
+    <use xlink:href="#FreeSansBold-59" transform="translate(1961.375 0)"/>
+    <use xlink:href="#FreeSansBold-48" transform="translate(2015.578125 0)"/>
+   </g>
+  </g>
+  <g id="text_48">
+   <!-- Same nine methods, same assumptions as July. The offer came down to PHP 6.60 on 2 Oct 2026 -->
+   <g style="fill: #475461" transform="translate(169.344 79.636941) scale(0.102 -0.102)">
+    <defs>
+     <path id="FreeSans-36" d="M 2189 378 
+Q 2547 378 2796 461 
+Q 3046 544 3164 678 
+Q 3283 813 3331 944 
+Q 3379 1075 3379 1222 
+Q 3379 1754 2522 1978 
+L 1363 2285 
+Q 448 2522 448 3373 
+Q 448 4006 893 4374 
+Q 1338 4742 2106 4742 
+Q 2912 4742 3360 4361 
+Q 3808 3981 3814 3296 
+L 3251 3296 
+Q 3245 3750 2944 3996 
+Q 2643 4243 2086 4243 
+Q 1613 4243 1328 4025 
+Q 1043 3808 1043 3456 
+Q 1043 3187 1216 3033 
+Q 1389 2880 1811 2765 
+L 2982 2451 
+Q 3456 2323 3715 2016 
+Q 3974 1709 3974 1280 
+Q 3974 1094 3926 912 
+Q 3878 730 3750 534 
+Q 3622 339 3424 192 
+Q 3226 45 2896 -51 
+Q 2566 -147 2150 -147 
+Q 1888 -147 1648 -105 
+Q 1408 -64 1158 48 
+Q 909 160 729 336 
+Q 550 512 432 806 
+Q 314 1101 307 1485 
+L 870 1485 
+L 870 1453 
+Q 870 1254 931 1081 
+Q 992 909 1129 742 
+Q 1267 576 1539 477 
+Q 1811 378 2189 378 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSans-113d" d="M 3040 3354 
+L 3040 2918 
+L 2483 2918 
+L 2483 0 
+L 1952 0 
+L 1952 2918 
+L 1094 2918 
+L 1094 0 
+L 563 0 
+L 563 2918 
+L 115 2918 
+L 115 3354 
+L 563 3354 
+L 563 3923 
+Q 563 4282 771 4483 
+Q 979 4685 1350 4685 
+Q 1498 4685 1651 4653 
+L 1651 4211 
+Q 1530 4218 1466 4218 
+Q 1094 4218 1094 3878 
+L 1094 3354 
+L 1952 3354 
+L 1952 3923 
+Q 1952 4282 2160 4483 
+Q 2368 4685 2739 4685 
+Q 2886 4685 3040 4653 
+L 3040 4211 
+Q 2918 4218 2854 4218 
+Q 2483 4218 2483 3878 
+L 2483 3354 
+L 3040 3354 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSans-32" d="M 4762 2259 
+Q 4762 1222 4147 537 
+Q 3533 -147 2509 -147 
+Q 1498 -147 877 528 
+Q 256 1203 256 2297 
+Q 256 3392 877 4067 
+Q 1498 4742 2502 4742 
+Q 3526 4742 4144 4064 
+Q 4762 3386 4762 2259 
+z
+M 2502 4218 
+Q 1760 4218 1305 3690 
+Q 851 3162 851 2298 
+Q 851 1434 1308 906 
+Q 1766 378 2508 378 
+Q 3251 378 3708 902 
+Q 4166 1427 4166 2272 
+Q 4166 3155 3712 3686 
+Q 3258 4218 2502 4218 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSans-36"/>
+    <use xlink:href="#FreeSans-44" transform="translate(66.703125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(121 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(202.203125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(255.5 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(280.5 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(334.203125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(356.40625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(410.109375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(463.40625 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(488.40625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(569.609375 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(622.90625 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(650.90625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(704.5 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(757.90625 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(813.8125 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(863.109375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(890.90625 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(915.90625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(965.203125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(1019.5 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1100.703125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1154 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1179 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1233.296875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1282.59375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(1331.890625 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(1385.59375 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(1466.796875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1522.703125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1550.703125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(1572.90625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1626.3125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1680.015625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1729.3125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1754.3125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1808.609375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1857.90625 0)"/>
+    <use xlink:href="#FreeSans-2d" transform="translate(1882.90625 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(1935.703125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(1989.40625 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(2010.8125 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(2058.609375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2083.609375 0)"/>
+    <use xlink:href="#FreeSans-37" transform="translate(2108.609375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(2171.8125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2225.40625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2278.703125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2303.703125 0)"/>
+    <use xlink:href="#FreeSans-113d" transform="translate(2357.109375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2406.609375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2459.90625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2493.109375 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(2518.109375 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(2568.703125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(2623 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2704.203125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2757.5 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(2782.5 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2838.40625 0)"/>
+    <use xlink:href="#FreeSans-5a" transform="translate(2891.8125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(2964.015625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3017.71875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3042.71875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(3070.71875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3124.125 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(3149.125 0)"/>
+    <use xlink:href="#FreeSans-2b" transform="translate(3214.71875 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(3286.8125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3352.40625 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(3377.40625 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(3433 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(3458 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(3513.59375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3569.1875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(3594.1875 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(3647.59375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3701.296875 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(3726.296875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3781.890625 0)"/>
+    <use xlink:href="#FreeSans-32" transform="translate(3806.890625 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(3885.296875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3935.890625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3963.890625 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(3988.890625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(4044.484375 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(4100.078125 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(4155.671875 0)"/>
+   </g>
+   <!-- from the PHP 10.00 ceiling in the prospectus. Teal is model-derived, sky is market- -->
+   <g style="fill: #475461" transform="translate(169.344 93.361519) scale(0.102 -0.102)">
+    <use xlink:href="#FreeSans-49"/>
+    <use xlink:href="#FreeSans-55" transform="translate(28 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(61.203125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(114.609375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(195.8125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(220.8125 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(248.8125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(302.40625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(355.703125 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(380.703125 0)"/>
+    <use xlink:href="#FreeSans-2b" transform="translate(446.296875 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(518.390625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(583.984375 0)"/>
+    <use xlink:href="#FreeSans-14" transform="translate(608.984375 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(664.578125 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(720.171875 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(745.171875 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(800.765625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(856.359375 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(881.359375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(931.953125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(985.25 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(1007.453125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1028.859375 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1051.0625 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(1104.765625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1159.765625 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1184.765625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1206.96875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1260.671875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1285.671875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1313.671875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1367.265625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1420.5625 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(1445.5625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(1501.46875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(1534.671875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1588.078125 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(1637.375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1693.28125 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(1746.578125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1797.171875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(1825.171875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1878.875 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(1928.171875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1953.171875 0)"/>
+    <use xlink:href="#FreeSans-37" transform="translate(1978.171875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2041.375 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(2094.671875 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2148.96875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2170.375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2195.375 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2217.578125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2266.875 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(2291.875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2373.078125 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(2426.484375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2482.390625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2535.6875 0)"/>
+    <use xlink:href="#FreeSans-10" transform="translate(2557.09375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(2590.390625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2646.296875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2699.59375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2732.796875 0)"/>
+    <use xlink:href="#FreeSans-59" transform="translate(2755 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2804.59375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(2857.890625 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(2913.796875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2941.59375 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2966.59375 0)"/>
+    <use xlink:href="#FreeSans-4e" transform="translate(3015.890625 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(3067.296875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3115.09375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(3140.09375 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(3162.296875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3211.59375 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(3236.59375 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(3317.796875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(3372.09375 0)"/>
+    <use xlink:href="#FreeSans-4e" transform="translate(3405.296875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3456.703125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3510 0)"/>
+    <use xlink:href="#FreeSans-10" transform="translate(3538 0)"/>
+   </g>
+   <!-- derived. -->
+   <g style="fill: #475461" transform="translate(169.344 108.110878) scale(0.102 -0.102)">
+    <use xlink:href="#FreeSans-47"/>
+    <use xlink:href="#FreeSans-48" transform="translate(55.90625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(109.203125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(142.40625 0)"/>
+    <use xlink:href="#FreeSans-59" transform="translate(164.609375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(214.203125 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(267.5 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(323.40625 0)"/>
+   </g>
+  </g>
+  <g id="text_49">
+   <!-- Model: Output tab, unchanged from the July valuation. Every bar is the number already published; nothing has been reforecast and no -->
+   <g style="fill: #7f7f7f" transform="translate(169.344 393.842391) scale(0.07 -0.07)">
+    <defs>
+     <path id="FreeSans-1d" d="M 1178 666 
+L 1178 0 
+L 512 0 
+L 512 666 
+L 1178 666 
+z
+M 1178 3354 
+L 1178 2688 
+L 512 2688 
+L 512 3354 
+L 1178 3354 
+z
+" transform="scale(0.015625)"/>
+     <path id="FreeSans-1e" d="M 1184 3354 
+L 1184 2688 
+L 518 2688 
+L 518 3354 
+L 1184 3354 
+z
+M 512 666 
+L 1184 666 
+L 1184 -102 
+Q 1184 -941 512 -941 
+L 512 -698 
+Q 697 -685 774 -563 
+Q 851 -442 851 -115 
+L 851 0 
+L 512 0 
+L 512 666 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSans-30"/>
+    <use xlink:href="#FreeSans-52" transform="translate(84.59375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(138 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(193.90625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(247.203125 0)"/>
+    <use xlink:href="#FreeSans-1d" transform="translate(268.609375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(293.609375 0)"/>
+    <use xlink:href="#FreeSans-32" transform="translate(318.609375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(397.015625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(450.71875 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(478.71875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(534.625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(588.328125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(616.328125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(641.328125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(669.328125 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(723.625 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(779.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(807.328125 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(832.328125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(886.03125 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(939.734375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(990.328125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1043.921875 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1098.21875 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(1151.921875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1206.921875 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(1260.21875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1316.125 0)"/>
+    <use xlink:href="#FreeSans-49" transform="translate(1341.125 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(1369.125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(1402.328125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(1455.734375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1536.9375 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1561.9375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1589.9375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1643.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1696.828125 0)"/>
+    <use xlink:href="#FreeSans-2d" transform="translate(1721.828125 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(1774.625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(1828.328125 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(1849.734375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1897.53125 0)"/>
+    <use xlink:href="#FreeSans-59" transform="translate(1922.53125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1972.125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2026.421875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(2047.828125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(2101.53125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(2155.828125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2183.828125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2206.03125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(2259.4375 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(2313.140625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2338.140625 0)"/>
+    <use xlink:href="#FreeSans-28" transform="translate(2363.140625 0)"/>
+    <use xlink:href="#FreeSans-59" transform="translate(2426.4375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2476.03125 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2529.328125 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(2562.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2610.328125 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(2635.328125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(2691.234375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2745.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2778.734375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2803.734375 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2825.9375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2875.234375 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(2900.234375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(2928.234375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2981.828125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3035.125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(3060.125 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(3113.828125 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(3167.53125 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(3248.734375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3304.640625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(3357.9375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3391.140625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(3416.140625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3470.4375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(3491.84375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3525.046875 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(3578.34375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(3632.640625 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(3688.546875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3736.34375 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(3761.34375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(3817.25 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(3870.953125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3926.859375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(3948.265625 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(3970.46875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(4019.765625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4073.359375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(4126.65625 0)"/>
+    <use xlink:href="#FreeSans-1e" transform="translate(4182.5625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4207.5625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(4232.5625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(4286.265625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(4339.671875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(4367.671875 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(4421.265625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(4443.46875 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(4497.171875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4552.171875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(4577.171875 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(4630.765625 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(4685.0625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4734.359375 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(4759.359375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4815.265625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4868.5625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(4921.859375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4975.5625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(5000.5625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(5033.765625 0)"/>
+    <use xlink:href="#FreeSans-49" transform="translate(5087.0625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(5115.0625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(5168.46875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(5201.671875 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(5254.96875 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(5305.5625 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(5359.859375 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(5409.15625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5437.15625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(5462.15625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(5516.453125 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(5570.15625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5626.0625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(5651.0625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(5704.765625 0)"/>
+   </g>
+   <!-- assumption was touched. The only change is the price line: the solid rule is the final book-built offer of PHP 6.60, fixed 2 Oct 2026; -->
+   <g style="fill: #7f7f7f" transform="translate(169.344 403.642391) scale(0.07 -0.07)">
+    <defs>
+     <path id="FreeSans-5b" d="M 1824 1734 
+L 2982 0 
+L 2362 0 
+L 1523 1286 
+L 672 0 
+L 64 0 
+L 1248 1709 
+L 128 3354 
+L 736 3354 
+L 1542 2138 
+L 2349 3354 
+L 2950 3354 
+L 1824 1734 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSans-44"/>
+    <use xlink:href="#FreeSans-56" transform="translate(54.296875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(103.59375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(152.890625 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(206.59375 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(287.796875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(343.703125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(371.703125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(393.90625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(447.3125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(501.015625 0)"/>
+    <use xlink:href="#FreeSans-5a" transform="translate(526.015625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(598.21875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(652.515625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(701.8125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(726.8125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(754.8125 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(808.21875 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(861.921875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(912.515625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(966.109375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(1019.40625 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(1075.3125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1100.3125 0)"/>
+    <use xlink:href="#FreeSans-37" transform="translate(1125.3125 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1188.515625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1242.109375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1295.40625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(1320.40625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1373.8125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(1427.515625 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(1448.921875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1496.71875 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(1521.71875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1572.3125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1625.90625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1680.203125 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(1733.90625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1788.90625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1842.203125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1867.203125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(1889.40625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1938.703125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1963.703125 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1991.703125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2045.296875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2098.59375 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(2123.59375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2179.5 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2212.703125 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(2234.90625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2285.5 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2338.796875 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2363.796875 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2385.203125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(2407.40625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2461.109375 0)"/>
+    <use xlink:href="#FreeSans-1d" transform="translate(2514.40625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2539.40625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(2564.40625 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(2592.40625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2646 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2699.296875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2724.296875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2773.59375 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2827 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2848.40625 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(2870.609375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2926.515625 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2951.515625 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(2984.71875 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3038.421875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3059.828125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3113.125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(3138.125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(3160.328125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3209.625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3234.625 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(3262.625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3316.21875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3369.515625 0)"/>
+    <use xlink:href="#FreeSans-113e" transform="translate(3394.515625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(3440.515625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(3494.21875 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3548.515625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3569.921875 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(3594.921875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(3650.828125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(3704.234375 0)"/>
+    <use xlink:href="#FreeSans-4e" transform="translate(3757.640625 0)"/>
+    <use xlink:href="#FreeSans-10" transform="translate(3809.046875 0)"/>
+    <use xlink:href="#FreeSans-45" transform="translate(3842.34375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(3898.25 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(3951.953125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3974.15625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3995.5625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4023.5625 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(4048.5625 0)"/>
+    <use xlink:href="#FreeSans-113d" transform="translate(4101.96875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4151.46875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(4204.765625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4237.96875 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(4262.96875 0)"/>
+    <use xlink:href="#FreeSans-49" transform="translate(4316.375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4344.375 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(4369.375 0)"/>
+    <use xlink:href="#FreeSans-2b" transform="translate(4434.96875 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(4507.0625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4572.65625 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(4597.65625 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(4653.25 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(4678.25 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(4733.84375 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(4789.4375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4817.234375 0)"/>
+    <use xlink:href="#FreeSans-113e" transform="translate(4842.234375 0)"/>
+    <use xlink:href="#FreeSans-5b" transform="translate(4888.234375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4935.828125 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(4989.125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5045.03125 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(5070.03125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5125.625 0)"/>
+    <use xlink:href="#FreeSans-32" transform="translate(5150.625 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(5229.03125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(5279.625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5307.625 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(5332.625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(5388.21875 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(5443.8125 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(5499.40625 0)"/>
+    <use xlink:href="#FreeSans-1e" transform="translate(5555 0)"/>
+   </g>
+   <!-- the dashed rule is the PHP 10.00 ceiling in the preliminary prospectus of Jul 2026. Of the 10,000 Monte Carlo runs, 0.00% reach 6.60, -->
+   <g style="fill: #7f7f7f" transform="translate(169.344 413.442391) scale(0.07 -0.07)">
+    <defs>
+     <path id="FreeSans-8" d="M 1274 4384 
+Q 1734 4384 2051 4064 
+Q 2368 3744 2368 3277 
+Q 2368 2835 2048 2515 
+Q 1728 2195 1280 2195 
+Q 832 2195 509 2518 
+Q 186 2842 186 3290 
+Q 186 3738 506 4061 
+Q 826 4384 1274 4384 
+z
+M 1274 3936 
+Q 1011 3936 819 3747 
+Q 627 3558 627 3290 
+Q 627 3027 819 2835 
+Q 1011 2643 1280 2643 
+Q 1542 2643 1734 2832 
+Q 1926 3021 1926 3283 
+Q 1926 3558 1737 3747 
+Q 1549 3936 1274 3936 
+z
+M 3898 4538 
+L 4320 4538 
+L 1792 -128 
+L 1370 -128 
+L 3898 4538 
+z
+M 4403 2061 
+Q 4864 2061 5181 1741 
+Q 5498 1421 5498 960 
+Q 5498 518 5174 198 
+Q 4851 -122 4410 -122 
+Q 3955 -122 3635 201 
+Q 3315 525 3315 973 
+Q 3315 1421 3635 1741 
+Q 3955 2061 4403 2061 
+z
+M 4403 1613 
+Q 4141 1613 3949 1424 
+Q 3757 1235 3757 973 
+Q 3757 704 3949 515 
+Q 4141 326 4410 326 
+Q 4672 326 4864 515 
+Q 5056 704 5056 960 
+Q 5056 1235 4867 1424 
+Q 4678 1613 4403 1613 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#FreeSans-57"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(28 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(81.59375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(134.890625 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(159.890625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(215.796875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(270.09375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(319.390625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(372.984375 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(426.28125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(482.1875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(507.1875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(540.390625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(594.09375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(615.5 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(668.796875 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(693.796875 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(716 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(765.296875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(790.296875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(818.296875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(871.890625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(925.1875 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(950.1875 0)"/>
+    <use xlink:href="#FreeSans-2b" transform="translate(1015.78125 0)"/>
+    <use xlink:href="#FreeSans-33" transform="translate(1087.875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1153.46875 0)"/>
+    <use xlink:href="#FreeSans-14" transform="translate(1178.46875 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(1234.0625 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(1289.65625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(1314.65625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(1370.25 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1425.84375 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(1450.84375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1501.4375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1554.734375 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(1576.9375 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1598.34375 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1620.546875 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(1674.25 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1729.25 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(1754.25 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1776.453125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1830.15625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1855.15625 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(1883.15625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1936.75 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1990.046875 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(2015.046875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2070.953125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2104.15625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(2157.453125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2178.859375 0)"/>
+    <use xlink:href="#FreeSans-50" transform="translate(2201.0625 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(2282.265625 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(2304.46875 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(2358.171875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2412.46875 0)"/>
+    <use xlink:href="#FreeSans-5c" transform="translate(2445.671875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(2493.46875 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(2518.46875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(2574.375 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(2607.578125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2660.984375 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(2710.28125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(2766.1875 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(2819.484375 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(2870.078125 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(2898.078125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(2951.78125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3001.078125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(3026.078125 0)"/>
+    <use xlink:href="#FreeSans-49" transform="translate(3079.484375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3107.484375 0)"/>
+    <use xlink:href="#FreeSans-2d" transform="translate(3132.484375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(3185.28125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(3238.984375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3260.390625 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(3285.390625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(3340.984375 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(3396.578125 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(3452.171875 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(3507.765625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3532.765625 0)"/>
+    <use xlink:href="#FreeSans-32" transform="translate(3557.765625 0)"/>
+    <use xlink:href="#FreeSans-49" transform="translate(3636.171875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3664.171875 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(3689.171875 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(3717.171875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(3770.765625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(3824.0625 0)"/>
+    <use xlink:href="#FreeSans-14" transform="translate(3849.0625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(3904.65625 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(3960.25 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(3988.046875 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(4043.640625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(4099.234375 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4154.828125 0)"/>
+    <use xlink:href="#FreeSans-30" transform="translate(4179.828125 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(4264.421875 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(4317.828125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(4371.53125 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(4399.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4452.828125 0)"/>
+    <use xlink:href="#FreeSans-26" transform="translate(4477.828125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(4548.734375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(4603.03125 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(4636.234375 0)"/>
+    <use xlink:href="#FreeSans-52" transform="translate(4657.640625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4711.046875 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(4736.046875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(4769.25 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(4822.953125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(4876.65625 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(4925.953125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(4953.75 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(4978.75 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(5034.34375 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(5059.34375 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(5114.9375 0)"/>
+    <use xlink:href="#FreeSans-8" transform="translate(5170.53125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5259.4375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(5284.4375 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(5317.640625 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(5370.9375 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(5425.234375 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(5475.828125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(5529.421875 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(5554.421875 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(5610.015625 0)"/>
+    <use xlink:href="#FreeSans-19" transform="translate(5635.015625 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(5690.609375 0)"/>
+    <use xlink:href="#FreeSans-f" transform="translate(5746.203125 0)"/>
+   </g>
+   <!-- and the luckiest single run peaked at 5.02. -->
+   <g style="fill: #7f7f7f" transform="translate(169.344 423.200828) scale(0.07 -0.07)">
+    <use xlink:href="#FreeSans-44"/>
+    <use xlink:href="#FreeSans-51" transform="translate(54.296875 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(108 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(163.90625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(188.90625 0)"/>
+    <use xlink:href="#FreeSans-4b" transform="translate(216.90625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(270.5 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(323.796875 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(348.796875 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(370.203125 0)"/>
+    <use xlink:href="#FreeSans-46" transform="translate(423.90625 0)"/>
+    <use xlink:href="#FreeSans-4e" transform="translate(474.5 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(525.90625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(548.109375 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(601.40625 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(650.703125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(678.703125 0)"/>
+    <use xlink:href="#FreeSans-56" transform="translate(703.703125 0)"/>
+    <use xlink:href="#FreeSans-4c" transform="translate(753 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(775.203125 0)"/>
+    <use xlink:href="#FreeSans-4a" transform="translate(828.90625 0)"/>
+    <use xlink:href="#FreeSans-4f" transform="translate(883.90625 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(905.3125 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(958.609375 0)"/>
+    <use xlink:href="#FreeSans-55" transform="translate(983.609375 0)"/>
+    <use xlink:href="#FreeSans-58" transform="translate(1016.8125 0)"/>
+    <use xlink:href="#FreeSans-51" transform="translate(1070.515625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1124.21875 0)"/>
+    <use xlink:href="#FreeSans-53" transform="translate(1149.21875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1205.125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1258.421875 0)"/>
+    <use xlink:href="#FreeSans-4e" transform="translate(1312.71875 0)"/>
+    <use xlink:href="#FreeSans-48" transform="translate(1364.125 0)"/>
+    <use xlink:href="#FreeSans-47" transform="translate(1417.421875 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1473.328125 0)"/>
+    <use xlink:href="#FreeSans-44" transform="translate(1498.328125 0)"/>
+    <use xlink:href="#FreeSans-57" transform="translate(1552.625 0)"/>
+    <use xlink:href="#FreeSans-3" transform="translate(1580.625 0)"/>
+    <use xlink:href="#FreeSans-18" transform="translate(1605.625 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(1661.21875 0)"/>
+    <use xlink:href="#FreeSans-13" transform="translate(1686.21875 0)"/>
+    <use xlink:href="#FreeSans-15" transform="translate(1741.8125 0)"/>
+    <use xlink:href="#FreeSans-11" transform="translate(1797.40625 0)"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbfad4dbc9c">
+   <rect x="169.344" y="139.2768" width="490.752" height="186.5952"/>
+  </clipPath>
+ </defs>
+</svg>
