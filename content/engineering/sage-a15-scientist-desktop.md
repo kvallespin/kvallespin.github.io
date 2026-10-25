@@ -9,7 +9,7 @@ tags:
   - open-source
   - local-llm
 source: notes
-created: 2026-10-27
+created: 2026-10-25
 ---
 
 # Sage-A1.5, the 35B scientist that fits a desktop
