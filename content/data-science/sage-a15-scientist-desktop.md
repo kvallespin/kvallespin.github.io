@@ -16,7 +16,7 @@ created: 2026-10-25
 
 *Running a leaner Sage-A1.5 on my own gear, with near-identical output and almost double decode speed.*
 
-![Sage-A1.5 banner](../data-science/assets/banner-sage.jpg)
+![Sage-A1.5 banner](./assets/banner-sage.jpg)
 
 > **Disclosure:** I use AI as a writing partner to refine my prose and structure, but the ideas, analysis, and first drafts originate entirely with me.
 
@@ -106,7 +106,7 @@ vllm serve kvallespin/Sage-A1.5-NVFP4 \
 
 Add `--language-model-only` to skip the vision tower and reclaim 0.9 GB. The weights live at [kvallespin/Sage-A1.5-NVFP4](https://huggingface.co/kvallespin/Sage-A1.5-NVFP4), my corner of Hugging Face, population: one quantized scientist, sitting next to my first NVFP4 quantization of a creative writing model called Hemmingway-1. Pull it and tell me where it breaks.
 
-![kvallespin/Sage-A1.5-NVFP4 model card](../data-science/assets/hf-model-card.png)
+![kvallespin/Sage-A1.5-NVFP4 model card](./assets/hf-model-card.png)
 
 ## Caveats
 
