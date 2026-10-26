@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -11,8 +11,8 @@
     <lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Sage-A1.5, the 35B scientist that fits a desktop]]></title>
-      <link>https://kvallespin.github.io/engineering/sage-a15-scientist-desktop</link>
-      <guid isPermaLink="true">https://kvallespin.github.io/engineering/sage-a15-scientist-desktop</guid>
+      <link>https://kvallespin.github.io/data-science/sage-a15-scientist-desktop</link>
+      <guid isPermaLink="true">https://kvallespin.github.io/data-science/sage-a15-scientist-desktop</guid>
       <dc:creator><![CDATA[Ken Vallespin]]></dc:creator>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A benchmark of a 24.21 GB NVFP4 quantization of Sage-A1.5, comparing it to full precision BF16 on agentic, reasoning, and syntax tasks.]]></description>
