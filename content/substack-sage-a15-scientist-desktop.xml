@@ -58,16 +58,16 @@
 <h2>A personal note</h2>
 <p>Three numbers carried this post: 96 to 99% agreement on generated tokens, so the compression held; 1.9x faster, so it was worth doing; minus 2.1 points on BFCL with an interval excluding zero, so it wasn't free. Sage-A1.5 on NVFP4 let me test the model myself instead of trusting a chart, and in the end was an honest trade. I'm running and benchmarking Sage now, so I'll report what I see soon as the numbers are ready.</p>
 <h2>Sources</h2>
-<ul><li>Sage-A1.5 technical report (arXiv:2610.28578): <https://arxiv.org/abs/2610.28578></li>
-<li>Sage-A1.5 paper page on Hugging Face: <https://huggingface.co/papers/2610.28578></li>
-<li>My quantized model card, kvallespin/Sage-A1.5-NVFP4: <https://huggingface.co/kvallespin/Sage-A1.5-NVFP4></li>
-<li>Original model, InternScience/Sage-A1.5: <https://huggingface.co/InternScience/Sage-A1.5></li>
-<li>Sage-A1.5 project page: <https://alpha-innovator.github.io/Sage-A1.5/></li>
-<li>InternScience/Agents-A1 (code and evaluation framework): <https://github.com/InternScience/Agents-A1></li>
-<li>NVIDIA Model Optimizer: <https://github.com/NVIDIA/Model-Optimizer></li>
-<li>nvidia/Nemotron-SFT-Agentic-v2 (calibration data): <https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2></li>
-<li>nvidia/Nemotron-SFT-Instruction-Following-Chat-v2 (calibration data): <https://huggingface.co/datasets/nvidia/Nemotron-SFT-Instruction-Following-Chat-v2></li>
-<li>Qwen3.6-35B-A3B base model: <https://huggingface.co/Qwen/Qwen3.6-35B-A3B></li></ul>
+<ul><li>Sage-A1.5 technical report (arXiv:2610.28578): <a href="https://arxiv.org/abs/2610.28578">https://arxiv.org/abs/2610.28578</a></li>
+<li>Sage-A1.5 paper page on Hugging Face: <a href="https://huggingface.co/papers/2610.28578">https://huggingface.co/papers/2610.28578</a></li>
+<li>My quantized model card, kvallespin/Sage-A1.5-NVFP4: <a href="https://huggingface.co/kvallespin/Sage-A1.5-NVFP4">https://huggingface.co/kvallespin/Sage-A1.5-NVFP4</a></li>
+<li>Original model, InternScience/Sage-A1.5: <a href="https://huggingface.co/InternScience/Sage-A1.5">https://huggingface.co/InternScience/Sage-A1.5</a></li>
+<li>Sage-A1.5 project page: <a href="https://alpha-innovator.github.io/Sage-A1.5/">https://alpha-innovator.github.io/Sage-A1.5/</a></li>
+<li>InternScience/Agents-A1 (code and evaluation framework): <a href="https://github.com/InternScience/Agents-A1">https://github.com/InternScience/Agents-A1</a></li>
+<li>NVIDIA Model Optimizer: <a href="https://github.com/NVIDIA/Model-Optimizer">https://github.com/NVIDIA/Model-Optimizer</a></li>
+<li>nvidia/Nemotron-SFT-Agentic-v2 (calibration data): <a href="https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2">https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2</a></li>
+<li>nvidia/Nemotron-SFT-Instruction-Following-Chat-v2 (calibration data): <a href="https://huggingface.co/datasets/nvidia/Nemotron-SFT-Instruction-Following-Chat-v2">https://huggingface.co/datasets/nvidia/Nemotron-SFT-Instruction-Following-Chat-v2</a></li>
+<li>Qwen3.6-35B-A3B base model: <a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">https://huggingface.co/Qwen/Qwen3.6-35B-A3B</a></li></ul>
       ]]></content:encoded>
     </item>
   </channel>
